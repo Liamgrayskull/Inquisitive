@@ -24,3 +24,22 @@ DEDICATED : NVIDIA GeForce RTX 4070
 [2025-08-22 19:48:00.179] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp started successfully. Waiting for PID 31444 to stop.
 [2025-08-22 19:49:13.930] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft is running on renderer:
 NVIDIA GeForce RTX 4070/PCIe/SSE2
+[2025-08-22 19:59:56.901] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: PID "31444" is not alive or reused by another process. Minecraft JVM appears to have stopped.
+[2025-08-22 19:59:56.971] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding latest.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\latest.log
+[2025-08-22 19:59:56.977] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding launcher_log.txt from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\launcher_log.txt
+[2025-08-22 19:59:57.117] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding session_20250822_150252.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\..\..\launcher_logs\session_20250822_150252.log
+[2025-08-22 19:59:57.124] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding KubeJS: client.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\kubejs\client.log
+[2025-08-22 19:59:57.127] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding KubeJS: server.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\kubejs\server.log
+[2025-08-22 19:59:57.129] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding KubeJS: startup.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\kubejs\startup.log
+[2025-08-22 19:59:57.131] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding rei.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\rei.log
+[2025-08-22 19:59:57.134] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding rei-issues.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\rei-issues.log
+[2025-08-22 19:59:57.136] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding crash_assistant_app.log from C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\logs\crash_assistant\crash_assistant_app.log
+[2025-08-22 19:59:57.137] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Reached first tick of TitleScreen: true
+[2025-08-22 19:59:57.137] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Joined world successfully: true
+[2025-08-22 19:59:57.138] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stop() function of Minecraft fired: true
+[2025-08-22 19:59:57.138] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: close() function of Minecraft failed: false
+[2025-08-22 19:59:57.138] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: emergencySave() function of Minecraft fired: false
+[2025-08-22 19:59:57.144] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isModpackCreator: true
+[2025-08-22 19:59:57.146] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isHelpLinkDefault: false
+[2025-08-22 19:59:57.149] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: helpLink: https://discord.gg/PXS33fEM2e
+[2025-08-22 19:59:57.150] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Seems like Minecraft finished normally. Trying to locate terminated processes and Exiting Crash Assistant app.

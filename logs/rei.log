@@ -14482,3 +14482,117 @@ java.lang.IllegalArgumentException: Unknown registration mint_green_tea_bucket f
 [19:51:38] [REI-ReloadPlugins/DEBUG] [REI] ========================================
 [19:51:38] [REI-ReloadPlugins/INFO] [REI] REIServerPlugin finished post-reload for END in 308.6 μs, totaling 12.94 ms.
 [19:51:38] [REI-ReloadPlugins/DEBUG] [REI] ========================================
+[19:54:20] [Render thread/DEBUG] [REI] Created search filter with "" using Default
+[19:54:20] [Render thread/DEBUG] [REI] Starting Search: "" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:20] [Render thread/DEBUG] [REI] Async Search: 39 partitions for ""
+[19:54:20] [REI-AsyncSearchManager-0/INFO] [REI] Search "" Used [Thread[REI-AsyncSearchManager-0,10,main]]: 34.53 ms
+[19:54:20] [REI-AsyncSearchManager-0/INFO] [REI] Search "" Used and Applied [Thread[REI-AsyncSearchManager-0,10,main]]: 412.2 ms
+[19:54:26] [Render thread/DEBUG] [REI] Starting Search: "" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:26] [Render thread/DEBUG] [REI] Async Search: 39 partitions for ""
+[19:54:26] [REI-AsyncSearchManager-2/INFO] [REI] Search "" Used [Thread[REI-AsyncSearchManager-2,10,main]]: 2.714 ms
+[19:54:26] [REI-AsyncSearchManager-2/INFO] [REI] Search "" Used and Applied [Thread[REI-AsyncSearchManager-2,10,main]]: 50.95 ms
+[19:54:28] [Render thread/DEBUG] [REI] Created search filter with "s" using Default
+[19:54:28] [Render thread/DEBUG] [REI] Starting Search: "s" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:28] [Render thread/DEBUG] [REI] Preparing collapsed entry groups cache with 84 entries and 18015 stacks
+[19:54:28] [Render thread/DEBUG] [REI] Prepared collapsed entry groups cache with 84 entries and 18015 stacks
+[19:54:32] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "s"
+[19:54:32] [Render thread/DEBUG] [REI] Created search filter with "st" using Default
+[19:54:32] [Render thread/DEBUG] [REI] Starting Search: "st" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:32] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "st"
+[19:54:32] [Render thread/DEBUG] [REI] Created search filter with "sta" using Default
+[19:54:32] [Render thread/DEBUG] [REI] Starting Search: "sta" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:32] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "sta"
+[19:54:32] [Render thread/DEBUG] [REI] Created search filter with "star" using Default
+[19:54:32] [Render thread/DEBUG] [REI] Starting Search: "star" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:32] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "star"
+[19:54:33] [Render thread/DEBUG] [REI] Created search filter with "stard" using Default
+[19:54:33] [Render thread/DEBUG] [REI] Starting Search: "stard" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:33] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "stard"
+[19:54:43] [Render thread/INFO] [REI] Built Recipe View in 748.2 ms for 0 categories, 0 recipes for, 1 usages for and 1 live recipe generators.
+[19:54:44] [Render thread/DEBUG] [REI] Starting Search: "" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:44] [Render thread/DEBUG] [REI] Async Search: 39 partitions for ""
+[19:54:44] [REI-AsyncSearchManager-0/INFO] [REI] Search "" Used [Thread[REI-AsyncSearchManager-0,10,main]]: 7.810 ms
+[19:54:44] [REI-AsyncSearchManager-0/INFO] [REI] Search "" Used and Applied [Thread[REI-AsyncSearchManager-0,10,main]]: 60.47 ms
+[19:54:53] [Render thread/DEBUG] [REI] Starting Search: "" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:53] [Render thread/DEBUG] [REI] Async Search: 39 partitions for ""
+[19:54:53] [REI-AsyncSearchManager-2/INFO] [REI] Search "" Used [Thread[REI-AsyncSearchManager-2,10,main]]: 2.965 ms
+[19:54:53] [REI-AsyncSearchManager-2/INFO] [REI] Search "" Used and Applied [Thread[REI-AsyncSearchManager-2,10,main]]: 47.99 ms
+[19:54:54] [Render thread/DEBUG] [REI] Created search filter with "c" using Default
+[19:54:54] [Render thread/DEBUG] [REI] Starting Search: "c" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:54] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "c"
+[19:54:55] [Render thread/DEBUG] [REI] Created search filter with "cr" using Default
+[19:54:55] [Render thread/DEBUG] [REI] Starting Search: "cr" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:55] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "cr"
+[19:54:55] [Render thread/DEBUG] [REI] Created search filter with "cru" using Default
+[19:54:55] [Render thread/DEBUG] [REI] Starting Search: "cru" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:55] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "cru"
+[19:54:55] [Render thread/DEBUG] [REI] Created search filter with "cruc" using Default
+[19:54:55] [Render thread/DEBUG] [REI] Starting Search: "cruc" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:55] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "cruc"
+[19:54:55] [Render thread/DEBUG] [REI] Created search filter with "cruci" using Default
+[19:54:55] [Render thread/DEBUG] [REI] Starting Search: "cruci" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:55] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "cruci"
+[19:54:57] [Render thread/DEBUG] [REI] Created search filter with "b" using Default
+[19:54:57] [Render thread/DEBUG] [REI] Starting Search: "b" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:57] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "b"
+[19:54:57] [Render thread/DEBUG] [REI] Created search filter with "bi" using Default
+[19:54:57] [Render thread/DEBUG] [REI] Starting Search: "bi" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:57] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "bi"
+[19:54:57] [Render thread/DEBUG] [REI] Created search filter with "bis" using Default
+[19:54:57] [Render thread/DEBUG] [REI] Starting Search: "bis" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:57] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "bis"
+[19:54:57] [Render thread/DEBUG] [REI] Created search filter with "bism" using Default
+[19:54:57] [Render thread/DEBUG] [REI] Starting Search: "bism" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:57] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "bism"
+[19:54:58] [Render thread/DEBUG] [REI] Created search filter with "bismu" using Default
+[19:54:58] [Render thread/DEBUG] [REI] Starting Search: "bismu" with 15305 stacks, shouldAsync: true on Render thread
+[19:54:58] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "bismu"
+[19:55:06] [Render thread/DEBUG] [REI] Created search filter with "t" using Default
+[19:55:06] [Render thread/DEBUG] [REI] Starting Search: "t" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:06] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "t"
+[19:55:06] [Render thread/DEBUG] [REI] Created search filter with "to" using Default
+[19:55:06] [Render thread/DEBUG] [REI] Starting Search: "to" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:06] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "to"
+[19:55:06] [Render thread/DEBUG] [REI] Created search filter with "tor" using Default
+[19:55:06] [Render thread/DEBUG] [REI] Starting Search: "tor" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:06] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "tor"
+[19:55:07] [Render thread/DEBUG] [REI] Created search filter with "torc" using Default
+[19:55:07] [Render thread/DEBUG] [REI] Starting Search: "torc" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:07] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "torc"
+[19:55:41] [Render thread/DEBUG] [REI] Created search filter with "e" using Default
+[19:55:41] [Render thread/DEBUG] [REI] Starting Search: "e" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:41] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "e"
+[19:55:42] [Render thread/DEBUG] [REI] Created search filter with "ex" using Default
+[19:55:42] [Render thread/DEBUG] [REI] Starting Search: "ex" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:42] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "ex"
+[19:55:42] [Render thread/DEBUG] [REI] Created search filter with "exp" using Default
+[19:55:42] [Render thread/DEBUG] [REI] Starting Search: "exp" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:42] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "exp"
+[19:55:42] [Render thread/DEBUG] [REI] Created search filter with "expe" using Default
+[19:55:42] [Render thread/DEBUG] [REI] Starting Search: "expe" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:42] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "expe"
+[19:55:42] [Render thread/DEBUG] [REI] Created search filter with "exper" using Default
+[19:55:42] [Render thread/DEBUG] [REI] Starting Search: "exper" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:42] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "exper"
+[19:55:47] [Render thread/DEBUG] [REI] Created search filter with "e" using Default
+[19:55:47] [Render thread/DEBUG] [REI] Starting Search: "e" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:47] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "e"
+[19:55:47] [Render thread/DEBUG] [REI] Created search filter with "ew" using Default
+[19:55:47] [Render thread/DEBUG] [REI] Starting Search: "ew" with 15305 stacks, shouldAsync: true on Render thread
+[19:55:47] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "ew"
+[19:56:04] [Render thread/DEBUG] [REI] Created search filter with "l" using Default
+[19:56:04] [Render thread/DEBUG] [REI] Starting Search: "l" with 15305 stacks, shouldAsync: true on Render thread
+[19:56:04] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "l"
+[19:56:04] [Render thread/DEBUG] [REI] Created search filter with "la" using Default
+[19:56:04] [Render thread/DEBUG] [REI] Starting Search: "la" with 15305 stacks, shouldAsync: true on Render thread
+[19:56:04] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "la"
+[19:56:04] [Render thread/DEBUG] [REI] Created search filter with "lav" using Default
+[19:56:04] [Render thread/DEBUG] [REI] Starting Search: "lav" with 15305 stacks, shouldAsync: true on Render thread
+[19:56:04] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "lav"
+[19:56:04] [Render thread/DEBUG] [REI] Created search filter with "lava" using Default
+[19:56:04] [Render thread/DEBUG] [REI] Starting Search: "lava" with 15305 stacks, shouldAsync: true on Render thread
+[19:56:04] [Render thread/DEBUG] [REI] Async Search: 39 partitions for "lava"
+[19:59:51] [Render thread/DEBUG] [REI] Player quit, clearing reload tasks!
+[19:59:51] [Render thread/DEBUG] [REI] Did not fulfill the request of termination of REI reload tasks because there are no uninterrupted running tasks. This is not an error.
+[19:59:53] [Render thread/DEBUG] [REI] Player quit, clearing reload tasks!
+[19:59:53] [Render thread/DEBUG] [REI] Did not fulfill the request of termination of REI reload tasks because there are no uninterrupted running tasks. This is not an error.

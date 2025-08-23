@@ -66,6 +66,7 @@
 				fishing_bobber = true
 				zombie_villager = true
 				tnt_minecart = true
+				elder_guardian = true
 				small_fireball = true
 				polar_bear = true
 				painting = true
@@ -266,6 +267,7 @@
 
 			[light_sources.settings.entities.spawn]
 				tuna = true
+				sea_cow = true
 				octopus = true
 				sunfish = true
 				ant = true
