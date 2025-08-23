@@ -54,6 +54,11 @@
     "modId": "amendments",
     "version": "1.20-2.0.7"
   },
+  "antique-atlas-2.11.2+1.20.jar": {
+    "jarName": "antique-atlas-2.11.2+1.20.jar",
+    "modId": "antique_atlas",
+    "version": "2.11.2+1.20"
+  },
   "Aquaculture-1.20.1-2.5.5.jar": {
     "jarName": "Aquaculture-1.20.1-2.5.5.jar",
     "modId": "aquaculture",
@@ -346,11 +351,6 @@
     "jarName": "createdieselgenerators-1.20.1-1.2i.jar",
     "modId": "createdieselgenerators",
     "version": "1.20.1-1.2i"
-  },
-  "createpropulsion-0.2.1.jar": {
-    "jarName": "createpropulsion-0.2.1.jar",
-    "modId": "createpropulsion",
-    "version": "0.2.1"
   },
   "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar": {
     "jarName": "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
@@ -1533,11 +1533,6 @@
     "modId": "spritearrows",
     "version": "1.0.3"
   },
-  "starlance-1.3.0.jar": {
-    "jarName": "starlance-1.3.0.jar",
-    "modId": "vsch",
-    "version": "1.3.0"
-  },
   "Statement-4.2.7+1.20.1-forge.jar": {
     "jarName": "Statement-4.2.7+1.20.1-forge.jar",
     "modId": "statement",
@@ -1572,6 +1567,16 @@
     "jarName": "supplementaries-1.20-3.1.18.jar",
     "modId": "supplementaries",
     "version": "1.20-3.1.18"
+  },
+  "surveyor-0.6.26+1.20.jar": {
+    "jarName": "surveyor-0.6.26+1.20.jar",
+    "modId": "surveyor",
+    "version": "0.6.26+1.20"
+  },
+  "surveystones-1.3.1+1.20.jar": {
+    "jarName": "surveystones-1.3.1+1.20.jar",
+    "modId": "surveystones",
+    "version": "1.3.1+1.20"
   },
   "symbol-chat-1.20.1-1.1.2.jar": {
     "jarName": "symbol-chat-1.20.1-1.1.2.jar",

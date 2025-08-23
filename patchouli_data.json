@@ -25,7 +25,9 @@
       "viewedEntries": [
         "scriptor:basics/starting",
         "scriptor:basics/structure",
-        "scriptor:basics/subjects"
+        "scriptor:basics/subjects",
+        "scriptor:basics/descriptors",
+        "scriptor:basics/actions"
       ],
       "bookmarks": [],
       "completedManualQuests": []

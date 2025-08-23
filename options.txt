@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -152,6 +152,7 @@ key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_key.extend:key.keyboard.up
 key_key.retract:key.keyboard.down
+key_key.antique_atlas.open:key.keyboard.m
 key_gui.perspective.keybindings.keybinding.cycle_shaders:key.keyboard.unknown
 key_gui.perspective.keybindings.keybinding.hold_perspective_third_person_back:key.keyboard.unknown
 key_gui.perspective.keybindings.keybinding.hold_perspective_third_person_front:key.keyboard.unknown
@@ -256,7 +257,7 @@ key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.0
 key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.mouse.middle
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown

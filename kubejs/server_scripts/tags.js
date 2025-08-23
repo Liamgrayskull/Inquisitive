@@ -2491,9 +2491,9 @@ ServerEvents.tags('item', event => {
 
   event.add('inq:paradise', /paradise/)
 
-  event.add('inq:stone', /stone/, /slate/, /granite/, /diorite/, /andesite/, /tuff/, /calcite/, /prismarine/, /netherrack/, /heliolith/, /rock/, /travertine/, /chert/, /terracotta/, /volcanic/, /myonite/, /shale/, /onyx/, /esoterrack/, /nebulite/, /tuff/, /basalt/, /tremblecrust/, /dolerite/,)
+  event.add('inq:stone', /stone/, /slate/, /granite/, /diorite/, /andesite/, /tuff/, /calcite/, /prismarine/, /netherrack/, /heliolith/, /rock/, /travertine/, /chert/, /schist/, /rhyolite/, /terracotta/, /volcanic/, /myonite/, /shale/, /onyx/, /esoterrack/, /nebulite/, /tuff/, /basalt/, /tremblecrust/, /dolerite/,)
 
-  event.add('inq:soil', /soil/, /dirt/, /earth/, /mud/, /clay/, /path/, /podzol/, /nylium/, /farmland/, /mycelium/, /mulch/, /compost/ )
+  event.add('inq:soil', /soil/, /dirt/, /earth/, /mud/, /clay/, /path/, /podzol/, /nylium/, /farmland/, /mycelium/, /mulch/, /compost/, /coprolith/, /guano/, /gravel/, /crustose/, /geomancer/)
 
   event.add('inq:mushroom', /mushroom/, /toadstool/, /fungus/)
 
@@ -2584,7 +2584,7 @@ ServerEvents.tags('item', event => {
 
 
   event.add('inq:skeletal', /bone/, /skull/)
-  event.add('inq:musical', /music/, /jukebox/, /instrument/, 'minecraft:note_block')
+  event.add('inq:musical', /music/, /jukebox/, /melodies/, /instrument/, 'minecraft:note_block')
   event.add('inq:brass', /brass/)
   event.add('inq:sand', /sand/)
   event.add('inq:chill', /nirvana/)
@@ -2608,15 +2608,15 @@ ServerEvents.tags('item', event => {
   event.add('inq:firey', /campfire/, /flame/, /torch/, /magma/, /blaze/, /bomb/, /lava/, /soot/, /charred/, /ash_/, /_ash/, /brazier/, /furnace/)
   event.add('inq:steel', /steel/)
   event.add('inq:iron', /_iron/, /iron_/, "minecraft:anvil", "minecraft:chain")
-  event.add('inq:frigid', /ice_/, /_ice/, / ice/, /snow/, /frozen/, /freeze/, /frost/, /icicle/, /frigid/)
+  event.add('inq:frigid', /ice_/, /_ice/, / ice/, /snow/, /frozen/, /freeze/, /frost/, /icicle/, /frigid/, 'minecraft:ice', /glacium/)
   event.add('inq:gold', /gold/, /gilded/, /piglin/)
-  event.add('inq:lead', /lead_/, /_lead/, /glance/, /brain_damage/, /shrapnel/, "supplementaries:bomb_spiky")
+  event.add('inq:lead', /lead_/, /_lead/, /glance/, /brain_damage/, /shrapnel/, 'supplementaries:bomb_spiky')
   event.add('inq:redstone', /redstone/, /cinnabar/, /repeater/, /dropper/, /dispenser/, /minecart/, /rail/,'minecraft:comparator','minecraft:piston','minecraft:sticky_piston','minecraft:slime_block','minecraft:honey_block','minecraft:observer','minecraft:hopper','minecraft:target','minecraft:lever', /lightning_rod/, 'minecraft:daylight_detector','minecraft:tripwire_hook','minecraft:tnt','paradise_lost:levitator','ad_astra:oxygen_sensor','galosphere:monstrometer','galosphere:warped_anchor','galosphere:stranded_membrane_block','vs_eureka:anchor','vs_eureka:engine','vs_eureka:floater','vs_eureka:ballast', /ship_helm/,'spelunkery:compression_blast_miner','spelunkery:wooden_channel','spelunkery:wooden_sluice', 'supplementaries:cog_block','supplementaries:relayer','supplementaries:spring_launcher','supplementaries:speaker_block','supplementaries:speaker_block','supplementaries:turn_table','supplementaries:pulley_block','supplementaries:lock_block','supplementaries:bellows','supplementaries:clock_block','supplementaries:crank','supplementaries:wind_vane','supplementaries:faucet','supplementaries:wrench')
   event.add('inq:amethyst', /amethyst/)
   event.add('inq:allurite', /allurite/)
   event.add('inq:lumiere', /lumiere/)
   event.add('inq:lapis', /lapis/, /lazurite/)
-  event.add('inq:diamond', /diamond/)
+  event.add('inq:diamond', /diamond/, 'quark:diamond_heart')
   event.add('inq:amber', /amber/, /resin/)
   event.add('inq:jade', /jade/)
   event.add('inq:emerald', /emerald/)
@@ -2645,7 +2645,7 @@ ServerEvents.tags('item', event => {
   event.add('inq:pottery', /pot_/, /sherd/, /vase/)
   event.add('inq:iridescent', /iridescent/, /ceramic/)
   event.add('inq:null', "architects_palette:unobtanium", "architects_palette:unobtanium_block", "undergarden:music_disc_gloomper_secret", "alexsmobs:farseer_arm", "alexsmobs:bear_dust")
-  event.add('inq:starlight', "create:experience_block", /nephrite/, "create:experience_nugget", "minecraft:nether_star", "enlightened_end:stardust", "enlightened_end:stardust_block", "eidolon:lesser_soul_gem", "undergarden:regalium_crystal", "undergarden:depthrock_regalium_ore", "undergarden:shiverstone_regalium_ore", "undergarden:regalium_block", "eidolon:soul_shard", "eidolon:arcane_gold_block", "eidolon:shadow_gem", "eidolon:soulfire_wand")
+  event.add('inq:starlight', "create:experience_block", /nephrite/, "create:experience_nugget", "eidolon:codex", "minecraft:nether_star", "enlightened_end:stardust", "enlightened_end:stardust_block", "eidolon:lesser_soul_gem", "undergarden:regalium_crystal", "undergarden:depthrock_regalium_ore", "undergarden:shiverstone_regalium_ore", "undergarden:regalium_block", "eidolon:soul_shard", "eidolon:arcane_gold_block", "eidolon:shadow_gem", "eidolon:soulfire_wand")
 
 
 

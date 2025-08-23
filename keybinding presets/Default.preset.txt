@@ -34,6 +34,7 @@ key.hotbar.8:key.keyboard.8
 key.hotbar.9:key.keyboard.9
 key.entityculling.toggle:key.keyboard.unknown
 key.modernfix.config:key.keyboard.unknown
+key.oneenoughitem.open_editor:key.keyboard.unknown
 key.exposure.camera_controls:key.keyboard.unknown
 info.structure_gel.building_tool.undo:key.keyboard.unknown
 info.structure_gel.building_tool.redo:key.keyboard.unknown
@@ -60,7 +61,6 @@ key.valkyrienskies.ship_down:key.keyboard.left.control
 key.valkyrienskies.ship_cruise:key.keyboard.semicolon
 key.ad_astra.toggle_suit_flight:key.keyboard.unknown
 key.ad_astra.open_radio:key.keyboard.unknown
-key.weaponmaster_ydm.opengui:key.keyboard.unknown
 placebo.toggleTrails:key.keyboard.unknown
 placebo.toggleWings:key.keyboard.unknown
 key.extend:key.keyboard.up
@@ -84,6 +84,7 @@ key.enchancement.dash:key.keyboard.left.shift
 key.enchancement.slam:key.keyboard.left.control
 key.enchancement.slide:key.keyboard.left.control
 key.enchancement.strafe:key.keyboard.left.control
+auditory.sound_reload_key:key.keyboard.unknown
 key.extraalchemy.magnetism_toggle:key.keyboard.unknown
 key.extraalchemy.potion_bag_mode:key.keyboard.unknown
 obscure_tooltips_fix.print_screen:key.keyboard.unknown
@@ -169,7 +170,7 @@ quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 quark.keybind.patreon_emote.zombie:key.keyboard.unknown
 quark.keybind.change_hotbar:key.keyboard.0
 quark.keybind.sort_player:key.keyboard.unknown
-quark.keybind.sort_container:key.mouse.middle
+quark.keybind.sort_container:key.keyboard.unknown
 quark.keybind.lock_rotation:key.keyboard.unknown
 quark.keybind.narrator_readout:key.keyboard.unknown
 quark.keybind.narrator_full_readout:key.keyboard.unknown
@@ -178,3 +179,4 @@ supplementaries.keybind.quiver:key.keyboard.y
 key.diet.open.desc:key.keyboard.unknown
 Inspect Key:key.keyboard.i
 key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
+key.wan_ancient_beasts.special_ability:key.keyboard.unknown

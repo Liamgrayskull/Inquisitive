@@ -35,18 +35,33 @@ REIEvents.groupEntries(event => {
     /propagule/,
     '#minecraft:saplings'
   ])
-  event.groupItems('kubejs:rei_groups/potions', '!Potions', [
-    /potion/,
-    /jelly_bean/,
-    /bamboo_spike/,
-    '#netherexp:doesnt_modify_potion_stack_size'
-  ])
   event.groupItems('kubejs:rei_groups/paintings', '!Paintings', [
     /painting/,
     '#minecraft:painting'
   ])
   event.groupItems('kubejs:rei_groups/doorways', '!Doorways', [
     /door/
+  ])
+  event.groupItems('kubejs:rei_groups/rad', '!Radioactive', [
+    "#inq:rad"
+  ])
+  event.groupItems('kubejs:rei_groups/diamond', '!Diamond', [
+    "#inq:diamond"
+  ])
+  event.groupItems('kubejs:rei_groups/netherite', '!Netherite', [
+    "#inq:netherite"
+  ])
+  event.groupItems('kubejs:rei_groups/necromium', '!Necromium', [
+    "#inq:necromium"
+  ])
+  event.groupItems('kubejs:rei_groups/emerald', '!Emerald', [
+    "#inq:emerald"
+  ])
+  event.groupItems('kubejs:rei_groups/lapis', '!Lapis', [
+    "#inq:lapis"
+  ])
+  event.groupItems('kubejs:rei_groups/firey', '!Firey', [
+    "#inq:firey"
   ])
   event.groupItems('kubejs:rei_groups/redstone', '!Redstone', [
     "#inq:redstone"
@@ -58,7 +73,8 @@ REIEvents.groupEntries(event => {
     "#inq:soil"
   ])
   event.groupItems('kubejs:rei_groups/tiles', '!Tiles', [
-    /tile/
+    /tile_/,
+    /_tile/
   ])
   event.groupItems('kubejs:rei_groups/pillars', '!Pillars', [
     /pillar/
@@ -86,7 +102,8 @@ REIEvents.groupEntries(event => {
     '#minecraft:walls',
   ])
   event.groupItems('kubejs:rei_groups/bars', '!Bars', [
-    /bar/
+    /bars/,
+    /rebar/
   ])
   event.groupItems('kubejs:rei_groups/signs', '!Signs', [
     /sign/
@@ -136,7 +153,7 @@ REIEvents.groupEntries(event => {
   event.groupItems('kubejs:rei_groups/allurite', '!Allurite', [
     "#inq:allurite"
   ])
-  event.groupItems('kubejs:rei_groups/amethyst', '!amethyst', [
+  event.groupItems('kubejs:rei_groups/amethyst', '!Amethyst', [
     "#inq:amethyst"
   ])
   event.groupItems('kubejs:rei_groups/emerald', '!Emerald', [
@@ -151,6 +168,24 @@ REIEvents.groupEntries(event => {
   event.groupItems('kubejs:rei_groups/moss', '!Moss', [
     /moss/
   ])
+  event.groupItems('kubejs:rei_groups/chill', '!Chill', [
+    "#inq:chill"
+  ])
+  event.groupItems('kubejs:rei_groups/prismarine', '!Prismatic', [
+    "#inq:prismarine"
+  ])
+  event.groupItems('kubejs:rei_groups/paradise', '!Paradise', [
+    "#inq:paradise"
+  ])
+  event.groupItems('kubejs:rei_groups/mischievious', '!Mischievious', [
+  "#inq:mischievious"
+  ])
+  event.groupItems('kubejs:rei_groups/soul', '!Soul', [
+"#inq:soul"
+])
+event.groupItems('kubejs:rei_groups/spawner', '!Stained', [
+"#inq:spawner"
+])
   event.groupItems('kubejs:rei_groups/balloons', '!Balloons', [
     /balloon/
   ])
@@ -160,7 +195,9 @@ REIEvents.groupEntries(event => {
     /window/
   ])
   event.groupItems('kubejs:rei_groups/music', '!Music', [
-    "#inq:musical"
+    "#inq:musical",
+    "minecraft:note_block",
+    "minecraft:jukebox"
   ])
   event.groupItems('kubejs:rei_groups/music', '!Fungi', [
     "#inq:mushroom"
@@ -207,14 +244,25 @@ REIEvents.groupEntries(event => {
     /sled/,
     /immersive_aircraft/
   ])
+  event.groupItems('kubejs:rei_groups/rideables', '!Rideables', [
+    /crate/,
+    /sack/,
+    /immersive_aircraft/
+  ])
   event.groupItems('kubejs:rei_groups/stones', '!Stones', [
     "#inq:stone"
   ])
   event.groupItems('kubejs:rei_groups/greenery', '!Greenery', [
     "#inq:greenery"
   ])
+  event.groupItems('kubejs:rei_groups/copper', '!Copper', [
+    "#inq:copper"
+  ])
   event.groupItems('kubejs:rei_groups/soil', '!Soil', [
     "#inq:soil"
+  ])
+  event.groupItems('kubejs:rei_groups/sand', '!Sand', [
+    "#inq:sand"
   ])
   event.groupItems('kubejs:rei_groups/frigid', '!Frigid', [
     "#inq:frigid"

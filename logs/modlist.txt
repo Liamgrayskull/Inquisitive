@@ -1,4 +1,4 @@
-Mods count: 360
+Mods count: 361
  
 jar name                                                                              | mod id (isMCreator)                                      | mixin configs
 fmlloader-1.20.1-47.4.6.jar (modloader)                                               | forge                                                    | 
@@ -13,6 +13,7 @@ allurement-1.20.1-4.0.0.jar                                                     
 AlwaysEat-5.2.jar                                                                     | salwayseat                                               | 
 AmbientEnvironment-forge-1.20.1-11.0.0.1.jar                                          | ambientenvironment                                       | ambientenvironment.mixins.json
 amendments-1.20-2.0.7.jar                                                             | amendments                                               | amendments-common.mixins.json, amendments.mixins.json
+antique-atlas-2.11.2+1.20.jar                                                         | antique_atlas                                            | antique_atlas.mixins.json
 Aquaculture-1.20.1-2.5.5.jar                                                          | aquaculture                                              | 
 aquaculturedelight-1.1.1-forge-1.20.1.jar                                             | aquaculturedelight (MCreator mod)                        | 
 aquifers-be-gone-forge-1.20.1-1.2.0.jar                                               | aquifersbegone                                           | aquifersbegone.common.mixins.json
@@ -106,7 +107,6 @@ create-1.20.1-0.5.1.j.jar                                                       
     /META-INF/jarjar/Registrate-MC1.20-1.3.3.jar                                      |                                                          | 
     /META-INF/jarjar/flywheel-forge-1.20.1-0.6.11-13.jar                              | flywheel                                                 | flywheel.mixins.json
 createdieselgenerators-1.20.1-1.2i.jar                                                | createdieselgenerators                                   | createdieselgenerators.mixins.json
-createpropulsion-0.2.1.jar                                                            | createpropulsion                                         | createpropulsion.mixins.json
 CreativeCore_FORGE_v2.12.32_mc1.20.1.jar                                              | creativecore                                             | creativecore.mixins.json, creativecore.mixins.refmap.json, creativecore.forge.mixins.json
 cullleaves-forge-3.2.0.jar                                                            | cullleaves                                               | cullleaves.mixins.json
 curios-forge-5.14.1+1.20.1.jar                                                        | curios                                                   | curios.mixins.json
@@ -569,7 +569,6 @@ spellbound-1.20.3.jar                                                           
 spelunkery-1.20.1-0.3.16-forge.jar                                                    | spelunkery                                               | spelunkery.mixins.json, spelunkery-common.mixins.json
 spelunking_master-1.20.1-0.3.0.jar                                                    | spelunking_master                                        | 
 spritearrows-forge-1.20-1.0.3.jar                                                     | spritearrows                                             | 
-starlance-1.3.0.jar                                                                   | vsch                                                     | vsch.mixins.json, mixins.vsch.refmap.json
 Statement-4.2.7+1.20.1-forge.jar                                                      | statement                                                | statement.mixins.json
 Stony Cliffs FML v1.1.2.jar                                                           | stonycliffs                                              | 
 structure_gel-1.20.1-2.16.2.jar                                                       | structure_gel                                            | structure_gel.mixins.json
@@ -578,6 +577,9 @@ SubtleEffects-forge-1.20.1-1.12.1.jar                                           
 sullysmod-3.2.1-beta-all.jar                                                          | sullysmod                                                | sullysmod.mixins.json
     /META-INF/jarjar/MosaicCosmetics-1.20.1-1.0.0-forge.jar                           | mosaic_cosmetics                                         | mosaic_cosmetics.mixins.json
 supplementaries-1.20-3.1.18.jar                                                       | supplementaries                                          | supplementaries-common.mixins.json, supplementaries.mixins.json
+surveyor-0.6.26+1.20.jar                                                              | surveyor                                                 | surveyor.mixins.json
+    /META-INF/jars/kaleido-config-0.3.1+1.3.2.jar                                     | folk_sisby_kaleido-config                                | 
+surveystones-1.3.1+1.20.jar                                                           | surveystones                                             | surveystones.mixins.json
 symbol-chat-1.20.1-1.1.2.jar                                                          | symbol-chat                                              | symbol-chat.mixins.json
 TansHugeTrees-1.5.2-forge-1.20.1.jar                                                  | tanshugetrees                                            | 
 tellme-fabric-1.20.1-0.9.1.jar                                                        | tellme                                                   | mixins.tellme.json
@@ -597,8 +599,8 @@ Trials-2.3.3.jar                                                                
 Twigs-1.20.1-3.1.1.jar                                                                | twigs                                                    | twigs.mixins.json
 undergardendelight-1.1.2-forge-1.20.1.jar                                             | undergardendelight (MCreator mod)                        | 
 upgrade_aquatic-1.20.1-6.0.3.jar                                                      | upgrade_aquatic                                          | upgrade_aquatic.mixins.json
-valkyrienskies-120-2.3.0-beta.9.jar                                                   | valkyrienskies                                           | valkyrienskies-forge.mixins.json, valkyrienskies-common.mixins.json
-    /META-INF/jars/api-1.1.0+cf6990a85d.jar                                           |                                                          | 
+valkyrienskies-120-forge-2.5.0-beta.3+237c68468b.jar                                  | valkyrienskies                                           | valkyrienskies-forge.mixins.json, valkyrienskies-common.mixins.json
+    /META-INF/jars/api-1.1.0+6abae09042.jar                                           |                                                          | 
     /META-INF/jars/classmate-1.5.1.jar                                                |                                                          | 
     /META-INF/jars/cloth-config-forge-11.1.106.jar                                    | cloth_config                                             | 
     /META-INF/jars/commons-collections4-4.3.jar                                       |                                                          | 
@@ -617,7 +619,7 @@ valkyrienskies-120-2.3.0-beta.9.jar                                             
     /META-INF/jars/json-schema-validator-1.0.71.jar                                   |                                                          | 
     /META-INF/jars/jsonschema-generator-4.25.0.jar                                    |                                                          | 
     /META-INF/jars/jsonschema-module-jackson-4.25.0.jar                               |                                                          | 
-    /META-INF/jars/util-1.1.0+cf6990a85d.jar                                          |                                                          | 
+    /META-INF/jars/util-1.1.0+6abae09042.jar                                          |                                                          | 
     /META-INF/jars/zjsonpatch-0.4.11.jar                                              |                                                          | 
 vanillabackport-forge-1.20.1-1.1.4.3.jar                                              | vanillabackport                                          | vanillabackport.mixins.json
 visual_keybinder-1.20.1 - 0.1.5.jar                                                   | visual_keybinder                                         | visual_keybinder.mixins.json, mixins.visual_keybinder.refmap.json

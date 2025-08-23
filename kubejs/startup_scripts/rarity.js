@@ -225,12 +225,33 @@ ItemEvents.modification((event) => {
 
     event.modify(/stone/, (item) => { item.rarity = "STONE" })
     event.modify(/slate/, (item) => { item.rarity = "STONE" })
+    event.modify(/calcite/, (item) => { item.rarity = "STONE" })
+    event.modify(/diorite/, (item) => { item.rarity = "STONE" })
+    event.modify(/andesite/, (item) => { item.rarity = "STONE" })
+    event.modify(/granite/, (item) => { item.rarity = "STONE" })
+    event.modify(/tuff/, (item) => { item.rarity = "STONE" })
+    event.modify(/travertine/, (item) => { item.rarity = "STONE" })
+    event.modify(/terracotta/, (item) => { item.rarity = "STONE" })
+    event.modify(/shale/, (item) => { item.rarity = "STONE" })
+    event.modify(/onyx/, (item) => { item.rarity = "STONE" })
+    event.modify(/basalt/, (item) => { item.rarity = "STONE" })
+    event.modify(/tremblecrust/, (item) => { item.rarity = "STONE" })
+    event.modify(/dolerite/, (item) => { item.rarity = "STONE" })
+    event.modify(/schist/, (item) => { item.rarity = "STONE" })
+    event.modify(/rhyolite/, (item) => { item.rarity = "STONE" })
+
 
     event.modify(/soil/, (item) => { item.rarity = "SOIL" })
     event.modify(/dirt/, (item) => { item.rarity = "SOIL" })
     event.modify(/earth/, (item) => { item.rarity = "SOIL" })
     event.modify(/mud/, (item) => { item.rarity = "SOIL" })
     event.modify(/clay/, (item) => { item.rarity = "SOIL" })
+    event.modify(/gravel/, (item) => { item.rarity = "SOIL" })
+    event.modify(/coprolith/, (item) => { item.rarity = "SOIL" })
+    event.modify(/guano/, (item) => { item.rarity = "SOIL" })
+    event.modify(/podzol/, (item) => { item.rarity = "SOIL" })
+    event.modify(/crustose/, (item) => { item.rarity = "SOIL" })
+    event.modify(/geomancer/, (item) => { item.rarity = "SOIL" })
 
 
     event.modify(/mushroom/, (item) => { item.rarity = "MUSHROOM" })
@@ -416,6 +437,9 @@ ItemEvents.modification((event) => {
     event.modify(/music/, (item) => { item.rarity = "MUSICAL" })
     event.modify(/jukebox/, (item) => { item.rarity = "MUSICAL" })
     event.modify(/instrument/, (item) => { item.rarity = "MUSICAL" })
+    event.modify(/note_block/, (item) => { item.rarity = "MUSICAL" })
+    event.modify(/melodies/, (item) => { item.rarity = "MUSICAL" })
+
 
 
 
@@ -546,12 +570,15 @@ ItemEvents.modification((event) => {
     event.modify(/ice_/, (item) => { item.rarity = "FRIGID" })
     event.modify(/_ice/, (item) => { item.rarity = "FRIGID" })
     event.modify(/ ice/, (item) => { item.rarity = "FRIGID" })
+    event.modify('minecraft:ice', (item) => { item.rarity = "FRIGID" })
+
 
     event.modify(/snow/, (item) => { item.rarity = "FRIGID" })
     event.modify(/frozen/, (item) => { item.rarity = "FRIGID" })
     event.modify(/freeze/, (item) => { item.rarity = "FRIGID" })
     event.modify(/frost/, (item) => { item.rarity = "FRIGID" })
     event.modify(/icicle/, (item) => { item.rarity = "FRIGID" })
+    event.modify(/glacium/, (item) => { item.rarity = "FRIGID" })
 
     event.modify(/gold/, (item) => { item.rarity = "GOLD" })
     event.modify(/gilded/, (item) => { item.rarity = "GOLD" })
@@ -584,6 +611,9 @@ ItemEvents.modification((event) => {
 
 
     event.modify(/diamond/, (item) => { item.rarity = "DIAMOND" })
+    event.modify('quark:diamond_heart', (item) => { item.rarity = "DIAMOND" })
+
+
 
     event.modify(/amber/, (item) => { item.rarity = "AMBER" })
     event.modify(/resin/, (item) => { item.rarity = "AMBER" })
@@ -737,6 +767,8 @@ ItemEvents.modification((event) => {
     event.modify("minecraft:experience_bottle", (item) => { item.rarity = "STARLIGHT" })
     event.modify("create:experience_block", (item) => { item.rarity = "STARLIGHT" })
     event.modify("create:experience_nugget", (item) => { item.rarity = "STARLIGHT" })
+    event.modify("eidolon:codex", (item) => { item.rarity = "STARLIGHT" })
+
 
 
 

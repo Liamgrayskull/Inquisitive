@@ -1,20 +1,14 @@
-[22:06:39] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[22:06:39] [INIT] Loaded plugins:
-[22:06:39] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[22:06:39] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[22:06:39] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[22:06:39] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[22:06:40] [INFO] illusion_rendering_startup-forge.js#1: Loaded Java class 'net.minecraft.client.Minecraft'
-[22:06:40] [INFO] illusion_rendering_startup-forge.js#2: Loaded Java class 'net.minecraft.client.renderer.texture.OverlayTexture'
-[22:06:40] [INFO] illusion_rendering_startup-forge.js#3: Loaded Java class 'net.minecraft.client.renderer.RenderType'
-[22:06:40] [INFO] illusion_rendering_startup-forge.js#4: Loaded Java class 'com.mojang.math.Axis'
-[22:06:40] [INFO] illusion_rendering_startup-forge.js#5: Loaded Java class 'net.minecraftforge.client.event.RenderLevelStageEvent$Stage'
-[22:06:40] [INFO] illusion_rendering_startup-forge.js#6: Loaded Java class 'net.minecraft.util.Mth'
-[22:06:40] [INFO] Loaded script startup_scripts:illusion_rendering_startup-forge.js in 0.164 s
-[22:06:40] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
-[22:06:40] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
-[22:06:40] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
-[22:06:40] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
-[22:06:40] [INFO] Loaded script startup_scripts:rarity.js in 0.095 s
-[22:06:40] [INFO] Loaded script startup_scripts:start.js in 0.007 s
-[22:06:40] [INFO] Loaded 3/3 KubeJS startup scripts in 1.51 s with 0 errors and 0 warnings
+[15:16:19] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[15:16:19] [INIT] Loaded plugins:
+[15:16:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:16:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:16:19] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[15:16:19] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[15:16:21] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
+[15:16:21] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
+[15:16:21] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
+[15:16:21] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
+[15:16:21] [INFO] Loaded script startup_scripts:rarity.js in 0.273 s
+[15:16:21] [INFO] Loaded script startup_scripts:start.js in 0.011 s
+[15:16:21] [INFO] Loaded 2/2 KubeJS startup scripts in 1.435 s with 0 errors and 0 warnings
+[15:16:56] [INFO] start.js#18: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'

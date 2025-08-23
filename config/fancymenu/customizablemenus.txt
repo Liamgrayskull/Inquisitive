@@ -78,9 +78,6 @@ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 traben.entity_texture_features.config.screens.ETFConfigScreenMain {
 }
 
-net.minecraft.client.gui.screens.DeathScreen {
-}
-
 net.minecraft.client.gui.screens.controls.KeyBindsScreen {
 }
 
@@ -102,9 +99,6 @@ net.minecraft.client.gui.screens.MouseSettingsScreen {
 com.claimorous.screen.ClaimAnchorScreen {
 }
 
-io.github.apace100.origins.screen.ChooseOriginScreen {
-}
-
-io.github.apace100.origins.screen.WaitForNextLayerScreen {
+net.minecraft.client.gui.screens.DeathScreen {
 }
 

@@ -203,6 +203,7 @@
 				spawner_carrier = true
 				chaos_spawner = true
 				great_experience_bottle = true
+				sealed_chaos = true
 
 			[light_sources.settings.entities.yungscavebiomes]
 				sand_snapper = true
@@ -281,6 +282,7 @@
 				dust_bunny = true
 
 			[light_sources.settings.entities.sullysmod]
+				thrown_throwing_knife = true
 				lanternfish = true
 				piranha = true
 				jungle_spider = true

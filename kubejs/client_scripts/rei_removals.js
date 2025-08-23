@@ -2,6 +2,8 @@ REIEvents.hide('item', event => {
 
   event.hide(/tanshugetrees:/)
   event.hide(/raked/)
+  event.hide(/hedge/)
+  event.hide('paradise_lost:portal')
   event.hide(/spawn_egg/)
   event.hide(/incomplete_/)
   event.hide('eidolon:soul_harvest')
