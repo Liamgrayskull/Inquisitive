@@ -1,0 +1,17 @@
+{
+  "name": "Weighted",
+  "author": "Popped Aye",
+  "tier": 1,
+  "item": "scriptor:spellbook_gray",
+  "spell": {
+    "subject": "touch",
+    "spells": [
+      {
+        "action": "action.scriptor.silly_anchor",
+        "descriptors": [
+          "gray"
+        ]
+      }
+    ]
+  }
+}

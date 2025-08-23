@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "x x",
+    "x x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "etcetera:bismuth_block"
+    }
+  },
+  "result": {
+    "item": "eidolon:crucible"
+  }
+}

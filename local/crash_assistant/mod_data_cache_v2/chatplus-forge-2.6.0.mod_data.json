@@ -1,0 +1,1 @@
+{"jarName":"chatplus-forge-2.6.0.jar","modId":"chatplus","version":"2.6.0","mixinConfigs":["chatplus-common.mixins.json","chatplus.mixins.json"],"jarJarMods":[{"jarName":"vosk-0.3.45.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "rubinated_nether:ruby"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_sword"
+    },
+    "result": {
+        "item": "miningmaster:fire_ruby_sword"
+    },
+    "enchantments": [
+        {
+            "enchantment": "supplementaries:lumisene_fire_aspect",
+            "lvl": 1
+        }
+    ]
+}

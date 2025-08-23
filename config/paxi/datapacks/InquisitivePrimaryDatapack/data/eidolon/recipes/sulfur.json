@@ -1,0 +1,15 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:blaze_powder" },
+        { "item": "minecraft:glowstone_dust" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "spelunkery:sulfur",
+    "count": 2
+  }
+}

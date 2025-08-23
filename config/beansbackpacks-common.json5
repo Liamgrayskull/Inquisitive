@@ -1,0 +1,40 @@
+{
+/* =============== Maximum Stacks =============== */
+  "leather_max_stacks": 6,           // 1 - 64  Default: 4
+  "ender_max_stacks": 8,             // 1 - 8  Default: 4
+  "winged_max_stacks": 8,            // 1 - 64  Default: 4
+  "metal_max_stacks": 10,            // 1 - 64  Default: 7
+  "pot_max_stacks": 128,             // 0 - 128  Default: 128
+  "cauldron_max_buckets": 24,        // 0 - 128  Default: 24
+  "data_driven_overrides": {         // If a backpack is Data-Driven, find it's 'backpack_id' with F3 + H
+    "gold": 10,
+    "cac_silver": 10,
+    "oreg_electrum": 12,
+    "iron": 10,
+    "cac_necronium": 14,
+    "netherite": 14
+  },
+  "item_weight_override": {          // Stored items will act like they stack to the declared whole number
+    "bundle": 4,
+    "enchanted_book": 16
+    //"all": 64
+  },
+/* ============== Item Whitelists =============== */
+   // ┌▶ items can be worn on the back & not as equipment. Item does not keep functioning or rendering on the back.
+  "disable_chestplate": "",
+   // ┌▶ if any items are in armor/trinkets/curios slots then back equipment is not rendered.
+  "disables_back_slot": "create.netherite_backtank, create.copper_backtank",
+   // ┌▶ cannot be worn with Winged Backpack & other backpacks will be positioned off the player's back
+  "elytra_items": "elytra",
+   // ┌▶ cannot be stored in any backpack's inventory
+  "blacklist_items": "white_shulker_box, red_shulker_box, shulker_box, gray_shulker_box, light_gray_shulker_box, yellow_shulker_box, green_shulker_box, pink_shulker_box, lime_shulker_box, brown_shulker_box, purple_shulker_box, light_blue_shulker_box, magenta_shulker_box, blue_shulker_box, cyan_shulker_box, black_shulker_box, orange_shulker_box",
+/* =============== Miscellaneous ================ */
+  "always_disables_back_slot": false, // Default: false
+  "back_slot_pos": [29, 58],
+/* ================= Gamerules ================== */
+  "lockBackpackOffline": false,      // Default: false
+  "lockBackpackNotOwner": false,     // Default: false
+  "unbindEnderOnDeath": false,       // Default: false
+  "keepBackSlot": false,             // Default: false
+  "lockEnderOffline": false          // Default: false
+}

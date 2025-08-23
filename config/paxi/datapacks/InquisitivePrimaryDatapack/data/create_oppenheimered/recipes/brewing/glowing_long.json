@@ -1,0 +1,31 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ], 
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+     {
+        "item":"minecraft:redstone"
+     },
+     {
+        "amount":1000,
+        "fluid":"create:potion",
+        "nbt": {"Potion": "alexscaves:glowing"}
+     }
+  ],
+  "results":[
+     {
+        "amount":1000,
+        "fluid":"create:potion",
+        "nbt": {"Potion": "alexscaves:long_glowing"}
+     }
+  ]
+}

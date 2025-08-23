@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [{"tag": "forge:dusts/redstone"}, {"item": "computercraft:cable"}],
+  "result": {"item": "computercraft:wired_modem"},
+  "show_notification": true
+}

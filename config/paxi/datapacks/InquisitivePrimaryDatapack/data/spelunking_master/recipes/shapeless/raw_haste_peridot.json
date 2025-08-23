@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_haste_peridot_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_haste_peridot",
+    "count": 4
+  }
+}

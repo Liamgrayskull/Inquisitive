@@ -1,0 +1,126 @@
+{
+  "attached_dimention_id": "cosmos:plutowastelands",
+  "skybox_data": {
+    "texture_id": "skybox_solar",
+    "alpha": 225,
+    "yaw": -56,
+    "pitch": 165,
+    "roll": -90,
+    "rotation_plane": "pitch"
+  },
+  "dimensional_data": {
+    "dimension_type": "planet",
+    "weather": false,
+    "clouds": false,
+    "sky_objects": false,
+    "gravity": 6.32,
+    "air_resistance": 0.98,
+    "atmospheric_data": {
+      "atmosphere_y": 560,
+      "travel_to": "cosmos:solar_system",
+      "origin_x": 45100,
+      "origin_y": 500,
+      "origin_z": 121100,
+      "overlay_texture_id": "pluto_bar",
+      "shipbit_y": 28,
+      "ship_min_y": 120
+    }
+  },
+  "sky_data": {
+    "sun": {
+      "type": "object",
+      "phased": false,
+      "object_yaw": 45,
+      "object_pitch": 40,
+      "object_roll": 35,
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw_speed": 0,
+      "pitch_speed": 0,
+      "roll_speed": 1,
+      "scale": 0.03,
+      "core_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "bloom_color": {
+        "r": 64,
+        "g": 16,
+        "b": 8
+      }
+    },
+    "neptune": {
+      "type": "object",
+      "phased": false,
+      "texture_id": "neptune",
+      "object_yaw": 40,
+      "object_pitch": 45,
+      "object_roll": 40,
+      "yaw": 0,
+      "pitch": 90,
+      "roll": 360,
+      "yaw_speed": 0,
+      "pitch_speed": 1,
+      "roll_speed": 0.25,
+      "scale": 0.018,
+      "atmosphere_color": {
+        "r": 51,
+        "g": 153,
+        "b": 255,
+        "alpha": 29
+      },
+      "ring_data": {
+        "ring1": {
+          "texture_id": "nep",
+          "scale_radius": 0.026,
+          "radius": 14
+        }
+      }
+    },
+    "uranus": {
+      "type": "object",
+      "phased": false,
+      "texture_id": "uranus",
+      "object_yaw": 40,
+      "object_pitch": 45,
+      "object_roll": 85,
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 180,
+      "yaw_speed": 0,
+      "pitch_speed": 1,
+      "roll_speed": 0.5,
+      "scale": 0.015,
+      "atmosphere_color": {
+        "r": 102,
+        "g": 225,
+        "b": 255,
+        "alpha": 29
+      },
+      "ring_data": {
+        "ring1": {
+          "texture_id": "ur",
+          "scale_radius": 0.035,
+          "radius": 20
+        }
+      }
+    },
+    "pluto": {
+      "type": "object",
+      "phased": true,
+      "texture_id": "pluto",
+      "object_yaw": 3,
+      "object_pitch": 10,
+      "object_roll": -10,
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 180,
+      "yaw_speed": 0,
+      "pitch_speed": 0,
+      "roll_speed": 0,
+      "scale": 0.95
+    }
+  }
+}

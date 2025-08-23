@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " i ",
+    "gbg",
+    " d "
+  ],
+  "reagents": "lsas",
+  "key": {
+    "i": {
+      "item": "eidolon:gold_inlay"
+    },
+    "g": {
+      "item": "oreganized:electrum_ingot"
+    },
+    "b": {
+      "item": "eidolon:basic_belt"
+    },
+    "d": {
+      "item": "eidolon:shadow_gem"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "s": {
+      "item": "eidolon:soul_shard"
+    },
+    "a": {
+      "item": "spelunkery:salt"
+    }
+  },
+  "result": {
+    "item": "eidolon:resolute_belt"
+  }
+}

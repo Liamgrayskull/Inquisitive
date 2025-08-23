@@ -1,0 +1,22 @@
+{
+  "cost": 1.5,
+  "disabled": false,
+  "cast_at_position": [
+    "summon alexscaves:tephra ~3 ~10 ~",
+    "summon alexscaves:tephra ~ ~12 ~1",
+    "summon alexscaves:tephra ~ ~13 ~-3",
+    "summon alexscaves:tephra ~-4 ~14 ~",
+    "summon alexscaves:tephra ~1 ~15 ~",
+    "particle alexscaves:tephra_flame ~ ~2 ~ 1 1 1 0.01 50"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon alexscaves:tephra ~3 ~10 ~",
+    "execute at @s run summon alexscaves:tephra ~ ~12 ~1",
+    "execute at @s run summon alexscaves:tephra ~ ~13 ~-3",
+    "execute at @s run summon alexscaves:tephra ~-4 ~14 ~1",
+    "execute at @s run summon alexscaves:tephra ~1 ~15 ~",
+    "execute at @s run particle alexscaves:tephra_flame ~ ~2 ~ 1 1 1 0.01 50"
+  ],
+  "cast_on_item": [
+  ]
+}

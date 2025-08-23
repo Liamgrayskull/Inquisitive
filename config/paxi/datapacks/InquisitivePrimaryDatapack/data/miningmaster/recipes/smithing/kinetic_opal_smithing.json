@@ -1,0 +1,19 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "rubinated_nether:ruby"
+    },
+    "enchantments": [
+        "alexmobs:lavawax",
+        "domesticationinnovation:fireproof",
+        "piglinproliferation:bang",
+        "minecraft:fire_aspect",
+        "minecraft:flame",
+        "enchancement:molten",
+        "enchancement:brimstone",
+        "alexscaves:herd_phalanx"
+    ]
+}

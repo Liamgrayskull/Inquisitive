@@ -1,0 +1,48 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "etcetera:bismuth_ingot"
+        },
+        {
+            "item": "minecraft:copper_ingot"
+        },
+        {
+            "item": "create:brass_ingot"
+        },
+        {
+            "item": "oreganized:electrum_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "galosphere:silver_ingot"
+        },
+        {
+            "item": "create:zinc_ingot"
+        },
+        {
+            "item": "ad_astra:steel_ingot"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:netherite_axe"
+    },
+    "result": {
+        "item": "mowziesmobs:wrought_axe"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:beheading",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:berserk",
+            "lvl": 1
+        }
+    ]
+}

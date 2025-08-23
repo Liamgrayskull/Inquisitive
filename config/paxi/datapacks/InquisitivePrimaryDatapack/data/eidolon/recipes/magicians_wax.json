@@ -1,0 +1,31 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+      	{ "item": "undergarden:utheric_shard" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "undergarden:blood_globule" },
+        { "item": "undergarden:blood_globule" },
+        { "item": "undergarden:blood_globule" },
+        { "item": "undergarden:blood_globule" },
+        { "item": "spelunkery:salt" },
+        { "item": "spelunkery:salt" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "whiffowisp:netherwax" },
+        { "item": "whiffowisp:netherwax" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "netherexp:ancient_wax",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "item": {
+    "item": "alexsmobs:void_worm_eye"
+  },
+  "focal_range": {
+    "min": 10,
+    "max": 300
+  }
+}

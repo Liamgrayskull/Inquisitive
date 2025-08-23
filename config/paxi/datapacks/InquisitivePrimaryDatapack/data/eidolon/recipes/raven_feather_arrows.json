@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "f",
+    "s",
+    "r"
+  ],
+  "key": {
+    "f": {
+      "item": "alexscaves:corrodent_teeth"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    },
+    "r": {
+      "item": "eidolon:raven_feather"
+    }
+  },
+  "result": {
+    "item": "alexscaves:burrowing_arrow",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_spider_kunzite"
+    }
+  ],
+  "results": [
+    {
+      "item": "caverns_and_chasms:spinel"
+    }
+  ]
+}

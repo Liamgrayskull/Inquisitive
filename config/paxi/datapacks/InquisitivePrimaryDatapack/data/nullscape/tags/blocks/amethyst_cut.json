@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "end_stone",
+    "endergetic:end_corrock_block",
+    "endergetic:eumus",
+    "dead_horn_coral_block",
+    "dead_bubble_coral_block"
+  ]
+}

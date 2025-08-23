@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "paradise_lost:blue_cloud"
+    }
+  ],
+  "output": {
+    "count": 9,
+    "entity": "doom_and_gloom:holler"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "netherexp:ectoplasm_bucket"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "enlightened_end:stardust"
+    }
+  ]
+}

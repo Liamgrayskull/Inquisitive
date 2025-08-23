@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.01,
+        "feature": "incendium:weeping_valley/entree_bend"
+      },
+      {
+        "chance": 0.1,
+        "feature": "incendium:weeping_valley/entree_big"
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 20,
+                "data": {
+                  "Name": "netherexp:cerebrage_skull"
+                }
+              },
+              {
+                "weight": 20,
+                "data": {
+                  "Name": "netherexp:bone_rod"
+                }
+              },
+              {
+                "weight": 20,
+                "data": {
+                  "Name": "netherexp:soul_swirls"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "species:bone_spike"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "sons_of_sins:flesh_block"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "born_in_chaos_v1:pile_of_skulls"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "Name": "born_in_chaos_v1:gnawed_bones"
+                }
+              },
+              {
+                "weight": 8,
+                "data": {
+                  "Name": "alexscaves:bone_nodule"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "supplementaries:urn"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "minecraft:skeleton_skull"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "undergarden:blood_mushroom"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "netherexp:sorrowsquash"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "caverns_and_chasms:rotten_flesh_block"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "realmrpg_skeletons:devastated_skeleton"
+                }
+              },
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "realmrpg_skeletons:quicksand_skeleton"
+                }
+              },
+              {
+                "weight": 8,
+                "data": {
+                  "Name": "alexscaves:baleen_bone"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "architects_palette:osseous_skull",
+              "netherexp:stacked_bones",
+              "minecraft:soul_sand",
+              "minecraft:soul_soil",
+              "netherexp:sorroweed"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

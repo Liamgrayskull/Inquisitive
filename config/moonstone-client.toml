@@ -1,0 +1,7 @@
+
+[client]
+	#Display Nexus' blood cells
+	MaxAmout = true
+	#Do you want to enable the post rendering system
+	RenderBackEnds = true
+

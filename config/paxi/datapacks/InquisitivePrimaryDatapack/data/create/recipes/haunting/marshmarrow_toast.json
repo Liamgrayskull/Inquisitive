@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "hearthandharvest:roasted_marshmallow_stick"
+    }
+  ],
+  "results": [
+    {
+      "item": "soulfulnether:toasty_marshmarrow"
+    }
+  ]
+}

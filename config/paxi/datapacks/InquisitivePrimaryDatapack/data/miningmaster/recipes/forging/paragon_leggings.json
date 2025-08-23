@@ -1,0 +1,33 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "galosphere:allurite_shard"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        },
+        {
+            "item": "galosphere:lumiere_shard"
+        },
+        {
+            "item": "miningmaster:ice_sapphire"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_leggings"
+    },
+    "result": {
+        "item": "miningmaster:paragon_leggings"
+    },
+    "enchantments": [
+        {
+            "enchantment": "miningmaster:knight_jump",
+            "lvl": 1
+        },
+        {
+            "enchantment": "miningmaster:snowpiercer",
+            "lvl": 1
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexscaves:occult_gem"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "biomemakeover:illunite_shard"
+        },
+        {
+            "item": "galosphere:lumiere_shard"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_helmet"
+    },
+    "result": {
+        "item": "miningmaster:paragon_helmet"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:perception",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:veil",
+            "lvl": 1
+        },
+        {
+            "enchantment": "allurement:alleviating",
+            "lvl": 1
+        }
+    ]
+}

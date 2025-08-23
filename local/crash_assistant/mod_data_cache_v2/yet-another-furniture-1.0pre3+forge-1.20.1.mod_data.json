@@ -1,0 +1,1 @@
+{"jarName":"yet-another-furniture-1.0pre3+forge-1.20.1.jar","modId":"yaf","version":"1.0pre3","mixinConfigs":["yaf.mixins.json","yaf-common.mixins.json"],"jarJarMods":[{"jarName":"midnightlib-1.4.2-forge.jar","modId":"midnightlib","version":"1.4.2","mixinConfigs":["midnightlib.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

@@ -1,0 +1,1 @@
+{"jarName":"krypton-0.2.3.jar","modId":"krypton","version":"0.2.3","mixinConfigs":["krypton.mixins.json"],"jarJarMods":[{"jarName":"velocity-native-3.2.0-SNAPSHOT.jar","modId":"com_velocitypowered_velocity-native","version":"3.2.0-SNAPSHOT","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

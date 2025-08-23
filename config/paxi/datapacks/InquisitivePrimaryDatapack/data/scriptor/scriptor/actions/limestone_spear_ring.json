@@ -1,0 +1,20 @@
+{
+  "cost": 0.5,
+  "disabled": false,
+  "cast_at_position": [
+    "summon alexscaves:limestone_spear ~ ~10 ~",
+    "summon alexscaves:limestone_spear ~ ~12 ~2",
+    "summon alexscaves:limestone_spear ~ ~13 ~-2",
+    "summon alexscaves:limestone_spear ~-2 ~14 ~",
+    "summon alexscaves:limestone_spear ~2 ~15 ~"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon alexscaves:limestone_spear ~ ~10 ~",
+    "execute at @s run summon alexscaves:limestone_spear ~ ~12 ~2",
+    "execute at @s run summon alexscaves:limestone_spear ~ ~13 ~-2",
+    "execute at @s run summon alexscaves:limestone_spear ~-2 ~14 ~",
+    "execute at @s run summon alexscaves:limestone_spear ~2 ~15 ~"
+  ],
+  "cast_on_item": [
+  ]
+}

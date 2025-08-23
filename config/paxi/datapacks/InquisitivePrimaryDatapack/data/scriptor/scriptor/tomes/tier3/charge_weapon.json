@@ -1,0 +1,16 @@
+{
+  "name": "tome.scriptor.charge_weapon",
+  "author": "T.A. Swift",
+  "tier": 3,
+  "spell": {
+    "subject": "enchant",
+    "spells": [
+      {
+        "action": "smite",
+        "descriptors": [
+          "strong"
+        ]
+      }
+    ]
+  }
+}

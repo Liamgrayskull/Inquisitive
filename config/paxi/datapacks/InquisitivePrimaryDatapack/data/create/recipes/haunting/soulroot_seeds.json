@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_seeds"
+    }
+  ],
+  "results": [
+    {
+      "item": "soulfulnether:soulroot_seeds"
+    }
+  ]
+}

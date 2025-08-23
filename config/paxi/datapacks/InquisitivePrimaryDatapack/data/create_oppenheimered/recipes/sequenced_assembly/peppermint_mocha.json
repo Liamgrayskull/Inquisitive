@@ -1,0 +1,60 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "minecraft:glass_bottle"
+    },
+    "loops": 1,
+    "results": [
+        {
+            "item": "alexscaves:hot_chocolate_bottle"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+                {
+                    "item": "alexscaves:peppermint_powder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:glass_bottle"
+                }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+                {
+                    "fluid": "create:chocolate",
+                    "amount": 250
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:glass_bottle"
+                }
+            ]
+        }
+    ],
+    "transitionalItem": {
+        "item": "minecraft:glass_bottle"
+    }
+}

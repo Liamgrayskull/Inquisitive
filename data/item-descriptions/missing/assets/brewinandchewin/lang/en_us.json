@@ -1,0 +1,15 @@
+{
+  "block.brewinandchewin.coaster.description": " ??? tag.minecraft.mineable.axe.description, tag.farmersdelight.mineable.knife.description",
+  "block.brewinandchewin.flaxen_cheese_wheel.description": " ??? tag.farmersdelight.mineable.knife.description",
+  "block.brewinandchewin.ice_crate.description": " ??? tag.minecraft.mineable.axe.description, tag.brewinandchewin.freeze_sources.description",
+  "block.brewinandchewin.keg.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.brewinandchewin.pizza.description": " ??? tag.farmersdelight.mineable.knife.description",
+  "block.brewinandchewin.quiche.description": " ??? tag.farmersdelight.mineable.knife.description",
+  "block.brewinandchewin.scarlet_cheese_wheel.description": " ??? tag.farmersdelight.mineable.knife.description",
+  "block.brewinandchewin.unripe_flaxen_cheese_wheel.description": " ??? tag.farmersdelight.mineable.knife.description",
+  "block.brewinandchewin.unripe_scarlet_cheese_wheel.description": " ??? tag.farmersdelight.mineable.knife.description",
+  "effect.brewinandchewin.intoxication.description": " ??? ",
+  "effect.brewinandchewin.raging.description": " ??? ",
+  "effect.brewinandchewin.sweet_heart.description": " ??? ",
+  "effect.brewinandchewin.tipsy.description": " ??? "
+}

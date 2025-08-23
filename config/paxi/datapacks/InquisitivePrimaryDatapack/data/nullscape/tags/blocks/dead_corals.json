@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "dead_fire_coral_block",
+    "dead_tube_coral_block",
+    "dead_horn_coral_block",
+    "dead_brain_coral_block",
+    "dead_bubble_coral_block",
+    "upgrade_aquatic:dead_acan_coral_block",
+    "upgrade_aquatic:dead_finger_coral_block",
+    "upgrade_aquatic:dead_star_coral_block",
+    "upgrade_aquatic:dead_moss_coral_block",
+    "upgrade_aquatic:dead_petal_coral_block",
+    "upgrade_aquatic:dead_branch_coral_block",
+    "upgrade_aquatic:dead_rock_coral_block",
+    "upgrade_aquatic:dead_pillow_coral_block",
+    "upgrade_aquatic:dead_silk_coral_block",
+    "upgrade_aquatic:dead_chrome_coral_block"
+  ]
+}

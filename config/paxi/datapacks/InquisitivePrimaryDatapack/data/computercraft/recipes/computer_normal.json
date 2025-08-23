@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "L": {
+      "item": "create:display_link"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "create:display_board"
+    },
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "T": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "S": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "pattern": [
+    "  I  ",
+    " VEL ",
+    "IPMBG",
+    " TSS ",
+    "  I  "
+  ],
+  "result": {
+    "item": "computercraft:computer_normal"
+  }
+}

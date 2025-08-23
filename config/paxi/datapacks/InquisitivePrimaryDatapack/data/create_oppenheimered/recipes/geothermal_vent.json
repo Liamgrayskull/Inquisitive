@@ -1,0 +1,26 @@
+{
+    "conditions":[
+       {
+          "type":"forge:mod_loaded",
+          "modid":"alexscaves"
+       }
+    ],
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+       "GGG",
+       "GAG",
+       "GGG"
+    ],
+    "key":{
+       "G":{
+          "item":"minecraft:basalt"
+       },
+       "A":{
+          "item":"minecraft:magma_block"
+       }
+    },
+    "result":{
+       "item":"alexscaves:geothermal_vent",
+       "count":1
+    }
+ }

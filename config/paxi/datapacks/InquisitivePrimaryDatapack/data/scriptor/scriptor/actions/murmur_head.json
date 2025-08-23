@@ -1,0 +1,12 @@
+{
+  "cost": 0.2,
+  "disabled": false,
+  "cast_at_position": [
+    "summon alexsmobs:murmur_head ~ ~1.5 ~"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon alexsmobs:murmur_head ~ ~1.5 ~"
+  ],
+  "cast_on_item": [
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "modid": "trials",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "trials:music_disc_creator_box"
+    },
+    "2": {
+      "item": "trials:music_disc_precipice"
+    },
+    "3": {
+      "item": "trials:music_disc_creator"
+    },
+    "4": {
+      "item": "composite_material:disc_pickaxe"
+    },
+    "5": {
+      "item": "composite_material:dungeon_hammer"
+    }
+  },
+  "pattern": [
+    "321",
+    " 4 ",
+    " 5 "
+  ],
+  "result": {
+    "item": "composite_material:disc_mace"
+  }
+}

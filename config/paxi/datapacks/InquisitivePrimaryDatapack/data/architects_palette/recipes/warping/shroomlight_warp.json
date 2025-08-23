@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "minecraft:shroomlight"
+        }
+    ],
+    "result": {
+        "item": "netherdungeons:shroomglight"
+    },
+    "dimension": "minecraft:the_nether"
+}

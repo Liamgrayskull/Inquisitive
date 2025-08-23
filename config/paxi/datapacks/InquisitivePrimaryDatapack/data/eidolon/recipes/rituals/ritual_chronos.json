@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:ritual_brazier_command",
+  "color": 16711680,
+  "command": "/effect give @e[distance=..5] runiclib:chronos 214",
+  "focusItems": [],
+  "pedestalItems": [
+    {
+      "item": "netherexp:banshee_powder"
+    },
+    {
+      "item": "netherexp:banshee_powder"
+    },
+    {
+      "item": "galospheric_delight:allurite_dust"
+    },
+    {
+      "item": "galospheric_delight:allurite_dust"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "supplementaries:clock_block"
+    }
+  ],
+  "symbol": "eidolon:particle/water_sign"
+}

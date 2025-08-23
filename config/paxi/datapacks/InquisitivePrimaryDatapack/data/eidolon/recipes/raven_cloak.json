@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "r r",
+    "whw",
+    "tgt"
+  ],
+  "reagents": "prpr",
+  "key": {
+    "p": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "r": {
+      "item": "eidolon:raven_feather"
+    },
+    "w": {
+      "item": "eidolon:wicked_weave"
+    },
+    "t": {
+      "item": "eidolon:tattered_cloth"
+    },
+    "g": {
+      "item": "eidolon:gravity_belt"
+    },
+    "h": {
+      "item": "eidolon:warlock_cloak"
+    }
+  },
+  "result": {
+    "item": "eidolon:raven_cloak"
+  }
+}

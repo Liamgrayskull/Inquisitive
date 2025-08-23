@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "  p",
+    " s ",
+    "e  "
+  ],
+  "reagents": "n d ",
+  "key": {
+    "p": {
+      "item": "caverns_and_chasms:silver_ingot"
+    },
+    "s": {
+      "item": "abnormals_delight:silver_knife"
+    },
+    "e": {
+      "tag": "forge:ender_pearls"
+    },
+    "n": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "d": {
+      "item": "caverns_and_chasms:silver_nugget"
+    }
+  },
+  "result": {
+    "item": "eidolon:athame"
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [
+                      {
+                        "provider": {
+                          "state": {
+                            "Name": "minecraft:podzol",
+                            "Properties": {
+                              "snowy": "false"
+                            }
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "type": "minecraft:alter_ground"
+                      }
+                    ],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "crown_height": {
+                        "value": {
+                          "min_inclusive": 3,
+                          "max_inclusive": 7
+                        },
+                        "type": "minecraft:uniform"
+                      },
+                      "offset": 0,
+                      "radius": 0,
+                      "type": "minecraft:mega_pine_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:spruce_leaves",
+                        "Properties": {
+                          "distance": "7",
+                          "persistent": "false",
+                          "waterlogged": "false"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": false,
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 1,
+                      "upper_size": 2,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 13,
+                      "height_rand_a": 2,
+                      "height_rand_b": 14,
+                      "type": "minecraft:giant_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "state": {
+                        "Name": "minecraft:spruce_log",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:moss_block",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria_saplings:saplings/mega_pine_1",
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:moss_block",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicates": [
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      2,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      2,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      2,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      2
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      2,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      2,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      2,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:spruce_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria_saplings:saplings/mega_pine_2",
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:moss_block",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    2,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    2,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    2,
+                                    0,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    2
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    2,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    2,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    2,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:spruce_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:spruce_sapling",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "type": "minecraft:solid"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 24,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 32,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

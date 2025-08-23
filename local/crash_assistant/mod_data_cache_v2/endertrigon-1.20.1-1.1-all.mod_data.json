@@ -1,0 +1,1 @@
+{"jarName":"endertrigon-1.20.1-1.1-all.jar","modId":"endertrigon","version":"1.20.1-1.1","mixinConfigs":["endertrigon.mixins.json"],"jarJarMods":[{"jarName":"crackerslib-forge-1.20.1-0.3.2.1.jar","modId":"crackerslib","version":"1.20.1-0.3.2.1","mixinConfigs":["crackerslib.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

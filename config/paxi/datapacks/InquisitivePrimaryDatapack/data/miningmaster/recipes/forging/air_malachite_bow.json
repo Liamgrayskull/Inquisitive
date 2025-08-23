@@ -1,0 +1,36 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "enlightened_end:malachite"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:bow"
+    },
+    "result": {
+        "item": "miningmaster:air_malachite_bow"
+    },
+    "enchantments": [
+        {
+            "enchantment": "miningmaster:floatation",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:phasing",
+            "lvl": 1
+        }
+    ]
+}

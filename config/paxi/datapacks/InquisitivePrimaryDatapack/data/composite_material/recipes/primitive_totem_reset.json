@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "composite_material:primitive_totem"
+    }
+  ],
+  "result": {
+    "item": "composite_material:primitive_totem"
+  }
+}

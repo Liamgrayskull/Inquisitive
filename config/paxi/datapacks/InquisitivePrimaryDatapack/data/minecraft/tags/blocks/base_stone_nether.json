@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:polished_basalt",
+    "minecraft:blackstone",
+    "minecraft:quartz_block",
+    "minecraft:smooth_quartz",
+    "create:scorchia",
+    "create:scoria",
+    "architects_palette:entrails",
+    "spelunkery:rock_salt_block",
+    "architects_palette:warpstone",
+    "architects_palette:onyx",
+    "architects_palette:esoterrack"
+  ]
+}

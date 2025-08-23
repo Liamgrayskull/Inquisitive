@@ -1,0 +1,1 @@
+{"jarName":"Pehkui-3.8.3+1.14.4-1.21.jar","modId":"pehkui","version":"3.8.3+1.14.4-1.21","mixinConfigs":["pehkui.mixins.json"],"jarJarMods":[{"jarName":"KanosConfig-0.4.1.jar","modId":"kanos_config","version":"0.4.1+1.14.4-1.19.4","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

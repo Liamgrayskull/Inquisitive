@@ -1,0 +1,110 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraft.client.gui.screens.ProgressScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+net.minecraft.client.gui.screens.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.OnlineOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.achievement.StatsScreen {
+}
+
+net.minecraft.client.gui.screens.ShareToLanScreen {
+}
+
+net.minecraft.client.gui.screens.LanguageSelectScreen {
+}
+
+net.blay09.mods.hardcorerevival.client.KnockoutScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+com.gmail.rawlxxxviii.visual_keybinder.screen.AlternativeKeybindScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+traben.entity_texture_features.config.screens.ETFConfigScreenMain {
+}
+
+net.minecraft.client.gui.screens.DeathScreen {
+}
+
+net.minecraft.client.gui.screens.controls.KeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.SoundOptionsScreen {
+}
+
+dev.isxander.yacl3.gui.YACLScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.DispenserScreen {
+}
+
+org.infernalstudios.miningmaster.client.gui.screen.inventory.GemForgeScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+com.claimorous.screen.ClaimAnchorScreen {
+}
+
+io.github.apace100.origins.screen.ChooseOriginScreen {
+}
+
+io.github.apace100.origins.screen.WaitForNextLayerScreen {
+}
+

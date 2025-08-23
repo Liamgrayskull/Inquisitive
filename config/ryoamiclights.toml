@@ -1,0 +1,317 @@
+
+[light_sources]
+	water_sensitive_check = true
+	block_entities = true
+	entities = true
+	self = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
+				axolotl = true
+				bee = true
+				arrow = true
+				cow = true
+				pig = true
+				skeleton = true
+				frog = true
+				husk = true
+				bat = true
+				experience_bottle = true
+				rabbit = true
+				silverfish = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				stray = true
+				item = true
+				salmon = true
+				vex = true
+				ocelot = true
+				item_frame = true
+				vindicator = true
+				horse = true
+				phantom = true
+				evoker = true
+				glow_squid = true
+				glow_item_frame = true
+				squid = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				chicken = true
+				donkey = true
+				evoker_fangs = true
+				tropical_fish = true
+				fox = true
+				slime = true
+				pillager = true
+				area_effect_cloud = true
+				endermite = true
+				zombie = true
+				guardian = true
+				sheep = true
+				player = true
+				illusioner = true
+				pufferfish = true
+				potion = true
+				wolf = true
+				villager = true
+				skeleton_horse = true
+				fishing_bobber = true
+				zombie_villager = true
+				tnt_minecart = true
+				small_fireball = true
+				polar_bear = true
+				painting = true
+				cave_spider = true
+				witch = true
+				snow_golem = true
+				cod = true
+				spider = true
+
+			[light_sources.settings.entities.mowziesmobs]
+				umvuthana_raptor = true
+				foliaath = true
+				umvuthana_follower_raptor = true
+				grottol = true
+				lantern = true
+				ferrous_wroughtnaut = true
+
+			[light_sources.settings.entities.habitat]
+				passerine = true
+
+			[light_sources.settings.entities.alexsmobs]
+				crocodile = true
+				hammerhead_shark = true
+				seal = true
+				murmur_head = true
+				blue_jay = true
+				triops = true
+				cachalot_echo = true
+				gazelle = true
+				catfish = true
+				tasmanian_devil = true
+				centipede_tail = true
+				comb_jelly = true
+				underminer = true
+				skunk = true
+				terrapin = true
+				gorilla = true
+				flying_fish = true
+				leafcutter_ant = true
+				cockroach = true
+				murmur = true
+				blobfish = true
+				lobster = true
+				snow_leopard = true
+				grizzly_bear = true
+				centipede_body = true
+				rocky_roller = true
+				centipede_head = true
+				seagull = true
+				raccoon = true
+				flutter = true
+				fly = true
+				giant_squid = true
+				toucan = true
+				alligator_snapping_turtle = true
+				skreecher = true
+				orca = true
+				cachalot_whale = true
+				crow = true
+				frilled_shark = true
+				bison = true
+
+			[light_sources.settings.entities.xp_jellies]
+				titanxpsnail = true
+				smallexperiencejellyfish = true
+				largeexperiencejellyfish = true
+				titanexperiencejellyfish = true
+
+			[light_sources.settings.entities.eidolon]
+				giant_skeleton = true
+				soulfire_projectile = true
+				wraith = true
+				slimy_slug = true
+				raven = true
+				necromancer = true
+				zombie_brute = true
+				bonechill_projectile = true
+
+			[light_sources.settings.entities.oreganized]
+				lead_bolt = true
+
+			[light_sources.settings.entities.magical_relics]
+				volatile_fireball = true
+
+			[light_sources.settings.entities.galosphere]
+				sparkle = true
+				spectre = true
+				specterpillar = true
+
+			[light_sources.settings.entities.ender_beetles]
+				enderbeetle = true
+				endermite_queen = true
+
+			[light_sources.settings.entities.cloudstorage]
+				balloon = true
+				balloon_tie = true
+				bloviator = true
+
+			[light_sources.settings.entities.atmospheric]
+				tetra = true
+
+			[light_sources.settings.entities.rottencreatures]
+				undead_miner = true
+
+			[light_sources.settings.entities.upgrade_aquatic]
+				thrasher = true
+				lionfish = true
+				great_thrasher = true
+				nautilus = true
+
+			[light_sources.settings.entities.untagged_mobs]
+				sweeper = true
+				non_player = true
+
+			[light_sources.settings.entities.quark]
+				wraith = true
+				forgotten = true
+				glass_frame = true
+				stoneling = true
+				flamerang = true
+				pickarang = true
+
+			[light_sources.settings.entities.origins]
+				enderian_pearl = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
+
+			[light_sources.settings.entities.autumnity]
+				snail = true
+				turkey = true
+
+			[light_sources.settings.entities.dungeonnowloading]
+				spawner_carrier = true
+				chaos_spawner = true
+				great_experience_bottle = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				sand_snapper = true
+				ice_cube = true
+
+			[light_sources.settings.entities.ohmymeteors]
+				meteor_projectile = true
+
+			[light_sources.settings.entities.environmental]
+				deer = true
+				zebra = true
+				yak = true
+				reindeer = true
+				koi = true
+				duck = true
+
+			[light_sources.settings.entities.savage_and_ravage]
+				skeleton_villager = true
+				executioner = true
+				spore_cloud = true
+				creepie = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.aquaculture]
+				tuna = true
+				jellyfish = true
+				bluegill = true
+				muskellunge = true
+				catfish = true
+				tambaqui = true
+				pacific_halibut = true
+				boulti = true
+				rainbow_trout = true
+				gar = true
+				oak_fish_mount = true
+				perch = true
+				capitaine = true
+				atlantic_halibut = true
+				piranha = true
+				blackfish = true
+				red_grouper = true
+				arapaima = true
+				bayad = true
+				atlantic_herring = true
+				pollock = true
+				carp = true
+				atlantic_cod = true
+				brown_trout = true
+				synodontis = true
+				pink_salmon = true
+				smallmouth_bass = true
+				minnow = true
+
+			[light_sources.settings.entities.caverns_and_chasms]
+				peeper = true
+				glare = true
+				mime = true
+				deeper = true
+				lost_goat = true
+
+			[light_sources.settings.entities.spawn]
+				tuna = true
+				octopus = true
+				sunfish = true
+				ant = true
+				hamster = true
+				herring = true
+				clam = true
+				seahorse = true
+				angler_fish = true
+
+			[light_sources.settings.entities.spelunkery]
+				dust_bunny = true
+
+			[light_sources.settings.entities.sullysmod]
+				lanternfish = true
+				piranha = true
+				jungle_spider = true
+				bouldering_zombie = true
+
+			[light_sources.settings.entities.trials]
+				bogged = true
+
+			[light_sources.settings.entities.species]
+				cliff_hanger = true
+				bewereager = true
+				birt = true
+				quake = true
+				limpet = true
+				ghoul = true
+				deepfish = true
+				leaf_hanger = true
+				wicked = true
+
+			[light_sources.settings.entities.wan_ancient_beasts]
+				paleontologist = true
+				toxlacanth = true
+
+			[light_sources.settings.entities.doom_and_gloom]
+				holler = true
+
+			[light_sources.settings.entities.corpse]
+				corpse = true
+
+			[light_sources.settings.entities.fintastic]
+				moony = true
+
+			[light_sources.settings.entities.ad_astra]
+				corrupted_lunarian = true
+				star_crawler = true
+

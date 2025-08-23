@@ -1,0 +1,9 @@
+#.
+#Track render distance
+#Range: > -2147483648
+trackRenderDist = 256
+#.
+#Track sound distance
+#Range: 1 ~ 64
+trackSoundDist = 16
+

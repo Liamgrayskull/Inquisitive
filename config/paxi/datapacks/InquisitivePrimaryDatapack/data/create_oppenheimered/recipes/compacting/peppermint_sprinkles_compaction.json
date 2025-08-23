@@ -1,0 +1,24 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+     {
+        "item":"alexscaves:peppermint_powder"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:sprinkles",
+        "count":1
+     }
+  ]
+}

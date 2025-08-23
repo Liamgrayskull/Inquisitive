@@ -1,0 +1,17 @@
+{
+  "delayMusicWithRadio": true,
+  "disableStrongShaders": false,
+  "christmas": {
+    "christmas": false,
+    "leftColors": [
+      "#30FF99",
+      "#FE515C",
+      "#FFFFFF"
+    ],
+    "rightColors": [
+      "#FE515C",
+      "#FFFFFF",
+      "#30FF99"
+    ]
+  }
+}

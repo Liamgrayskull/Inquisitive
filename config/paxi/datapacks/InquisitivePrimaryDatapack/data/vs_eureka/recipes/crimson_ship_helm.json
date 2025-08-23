@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "RCP",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "create:cogwheel"
+    },
+    "R": {
+      "item": "create:rope_pulley"
+    },
+    "P": {
+      "item": "minecraft:crimson_planks"
+    },
+    "C": {
+      "item": "create:railway_casing"
+    }
+  },
+  "result": {
+    "item": "vs_eureka:crimson_ship_helm"
+  }
+}

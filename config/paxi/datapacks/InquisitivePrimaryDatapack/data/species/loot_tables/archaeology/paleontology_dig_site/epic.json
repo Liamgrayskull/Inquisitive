@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "species:springling_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:long_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:wide_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:horned_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:tiny_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:flatbilled_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:crested_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:cracked_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:gigantic_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sullysmod:ribbed_ancient_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:sniffer_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "species:cruncher_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "species:music_disc_lapidarian"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "species:archaeology/paleontology_dig_site/epic"
+}

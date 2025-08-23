@@ -1,0 +1,37 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "stirs": 1,
+      "items": [
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        {
+          "item": "netherexp:ancient_wax"
+        },
+        {
+          "item": "netherexp:ancient_wax"
+        },
+        {
+          "item": "netherexp:ancient_wax"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "species:wicked_wax",
+    "count": 1
+  }
+}

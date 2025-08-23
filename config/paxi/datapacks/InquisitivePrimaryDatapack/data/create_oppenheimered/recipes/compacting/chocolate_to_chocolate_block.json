@@ -1,0 +1,33 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+     {
+         "item":"create:bar_of_chocolate"
+     },
+     {
+         "item":"create:bar_of_chocolate"
+     },
+     {
+         "item":"create:bar_of_chocolate"
+     },
+     {
+         "item":"create:bar_of_chocolate"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:block_of_chocolate",
+        "count":4
+     }
+  ]
+}

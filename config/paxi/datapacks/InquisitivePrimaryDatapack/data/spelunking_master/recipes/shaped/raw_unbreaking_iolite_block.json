@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "spelunking_master:raw_unbreaking_iolite"
+    }
+  },
+  "result": {
+    "item": "spelunking_master:raw_unbreaking_iolite_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "item": {
+    "item": "minecraft:ender_eye"
+  },
+  "focal_range": {
+    "min": 100,
+    "max": 300
+  }
+}

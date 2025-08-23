@@ -1,0 +1,110 @@
+
+[xpCost]
+	#Set to true if experience cost should be inverted, meaning the shorter the distance, the more expensive. Can be used to encourage other methods for short-distance travel.
+	inverseXpCost = true
+	#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
+	blocksPerXpLevel = 100
+	#The minimum base xp cost (may be subceeded by multipliers defined below)
+	minimumBaseXpCost = 1.0
+	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
+	maximumBaseXpCost = 100.0
+	#How much xp is needed per leashed animal to travel with you
+	xpCostPerLeashed = 0
+	#The base xp level cost when travelling between dimensions. Ignores block distance.
+	dimensionalWarpXpCost = 3
+	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
+	globalWaystoneXpCostMultiplier = 0.0
+	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
+	warpStoneXpCostMultiplier = 0.0
+	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
+	waystoneXpCostMultiplier = 0.0
+	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
+	sharestoneXpCostMultiplier = 0.0
+	#The multiplier applied to the base xp cost when teleporting from a portstone.
+	portstoneXpCostMultiplier = 0.0
+	#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
+	warpPlateXpCostMultiplier = 0.0
+	#The multiplier applied to the base xp cost when teleporting via the inventory button.
+	inventoryButtonXpCostMultiplier = 0.0
+
+[restrictions]
+	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
+	restrictToCreative = true
+	#If enabled, only the owner of a waystone (the one who placed it) can rename it.
+	restrictRenameToOwner = false
+	#If enabled, waystones generated in worldgen are unbreakable.
+	generatedWaystonesUnbreakable = true
+	#If enabled, leashed mobs will be teleported with you
+	transportLeashed = true
+	#Whether to take leashed mobs with you when teleporting between dimensions
+	transportLeashedDimensional = true
+	#List of leashed mobs that cannot be taken with you when teleporting
+	leashedDenyList = ["minecraft:wither"]
+	#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
+	#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
+	dimensionalWarp = "ALLOW"
+	#List of dimensions that players are allowed to warp cross-dimension from and to. If left empty, all dimensions except those in dimensionalWarpDenyList are allowed.
+	dimensionalWarpAllowList = []
+	#List of dimensions that players are not allowed to warp cross-dimension from and to. Only used if dimensionalWarpAllowList is empty.
+	dimensionalWarpDenyList = []
+	#Set to true if players should be able to teleport between waystones by simply right-clicking a waystone.
+	allowWaystoneToWaystoneTeleport = true
+	#Set to false to allow non-creative players to make waystones globally activated for all players.
+	globalWaystoneSetupRequiresCreativeMode = false
+
+[cooldowns]
+	#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
+	globalWaystoneCooldownMultiplier = 20.0
+	#The cooldown between usages of the warp stone in seconds. This is bound to the player, not the item, so multiple warp stones share the same cooldown.
+	warpStoneCooldown = 60
+	#The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.
+	warpStoneUseTime = 64
+	#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
+	warpPlateUseTime = 40
+	#The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.
+	scrollUseTime = 64
+	#The cooldown between usages of the inventory button in seconds.
+	inventoryButtonCooldown = 3000
+
+[inventoryButton]
+	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
+	inventoryButton = "NONE"
+	#The x position of the warp button in the inventory.
+	warpButtonX = 58
+	#The y position of the warp button in the inventory.
+	warpButtonY = 60
+	#The y position of the warp button in the creative menu.
+	creativeWarpButtonX = 88
+	#The y position of the warp button in the creative menu.
+	creativeWarpButtonY = 33
+
+[worldGen]
+	#Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.
+	#Allowed Values: DEFAULT, MOSSY, SANDY, BLACKSTONE, DEEPSLATE, END_STONE, BIOME
+	worldGenStyle = "BIOME"
+	#Approximate chunk distance between waystones generated freely in world generation. Set to 0 to disable generation.
+	frequency = 25
+	#List of dimensions that waystones are allowed to spawn in through world gen. If left empty, all dimensions except those in worldGenDimensionDenyList are used.
+	dimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end", "ad_astra:moon", "ad_astra:mars", "ad_astra:glacio", "ad_astra:mercury", "ad_astra:venus", "undergarden:undergarden", "paradise:paradise"]
+	#List of dimensions that waystones are not allowed to spawn in through world gen. Only used if worldGenDimensionAllowList is empty.
+	dimensionDenyList = []
+	#Set to 'PRESET_FIRST' to first use names from the custom names list. Set to 'PRESET_ONLY' to use only those custom names. Set to 'MIXED' to have some waystones use custom names, and others random names.
+	#Allowed Values: PRESET_FIRST, RANDOM_ONLY, PRESET_ONLY, MIXED
+	nameGenerationMode = "MIXED"
+	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
+	customWaystoneNames = ["Ialladore", "Emmopia", "Kaetearynn", "Unepia", "Oxmar", "Dalisle", "Rimwaki", "Cochtos", "Graftos", "Thurlita", "Thessaman", "Blaincour", "Hampgough", "Thetthon", "Carnfait", "Arborhead", "Maymere", "Mahoshall", "Petadows", "Exdes", "Wilterre", "Moringuay", "Bextou", "Dislita", "Shaumack", "Chililianite", "Neleapacaite", "Stomond", "Stomond", "Bixrsthene", "Jacocobotryogen", "Agaxene", "Cavysocolla", "Carrnspar", "Galase", "Sinkian", "Alexerotil", "Uraon", "Clelsite", "Halicon", "Paral", "Kneomium", "Tieesia", "Geocro", "Limsular", "Baurealgar", "Santtinum", "Jambaster", "Aberdeen", "Aberdyfi", "Aberstwyth", "Aberuthven", "Aberystwyth", "Abingdon", "Accreton", "Accrington", "Achnasheen", "Acomb", "Acrine", "Addersfield", "Aeberuthey", "Aelinmiley", "Aempleforth", "Aeredale", "Aerilon", "Aermagh", "Aeston", "Aethelney", "Airedale", "Alcombey", "Alderdyfi", "Alderrdeen", "Alnerwick", "Alnwick", "Alryne", "Alverton", "Ampleforth", "Anghor Thom", "Anghor Wat", "Appleby", "Aquarin", "Aquarine", "Aramoor", "Aramore", "Archensheen", "Archmouth", "Arcton", "Ardglass", "Aria", "Arkala", "Arkaley", "Arkkukari", "Arkmunster", "Arkney", "Armagh", "Armskirk", "Aroonshire", "Ascot", "Ashborne", "Ashbourne", "Aston", "Astrakane", "Astrakhan", "Athelney", "Auchendale", "Auchendinny", "Auchenshuggle", "Auchterarder", "Auchtermuchty", "Aucteraden", "Auctermunty", "Axminster", "Aylesbury", "Aynor", "Ayrith", "Aysgarth", "Azmar", "Azmarin", "Baerney", "Bailymena", "Balerno", "Ballachulish", "Ballaeter", "Ballater", "Ballinamallard", "Ballingsmallard", "Ballymena", "Balmoral", "Bamborourgh", "Bamburgh", "Bannockburn", "Banrockburn", "Barcombe", "Bardford", "Barkamsted", "Barmwich", "Barncombe", "Barnemouth", "Barnsley", "Beachcastle", "Beachmarsh", "Beckinsale", "Beckinsdale", "Beckton", "Beggar's Hole", "Bellechulish", "Bellenau", "Bellmare", "Bellmoral", "Berkhamsted", "Berkton", "Berxley", "Bexley", "Black Crystal", "Black Hallows", "Black Hollow", "Blackburn", "Blackpool", "Blackridgepool", "Blaenau", "Blancathey", "Bleakburn", "Blencalgo", "Blencathra", "Blencogo", "Blue Field", "Boatwright", "Boroughton", "Bournemouth", "Bracklewhyte", "Bradford", "Bradfordshire", "Braedon", "Braedwardith", "Bredon", "Bredwardine", "Briar Glen", "Brickelwhyte", "Broken Shield", "Bromwich", "Broughton", "Bullmar", "Burnsley", "Burrafirth", "Bury", "Butterpond", "Caelfall", "Caelkirk", "Caerdydd", "Caerfyrddin", "Caerleon", "Caershire", "Caister", "Calcherth", "Calchester", "Calcheth", "Calmarnock", "Cappadocia", "Cardend", "Cardended", "Carleone", "Carlisle", "Carningsby", "Carran", "Cesterfield", "Cewmann", "Chaepstow", "Chepstow", "Cherrytown", "Chester", "Chesterfield", "Cirencester", "Cirrane", "City of Fire", "Clacton", "Claethorpes", "Clarcton", "Clare View Point", "Cleethorpes", "Coalfell", "Colchester", "Colkirk", "Coningsby", "Coniston", "Conriston", "Coombe", "Crasmere", "Craydon", "Cromer", "Cromerth", "Crossroads", "Croydon", "Crullfeld", "Culcheth", "Cullfield", "Cumdivock", "Daemarrel", "Dalelry", "Dalhurst", "Dalmellington", "Dalmerlington", "Dalry", "Damerel", "Dangarnon", "Darkwell", "Davenport", "Dawsbury", "Deathfall", "Dewhurst", "Dewsbury", "Domburton", "Doncaster", "Doonatel", "Dornwich", "Doveport", "Dragontail", "Draycott", "Drumchapel", "Drumnacanvy", "Drumnadrochit", "Dry Gulch", "Dumbarton", "Duncaster", "Dundee", "Dungannon", "Dunwich", "Durmchapel", "Durnatel", "Eanverness", "Eastborne", "Eastbourne", "Eastcliff", "Easthallow", "Easthaven", "Ecrin", "Edinborourgh", "Edinburgh", "Eelry", "Eldham", "Elinmylly", "Ely", "Emall", "Emelle", "Erast", "Erith", "Erostey", "Erstonia", "Everton", "Everwinter", "Exeter", "Falcon Haven", "Falkirk", "Fallholt", "Fallkirk", "Fanfoss", "Far Water", "Farncombe", "Farnfoss", "Farnworth", "Faversham", "Favorsham", "Ferncombe", "Ferndochty", "Fernsworth", "Ffestiniog", "Findochty", "Firebend", "Fool's March", "Foolshope", "Forstford", "Fortaare", "Fournemouth", "Frostford", "Furness", "Galssop", "Garen's Well", "Garigill", "Garmsby", "Garrigill", "Garthram", "Gillamoor", "Gilramore", "Glaenarm", "Glanchester", "Glanyrafon", "Glarnyraefon", "Glenarm", "Glossop", "Gloucester", "Goldcrest", "Goldenleaf", "Gormsey", "Goulcrest", "Gramsby", "Grasmere", "Graycott", "Greenflower", "Grimsby", "Guthram", "Hadleigh", "Haedleigh", "Haerndean", "Haling Cove", "Halivaara", "Halsworthy", "Hammaslahti", "Hampstead", "Hankala", "Haran", "Hardersfield", "Harmstead", "Harnsey", "Harthwaite", "Hartlepool", "Helmfirth", "Hempholme", "Hewe", "Hillfar", "Hillford", "Hirane", "Hogsfeet", "Holbeck", "Holden", "Hollyhead", "Holmfirth", "Holsworthy", "Horndean", "Hornsey", "Howe", "Hull", "Hullbeck", "Hurtlepool", "Huthwaite", "Hwen", "Hythe", "Icemeet", "Ilfracombe", "Ilfreycombe", "Ilragorn", "Inverness", "Ironforge", "Ironhaven", "Irragin", "Islesbury", "Iyesgarth", "Jarren's Outpost", "Jedborourgh", "Jedburgh", "Jongvale", "Kald", "Kameeraska", "Kamouraska", "Kara's Vale", "Keld", "Kelna", "Kilead", "Kilerth", "Kilkenny", "Kilmarnock", "Kinallen", "Kincardine", "Kineallen", "Kinecardine", "King's Watch", "Kingcardine", "Kirekwall", "Kirkwall", "Knife's Edge", "Krosstoen", "Laencaster", "Laenteglos", "Laewaes", "Lakeshore", "Lancaster", "Landow", "Lanercoast", "Lanercost", "Langdale", "Lanteglos", "Larcbost", "Larkinge", "Larnwick", "Larton", "Leefside", "Leeside", "Lerwick", "Leurbost", "Lewes", "Lhanbryde", "Lhanbyrde", "Limesvilles", "Lindow", "Linemell", "Lingmell", "Little Ivywood", "Llaneybyder", "Llanybydder", "Llyn", "Llyne", "Lockinge", "Longdale", "Lowestoft", "Lullin", "Lunaris", "Lundy", "Luton", "Lybster", "Macclesfield", "Malrton", "Mansfield", "Marclesfield", "Marnmouth", "Marren's Eve", "Martslock", "Matlock", "Mensfield", "Merton", "Middlesborough", "Middlesbrough", "MillerVille", "Millstone", "Mirefield", "Mirfield", "Mirstone", "Monmouth", "Moonbright", "Moressley", "Mossley", "Mountmend", "Mournstead", "Murkwell", "Murlayfield", "Murrayfield", "Myrefall", "Nancledra", "Nantgarth", "Nantgarw", "Nantwich", "Naporia", "Narfolk", "Narnclaedra", "Narthwich", "Nearon", "Nerton", "New Cresthill", "Newham", "Newsham", "Norbury", "Norfolk", "Northbury", "Northon", "Northpass", "Northwich", "Norton", "Norwich", "Nuxvar", "Oakheart", "Oar's Rest", "Old Ashton", "Oldham", "Onryx", "Openshaw", "Orilon", "Orkney", "Ormkirk", "Ormskirk", "Orrinshire", "Ozryn", "Padstow", "Paendley", "Paentmarwy", "Paethsmouth", "Palperroth", "Panshaw", "Pantmawr", "Pathstow", "Pavv", "Peatsland", "Peltragow", "Pendle", "Penketh", "Penkurth", "Penrith", "Penshaw", "Penzance", "Perlshaw", "Pernrith", "Perthlochry", "Peterborough", "Peterbrugh", "Pinnella Pass", "Pirn", "Pitmedden", "Pitmerden", "Polperro", "Poltragow", "Pontheugh", "Pontybridge", "Pontypridd", "Porthaethwidge", "Porthaethwy", "Porthcawl", "Porthcrawl", "Portsmouth", "Pran", "Putlochry", "Quan Ma", "Queenstown", "Rachdale", "Ramshorn", "Red Hawk", "Redwater", "Redwick Bush", "Ritherhithe", "Rivermouth", "Rochdale", "Romsey", "Roselake", "Rotherham", "Rotherhithe", "Rptherglen", "Runswick", "Rutherglen", "Ruthorham", "Saker Keep", "Sanlow", "Sarton", "Satbury", "Saxondale", "Scrabster", "Seameet", "Shadowfen", "Sharnwick", "Sharpton", "Sheffield", "Shepshed", "Sherfield", "Ship's Haven", "Shipton", "Silverkeep", "Sirencester", "Skargness", "Skegness", "Skystead", "Snake's Canyon", "Snowbush", "Snowmelt", "Solaris", "Solime", "South Warren", "Southwold", "Spalding", "Squall's End", "Stamford", "Stanlow", "Stanmore", "Stathford", "Stathmore", "Stawford", "Stratford", "Stratham", "Strathmore", "Streatham", "Strongfair", "Sudbury", "Sutton", "Swadlincote", "Swanford", "Swindlincote", "Swindmore", "Swindon", "Swinford", "Swordbreak", "Taedmorden", "Taernsby", "Taewe", "Tamworth", "Tardide", "Tarmsworth", "Tarnstead", "Tarrin", "Tenby", "Tergaron", "Thorpeness", "Thorpes", "Thralkeld", "Three Streams", "Threlkeld", "Tillicoultry", "Tillydrone", "Timeston", "Todmorden", "Torrine", "Tottenham", "Tow", "Tranmere", "Transmere", "Travercraig", "Tregaron", "Troutbeck", "Troutberk", "Trudid", "Tunstead", "Tylwaerdreath", "Tywardreath", "Ubbin Falls", "Ula'ree", "Urmkirkey", "Venzor", "Veritas", "Violl's Garden", "Waekefield", "Waeldestone", "Wakefield", "Walden", "Wallowdale", "Wanborne", "Wandermere", "Warcester", "Warlington", "Warrington", "Warthford", "Watford", "Wavemeet", "Wealdstone", "Wellspring", "Westray", "Westwend", "Whaelrdrake", "Wheldrake", "Whitebridge", "Whiteridge", "Wigston", "Willesden", "Willowdale", "Willsden", "Wimborne", "Windermere", "Windrip", "Wingston", "Wintervale", "Wolfden", "Wolford", "Wolfpine", "Wolfwater", "Wombourne", "Woodhaerst", "Woodhurst", "Woodpine", "Woolhope", "Worcester", "Xynnar", "Yarlford", "Yarrin", "Yellowseed", "Zalfari", "Zeffari"]
+	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
+	spawnInVillages = true
+	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
+	forceSpawnInVillages = true
+
+[client]
+	#If enabled, the text overlay on waystones will no longer always render at full brightness.
+	disableTextGlow = false
+
+[compatibility]
+	#If enabled, JourneyMap waypoints will be created for each activated waystone.
+	displayWaystonesOnJourneyMap = true
+	#If enabled, JourneyMap waypoints will only be created if the mod 'JourneyMap Integration' is not installed
+	preferJourneyMapIntegration = true
+

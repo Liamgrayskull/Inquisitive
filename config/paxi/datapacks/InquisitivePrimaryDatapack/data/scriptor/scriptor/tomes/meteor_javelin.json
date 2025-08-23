@@ -1,0 +1,17 @@
+{
+  "name": "Magmatic Javalin",
+  "author": "Mordoth",
+  "tier": 3,
+  "item": "scriptor:spellbook_red",
+  "spell": {
+    "subject": "hitscan",
+    "spells": [
+      {
+        "action": "action.scriptor.meteor_spear",
+        "descriptors": [
+          "orange"
+        ]
+      }
+    ]
+  }
+}

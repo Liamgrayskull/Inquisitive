@@ -1,0 +1,10 @@
+{
+  "item.archexpsquared.blank_bow_a.description": "A template bow designed for modpack developers to use as a base for their own bows.",
+  "item.archexpsquared.blank_bow_b.description": "A template bow designed for modpack developers to use as a base for their own bows.",
+  "item.archexpsquared.blank_bow_c.description": "A template bow designed for modpack developers to use as a base for their own bows.",
+  "item.archexpsquared.electrum_bow.description": "A bow crafted from electrum, shockingly quick to draw.",
+  "item.archexpsquared.lead_bow.description": "A hefty bow made of lead, known for its high durability and weight.",
+  "item.archexpsquared.necromium_bow.description": "The dark metal glints coldly at the hilt and string notches. Slows entities on hit.",
+  "item.archexpsquared.rose_gold_bow.description": "Hilted in rose gold and mighty with increased durability.",
+  "item.archexpsquared.silver_bow.description": "A silver-notched bow, useful for dealing magic damage both by firing arrows and hitting entities."
+}

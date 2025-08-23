@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_heart_rhodonite_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_heart_rhodonite",
+    "count": 4
+  }
+}

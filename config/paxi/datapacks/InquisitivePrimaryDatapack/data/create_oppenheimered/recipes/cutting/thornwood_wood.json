@@ -1,0 +1,24 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:cutting",
+  "ingredients":[
+     {
+        "item":"alexscaves:thornwood_wood"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:stripped_thornwood_wood"
+     }
+  ],
+  "processingTime":50
+}

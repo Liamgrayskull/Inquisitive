@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:smooth_basalt",
+    "architects_palette:weeping_blackstone",
+    "minecraft:blackstone",
+    "create:scorchia",
+    "twigs:bloodstone",
+    "create:crimsite"
+  ]
+}

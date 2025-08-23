@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+      	{ "item": "minecraft:leather" }
+      ]
+    },
+    {
+      "stirs": 1
+    },
+    {
+      "stirs": 1
+    },
+    {
+      "items": [
+        { "item": "minecraft:paper" },
+        { "item": "minecraft:paper" },
+        { "item": "minecraft:paper" },
+        { "item": "enlightened_end:stardust" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:parchment",
+    "count": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        },
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        },
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        },
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:shield"
+    },
+    "result": {
+        "item": "endermanoverhaul:corrupted_shield"
+    },
+    "enchantments": [
+        {
+            "enchantment": "allurement:reforming",
+            "lvl": 1
+        }
+    ]
+}

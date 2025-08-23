@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " s ",
+    "aia",
+    " a "
+  ],
+  "reagents": "pppp",
+  "key": {
+    "p": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "i": {
+      "item": "caverns_and_chasms:silver_chestplate"
+    },
+    "a": {
+      "item": "spelunkery:salt"
+    },
+    "s": {
+      "item": "eidolon:soul_shard"
+    }
+  },
+  "result": {
+    "item": "eidolon:warded_mail"
+  }
+}

@@ -1,0 +1,1 @@
+{"jarName":"better-clouds-1.3.35-beta+1.20.1-forge.rev.edd63c1.jar","modId":"betterclouds","version":"1.3.35-beta+1.20.1-forge.rev.edd63c1","mixinConfigs":["betterclouds.optional.mixins.json","betterclouds.runtime.mixins.json","betterclouds.required.mixins.json"],"jarJarMods":[{"jarName":"api-5.0.0.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

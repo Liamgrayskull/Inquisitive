@@ -1,0 +1,17 @@
+{
+  "name": "Trapper's Spear",
+  "author": "GRR",
+  "tier": 2,
+  "item": "scriptor:spellbook_brown",
+  "spell": {
+    "subject": "rune",
+    "spells": [
+      {
+        "action": "action.scriptor.limestone_spear",
+        "descriptors": [
+          "light_gray"
+        ]
+      }
+    ]
+  }
+}

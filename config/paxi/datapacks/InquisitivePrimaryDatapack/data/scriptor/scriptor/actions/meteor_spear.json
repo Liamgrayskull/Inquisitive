@@ -1,0 +1,14 @@
+{
+  "cost": 0.7,
+  "disabled": false,
+  "cast_at_position": [
+    "summon alexscaves:extinction_spear ~ ~35 ~",
+    "particle alexscaves:tephra_flame ~ ~2 ~ 1 1 1 0.01 10"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon alexscaves:extinction_spear ~ ~35 ~",
+    "execute at @s run particle alexscaves:tephra_flame ~ ~2 ~ 1 1 1 0.01 10"
+  ],
+  "cast_on_item": [
+  ]
+}

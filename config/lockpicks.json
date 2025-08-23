@@ -1,0 +1,28 @@
+{
+  "sweetSpotHint": true,
+  "damageChance": 0.75,
+  "keychainMaxKeys": 10,
+  "lockVisibility": true,
+  "dropLockOnBreak": false,
+  "ownersNeedKey": true,
+  "lockpickDurabilityCopper": 1,
+  "lockpickDurabilityIron": 3,
+  "lockpickDurabilityDiamond": 5,
+  "lockpickDurabilityNetherite": 7,
+  "lockDifficultyCopper": 1,
+  "lockDifficultyIron": 4,
+  "lockDifficultyDiamond": 7,
+  "lockDifficultyNetherite": 10,
+  "protectableBlockIds": [
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:barrel",
+    "minecraft:ender_chest"
+  ],
+  "protectableBlockTags": [
+    "minecraft:doors",
+    "minecraft:trapdoors",
+    "minecraft:shulker_boxes",
+    "minecraft:fence_gates"
+  ]
+}

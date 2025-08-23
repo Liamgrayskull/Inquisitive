@@ -1,0 +1,47 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "create:rose_quartz"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "unusualend:citrine_chunk"
+        }
+    ],
+    "catalyst": {
+        "item": "miningmaster:ice_sapphire_sword"
+    },
+    "result": {
+        "item": "miningmaster:ultima_sword"
+    },
+    "enchantments": [
+         {
+             "enchantment": "minecraft:fire_aspect",
+             "lvl": 1
+         },
+         {
+             "enchantment": "enchancement:frostbite",
+             "lvl": 1
+         },
+         {
+             "enchantment": "minecraft:looting",
+             "lvl": 1
+         },
+         {
+             "enchantment": "enchancement:beserk",
+             "lvl": 1
+         }
+    ]
+}

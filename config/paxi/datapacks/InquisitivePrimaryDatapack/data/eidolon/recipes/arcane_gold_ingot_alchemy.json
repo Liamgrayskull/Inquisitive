@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "caverns_and_chasms:silver_ingot" },
+        { "item": "caverns_and_chasms:silver_ingot" },
+        { "item": "caverns_and_chasms:silver_ingot" },
+        { "item": "caverns_and_chasms:silver_ingot" },
+        { "item": "caverns_and_chasms:silver_ingot" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "minecraft:gold_ingot" },
+        { "item": "minecraft:gold_ingot" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "oreganized:electrum_ingot",
+    "count": 1
+  }
+}

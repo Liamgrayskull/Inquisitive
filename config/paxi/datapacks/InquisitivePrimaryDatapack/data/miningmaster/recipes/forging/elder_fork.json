@@ -1,0 +1,20 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "upgrade_aquatic:elder_eye"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:trident"
+    },
+    "result": {
+        "item": "impaled:elder_trident"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:loyalty",
+            "lvl": 1
+        }
+    ]
+}

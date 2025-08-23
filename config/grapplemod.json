@@ -1,0 +1,65 @@
+{
+  "options": {
+    "grapplinghook": {
+      "other": {
+        "hookaffectsentities": true,
+        "rope_snap_buffer": 5.0,
+        "default_durability": 500,
+        "rope_jump_power": 1.0,
+        "rope_jump_at_angle": false,
+        "rope_jump_cooldown_s": 0.0,
+        "climb_speed": 0.3
+      }
+    },
+    "longfallboots": {
+      "longfallbootsrecipe": false
+    },
+    "enderstaff": {
+      "ender_staff_strength": 1.5,
+      "ender_staff_recharge": 200
+    },
+    "enchantments": {
+      "wallrun": {
+        "wall_jump_up": 0.7,
+        "wall_jump_side": 0.4,
+        "max_wallrun_time": 3.0,
+        "wallrun_speed": 0.1,
+        "wallrun_max_speed": 0.7,
+        "wallrun_drag": 0.01,
+        "wallrun_min_speed": 0.0
+      },
+      "doublejump": {
+        "doublejumpforce": 0.8,
+        "doublejump_relative_to_falling": false,
+        "dont_doublejump_if_falling_faster_than": 9.9999999E7
+      },
+      "slide": {
+        "slidingjumpforce": 0.6,
+        "sliding_friction": 0.006666666828095913,
+        "sliding_min_speed": 0.15,
+        "sliding_end_min_speed": 0.01
+      }
+    },
+    "other": {
+      "override_allowflight": true,
+      "airstrafe_max_speed": 0.7,
+      "airstrafe_acceleration": 0.015,
+      "dont_override_movement_in_air": false
+    }
+  },
+  "clientOptions": {
+    "camera": {
+      "wallrun_camera_tilt_degrees": 10.0,
+      "wallrun_camera_animation_s": 0.5
+    },
+    "sounds": {
+      "wallrun_sound_effect_time_s": 0.35,
+      "wallrun_sound_volume": 1.0,
+      "doublejump_sound_volume": 1.0,
+      "slide_sound_volume": 1.0,
+      "wallrunjump_sound_volume": 1.0,
+      "rocket_sound_volume": 1.0,
+      "enderstaff_sound_volume": 1.0
+    }
+  }
+}

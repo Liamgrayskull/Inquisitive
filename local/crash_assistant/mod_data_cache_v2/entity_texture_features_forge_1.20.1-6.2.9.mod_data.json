@@ -1,0 +1,1 @@
+{"jarName":"entity_texture_features_forge_1.20.1-6.2.9.jar","modId":"entity_texture_features","version":"6.2.9","mixinConfigs":["entity_texture_features-forge.mixins.json","entity_texture_features-common.mixins.json"],"jarJarMods":[{"jarName":"httpmime-4.5.10.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

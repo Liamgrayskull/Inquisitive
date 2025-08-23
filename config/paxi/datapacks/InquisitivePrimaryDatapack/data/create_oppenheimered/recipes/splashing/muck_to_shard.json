@@ -1,0 +1,24 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:splashing",
+   "ingredients":[
+      {
+         "item":"alexscaves:muck"
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:sea_glass_shards",
+         "count": 3
+      }
+   ]
+}

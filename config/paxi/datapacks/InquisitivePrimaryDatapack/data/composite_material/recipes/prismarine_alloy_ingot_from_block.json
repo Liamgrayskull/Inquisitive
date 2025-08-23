@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "composite_material:prismarine_alloy_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "composite_material:prismarine_alloy_ingot"
+  }
+}

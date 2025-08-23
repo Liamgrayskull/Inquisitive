@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {"I": {"tag": "forge:plates/iron"}, "B": {"item": "minecraft:writable_book"}, "A": {"item": "create:andesite_casing"}},
+  "pattern": ["I", "B", "A"],
+  "result": {"item": "computercraft:printer"},
+  "show_notification": true
+}

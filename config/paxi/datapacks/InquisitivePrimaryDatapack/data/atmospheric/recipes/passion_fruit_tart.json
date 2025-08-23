@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bountifulfares:passion_fruit"
+    },
+    "X": {
+      "tag": "forge:eggs"
+    }
+  },
+  "result": {
+    "item": "atmospheric:passion_fruit_tart",
+    "count": 8
+  }
+}

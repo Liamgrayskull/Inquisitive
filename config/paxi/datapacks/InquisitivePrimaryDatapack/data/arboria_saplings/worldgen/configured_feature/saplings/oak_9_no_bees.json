@@ -1,0 +1,147 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:oak_sapling",
+                "Properties": {
+                  "stage": "1"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicate": {
+                "predicates": [
+                  {
+                    "blocks": "minecraft:oak_sapling",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "type": "minecraft:solid"
+                  }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "default": {
+              "feature": "arboria_saplings:big_oak/no_bees/3",
+              "placement": []
+            },
+            "features": [
+              {
+                "chance": 0.2,
+                "feature": {
+                  "feature": "arboria_saplings:big_oak/1",
+                  "placement": []
+                }
+              },
+              {
+                "chance": 0.45,
+                "feature": {
+                  "feature": "arboria_saplings:big_oak/2",
+                  "placement": []
+                }
+              }
+            ]
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:oak_sapling",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 24,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "xz_spread": {
+              "value": {
+                "min_inclusive": -1,
+                "max_inclusive": 0
+              },
+              "type": "minecraft:uniform"
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:oak_sapling",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:oak_sapling",
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:oak_sapling",
+                  "offset": [
+                    1,
+                    0,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:oak_sapling",
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

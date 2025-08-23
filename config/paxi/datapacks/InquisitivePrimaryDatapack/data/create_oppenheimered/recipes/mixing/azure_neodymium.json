@@ -1,0 +1,36 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:mixing",
+   "heatRequirement":"heated",
+   "ingredients":[
+      {
+         "item":"alexscaves:raw_azure_neodymium"
+      },
+      {
+         "item":"alexscaves:raw_azure_neodymium"
+      },
+      {
+         "item":"minecraft:iron_ingot"
+      },
+      {
+         "item":"minecraft:iron_ingot"
+      },
+      {
+         "item":"minecraft:gold_nugget"
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:azure_neodymium_ingot"
+      }
+   ]
+}

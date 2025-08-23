@@ -1,0 +1,25 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:tall_oak_shrub/3",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.275,
+        "feature": {
+          "feature": "arboria_saplings:tall_oak_shrub/1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.375,
+        "feature": {
+          "feature": "arboria_saplings:tall_oak_shrub/2",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

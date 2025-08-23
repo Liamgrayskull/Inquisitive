@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "natures_spirit:red_bitter_sprouts"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "natures_spirit:red_bearberries"
+                },
+                "weight": 50
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:cave_air",
+                  "minecraft:void_air"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 228,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

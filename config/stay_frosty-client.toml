@@ -1,0 +1,7 @@
+
+[client]
+	#Stray arrows emit snowflake particles
+	"Stray snowflake particles" = true
+	#Freezing entities emit snowflake particles
+	"Freezing snowflake particles" = true
+

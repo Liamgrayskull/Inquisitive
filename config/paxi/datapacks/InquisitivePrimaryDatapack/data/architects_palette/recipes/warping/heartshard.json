@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "healpgood:heart_crystal_shard"
+        }
+    ],
+    "result": {
+        "item": "undergarden:utheric_shard"
+    },
+    "dimension": "minecraft:the_nether"
+}

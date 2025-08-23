@@ -1,0 +1,12 @@
+{
+  "block.ribbits.brown_toadstool.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.ribbits.giant_lilypad.description": " ??? tag.minecraft.frog_prefer_jump_to.description, tag.minecraft.inside_step_sound_blocks.description, tag.minecraft.mineable.axe.description",
+  "block.ribbits.mossy_oak_planks_stairs.description": " ??? tag.alexsmobs.cachalot_whale_breakables.description, tag.minecraft.wooden_stairs.description, tag.minecraft.mineable.axe.description",
+  "block.ribbits.red_toadstool.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.ribbits.swamp_lantern.description": " ??? ",
+  "block.ribbits.toadstool.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.ribbits.toadstool_stem.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.ribbits.umbrella_leaf.description": " ??? ",
+  "entity.ribbits.ribbit.description": " ??? ",
+  "item.ribbits.maraca.description": " ??? lore"
+}

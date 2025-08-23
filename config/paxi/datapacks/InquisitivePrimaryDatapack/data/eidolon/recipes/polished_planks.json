@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, 
+        { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }, { "tag": "minecraft:planks" }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "tag": "immersive_weathering:wax" },
+        { "item": "enlightened_end:stardust" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:polished_planks",
+    "count": 32
+  }
+}

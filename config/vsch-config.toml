@@ -1,0 +1,74 @@
+
+[Thrusters]
+	#Thruster Mode Toggling
+	thruster_mode_toggle = true
+	#Default Thruster Mode
+	#Allowed Values: POSITION, GLOBAL
+	thruster_default_mode = "POSITION"
+	#Thruster max force. (Newtons)
+	thruster_strength = 120000
+	#Air thruster max force. (Newtons)
+	air_thruster_strength = 7500
+	#Powerful thruster max force. (Newtons)
+	powerful_thruster_strength = 450000
+	#Thruster energy consume rate. (FE/t)
+	thruster_energy_consume_rate = 0
+	#Thruster fuel consume rates. (mB/t)
+	thruster_fuel_consume_rates = "{}"
+	#Air thruster energy consume rate. (FE/t)
+	air_thruster_energy_consume_rate = 0
+	#Air thruster water consume rate when in a dimension that has less air density. (mB/t)
+	air_thruster_max_water_consume_rate = 0
+	#Powerful thruster energy consume rate. (FE/t)
+	powerful_thruster_energy_consume_rate = 0
+	#Powerful thruster oxygen consume rate. (mB/t) which hydrogen will consume twice as much.
+	powerful_thruster_fuel_consume_rate = 0
+
+[Misc]
+	#Max force the drag inducer can use to slow down
+	max_drag = 15000
+	#Limit speed thrusters can accelerate to. Recommended, as VS ships get funky at high speeds
+	limit_speed = true
+	#Max speed to limit to. Blocks/tick I think. Default is highly recommended
+	max_speed = 150
+	#Cancel multi-block assemblies when above world height. This is a temporary fix, but for now ships made above world height have issues with starlance.
+	cancel_assembly = true
+	#Distance (in blocks) at which magnet boots will pull you in
+	magnet_boot_distance = 6
+	#Max acceleration magnet boots will apply at close distances to move the player downwards.
+	magnet_boot_max_force = 0.09
+	#Distance (in blocks) at which gravity generator will pull you in
+	gravity_gen_distance = 6
+	#Max acceleration gravity generator will apply at close distances to move the player downwards.
+	gravity_gen_max_force = 0.09
+	#After enabled, the block placed by key N will be spawned as a ship.
+	enable_place_ship_platform = false
+
+[Gyro]
+	#Max force gyro will apply to the ship on any axis. (N)
+	gyro_strength = 350000
+	#Gyro energy consume rate. (FE/t)
+	gyro_energy_consume_rate = 0
+	#Should the gyro have its rotational speed limited
+	gyro_limit_speed = true
+	#Max rotation the gyro will accelerate to (RPM?)
+	gyro_max_speed = 80
+
+[RocketAssembler]
+	#Assemble Energy Consumption
+	#Range: > 0
+	energy_consumption = 0
+	#Max assemble blocks for rocket assembler
+	#Range: > 0
+	max_assemble_blocks = 589824
+	#Prevent assemble if contatins any of these blocks
+	assemble_blacklist = ["minecraft:barrier", "minecraft:bedrock", "minecraft:command_block"]
+
+[Optimize]
+	#Do not load or save space chunks.
+	#This option will significantly reduce memory allocation and disk usage
+	#when travelling at high speed.
+	#However then you can only build blocks on ships.
+	#It is highly recommended to turn on Misc.enable_place_ship_platform at same time.
+	enable_empty_space_chunk = false
+

@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower"
+    }
+  ],
+  "results": [
+    {
+      "item": "netherexp:soul_torchflower"
+    }
+  ]
+}

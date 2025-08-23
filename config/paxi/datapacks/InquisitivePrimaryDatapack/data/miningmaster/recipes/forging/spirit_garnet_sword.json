@@ -1,0 +1,30 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_sword"
+    },
+    "result": {
+        "item": "miningmaster:spirit_garnet_sword"
+    },
+    "enchantments": [
+        {
+            "enchantment": "miningmaster:leeching",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:berserk",
+            "lvl": 1
+        }
+    ]
+}

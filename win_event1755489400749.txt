@@ -1,0 +1,47 @@
+Detected that Windows has terminated one or more processes within the last minute leading up to the moment of the current Minecraft JVM instance termination,
+so with a very high probability that one of these processes is the Minecraft JVM itself.
+Command used to identify terminated processes:
+ 
+$ErrorActionPreference = 'Continue'; 
+Get-WinEvent -FilterHashtable @{ 
+  LogName='Application'; 
+  Level=2; 
+  StartTime=(Get-Date).AddSeconds(-15) 
+} *>&1 | Format-Table -Wrap -AutoSize | Out-File "C:\Users\Liam\AppData\Local\Temp\win_event1755489400749.txt" -Encoding UTF8
+ 
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To get more information about such errors:
+1) Open Windows Event Viewer (Win+R -> eventvwr.msc -> Enter).
+2) Click "Windows Logs" -> "Application".
+3) Look for the latest Error you have.
+ 
+ ﻿
+
+   ProviderName: Application Error
+
+TimeCreated            Id LevelDisplayName Message                                                                     
+-----------            -- ---------------- -------                                                                     
+8/17/2025 8:56:28 PM 1000 Error            Faulting application name: javaw.exe, version: 17.0.8.1, time stamp:        
+                                           0x178bfed8                                                                  
+                                           Faulting module name: nvoglv64.dll, version: 32.0.15.7640, time stamp:      
+                                           0x681a4378                                                                  
+                                           Exception code: 0xc0000409                                                  
+                                           Fault offset: 0x000000000106de6d                                            
+                                           Faulting process id: 0x16F4                                                 
+                                           Faulting application start time: 0x1DC0FEADCEECD6A                          
+                                           Faulting application path: C:\Users\Liam\AppData\Roaming\ModrinthApp\meta\ja
+                                           va_versions\zulu17.44.53-ca-jre17.0.8.1-win_x64\bin\javaw.exe               
+                                           Faulting module path: C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.i
+                                           nf_amd64_bfe8dceee6420e76\nvoglv64.dll                                      
+                                           Report Id: 172dc020-ee3f-4c9e-9223-58f157160b1a                             
+                                           Faulting package full name:                                                 
+                                           Faulting package-relative application ID:                                   
+
+
+   ProviderName: NVIDIA OpenGL Driver
+
+TimeCreated          Id LevelDisplayName Message
+-----------          -- ---------------- -------
+8/17/2025 8:56:26 PM  1                         
+
+

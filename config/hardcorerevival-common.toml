@@ -1,0 +1,31 @@
+#The time in ticks in which a player can still be rescued from death. 20 ticks are one second. Set to 0 to disable the timer.
+ticksUntilDeath = 8400
+#If true, the timer until death continues even if the player logs out.
+continueTimerWhileOffline = false
+#The time in ticks it takes to rescue a player. 20 ticks are one second.
+rescueActionTicks = 60
+#The amount of health to respawn with when a player was rescued, out of 20.
+rescueRespawnHealth = 1
+#The food level to respawn with when a player was rescued, out of 20.
+rescueRespawnFoodLevel = 5
+#Effects applied to a player when rescued, in the format "effect|duration|amplifier"
+rescueRespawnEffects = ["minecraft:hunger|600|0", "doom_and_gloom:fog|600|0", "minecraft:weakness|1200|0", "runiclib:creative_shock|1200|0"]
+#The distance at which a player can rescue another.
+rescueDistance = 2.0
+#If true, knocked out players will glow, making them visible through blocks.
+glowOnKnockout = true
+#If true, knocked out players are still able to punch nearby enemies.
+allowUnarmedMelee = true
+#If true, knocked out players are still able to fire bows.
+allowBows = false
+#If true, knocked out players are still able to fire pistols from Mr Crayfish's Gun Mod.
+allowPistols = false
+#Set to false to remove the Accept your Fate button and force players to wait out the timer.
+allowAcceptingFate = true
+#If true, Hardcore Revival will not be active in singleplayer.
+disableInSingleplayer = true
+#If true, Hardcore Revival will not be active when playing alone in multiplayer.
+disableInLonelyMultiplayer = false
+#The damage sources that kill a player instantly, without a K.O. period.
+instantDeathSources = ["minecraft:lava"]
+

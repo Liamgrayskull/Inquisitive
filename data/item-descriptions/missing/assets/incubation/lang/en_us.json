@@ -1,0 +1,14 @@
+{
+  "block.incubation.chicken_egg_crate.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.incubation.hay_chicken_nest.description": " ??? tag.incubation.hay_nests.description, tag.incubation.bird_nests.description",
+  "block.incubation.hay_duck_nest.description": " ??? tag.incubation.hay_nests.description, tag.incubation.bird_nests.description",
+  "block.incubation.hay_nest.description": " ??? tag.incubation.hay_nests.description, tag.incubation.bird_nests.description",
+  "block.incubation.hay_turkey_nest.description": " ??? tag.incubation.hay_nests.description, tag.incubation.bird_nests.description",
+  "block.incubation.turtle_egg_crate.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.incubation.twig_chicken_nest.description": " ??? tag.incubation.bird_nests.description, tag.incubation.twig_nests.description",
+  "block.incubation.twig_duck_nest.description": " ??? tag.incubation.bird_nests.description, tag.incubation.twig_nests.description",
+  "block.incubation.twig_nest.description": " ??? tag.incubation.bird_nests.description, tag.incubation.twig_nests.description",
+  "block.incubation.twig_turkey_nest.description": " ??? tag.incubation.bird_nests.description, tag.incubation.twig_nests.description",
+  "item.incubation.fried_egg.description": " ??? lore, tag.forge.food.description, tag.forge.cooked_eggs.description",
+  "item.incubation.scrambled_eggs.description": " ??? lore, tag.forge.food.description"
+}

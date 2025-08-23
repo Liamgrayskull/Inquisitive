@@ -1,0 +1,32 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:dead_oak/5",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "arboria_saplings:dead_oak/1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "arboria_saplings:dead_oak/3",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.429,
+        "feature": {
+          "feature": "arboria_saplings:dead_oak/4",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

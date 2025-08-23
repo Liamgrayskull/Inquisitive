@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria_saplings:palm/branch/1_jungle_east",
+        "placement": []
+      },
+      {
+        "feature": "arboria_saplings:palm/branch/1_jungle_south",
+        "placement": []
+      },
+      {
+        "feature": "arboria_saplings:palm/branch/1_jungle_west",
+        "placement": []
+      },
+      {
+        "feature": "arboria_saplings:palm/branch/1_jungle_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

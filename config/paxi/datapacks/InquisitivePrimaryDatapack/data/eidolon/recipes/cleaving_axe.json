@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "pp ",
+    "ps ",
+    " s "
+  ],
+  "reagents": "u i ",
+  "key": {
+    "p": {
+      "item": "ad_astra:steel_ingot"
+    },
+    "u": {
+      "item": "eidolon:unholy_symbol"
+    },
+    "i": {
+      "item": "miningmaster:power_pyrite_axe"
+    },
+    "s": {
+      "item": "ad_astra:steel_rod"
+    }
+  },
+  "result": {
+    "item": "eidolon:cleaving_axe"
+  }
+}

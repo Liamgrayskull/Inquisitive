@@ -1,0 +1,707 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:spruce_sapling",
+                "Properties": {
+                  "stage": "1"
+                }
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "predicate": {
+                "predicates": [
+                  {
+                    "blocks": "minecraft:spruce_sapling",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "type": "minecraft:solid"
+                  }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 1
+              },
+              "type": "minecraft:uniform"
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "type": "minecraft:replaceable"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "default": {
+                              "feature": "arboria_saplings:sequoia/8",
+                              "placement": []
+                            },
+                            "features": [
+                              {
+                                "chance": 0.2,
+                                "feature": {
+                                  "feature": "arboria_saplings:sequoia/6",
+                                  "placement": []
+                                }
+                              },
+                              {
+                                "chance": 0.6,
+                                "feature": {
+                                  "feature": "arboria_saplings:sequoia/7",
+                                  "placement": []
+                                }
+                              }
+                            ]
+                          },
+                          "type": "minecraft:random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    1,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    1,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    -1,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    -1,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    -1,
+                                    -2,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    1,
+                                    -2,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "default": {
+                              "feature": "arboria_saplings:sequoia/10",
+                              "placement": []
+                            },
+                            "features": [
+                              {
+                                "chance": 0.35,
+                                "feature": {
+                                  "feature": "arboria_saplings:sequoia/9",
+                                  "placement": []
+                                }
+                              }
+                            ]
+                          },
+                          "type": "minecraft:random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      1,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      1,
+                                      -2,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      -1,
+                                      -2,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      -1,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      -1,
+                                      -2,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      1,
+                                      -2,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:podzol",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "default": {
+                              "feature": "arboria_saplings:sequoia/3",
+                              "placement": []
+                            },
+                            "features": [
+                              {
+                                "chance": 0.25,
+                                "feature": {
+                                  "feature": "arboria_saplings:sequoia/1",
+                                  "placement": []
+                                }
+                              },
+                              {
+                                "chance": 0.6,
+                                "feature": {
+                                  "feature": "arboria_saplings:sequoia/2",
+                                  "placement": []
+                                }
+                              }
+                            ]
+                          },
+                          "type": "minecraft:random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    1,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    1,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    -1,
+                                    -2,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    -1,
+                                    -2,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    -1,
+                                    -2,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    0,
+                                    -2,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:gold_block",
+                                  "offset": [
+                                    1,
+                                    -2,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "default": {
+                              "feature": "arboria_saplings:sequoia/5",
+                              "placement": []
+                            },
+                            "features": [
+                              {
+                                "chance": 0.4,
+                                "feature": {
+                                  "feature": "arboria_saplings:sequoia/4",
+                                  "placement": []
+                                }
+                              }
+                            ]
+                          },
+                          "type": "minecraft:random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      1,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      1,
+                                      -2,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      -1,
+                                      -2,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      -1,
+                                      -2,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      -1,
+                                      -2,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      0,
+                                      -2,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:gold_block",
+                                    "offset": [
+                                      1,
+                                      -2,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "blocks": "minecraft:podzol",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:spruce_sapling",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 2,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 1
+              },
+              "type": "minecraft:uniform"
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    1,
+                    0,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    -1,
+                    0,
+                    1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    -1,
+                    0,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "blocks": "minecraft:spruce_sapling",
+                  "offset": [
+                    1,
+                    0,
+                    -1
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          },
+          {
+            "count": 8,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

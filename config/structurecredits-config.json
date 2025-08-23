@@ -1,0 +1,18 @@
+{
+  "active": true,
+  "showOnlyOneTime": true,
+  "cooldown": 30,
+  "chatMessage": false,
+  "showCreator": true,
+  "customStructureName": {
+    "minecraft:swamp_hut": "a_cat:cat_hut"
+  },
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:"
+  ],
+  "dontShow": [
+    "minecraft:plains_village",
+    "minecraft:desert_village"
+  ]
+}

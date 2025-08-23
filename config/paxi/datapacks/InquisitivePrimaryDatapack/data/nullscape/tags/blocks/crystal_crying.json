@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "blackstone",
+    "end_stone",
+    "architects_palette:onyx",
+    "architects_palette:warpstone",
+    "alexscaves:galena",
+    "caverns_and_chasms:sugilite",
+    "obsidian",
+    "crying_obsidian"
+  ]
+}

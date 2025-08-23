@@ -1,0 +1,25 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:cutting",
+  "ingredients":[
+     {
+        "item":"alexscaves:tough_hide"
+     }
+  ],
+  "results":[
+     {
+        "item":"minecraft:leather",
+        "count": 8
+     }
+  ],
+  "processingTime":100
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gift of Head",
+  "author": "Hoarseman",
+  "tier": 1,
+  "item": "scriptor:spellbook_black",
+  "spell": {
+    "subject": "rune",
+    "spells": [
+      {
+        "action": "action.scriptor.murmur_head",
+        "descriptors": [
+          "gray"
+        ]
+      }
+    ]
+  }
+}

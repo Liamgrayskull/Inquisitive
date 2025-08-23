@@ -1,0 +1,11 @@
+{
+  "block.vsch.air_thruster_block.description": " ??? ",
+  "block.vsch.dock.description": " ??? ",
+  "block.vsch.drag_inducer_block.description": " ??? ",
+  "block.vsch.gravity_inducer_block.description": " ??? ",
+  "block.vsch.powerful_thruster_block.description": " ??? ",
+  "block.vsch.thruster_block.description": " ??? ",
+  "entity.vsch.magnet_entity.description": " ??? ",
+  "item.vsch.magnet_boot.description": " ??? lore, tag.ad_astra.space_suit_items.description, tag.ad_astra.freeze_resistant_armor.description",
+  "item.vsch.wrench.description": " ??? lore"
+}

@@ -1,0 +1,36 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_axe"
+    },
+    "result": {
+        "item": "miningmaster:power_pyrite_axe"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:sharpness",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:beheading",
+            "lvl": 1
+        }
+    ]
+}

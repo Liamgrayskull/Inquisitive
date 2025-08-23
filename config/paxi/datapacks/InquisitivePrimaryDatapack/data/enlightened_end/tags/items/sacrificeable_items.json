@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sculk_shrieker",
+    "minecraft:fire_coral_block",
+    "minecraft:brain_coral_block",
+    "minecraft:honey_block",
+    "minecraft:sculk_sensor",
+    "minecraft:tube_coral_block",
+    "minecraft:small_dripleaf",
+    "minecraft:horn_coral_block",
+    "minecraft:honeycomb_block",
+    "minecraft:ochre_froglight",
+    "minecraft:pearlescent_froglight",
+    "minecraft:bubble_coral_block",
+    "minecraft:turtle_egg",
+    "minecraft:verdant_froglight",
+    "minecraft:goat_horn",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea",
+    "minecraft:amethyst_cluster",
+    "minecraft:spyglass",
+    "minecraft:dragon_breath",
+    "minecraft:sculk_catalyst",
+    "minecraft:nautilus_shell"
+  ]
+}

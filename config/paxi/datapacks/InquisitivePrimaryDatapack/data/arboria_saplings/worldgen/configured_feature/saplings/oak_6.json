@@ -1,0 +1,60 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:oak_pine/6",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": {
+          "feature": "arboria_saplings:forest_oak/3",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": "arboria_saplings:forest_oak/no_bees/4",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.35,
+        "feature": {
+          "feature": "arboria_saplings:oak_pine/1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "arboria_saplings:oak_pine/2",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": {
+          "feature": "arboria_saplings:oak_pine/3",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": "arboria_saplings:oak_pine/4",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "arboria_saplings:oak_pine/5",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

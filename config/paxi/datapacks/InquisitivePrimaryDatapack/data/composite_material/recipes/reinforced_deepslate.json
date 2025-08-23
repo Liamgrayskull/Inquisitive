@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "composite_material:warden_hand"
+    },
+    "2": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "121",
+    "121",
+    "121"
+  ],
+  "result": {
+    "item": "minecraft:reinforced_deepslate"
+  }
+}

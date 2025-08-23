@@ -1,0 +1,39 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "ad_astra:venus_sand",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "natures_spirit:red_moss_block"
+          }
+        },
+        
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "natures_spirit:orange_kaolin"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 90,
+          "primary_min": -0.5,
+          "primary_max": 0.5,
+          "secondary_min": -0.58,
+          "secondary_max": 0.58,
+          "vertical_scale": 0.5
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:deepslate_target",
+    "second_target_placer": [],
+    "use_biome_filter": true,
+    "surface_offset": 0,
+    "bottom_offset": 154,
+    "biomes": "ad_astra:venus_wastelands"
+    
+  }
+}

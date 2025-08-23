@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "bab",
+    "s s",
+    "   "
+  ],
+  "reagents": "ht t",
+  "key": {
+    "a": {
+  "item": "alexscaves:primordial_helmet"
+},
+    "b": {
+      "item": "alexscaves:heavy_bone"
+    },
+    "s": {
+      "item": "eidolon:silver_ingot"
+    },
+    "t": {
+      "item": "eidolon:tattered_cloth"
+    },
+    "h": {
+      "item": "eidolon:holy_symbol"
+    }
+  },
+  "result": {
+    "item": "eidolon:bonelord_helm"
+  }
+}

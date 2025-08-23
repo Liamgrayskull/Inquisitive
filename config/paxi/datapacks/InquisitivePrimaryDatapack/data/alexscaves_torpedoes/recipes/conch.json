@@ -1,0 +1,12 @@
+{
+  "type": "alexscaves_torpedoes:shadow_casting",
+  "ingredients": [
+    {
+      "item": "alexscaves:magic_conch"
+    }
+  ],
+  "output": {
+    "item": "savage_and_ravage:conch_of_conjuring",
+    "count": 1
+  }
+}

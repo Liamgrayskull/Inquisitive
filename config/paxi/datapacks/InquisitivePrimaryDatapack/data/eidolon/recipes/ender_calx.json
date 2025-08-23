@@ -1,0 +1,38 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "tag": "forge:ender_pearls"
+        }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        {
+          "item": "quark:soul_bead"
+        }
+      ]
+    },
+     {
+   "stirs": 1,
+   "items": [
+     {
+       "item": "enlightened_end:stardust"
+     },
+     {
+       "item": "enlightened_end:stardust"
+     },
+     {
+       "item": "enlightened_end:stardust"
+     }
+   ]
+ }
+  ],
+  "result": {
+    "item": "healpgood:ender_soul",
+    "count": 1
+  }
+}

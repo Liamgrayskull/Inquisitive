@@ -1,0 +1,1 @@
+{"jarName":"RoughlyEnoughItems-12.1.785-fabric.jar","modId":"roughlyenoughitems","version":"12.1.785","mixinConfigs":["rei.mixins.json"],"jarJarMods":[{"jarName":"error-notifier-fabric-1.0.9.jar","modId":"error_notifier","version":"1.0.9","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

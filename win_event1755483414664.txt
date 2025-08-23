@@ -1,0 +1,29 @@
+Detected that Windows has terminated one or more processes within the last minute leading up to the moment of the current Minecraft JVM instance termination,
+so with a very high probability that one of these processes is the Minecraft JVM itself.
+Command used to identify terminated processes:
+ 
+$ErrorActionPreference = 'Continue'; 
+Get-WinEvent -FilterHashtable @{ 
+  LogName='Application'; 
+  Level=2; 
+  StartTime=(Get-Date).AddSeconds(-15) 
+} *>&1 | Format-Table -Wrap -AutoSize | Out-File "C:\Users\Liam\AppData\Local\Temp\win_event1755483414664.txt" -Encoding UTF8
+ 
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To get more information about such errors:
+1) Open Windows Event Viewer (Win+R -> eventvwr.msc -> Enter).
+2) Click "Windows Logs" -> "Application".
+3) Look for the latest Error you have.
+ 
+ ﻿
+
+   ProviderName: Application Hang
+
+TimeCreated            Id LevelDisplayName Message                                                                     
+-----------            -- ---------------- -------                                                                     
+8/17/2025 7:16:53 PM 1002 Error            The program javaw.exe version 17.0.8.1 stopped interacting with Windows and 
+                                           was closed. To see if more information about the problem is available,      
+                                           check the problem history in the Security and Maintenance control panel.    
+                                                                                                                       
+
+

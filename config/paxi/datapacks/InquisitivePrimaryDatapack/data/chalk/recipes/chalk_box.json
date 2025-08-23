@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "pattern": [
+    "P P",
+    "PSP",
+    "PPP"
+  ],
+  "result": {
+    "item": "chalk:chalk_box"
+  },
+  "show_notification": true
+}

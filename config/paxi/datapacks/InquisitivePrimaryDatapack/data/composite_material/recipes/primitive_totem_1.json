@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "composite_material:primitive_tenacity"
+    },
+    "2": {
+      "item": "composite_material:primitive_nostrum"
+    },
+    "3": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "pattern": [
+    "212",
+    "131",
+    "212"
+  ],
+  "result": {
+    "item": "composite_material:primitive_totem"
+  }
+}

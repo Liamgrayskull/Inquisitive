@@ -1,0 +1,19 @@
+{
+  "name": "Huntsmans's Trap",
+  "author": "GRR",
+  "tier": 3,
+  "item": "scriptor:spellbook_yellow",
+  "spell": {
+    "subject": "rune",
+    "spells": [
+      {
+        "action": "action.scriptor.fang",
+        "descriptors": [
+          "yellow",
+          "copy_up",
+          "copy_down"
+        ]
+      }
+    ]
+  }
+}

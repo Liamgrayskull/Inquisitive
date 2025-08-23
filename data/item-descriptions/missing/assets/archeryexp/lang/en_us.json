@@ -1,0 +1,14 @@
+{
+  "entity.archeryexp.diamond_arrow.description": "It's tipped in diamond, strengthening it considerably.",
+  "entity.archeryexp.gold_arrow.description": "The golden tip glimmers in the light, but it is not very durable.",
+  "entity.archeryexp.iron_arrow.description": "A rather durable arrow.",
+  "entity.archeryexp.netherite_arrow.description": "A mighty, hard-hitting arrow.",
+  "item.archeryexp.diamond_arrow.description": "It's tipped in diamond, strengthening it considerably.",
+  "item.archeryexp.gold_arrow.description": "The golden tip glimmers in the light, but it is not very durable.",
+  "item.archeryexp.iron_arrow.description": "A rather durable arrow.",
+  "item.archeryexp.netherite_arrow.description": "A mighty, hard-hitting arrow.",
+  "item.archeryexp.diamond_bow.description": "This bow is sturdy and crystalline, though it draws slowly",
+  "item.archeryexp.gold_bow.description": "A gilded bow quite capable of quick-draws.",
+  "item.archeryexp.iron_bow.description": "A hardy bow which is rather middle of the range, yet durable.",
+  "item.archeryexp.netherite_bow.description": "The dark metal glints greedily at the hilt and string notches. Powerful."
+}

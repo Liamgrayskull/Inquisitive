@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "architects_palette:withered_bone"
+        },
+        {
+            "item": "architects_palette:withered_bone"
+        },
+        {
+            "item": "architects_palette:withered_bone"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:stone_sword"
+    },
+    "result": {
+        "item": "netherdungeons:wither_skeleton_sword"
+    },
+    "enchantments": [
+        {
+            "enchantment": "miningmaster:leeching",
+            "lvl": 1
+        }
+    ]
+}

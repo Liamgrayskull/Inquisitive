@@ -1,0 +1,45 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "item": "minecraft:echo_shard"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_chestplate"
+    },
+    "result": {
+        "item": "miningmaster:paragon_chestplate"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:wardenspine",
+            "lvl": 1
+        },
+        {
+            "enchantment": "miningmaster:heartfelt",
+            "lvl": 1
+        }
+    ]
+}

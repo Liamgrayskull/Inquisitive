@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_spirit_garnet_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_spirit_garnet",
+    "count": 4
+  }
+}

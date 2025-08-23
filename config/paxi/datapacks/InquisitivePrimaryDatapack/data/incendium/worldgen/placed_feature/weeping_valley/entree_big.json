@@ -1,0 +1,9 @@
+{
+	"feature": "incendium:weeping_valley/entree_big",
+	"placement": [
+		{
+			"type": "count",
+			"count": 16
+		}
+	]
+}

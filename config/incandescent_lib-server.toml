@@ -1,0 +1,3 @@
+#Set true if you want to allow to sync entity NBTs via SyncEntityNBTEvent on the server
+allow_forced_entity_nbt_sync = true
+

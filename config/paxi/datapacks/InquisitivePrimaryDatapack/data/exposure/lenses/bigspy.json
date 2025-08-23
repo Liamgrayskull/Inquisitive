@@ -1,0 +1,9 @@
+{
+  "item": {
+    "item": "immersive_aircraft:telescope"
+  },
+  "focal_range": {
+    "min": 100,
+    "max": 300
+  }
+}

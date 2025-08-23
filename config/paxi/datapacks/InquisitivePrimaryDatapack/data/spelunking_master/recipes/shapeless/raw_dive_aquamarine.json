@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_dive_aquamarine_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_dive_aquamarine",
+    "count": 4
+  }
+}

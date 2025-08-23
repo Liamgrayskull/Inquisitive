@@ -1,0 +1,12 @@
+{
+  "type": "alexscaves_torpedoes:shadow_casting",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "output": {
+    "item": "alexscaves:darkened_apple",
+    "count": 1
+  }
+}

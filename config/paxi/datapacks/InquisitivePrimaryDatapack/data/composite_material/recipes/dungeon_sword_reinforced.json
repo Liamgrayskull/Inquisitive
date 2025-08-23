@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:spawner"
+  },
+  "base": {
+    "item": "composite_material:dungeon_sword"
+  },
+  "result": {
+    "item": "composite_material:dungeon_sword_reinforced"
+  },
+  "template": {
+    "item": "composite_material:evolutium"
+  }
+}

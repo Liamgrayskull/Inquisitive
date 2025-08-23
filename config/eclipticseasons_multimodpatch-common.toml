@@ -1,0 +1,9 @@
+
+#Haunted Harvest
+[hauntedharvest]
+	Enable = true
+	#Solar Terms in which Haunted Harvest villager AI behaviors will be active.
+	"Halloween Time" = ["COLD_DEW", "FIRST_FROST"]
+	#Adds custom times in which mobs can wear pumpkins. Leave empty to ignore.
+	" Mobs Wear Pumpkins Time" = ["FIRST_FROST"]
+

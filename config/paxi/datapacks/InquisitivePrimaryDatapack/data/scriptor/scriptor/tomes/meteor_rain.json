@@ -1,0 +1,17 @@
+{
+  "name": "Meteoric Shatter",
+  "author": "Mordoth",
+  "tier": 4,
+  "item": "scriptor:spellbook_red",
+  "spell": {
+    "subject": "touch",
+    "spells": [
+      {
+        "action": "action.scriptor.meteor_shower",
+        "descriptors": [
+          "orange"
+        ]
+      }
+    ]
+  }
+}

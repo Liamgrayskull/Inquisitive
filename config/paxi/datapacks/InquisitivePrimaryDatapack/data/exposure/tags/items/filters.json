@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "spawn:angler_fish",
+    "miners_delight:silverfish_eggs",
+    "minecraft:magma_cream",
+    "minecraft:end_crystal",
+    "endrem:magical_eye",
+    "endrem:witch_eye",
+    "endrem:undead_eye",
+    "endrem:cryptic_eye",
+    "alexscaves:toxic_paste",
+    "alexscaves:pure_darkness",
+    "quark:smithing_template_rune",
+    "immersive_weathering:tinted_glass_pane",
+    "undergarden:sediment_glass_pane",
+    "species:speclight",
+    "alexscaves:hologram_projector",
+    "atmospheric:arid_glass_pane",
+    "etcetera:iridescent_glass_pane",
+    "quark:myalite_crystal",
+    "quark:framed_glass_pane"
+  ]
+}

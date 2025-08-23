@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Collision box is too big! ", "ETF has allowed a resource with a non [a-z0-9_.-] character in the file path, it is recommended you fix this file name. ", "no part found for: ", "Too many physics ", "Entity bountifulfares:flour has no attributes"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "me.shedaniel.rei"]
+

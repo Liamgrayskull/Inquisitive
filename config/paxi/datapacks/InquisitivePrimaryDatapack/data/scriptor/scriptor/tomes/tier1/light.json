@@ -1,0 +1,14 @@
+{
+  "name": "tome.scriptor.light",
+  "author": "Lucy",
+  "tier": 1,
+  "spell": {
+    "subject": "touch",
+    "spells": [
+      {
+        "action": "light",
+        "descriptors": []
+      }
+    ]
+  }
+}

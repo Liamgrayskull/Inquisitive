@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "caverns_and_chasms:rotten_flesh_block"
+    }
+  ],
+  "output": {
+    "count": 9,
+    "entity": "galosphere:preserved"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "galosphere:pink_salt_shard"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "enlightened_end:stardust"
+    }
+  ]
+}

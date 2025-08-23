@@ -1,0 +1,404 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "offset": {
+                        "value": {
+                          "min_inclusive": 0,
+                          "max_inclusive": 2
+                        },
+                        "type": "minecraft:uniform"
+                      },
+                      "radius": {
+                        "value": {
+                          "min_inclusive": 2,
+                          "max_inclusive": 3
+                        },
+                        "type": "minecraft:uniform"
+                      },
+                      "trunk_height": {
+                        "value": {
+                          "min_inclusive": 1,
+                          "max_inclusive": 2
+                        },
+                        "type": "minecraft:uniform"
+                      },
+                      "type": "minecraft:spruce_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:spruce_leaves",
+                        "Properties": {
+                          "distance": "7",
+                          "persistent": "false",
+                          "waterlogged": "false"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "limit": 2,
+                      "lower_size": 0,
+                      "upper_size": 2,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 2,
+                      "height_rand_b": 1,
+                      "type": "minecraft:straight_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "state": {
+                        "Name": "minecraft:spruce_log",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:moss_block",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": "arboria_saplings:spruce_bush/4",
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.275,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce_bush/1",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.175,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce_bush/2",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.4,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce_bush/3",
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:coarse_dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": "arboria_saplings:dead_spruce/3",
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.5,
+                        "feature": {
+                          "feature": "arboria_saplings:dead_spruce/1",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.35,
+                        "feature": {
+                          "feature": "arboria_saplings:dead_spruce/2",
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:mycelium",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": {
+                        "config": {
+                          "features": [
+                            {
+                              "feature": "arboria_saplings:leaning_spruce/3_east",
+                              "placement": []
+                            },
+                            {
+                              "feature": "arboria_saplings:leaning_spruce/3_south",
+                              "placement": []
+                            },
+                            {
+                              "feature": "arboria_saplings:leaning_spruce/3_west",
+                              "placement": []
+                            },
+                            {
+                              "feature": "arboria_saplings:leaning_spruce/3_north",
+                              "placement": []
+                            }
+                          ]
+                        },
+                        "type": "minecraft:simple_random_selector"
+                      },
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.3,
+                        "feature": {
+                          "feature": {
+                            "config": {
+                              "features": [
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/1_east",
+                                  "placement": []
+                                },
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/1_south",
+                                  "placement": []
+                                },
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/1_west",
+                                  "placement": []
+                                },
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/1_north",
+                                  "placement": []
+                                }
+                              ]
+                            },
+                            "type": "minecraft:simple_random_selector"
+                          },
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.35,
+                        "feature": {
+                          "feature": {
+                            "config": {
+                              "features": [
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/2_east",
+                                  "placement": []
+                                },
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/2_south",
+                                  "placement": []
+                                },
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/2_west",
+                                  "placement": []
+                                },
+                                {
+                                  "feature": "arboria_saplings:leaning_spruce/2_north",
+                                  "placement": []
+                                }
+                              ]
+                            },
+                            "type": "minecraft:simple_random_selector"
+                          },
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:farmland",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": "arboria_saplings:spruce/9",
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.175,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/1",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.225,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/2",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.15,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/3",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.3,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/4",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.2,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/5",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.3,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/6",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.15,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/7",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.6,
+                        "feature": {
+                          "feature": "arboria_saplings:spruce/8",
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:moss_block",
+                          "minecraft:coarse_dirt",
+                          "minecraft:mycelium",
+                          "minecraft:farmland"
+                        ],
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

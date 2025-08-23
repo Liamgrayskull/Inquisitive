@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "frame_changer:polished_obsidian_slab"
+        }
+    ],
+    "result": {
+        "item": "frame_changer:crying_polished_obsidian_slab"
+    },
+    "dimension": "minecraft:the_nether"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "galosphere:allurite_shard"
+    },
+    "enchantments": [
+        "enchancement:bury",
+        "galosphere:rupturing",
+        "piglinproliferation:turning",
+        "minecraft:channeling",
+        "allurement:reeling",
+        "alexscaves:enveloping_bubble"
+    ]
+}

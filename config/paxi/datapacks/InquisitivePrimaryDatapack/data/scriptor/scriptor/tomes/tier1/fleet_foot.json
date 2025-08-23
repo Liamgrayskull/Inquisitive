@@ -1,0 +1,16 @@
+{
+  "name": "tome.scriptor.fleet_foot",
+  "author": "Tommy Duck",
+  "tier": 1,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "speed",
+        "descriptors": [
+          "long"
+        ]
+      }
+    ]
+  }
+}

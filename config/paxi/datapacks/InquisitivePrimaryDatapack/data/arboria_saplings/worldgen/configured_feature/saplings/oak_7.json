@@ -1,0 +1,32 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:palm/4_oak",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.45,
+        "feature": {
+          "feature": "arboria_saplings:palm/1_oak",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "arboria_saplings:palm/2_oak",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.8,
+        "feature": {
+          "feature": "arboria_saplings:palm/3_oak",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

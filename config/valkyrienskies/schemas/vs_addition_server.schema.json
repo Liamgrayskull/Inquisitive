@@ -1,0 +1,224 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "clockwork" : {
+      "type" : "object",
+      "properties" : {
+        "fanForceMultiplier" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "Multiplier of Clockwork encased fan force"
+        },
+        "physBearing" : {
+          "type" : "object",
+          "properties" : {
+            "physBearingAngleErrorMultiplier" : {
+              "type" : "number",
+              "format" : "double",
+              "description" : "Angle error multiplier of locked mode phys bearing's force"
+            },
+            "physBearingCompliance" : {
+              "type" : "number",
+              "format" : "double",
+              "description" : "Compliance of phys bearing's constraints"
+            },
+            "physBearingMaxForce" : {
+              "type" : "number",
+              "format" : "double",
+              "description" : "Max Force of phys bearing's constraints"
+            },
+            "physBearingOmegaErrorMultiplier" : {
+              "type" : "number",
+              "format" : "double",
+              "description" : "Omega error multiplier of phys bearing's force"
+            }
+          },
+          "additionalProperties" : false
+        }
+      },
+      "additionalProperties" : false
+    },
+    "computercraft" : {
+      "type" : "object",
+      "properties" : {
+        "enableCheatCannonMountPeripheral" : {
+          "type" : "boolean",
+          "description" : "Enable cheat functions on cannon mount peripheral"
+        },
+        "enableCheatFlapBearingPeripheral" : {
+          "type" : "boolean",
+          "description" : "Enable cheat functions on flap bearing peripheral"
+        },
+        "eventQueueMaxSize" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "Max size of Computer Craft event queue"
+        }
+      },
+      "additionalProperties" : false
+    },
+    "create" : {
+      "type" : "object",
+      "properties" : {
+        "copycatMaterialMass" : {
+          "type" : "boolean",
+          "description" : "Not available yet. DO NOT OPEN THIS!"
+        },
+        "encasedFanMixin" : {
+          "type" : "boolean",
+          "description" : "Enable encased fan to work between ships"
+        },
+        "psi" : {
+          "type" : "object",
+          "properties" : {
+            "energyMaxInput" : {
+              "type" : "integer",
+              "format" : "int32",
+              "description" : "Max Input every tick of energy interfaces (unit: FE/ME)",
+              "minimum" : 0
+            },
+            "energyMaxOutput" : {
+              "type" : "integer",
+              "format" : "int32",
+              "description" : "Max Output every tick of energy interfaces (unit: FE/ME)",
+              "minimum" : 0
+            },
+            "energyTemp" : {
+              "type" : "integer",
+              "format" : "int32",
+              "description" : "Temporary energy storage for each pair of interfaces (unit: FE/ME)",
+              "minimum" : 0
+            },
+            "fluidTemp" : {
+              "type" : "integer",
+              "format" : "int32",
+              "description" : "Temporary fluid storage for each pair of interfaces (unit: bucket)",
+              "minimum" : 0
+            },
+            "itemTemp" : {
+              "type" : "integer",
+              "format" : "int32",
+              "description" : "Temporary item storage for each pair of interfaces (unit: slot)",
+              "minimum" : 0
+            }
+          },
+          "additionalProperties" : false
+        },
+        "stickerCompliance" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "Compliance of sticker's constraints"
+        },
+        "stickerMaxForce" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "Max Force of sticker's constraints"
+        }
+      },
+      "additionalProperties" : false
+    },
+    "createBigCannons" : {
+      "type" : "object",
+      "properties" : {
+        "addShipVelocity" : {
+          "type" : "boolean",
+          "description" : "Adds the ship's velocity vector to the initial velocity of the cannon's projectile"
+        },
+        "autoCannonRecoilForce" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "The force of recoil produced by auto cannon fire on a ship"
+        },
+        "bigCannonRecoilForce" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "The force of recoil produced by big cannon fire on a ship"
+        },
+        "customAutoCannonFireRates" : {
+          "description" : "Custom autocannon breech fire rates",
+          "type" : "array",
+          "items" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Custom autocannon breech fire rates"
+          }
+        },
+        "enableCannonRecoil" : {
+          "type" : "boolean",
+          "description" : "Enable cannon recoil feature"
+        },
+        "mediumCannonRecoilForce" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "The force of recoil produced by medium cannon fire on a ship"
+        },
+        "rotaryCannonRecoilForce" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "The force of recoil produced by rotary cannon fire on a ship"
+        }
+      },
+      "additionalProperties" : false
+    },
+    "defaultBlockElasticity" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "VS2 default block elasticity"
+    },
+    "defaultBlockFriction" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "VS2 default block friction"
+    },
+    "defaultBlockHardness" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "VS2 default block hardness"
+    },
+    "defaultBlockMass" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "VS2 default block mass"
+    },
+    "defaultFluidDensity" : {
+      "type" : "number",
+      "format" : "double"
+    },
+    "defaultFluidDragCoefficient" : {
+      "type" : "number",
+      "format" : "double"
+    },
+    "experimental" : {
+      "type" : "object",
+      "properties" : {
+        "explosion" : {
+          "type" : "boolean",
+          "description" : "Enable another explosion for ships. (Needs reboot & may have an impact on performance)"
+        }
+      },
+      "additionalProperties" : false
+    },
+    "getEntitiesAabbSizeLimit" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Disable some annoying console logs :)"
+    },
+    "nonColliderBlocks" : {
+      "description" : "Set of non-collider blocks on the ship that are excluded from collision detection.",
+      "type" : "array",
+      "items" : {
+        "type" : "string",
+        "description" : "Set of non-collider blocks on the ship that are excluded from collision detection."
+      }
+    },
+    "nonColliderBlocksPriority" : {
+      "type" : "integer",
+      "format" : "int32"
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

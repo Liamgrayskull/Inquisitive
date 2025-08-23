@@ -1,0 +1,4 @@
+{
+  "particleRopeRenderer" : true,
+  "$schema" : "schemas/vs_tournament_client.schema.json"
+}

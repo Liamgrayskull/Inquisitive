@@ -1,0 +1,18 @@
+
+#Cosy Critters Configuration
+[Spawning]
+	#Enable bird particles
+	enableBirds = true
+	#Maximum number of birds that can exist at once
+	#Range: 0 ~ 100
+	maxBirds = 5
+	#Enable moth particles
+	enableMoths = true
+	#Maximum number of moths that can exist at once
+	#Range: 0 ~ 100
+	maxMoths = 10
+	#Enable spider particles
+	enableSpiders = true
+	#Enable the Hat Man (appears during full moon while sleeping)
+	enableHatMan = true
+

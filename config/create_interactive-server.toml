@@ -1,0 +1,29 @@
+#.
+#ALWAYS will ignore all stickers and always be interactive. WITHOUT STICKER will be interactive unless an interact-me-not is used. WITH STICKER will only be interactive if an interact-me is used. NEVER will ignore all stickers and never be interactive. (Note: this config value doesn't do anything)
+#Range: > -2147483648
+1readForInfo = 123
+#.
+#How trains are handled for interactivity
+#Allowed Values: ALWAYS, WITHOUT_STICKER, WITH_STICKER, NEVER
+trainHandling = "WITH_STICKER"
+#.
+#How translating contraptions are handled for interactivity (Piston, Gantry, Pulley)
+#Allowed Values: ALWAYS, WITHOUT_STICKER, WITH_STICKER, NEVER
+translatingHandling = "WITH_STICKER"
+#.
+#How bearing contraptions are handled for interactivity (includes Propagator bearings)
+#Allowed Values: ALWAYS, WITHOUT_STICKER, WITH_STICKER, NEVER
+bearingHandling = "WITH_STICKER"
+#.
+#How clockwork contraptions are handled for interactivity (Flaps, etc)
+#Allowed Values: ALWAYS, WITHOUT_STICKER, WITH_STICKER, NEVER
+clockworkHandling = "WITH_STICKER"
+#.
+#How mounted contraptions are handled for interactivity (minecart)
+#Allowed Values: ALWAYS, WITHOUT_STICKER, WITH_STICKER, NEVER
+mountedHandling = "WITH_STICKER"
+#.
+#How any other contraptions are handled for interactivity (create addons, etc)
+#Allowed Values: ALWAYS, WITHOUT_STICKER, WITH_STICKER, NEVER
+otherHandling = "NEVER"
+

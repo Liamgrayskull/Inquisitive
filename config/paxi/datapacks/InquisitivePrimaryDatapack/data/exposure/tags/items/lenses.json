@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "immersive_aircraft:telescope",
+    "create:goggles",
+    "upgrade_aquatic:elder_eye",
+    "minecraft:ender_eye",
+    "alexsmobs:void_worm_eye"
+  ]
+}

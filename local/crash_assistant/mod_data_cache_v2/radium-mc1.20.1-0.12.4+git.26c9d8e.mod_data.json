@@ -1,0 +1,1 @@
+{"jarName":"radium-mc1.20.1-0.12.4+git.26c9d8e.jar","modId":"radium","version":"0.12.4+git.26c9d8e","mixinConfigs":["lithium.mixins.json","mixins.lithium.refmap.json"],"jarJarMods":[{"jarName":"NanoLiveConfig-1.2.1.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "minecraft:azalea"
+        }
+    ],
+    "result": {
+        "item": "netherexp:warped_sporeshroom"
+    },
+    "dimension": "minecraft:the_nether"
+}

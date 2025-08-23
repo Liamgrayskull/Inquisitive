@@ -1,0 +1,17 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "create:rose_quartz"
+    },
+    "enchantments": [
+        "combatroll:longfooted",
+        "alexscaves:sea_swing",
+        "allurement:reeling",
+        "domesticationinnovation:gluttonous",
+        "alexsmobs:serpent_charmer",
+        "minecraft:silk_touch"
+    ]
+}

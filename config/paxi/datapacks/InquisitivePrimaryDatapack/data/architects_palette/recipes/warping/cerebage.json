@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "farmersdelight:cabbage_seeds"
+        }
+    ],
+    "result": {
+        "item": "netherexp:cerebrage_seeds"
+    },
+    "dimension": "minecraft:the_nether"
+}

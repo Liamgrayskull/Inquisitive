@@ -1,0 +1,25 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:swamp_oak/3",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.35,
+        "feature": {
+          "feature": "arboria_saplings:swamp_oak/1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.775,
+        "feature": {
+          "feature": "arboria_saplings:swamp_oak/2",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

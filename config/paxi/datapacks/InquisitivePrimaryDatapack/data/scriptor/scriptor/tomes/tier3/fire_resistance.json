@@ -1,0 +1,16 @@
+{
+  "name": "tome.scriptor.fire_resistance",
+  "author": "P. Helps",
+  "tier": 3,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "fire_resistance",
+        "descriptors": [
+          "longer"
+        ]
+      }
+    ]
+  }
+}

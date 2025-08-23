@@ -1,0 +1,21 @@
+{
+  "regularchance": 25,
+  "bosschance": 100,
+  "regmin": 0,
+  "regmax": 1,
+  "bossmin": 5,
+  "bossmax": 15,
+  "bosshealththreshold": 150,
+  "otherBossList": [
+    "minecraft:elder_guardian",
+    "minecraft:ravager"
+  ],
+  "entityhealth": true,
+  "tempamount": 2,
+  "tempmax": 20,
+  "permamount": 2,
+  "permmax": 20,
+  "holidayHearts": true,
+  "baglification": false,
+  "addedSouls": true
+}

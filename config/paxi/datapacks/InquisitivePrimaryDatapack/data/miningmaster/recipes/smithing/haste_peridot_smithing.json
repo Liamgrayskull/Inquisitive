@@ -1,0 +1,16 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "sullysmod:jade"
+    },
+    "enchantments": [
+        "enchancement:veil",
+        "minecraft:efficiency",
+        "minecraft:lure",
+        "minecraft:quick_charge",
+        "miningmaster:runner"
+    ]
+}

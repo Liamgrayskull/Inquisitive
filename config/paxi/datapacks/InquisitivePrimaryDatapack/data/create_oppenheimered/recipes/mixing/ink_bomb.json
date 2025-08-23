@@ -1,0 +1,28 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:mixing",
+   "heatRequirement":"none",
+   "ingredients":[
+      {
+         "item":"minecraft:ink_sac"
+      },
+      {
+         "item":"alexscaves:sea_glass_shards"
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:ink_bomb",
+         "count":10
+      }
+   ]
+}

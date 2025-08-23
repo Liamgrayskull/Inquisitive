@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "bountifulfares:violet_bellflower"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 2,
+      "item": "bountifulfares:bellflower_tea_blend"
+    }
+  ]
+}

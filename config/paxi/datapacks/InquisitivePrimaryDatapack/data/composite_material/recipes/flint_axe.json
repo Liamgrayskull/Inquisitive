@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "minecraft:flint"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "11",
+    "12",
+    " 2"
+  ],
+  "result": {
+    "item": "composite_material:flint_axe"
+  }
+}

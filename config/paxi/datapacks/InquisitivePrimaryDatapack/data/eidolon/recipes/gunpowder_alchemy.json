@@ -1,0 +1,24 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:glowstone_dust" },
+        { "item": "galospheric_delight:amethyst_dust" },
+        { "item": "galospheric_delight:allurite_dust" },
+        { "item": "galospheric_delight:lumiere_dust" },
+        { "item": "spelunkery:sulfur" }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "item": "minecraft:blaze_powder" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "enlightened_end:stardust",
+    "count": 6
+  }
+}

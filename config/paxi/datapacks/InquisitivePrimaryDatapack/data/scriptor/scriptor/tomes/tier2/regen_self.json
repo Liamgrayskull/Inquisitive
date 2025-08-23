@@ -1,0 +1,18 @@
+{
+  "disabled": "true",
+  "name": "tome.scriptor.regen_self",
+  "author": "C. Citrus",
+  "tier": 2,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "regeneration",
+        "descriptors": [
+          "strong",
+          "long"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "alexscaves_torpedoes:shadow_casting",
+  "ingredients": [
+    {
+      "item": "alexscaves:thornwood_log"
+    }
+  ],
+  "output": {
+    "item": "atmospheric:grimwood_log",
+    "count": 1
+  }
+}

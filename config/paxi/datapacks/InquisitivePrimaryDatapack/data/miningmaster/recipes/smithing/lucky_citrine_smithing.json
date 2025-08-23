@@ -1,0 +1,20 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "unusualend:citrine_chunk"
+    },
+    "enchantments": [
+        "enchancement:strafe",
+        "enchancement:lumberjack",
+        "domesticationinnovation:herding",
+        "allurement:obedience",
+        "minecraft:fortune",
+        "minecraft:luck_of_the_sea",
+        "mynethersdelight:poaching",
+        "minecraft:looting",
+        "minecraft:projectile_protection"
+    ]
+}

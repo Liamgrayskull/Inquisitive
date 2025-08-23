@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "composite_material:dungeon_steel_ingot"
+    },
+    "2": {
+      "item": "minecraft:chain"
+    },
+    "3": {
+      "item": "minecraft:spawner"
+    },
+    "4": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    " 12",
+    "342",
+    " 12"
+  ],
+  "result": {
+    "item": "composite_material:scapegoat"
+  }
+}

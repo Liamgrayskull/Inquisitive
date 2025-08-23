@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "galosphere:allurite_shard"
+        }
+    ],
+    "result": {
+        "item": "galosphere:lumiere_shard"
+    },
+    "dimension": "minecraft:the_nether"
+}

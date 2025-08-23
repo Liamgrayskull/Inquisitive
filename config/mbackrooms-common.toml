@@ -1,0 +1,42 @@
+
+["General Settings"]
+	#Allow entering the Backrooms by suffocating in blocks (default = true)
+	allowEnteringBackroomsBySuffocationInBlocks = true
+	#Allow random entering the Backrooms using Nether Portals (default = true)
+	allowRandomEnteringBackroomsUsingNetherPortals = true
+	#Allow random entering the Backrooms by sleeping (default = true)
+	allowRandomEnteringBackroomsBySleeping = true
+	#Set spawnpoint in the Backrooms when entering them (default = true)
+	setSpawpointWhenEnteringBackrooms = true
+	#Max chance for entering the Backrooms by suffocating (default = 3)
+	#Range: 0 ~ 8
+	maxSuffocatingChance = 3
+	#Max chance for entering the Backrooms by sleeping (default = 127)
+	#Range: 0 ~ 255
+	maxSleepingChance = 127
+	#Max chance for entering the Backrooms using Nether Portals (default = 199)
+	#Range: 0 ~ 255
+	maxNetherPortalChance = 199
+
+["Howler Settings"]
+	#Enable the Howler shaking effect (default = true)
+	enableHowlerShakingEffect = true
+	#Minimum intensity of the Howler shake effect (default = 0.1)
+	#Range: 0.0 ~ 1.0
+	minHowlerShakeIntensity = 0.1
+	#Maximum intensity of the Howler shake effect (default = 1.0)
+	#Range: 0.0 ~ 1.0
+	maxHowlerShakeIntensity = 1.0
+
+["Rat Settings"]
+	#Chance of rat infection (default = 0.50)
+	#Range: 0.0 ~ 1.0
+	ratInfectionChance = 0.5
+
+["Loot Settings"]
+	#Enable partial loot keeping (default = true)
+	partialLootKeeping = true
+	#Percentage of loot kept when partial loot keeping is enabled (default = 0.30)
+	#Range: 0.0 ~ 1.0
+	partialLootKeepingPercentage = 0.3
+

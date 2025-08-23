@@ -1,0 +1,65 @@
+
+#ENVIRONS CLIENT CONFIG
+#
+#In single-player, these settings will affect only you.
+#In multi-player, these settings will still affect only you.
+#These settings have been set to defaults selected by the Environs development team.
+#
+[TRIGGERS]
+	#first - Display a title card on first discovery.
+	#every - Display a title card on every entrance.
+	#never - Never display title cards.
+	#always - Always display title cards.
+	"Dimension Title Cards" = "first"
+	"Biome Title Cards" = "first"
+	"Structure Title Cards" = "first"
+
+[SIZE]
+	#large - Large title card.
+	#medium - Medium title card.
+	#small - Small title card.
+	Dimension = "large"
+	Biome = "medium"
+	Structure = "small"
+
+[POSITION]
+	#top - Display title cards at top of screen.
+	#center - Display title cards at center of screen.
+	#bottom - Display title cards at bottom of screen.
+	Vertical = "center"
+	#left - Display title cards at left of screen.
+	#center - Display title cards at center of screen.
+	#right - Display title cards at right of screen.
+	Horizontal = "center"
+
+[COLOR]
+	#hex or RGBA color code
+	#Range: 0 ~ 16777215
+	Dimension = 11206655
+	#Range: 0 ~ 16777215
+	Biome = 11206570
+	#Range: 0 ~ 16777215
+	Structure = 16777130
+
+[STYLE]
+	#show title cards with underline
+	Underline = true
+	#show title cards with shadow
+	Shadow = true
+
+[BACKDROP]
+	#solid - Solid backdrop.
+	#vignette - Vignette.
+	#rvignette - Reverse vignette.
+	#none - No backdrop
+	Style = "rvignette"
+	#Range: 0 ~ 16777215
+	Color = 0
+
+[AUDIO]
+	#discover
+	#bell
+	#chime
+	#none
+	Queue = "discover"
+

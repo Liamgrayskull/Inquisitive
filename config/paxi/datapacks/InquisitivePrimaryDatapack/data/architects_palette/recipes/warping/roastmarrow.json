@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "hearthandharvest:roasted_marshmallow_stick"
+        }
+    ],
+    "result": {
+        "item": "soulfulnether:roasted_marshmarrow"
+    },
+    "dimension": "minecraft:the_nether"
+}

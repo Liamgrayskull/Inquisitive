@@ -1,0 +1,25 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:big_spruce/3",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": "arboria_saplings:big_spruce/1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.6,
+        "feature": {
+          "feature": "arboria_saplings:big_spruce/2",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

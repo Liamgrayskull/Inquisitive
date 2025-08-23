@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "lll",
+    "lll",
+    "h h"
+  ],
+  "reagents": "b q ",
+  "key": {
+    "l": {
+      "item": "oreganized:lead_ingot"
+    },
+    "h": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "sullysmod:lapis_lantern"
+    },
+    "q": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "eidolon:mind_shielding_plate"
+  }
+}

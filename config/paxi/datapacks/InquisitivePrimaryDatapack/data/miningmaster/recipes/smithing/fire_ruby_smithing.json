@@ -1,0 +1,18 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "ruby_exchange:ruby"
+    },
+    "enchantments": [
+        "alexscaves:astral_transferring",
+        "enchancement:delay",
+        "domesticationinnovation:health_siphon",
+        "domesticationinnovation:healing_aura",
+        "enchancement:beserk",
+        "enchancement:disarm",
+        "miningmaster:heartfelt"
+    ]
+}

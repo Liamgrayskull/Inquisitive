@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "ad_astra:steel_block"
+        }
+    ],
+    "result": {
+        "item": "sons_of_sins:soul_steel_block"
+    },
+    "dimension": "minecraft:the_nether"
+}

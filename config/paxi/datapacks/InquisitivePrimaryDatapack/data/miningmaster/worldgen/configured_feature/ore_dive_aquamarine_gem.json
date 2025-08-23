@@ -1,0 +1,86 @@
+{
+  "config": {
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:granite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:granite_dive_aquamarine_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:andesite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_dive_aquamarine_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:diorite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_dive_aquamarine_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:tuff"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_dive_aquamarine_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:dive_aquamarine_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:deepslate"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_dive_aquamarine_ore"
+            }
+          }
+        ]
+                              }
+                            ]
+                          },
+  "type": "miningmaster:ore_gem_feature"
+}

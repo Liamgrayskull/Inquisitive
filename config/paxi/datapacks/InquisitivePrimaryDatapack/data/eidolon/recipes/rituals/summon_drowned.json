@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "caverns_and_chasms:rotten_flesh_block"
+    }
+  ],
+  "output": {
+    "count": 9,
+    "entity": "minecraft:drowned"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+  "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "enlightened_end:stardust"
+    }
+  ]
+}

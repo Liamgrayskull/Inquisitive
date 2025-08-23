@@ -1,0 +1,1 @@
+{"jarName":"citresewn-1.2.2+1.20.1.jar","modId":"citresewn","version":"1.2.2+1.20.1","mixinConfigs":["citresewn.mixins.json"],"jarJarMods":[{"jarName":"citresewn-defaults-1.2.2+1.20.1.jar","modId":"citresewn-defaults","version":"1.2.2+1.20.1","mixinConfigs":["citresewn-defaults.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

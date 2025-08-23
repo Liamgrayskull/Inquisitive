@@ -1,0 +1,16 @@
+{
+	"commandPermissionLevel": 2,
+	"alwaysSpawnAtGlobalSpawnOnJoin": false,
+	"globalRespawnPointActive": true,
+	"globalRespawnDimension": "cosmos:solar_system",
+	"globalRespawnPositionX": -23986,
+	"globalRespawnPositionY": 1010,
+	"globalRespawnPositionZ": 5015,
+	"globalRespawnAngle": 0.0,
+	"initialSpawnPointActive": false,
+	"initialSpawnPointDimension": "cosmos:solar_system",
+	"initialSpawnPositionX": -23986,
+	"initialSpawnPositionY": 1010,
+	"initialSpawnPositionZ": 5015,
+	"initialSpawnAngle": 0.0
+}

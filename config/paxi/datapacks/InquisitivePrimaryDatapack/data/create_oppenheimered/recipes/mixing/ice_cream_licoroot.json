@@ -1,0 +1,32 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:mixing",
+   "heatRequirement":"none",
+   "ingredients":[
+      {
+         "item":"minecraft:ice"
+      },
+      {
+         "item":"alexscaves:licoroot"
+      },
+      {
+         "fluid":"minecraft:milk",
+         "amount": 100
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:vanilla_ice_cream_scoop",
+         "count":8
+      }
+   ]
+}

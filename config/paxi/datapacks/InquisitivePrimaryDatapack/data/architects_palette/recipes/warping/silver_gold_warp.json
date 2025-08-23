@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "oreganized:silver_ingot"
+        }
+    ],
+    "result": {
+        "item": "minecraft:gold_ingot"
+    },
+    "dimension": "minecraft:the_nether"
+}

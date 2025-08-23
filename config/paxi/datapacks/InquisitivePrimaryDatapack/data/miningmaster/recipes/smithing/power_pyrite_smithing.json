@@ -1,0 +1,19 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "etcetera:raw_bismuth"
+    },
+    "enchantments": [
+        "alexscaves:bonking",
+        "allurement:shockwave",
+        "galosphere:rupture",
+        "enchancement:beserk",
+        "minecraft:sharpness",
+        "minecraft:power",
+        "minecraft:impaling",
+        "miningmaster:stonebreaker"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "oco",
+    " p ",
+    " i "
+  ],
+  "reagents": "esgs",
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "c": {
+      "item": "spelunkery:portal_fluid_bottle"
+    },
+    "p": {
+      "item": "etcetera:bismuth_ingot"
+    },
+    "i": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "e": {
+      "tag": "forge:ender_pearls"
+    },
+    "s": {
+      "item": "eidolon:soul_shard"
+    },
+    "g": {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  },
+  "result": {
+    "item": "eidolon:reversal_pick"
+  }
+}

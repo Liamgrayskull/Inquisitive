@@ -1,0 +1,15 @@
+{
+  "cost": 0.2,
+  "disabled": false,
+  "cast_at_position": [
+    "effect give @s mowziesmobs:suns_blessing 120 1 true",
+    "particle alexscaves:happiness ~ ~2 ~ 1 1 1 0.01 5"
+    
+  ],
+  "cast_on_entity": [
+    "effect give @s mowziesmobs:suns_blessing 120 1 true",
+    "execute at @s run particle alexscaves:happiness ~ ~2 ~ 1 1 1 0.01 5"
+  ],
+  "cast_on_item": [
+  ]
+}

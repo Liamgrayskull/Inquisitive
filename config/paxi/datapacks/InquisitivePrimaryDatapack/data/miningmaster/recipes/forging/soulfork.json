@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "biomemakeover:soul_embers"
+        },
+        {
+            "item": "alexsmobs:soul_heart"
+        },
+        {
+            "item": "biomemakeover:soul_embers"
+        }
+    ],
+    "catalyst": {
+        "item": "impaled:hellfork"
+    },
+    "result": {
+        "item": "impaled:soulfork"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:soul_fire_aspect",
+            "lvl": 1
+        }
+    ]
+}

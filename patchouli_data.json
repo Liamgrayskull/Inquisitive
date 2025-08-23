@@ -1,0 +1,41 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "vsch:stars": {
+      "viewedEntries": [
+        "vsch:air_thruster/air_thruster",
+        "vsch:drag_inducer/drag_inducer",
+        "vsch:thruster/thruster",
+        "vsch:powerful_thruster/powerful_thruster",
+        "vsch:vsch_magnetic_boots/vsch_magnetic_boots",
+        "vsch:vsch_wrench/vsch_wrench"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "twilightdelight:twilight_guide": {
+      "viewedEntries": [
+        "twilightdelight:effects/aurora_glowing"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "scriptor:scriptor_guide": {
+      "viewedEntries": [
+        "scriptor:basics/starting",
+        "scriptor:basics/structure",
+        "scriptor:basics/subjects"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:surviving_mars/detection"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

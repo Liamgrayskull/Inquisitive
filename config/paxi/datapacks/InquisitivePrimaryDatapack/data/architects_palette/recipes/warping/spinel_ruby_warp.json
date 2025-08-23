@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "ruby_exchange:ruby"
+        }
+    ],
+    "result": {
+        "item": "caverns_and_chasms:spinel"
+    },
+    "dimension": "minecraft:the_nether"
+}

@@ -1,0 +1,30 @@
+#Max range of vent, high value can cause lags
+ventRange = 2048
+#List of fluids to accept as oxygen
+oxygenFluids = ["ad_astra:oxygen"]
+#Max amount of oxygen that oxygen tank can contain (in mb)
+oxygenTankCapacity = 1200
+#How many oxygen units in 1 mb
+oxygenConsumption = 10
+#List of unbreathable dimensions
+unbreathableDimensions = ["minecraft:the_end"]
+#How many blocks vent can fill with 1 oxygen unit
+ventConsumption = 20
+#The item ID of the material to repair the spacesuit with
+space_repair_material = "mekanism:ingot_steel"
+#The item ID of the material to repair the cryo suit with
+cryo_repair_material = "mekanism:ingot_refined_obsidian"
+#The item ID of the material to repair the thermal suit with
+thermal_repair_material = "mekanism:ingot_refined_glowstone"
+#List of item IDs that count as spacesuit helmets
+space_helmets = ["beyond_oxygen:spacesuit_helmet", "beyond_oxygen:cryo_suit_helmet"]
+#List of item IDs that count as spacesuit chestplates
+space_chestplates = ["beyond_oxygen:spacesuit_chestplate", "beyond_oxygen:cryo_suit_chestplate"]
+#List of item IDs that count as spacesuit leggings
+space_leggings = ["beyond_oxygen:spacesuit_leggings", "beyond_oxygen:cryo_suit_leggings"]
+#List of item IDs that count as spacesuit boots
+space_boots = ["beyond_oxygen:spacesuit_boots", "beyond_oxygen:cryo_suit_boots"]
+#Maximum radius of bubble generators
+#Range: 5 ~ 20
+bubbleMaxRadius = 5
+

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "hiddenMods": [
+    "farmersdelight",
+    "natures_delight",
+    "sortilege",
+    "scout"
+  ],
+  "globalModAliases": {
+    "cloth_config": "cloth-config2",
+    "embeddium": [
+      "sodium",
+      "magnesium"
+  
+  ],
+    "playeranimator": "player-animator" }
+  
+}

@@ -1,0 +1,89 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.7,
+  "downfall": 0.1,
+  "effects": {
+    "music": {
+  "sound": "paradise_lost:music.paradise",
+  "min_delay": 12000,
+  "max_delay": 24000,
+  "replace_current_music": true
+},
+"particle": {
+  "options": {
+    "type": "doom_and_gloom:fog"
+  },
+  "probability": 0.01
+},
+    "foliage_color": -9135,
+    "grass_color": -7063,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": -16467204,
+    "water_fog_color": -16752641
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      
+    ],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "inq:isles/noise_stripes_moonstone_isles",
+      "inq:isles/noise_stripes_allurite_isles",
+      "minecraft:large_dripstone",
+      "minecraft:pointed_dripstone",
+      "inq:isles/large_floor_allurite_crystals",
+      "inq:isles/large_ceiling_allurite_crystals"
+    ],
+    [],
+    [
+      "inq:fissures/allurite_fissure"
+    ],
+    [
+    ],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_grass_forest"
+    ],
+    []
+  ]
+}

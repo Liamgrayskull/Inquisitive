@@ -1,0 +1,27 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+     {
+        "item":"create:copper_nugget"
+     },
+     {
+        "item":"alexscaves:notor_gizmo"
+     }
+  ],
+  "results":[
+     {
+        "item":"create:electron_tube",
+        "count":3
+     }
+  ]
+}

@@ -1,0 +1,4 @@
+#Defines how severe is the screenshake
+#Range: 0.0 ~ 1.0
+screenshake_amount = 0.01
+

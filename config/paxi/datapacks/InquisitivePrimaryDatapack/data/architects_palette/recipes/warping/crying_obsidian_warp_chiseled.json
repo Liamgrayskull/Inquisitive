@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "frame_changer:chiseled_obsidian"
+        }
+    ],
+    "result": {
+        "item": "frame_changer:crying_chiseled_obsidian"
+    },
+    "dimension": "minecraft:the_nether"
+}

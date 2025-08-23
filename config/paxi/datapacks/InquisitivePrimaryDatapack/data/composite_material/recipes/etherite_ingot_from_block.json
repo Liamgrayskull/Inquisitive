@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "composite_material:etherite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "composite_material:etherite_ingot"
+  }
+}

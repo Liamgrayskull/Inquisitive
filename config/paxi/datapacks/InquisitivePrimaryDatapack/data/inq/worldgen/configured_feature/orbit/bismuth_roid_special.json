@@ -1,0 +1,320 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:dual_noise_provider",
+        "seed": 0,
+        "noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            0.15,
+            0.15
+          ]
+        },
+        "scale": 1,
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 19
+        },
+        "slow_noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1,
+            1.125,
+            1.25,
+            1.375
+          ]
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          }
+        ]
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "create:scorchia"
+        }
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:dual_noise_provider",
+        "seed": 0,
+        "noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            0.15,
+            0.15
+          ]
+        },
+        "scale": 1,
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 19
+        },
+        "slow_noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1,
+            1.125,
+            1.25,
+            1.375
+          ]
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          }
+        ]
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:dual_noise_provider",
+        "seed": 0,
+        "noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            0.15,
+            0.15
+          ]
+        },
+        "scale": 1,
+        "variety": {
+          "min_inclusive": 1,
+          "max_inclusive": 19
+        },
+        "slow_noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1,
+            1.125,
+            1.25,
+            1.375
+          ]
+        },
+        "slow_scale": 1,
+        "states": [
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scoria"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "create:scorchia"
+          },
+          {
+            "Name": "etcetera:raw_bismuth_block"
+          }
+        ]
+      },
+      "inner_placements": [
+        {
+          "Name": "create:scorchia"
+        }
+      ],
+      "cannot_replace": "#minecraft:carpets",
+      "invalid_blocks": "#minecraft:carpets"
+    },
+    "layers": {
+      "filling": 1.75,
+      "inner_layer": 2.5,
+      "middle_layer": 3,
+      "outer_layer": 4
+    },
+    "crack": {
+      "generate_crack_chance": 0.625,
+      "base_crack_size": 1.4,
+      "crack_point_offset": 1.05
+    },
+    "noise_multiplier": 0.095,
+    "use_potential_placements_chance": 0,
+    "use_alternate_layer0_chance": 0,
+    "placements_require_layer0_alternate": false,
+    "outer_wall_distance": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 6
+      }
+    },
+    "distribution_points": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 7
+      }
+    },
+    "min_gen_offset": -16,
+    "max_gen_offset": 16,
+    "invalid_blocks_threshold": 25
+  }
+}

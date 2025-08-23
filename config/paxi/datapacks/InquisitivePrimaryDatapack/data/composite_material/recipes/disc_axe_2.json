@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "minecraft:music_disc_5"
+    },
+    "2": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "11",
+    "21",
+    "2 "
+  ],
+  "result": {
+    "item": "composite_material:disc_axe"
+  }
+}

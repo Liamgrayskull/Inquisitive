@@ -1,0 +1,16 @@
+{
+  "name": "inq:gsi0_sp" ,
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "inq:greatskyisland0/gsi0-spike0",
+        "processors": "minecraft:empty"
+      }
+    }
+   ]
+   
+}

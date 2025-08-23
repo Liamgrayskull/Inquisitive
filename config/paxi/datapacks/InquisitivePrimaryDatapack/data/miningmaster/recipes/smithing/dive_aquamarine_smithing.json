@@ -1,0 +1,17 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "miningmaster:dive_aquamarine"
+    },
+    "enchantments": [
+        "minecraft:depth_strider",
+        "minecraft:riptide",
+        "alexscaves:enveloping_bubble",
+        "enchancement:buoy",
+        "enchancement:amphibious",
+        "minecraft:luck_of_the_sea"
+    ]
+}

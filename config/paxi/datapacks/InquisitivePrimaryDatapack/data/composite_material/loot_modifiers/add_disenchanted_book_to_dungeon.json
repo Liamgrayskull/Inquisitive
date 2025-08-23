@@ -1,0 +1,7 @@
+{
+  "type": "composite_material:add_loot_table",
+  "conditions":
+  [
+  ],
+  "lootTable": "composite_material:disenchanted_book_spawn"
+}

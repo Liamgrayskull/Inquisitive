@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "composite_material:primitive_tenacity"
+  },
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "result": {
+    "item": "composite_material:primitive_boots"
+  },
+  "template": {
+    "item": "composite_material:ancient_fiber"
+  }
+}

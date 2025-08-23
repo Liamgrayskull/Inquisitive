@@ -1,0 +1,57 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "alexscaves:peppermint_powder"
+    },
+    "loops": 1,
+    "results": [
+        {
+            "item": "alexscaves:candy_cane"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "alexscaves:peppermint_powder"
+                },
+                {
+                    "fluid": "create:honey",
+                    "amount": 100
+                }
+            ],
+            "results": [
+                {
+                    "item": "alexscaves:peppermint_powder"
+                }
+            ]
+        },
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "alexscaves:peppermint_powder"
+				}
+			],
+			"results": [
+				{
+					"item": "alexscaves:peppermint_powder"
+				}
+			]
+		}
+    ],
+    "transitionalItem": {
+        "item": "alexscaves:peppermint_powder"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "block.computercraft.cable.description": " ??? tag.create.brittle.description, tag.computercraft.wired_modem.description, tag.computercraft.peripheral_hub_ignore.description",
+  "block.computercraft.computer_advanced.description": " ??? tag.computercraft.computer.description",
+  "block.computercraft.computer_command.description": " ??? tag.alexscaves.unmovable.description, tag.alexscaves.nuke_proof.description, tag.computercraft.computer.description, tag.alexscaves.corrodent_blocks_digging.description, tag.alexscaves.gum_worm_blocks_digging.description, tag.incendium.knight_immune.description, tag.minecraft.wither_immune.description, tag.alexscaves.resists_magnetron_body_building.description",
+  "block.computercraft.computer_normal.description": " ??? tag.computercraft.computer.description",
+  "block.computercraft.disk_drive.description": " ??? ",
+  "block.computercraft.monitor_advanced.description": " ??? tag.computercraft.monitor.description",
+  "block.computercraft.monitor_normal.description": " ??? tag.computercraft.monitor.description",
+  "block.computercraft.printer.description": " ??? ",
+  "block.computercraft.redstone_relay.description": " ??? ",
+  "block.computercraft.speaker.description": " ??? ",
+  "block.computercraft.turtle_advanced.description": " ??? tag.computercraft.turtle.description",
+  "block.computercraft.turtle_normal.description": " ??? tag.computercraft.turtle.description",
+  "block.computercraft.wired_modem_full.description": " ??? tag.computercraft.wired_modem.description, tag.computercraft.peripheral_hub_ignore.description",
+  "block.computercraft.wireless_modem_advanced.description": " ??? tag.create.brittle.description",
+  "block.computercraft.wireless_modem_normal.description": " ??? tag.create.brittle.description",
+  "block.minecraft.lectern.description": " ??? tag.minecraft.mineable.axe.description",
+  "item.computercraft.treasure_disk.description": " ??? lore"
+}

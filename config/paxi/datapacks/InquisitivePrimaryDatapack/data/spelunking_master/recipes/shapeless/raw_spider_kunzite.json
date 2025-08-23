@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_spider_kunzite_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_spider_kunzite",
+    "count": 9
+  }
+}

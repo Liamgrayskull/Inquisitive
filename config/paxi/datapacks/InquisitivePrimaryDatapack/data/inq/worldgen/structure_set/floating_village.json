@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "inq:floating_village",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 136952229,
+    "spacing": 15,
+    "separation": 10
+  }
+}

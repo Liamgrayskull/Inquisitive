@@ -1,0 +1,19 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "tetra:pristine_amethyst"
+    },
+    "enchantments": [
+        "enchancement:phasing",
+        "allurement:reforming",
+        "allurement:spread_of_ailments",
+        "domesticationinnovation:ore_scenting",
+        "minecraft:thorns",
+        "minecraft:loyalty",
+        "minecraft:multishot",
+        "miningmaster:leeching"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.82,
+          "feature": {
+            "feature": "inq:orbit/shiverstone_green_roid",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.83,
+          "feature": {
+            "feature": "inq:orbit/bloodstone_red_roid",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.84,
+          "feature": {
+            "feature": "inq:orbit/void_shale_blue_roid",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.85,
+          "feature": {
+            "feature": "inq:orbit/bloodstone_red_roid",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.86,
+          "feature": {
+            "feature": "inq:orbit/void_roid_special",
+            "placement": []
+          }
+        }
+      ],
+      "default": {
+        "feature": "inq:orbit/bismuth_roid_special",
+        "placement": [
+          {
+            "type": "minecraft:noise_based_count",
+            "noise_to_count_ratio": 3,
+            "noise_factor": 407,
+            "noise_offset": -0.15
+          }
+        ]
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 9,
+      "noise_factor": 1021,
+      "noise_offset": -0.325
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 6
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "below_top": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

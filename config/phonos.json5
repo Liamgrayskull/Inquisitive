@@ -1,0 +1,18 @@
+{
+	// Loudspeaker Master Volume [0, 1]
+	phonosMasterVolume: 1.0,
+	// Satellite Audio Volume [0, 1]
+	streamVolume: 1.0,
+	// Microphone Volume (Own Voice) [0, 1]
+	ownVoiceVolume: 1.0,
+	// Cull Audio Cables not on-screen
+	cableCulling: true,
+	// Render Audio Cables with VBOs
+	cableVBOs: false,
+	// Render Audio Cables with Detail Levels
+	cableLODs: true,
+	// Highest Audio Cable Detail Level [0.1, 1]
+	cableLODNearDetail: 1.0,
+	// Lowest Audio Cable Detail Level [0.1, 1]
+	cableLODFarDetail: 0.25
+}

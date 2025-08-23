@@ -1,0 +1,18 @@
+{
+  "disabled": "true",
+  "name": "tome.scriptor.obsidian_buster",
+  "author": "Henry",
+  "tier": 2,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "haste",
+        "descriptors": [
+          "strong",
+          "longer"
+        ]
+      }
+    ]
+  }
+}

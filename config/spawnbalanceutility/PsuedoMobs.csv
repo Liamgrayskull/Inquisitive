@@ -1,0 +1,52 @@
+* Mobs in this file will generate in any specified biome despite their own spawning rules.
+* For now, Psuedo Mobs of one type, won't respawn until the prior one dies or despawns.
+* SBU will read this file ONLY if it is renamed PsuedoMobs.csv.
+*
+* NOTICE: This file has a unique format differs from BiomeMobWeight file
+* Line starting with '*' are comments and ignored. 
+*
+* Line, biome, mod:mob, psuedoWeight, mingroup , maxgroup
+1, ad_astra:martian_wastelands,alexscaves:gloomoth, 30, 4, 4
+1, ad_astra:martian_wastelands,alexscaves:underzealot, 60, 1, 1
+1, ad_astra:martian_wastelands,alexscaves:watcher, 10, 1, 1
+1, ad_astra:martian_wastelands,alexsmobs:rocky_roller, 30, 1, 1
+1, ad_astra:martian_wastelands,alexsmobs:tarantula_hawk, 10, 1, 1
+1, ad_astra:martian_wastelands,alexsmobs:guster, 10, 1, 1
+1, ad_astra:martian_wastelands,undergarden:nargoyle, 30, 1, 2
+1, ad_astra:martian_wastelands,undergarden:forgotten, 30, 1, 2
+1, ad_astra:martian_wastelands,minecraft:bat, 50, 4, 10
+1, ad_astra:martian_wastelands,species:roombug, 50, 4, 10
+1, ad_astra:martian_wastelands,alexsmobs:cockroach, 50, 4, 10
+1, ad_astra:martian_wastelands,alexscaves:corrodent, 80, 1, 3
+1, ad_astra:martian_wastelands,alexscaves:vesper, 50, 2, 3
+1, ad_astra:martian_wastelands,mowziesmobs:lantern, 70, 1, 1
+2, ad_astra:martian_canyon_creek,alexscaves:gloomoth, 20, 4, 4
+2, ad_astra:martian_canyon_creek,alexscaves:underzealot, 60, 1, 1
+2, ad_astra:martian_canyon_creek,alexscaves:watcher, 10, 1, 1
+2, ad_astra:martian_canyon_creek,alexsmobs:rocky_roller, 30, 1, 1
+2, ad_astra:martian_canyon_creek,alexsmobs:tarantula_hawk, 10, 1, 1
+2, ad_astra:martian_canyon_creek,alexsmobs:guster, 10, 1, 1
+2, ad_astra:martian_canyon_creek,undergarden:nargoyle, 30, 1, 2
+2, ad_astra:martian_canyon_creek,undergarden:forgotten, 30, 1, 2
+2, ad_astra:martian_canyon_creek,minecraft:bat, 90, 4, 10
+2, ad_astra:martian_canyon_creek,species:roombug, 90, 4, 10
+2, ad_astra:martian_canyon_creek,alexscaves:corrodent, 80, 1, 3
+2, ad_astra:martian_canyon_creek,alexscaves:vesper, 50, 2, 3
+2, ad_astra:martian_canyon_creek,mowziesmobs:lantern, 70, 1, 1
+3, ad_astra:orbit,alexsmobs:cosmic_cod, 80, 4, 4
+3, ad_astra:orbit,alexsmobs:spectre, 80, 1, 1
+3, ad_astra:orbit,alexsmobs:cosmaw, 80, 4, 4
+3, ad_astra:orbit,alexsmobs:endergrade, 80, 4, 4
+4,ad_astra:mercury_deltas,alexscaves:notor, 80, 3, 15
+4,ad_astra:mercury_deltas,alexscaves:boundroid, 80, 1, 2
+4,ad_astra:mercury_deltas,alexscaves:magnetron, 80, 1, 1
+4,ad_astra:mercury_deltas,mowziesmobs:umvuthana, 60, 1, 3
+4,ad_astra:mercury_deltas,alexsmobs:laviathan, 40, 1, 1
+5,ad_astra:lunar_wastelands,alexsmobs:underminer, 30, 1, 1
+5,ad_astra:lunar_wastelands,alexsmobs:mimicube, 60, 1, 3
+6,ad_astra:venus_wastelands,mowziesmobs:naga, 10, 0, 1
+6,ad_astra:venus_wastelands,alexscaves:gammaroach, 30, 1, 2
+6,ad_astra:venus_wastelands,alexscaves:raycat, 40, 0, 2
+6,ad_astra:venus_wastelands,ribbits:ribbit_nitwit, 20, 2, 4
+6,ad_astra:venus_wastelands,mowziesmobs:umvuthana, 50, 1, 3
+6,ad_astra:venus_wastelands,mowziesmobs:umvuthana_crane, 50, 0, 1

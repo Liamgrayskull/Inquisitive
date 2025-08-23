@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "immersive_weathering:moss_clump"
+        }
+    ],
+    "result": {
+        "item": "unusualend:warped_moss"
+    },
+    "dimension": "minecraft:the_nether"
+}

@@ -1,0 +1,23 @@
+{
+	"pingChannel": "",
+	"audioNest": {
+		"pingVolume": 100,
+		"pingVolumeFalloff": 10
+	},
+	"visualsNest": {
+		"pingDuration": 8,
+		"pingDistance": 256,
+		"pingSourceDistance": 64,
+		"pingSizeMult": "ONE",
+		"pingShowUsername": true,
+		"pingHitOnlySolid": true,
+		"pingColorText": true
+	},
+	"colorNest": {
+		"pingStandardColor": "#FFFFFFFF",
+		"pingMonsterColor": "#FFFF5050",
+		"pingAngerableColor": "#FFFFBB55",
+		"pingFriendlyColor": "#FF45FF45",
+		"pingPlayerColor": "#FF45B5FF"
+	}
+}

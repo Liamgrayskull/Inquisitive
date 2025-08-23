@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "N": {"item": "minecraft:note_block"},
+    "A": {"item": "create:andesite_casing"}
+  },
+  "pattern": ["N", "A"],
+  "result": {"item": "computercraft:speaker"},
+  "show_notification": true
+}

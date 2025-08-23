@@ -1,0 +1,669 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "minecraft:tree",
+                  "config": {
+                    "decorators": [],
+                    "dirt_provider": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:dirt"
+                      }
+                    },
+                    "foliage_placer": {
+                      "type": "minecraft:cherry_foliage_placer",
+                      "corner_hole_chance": 0.25,
+                      "hanging_leaves_chance": 0.16666667,
+                      "hanging_leaves_extension_chance": 0.33333334,
+                      "height": 5,
+                      "offset": 0,
+                      "radius": 4,
+                      "wide_bottom_layer_hole_chance": 0.25
+                    },
+                    "foliage_provider": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:cherry_leaves",
+                        "Properties": {
+                          "distance": "7",
+                          "persistent": "false",
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "type": "minecraft:two_layers_feature_size",
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 2
+                    },
+                    "trunk_placer": {
+                      "type": "minecraft:cherry_trunk_placer",
+                      "base_height": 7,
+                      "branch_count": {
+                        "type": "minecraft:weighted_list",
+                        "distribution": [
+                          {
+                            "data": 1,
+                            "weight": 1
+                          },
+                          {
+                            "data": 2,
+                            "weight": 1
+                          },
+                          {
+                            "data": 3,
+                            "weight": 1
+                          }
+                        ]
+                      },
+                      "branch_end_offset_from_top": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "max_inclusive": 0,
+                          "min_inclusive": -1
+                        }
+                      },
+                      "branch_horizontal_length": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "max_inclusive": 4,
+                          "min_inclusive": 2
+                        }
+                      },
+                      "branch_start_offset_from_top": {
+                        "max_inclusive": -3,
+                        "min_inclusive": -4
+                      },
+                      "height_rand_a": 1,
+                      "height_rand_b": 0
+                    },
+                    "trunk_provider": {
+                      "type": "minecraft:simple_state_provider",
+                      "state": {
+                        "Name": "minecraft:cherry_log",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      }
+                    }
+                  }
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:moss_block",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": "arboria_saplings:cherry/no_bees/6",
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.25,
+                        "feature": {
+                          "feature": "arboria_saplings:cherry/no_bees/1",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.25,
+                        "feature": {
+                          "feature": "arboria_saplings:cherry/no_bees/2",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.3,
+                        "feature": {
+                          "feature": "arboria_saplings:cherry/no_bees/3",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.2,
+                        "feature": {
+                          "feature": "arboria_saplings:cherry/no_bees/4",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.65,
+                        "feature": {
+                          "feature": "arboria_saplings:cherry/no_bees/5",
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:moss_block",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicates": [
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:cherry_sapling",
+                                "Properties": {
+                                  "stage": "1"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:cherry_sapling",
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "type": "minecraft:solid"
+                                  }
+                                ],
+                                "type": "minecraft:any_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "default": {
+                              "feature": "arboria_saplings:cherry/no_bees/8",
+                              "placement": []
+                            },
+                            "features": [
+                              {
+                                "chance": 0.45,
+                                "feature": {
+                                  "feature": "arboria_saplings:cherry/no_bees/7",
+                                  "placement": []
+                                }
+                              }
+                            ]
+                          },
+                          "type": "minecraft:random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:cherry_sapling",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 24,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "type": "minecraft:solid"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": {
+                              "value": {
+                                "min_inclusive": -1,
+                                "max_inclusive": 0
+                              },
+                              "type": "minecraft:uniform"
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:moss_block",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:cherry_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:cherry_sapling",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "type": "minecraft:solid"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 32,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 24,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "composite_material:echoium_ingot"
+    },
+    "2": {
+      "item": "minecraft:sculk_vein"
+    },
+    "3": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    " 12",
+    "342",
+    " 12"
+  ],
+  "result": {
+    "item": "composite_material:lacerator"
+  }
+}

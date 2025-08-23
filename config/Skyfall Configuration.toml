@@ -1,0 +1,47 @@
+
+[Meteorites]
+	#this value multiplies the default chance of a meteorite spawning (Default: 1)
+	"Spawn Chance Multiplier" = 1.0
+	#this value multiplies the default impact strength of meteorites (Default: 1
+	"Impact Strength Multiplier" = 1.0
+	#this value multiplies the default falling speed of meteorites (Default: 1)
+	"Falling Speed Multiplier" = 1.0
+	#the list of dimensions where meteorites can spawn in (Default: minecraft:overworld) Example: [minecraft:overworld, minecraft:the_end]
+	"Meteorite Spawn Dimensions" = ["minecraft:overworld"]
+	#this controls whether or not the meteorites spawn fire upon landing
+	"Meteorite Fire" = true
+	#if true this completely disables the alien
+	Alienphobia = false
+
+[Events]
+	#this value multiplies the default chance of a meteorite spawning during a meteor shower (Default: 1)
+	"Meteorite Shower Meteorite Spawn Chance  Multiplier" = 1.0
+	#this value multiplies the default chance of a meteorite spawning during a apocalypse (Default: 1)
+	"Apocalypse Meteorite Spawn Chance  Multiplier" = 1.0
+	#this value multiplies the default descend speed of the angry moon (Default: 1)
+	"Angry Moon Descend Speed Multiplier" = 1.0
+	#this list defines in which dimensions meteor showers can happen
+	"Meteor Shower Dimensions" = ["minecraft:overworld"]
+	#the minimum of time where a meteor shower can start in ticks (Default: 268000) (meteor showers work with a time that counts up every tick and if it reaches this number, a meteor shower starts and will go on until the timer reaches the shower start value + the shower duration then the timer resets)
+	"Min Meteor Shower Start Time" = 268000.0
+	#the maximum of time where a meteor shower can start in ticks (Default: 436000)
+	"Max Meteor Shower Start Time" = 436000.0
+	#this defines the minimum of the duration a meteor shower can last (Default: 3000)
+	"Min Shower Duration" = 3000.0
+	#this defines the maximum of the duration a meteor shower can last (Default: 6000)
+	"Max Shower Duration" = 6000.0
+
+["Blocks and Items"]
+	#this will completely despawn any meteorites entering the area of a astral repulsion beacon, including meteorites summoned by a player (Default: False)
+	"Force Repulsion" = false
+	#this defines the chance(in %) of stardust spawning when a meteorite is shot by a skyfall protector (Default: 35)
+	"Skyfall Protector Stardust Chance" = 35.0
+	#this controls whether or not the astral repulsion beacon should always have a effect, even if there is no stardust beneath it
+	"Always Active Repulsion Beacon" = true
+
+[Performance]
+	#decides if fire is placed immediately or through falling blocks (Default: False)
+	"Immediate Fire" = false
+	#if true, it will reduce the amount of particles a lot (Default: False)
+	"Lightweight Particles" = false
+

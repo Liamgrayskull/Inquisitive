@@ -1,0 +1,13 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "galosphere:lumiere_shard"
+    },
+    "enchantments": [
+        "allurement:reforming",
+        "allurement:alleviating"
+    ]
+}

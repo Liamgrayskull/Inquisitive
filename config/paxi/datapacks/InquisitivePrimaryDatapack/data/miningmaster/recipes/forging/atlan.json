@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "undergarden:regalium_crystal"
+        },
+        {
+            "item": "minecraft:golden_helmet"
+        },
+        {
+            "item": "undergarden:regalium_crystal"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:trident"
+    },
+    "result": {
+        "item": "impaled:atlan"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:warp",
+            "lvl": 1
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "minecraft:smooth_basalt"
+        },
+        {
+            "fluid": "minecraft:lava",
+            "amount": 250
+        }
+    ],
+    "results": [
+        {
+            "item": "alexscaves:flood_basalt",
+            "count": 4
+        }
+    ]
+}

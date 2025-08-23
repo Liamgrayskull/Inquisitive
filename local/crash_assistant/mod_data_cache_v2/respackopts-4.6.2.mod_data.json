@@ -1,0 +1,1 @@
+{"jarName":"respackopts-4.6.2.jar","modId":"respackopts","version":"4.6.2","mixinConfigs":["respackopts.mixins.json","respackopts.client.mixins.json"],"jarJarMods":[{"jarName":"muscript-1.4-SNAPSHOT.jar","modId":"io_gitlab_jfronny_muscript","version":"1.4-SNAPSHOT","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

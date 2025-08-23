@@ -1,0 +1,14 @@
+{
+  "name": "Sample Artifact",
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "action.demo_pack.sample_word",
+        "descriptors": [
+          "color.demo_pack.sample_color"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+# Claimorous Configuration
+# This config file is automatically generated and updated by the mod
+# IT'S NOT RECOMMENDED TO EDIT THIS FILE MANUALLY
+# CONFIGURATION CHANGES CAN BE MADE IN THE INGAME MENU
+# Use the command /claimorous config to open the ingame menu
+# Any manual changes should follow TOML syntax
+
+# [Global Claim Configuration]
+
+# Tier 0 claim size (side of the cube)
+tier0_claim_size = 17
+# Tier 1 claim size (side of the cube)
+tier1_claim_size = 33
+# Tier 2 claim size (side of the cube)
+tier2_claim_size = 65
+
+# Minimum height for claims
+min_claim_height = -64
+# Maximum height for claims
+max_claim_height = 319
+# Minimum permission level to bypass claim protection
+min_permission_level_to_bypass = 2
+# Maximum claims per player
+max_claims_per_player = 3
+# Minimum distance between claims
+min_distance_between_claims = 16
+# Enable owners to share permissions (Block_Breaking, Item_Use, Entity_Interact) with other players
+enable_permission_system = true
+# Allow owners to share permissions management with other players
+allow_permission_management_sharing = false
+
+# [Block and Item Protection Settings]
+
+# Prevents players from breaking blocks in claims
+prevent_block_breaking = true
+# Exceptions to block breaking, so invert the logic of the prevent_block_breaking setting
+prevent_block_breaking_exceptions_ids = []
+prevent_block_breaking_exceptions_tags = []
+
+# Prevents players from placing blocks in claims
+prevent_block_placement = true
+# Exceptions to block placement, so invert the logic of the prevent_block_placement setting
+prevent_block_placement_exceptions_ids = []
+prevent_block_placement_exceptions_tags = []
+
+# Prevents players from interacting with blocks in claims
+prevent_block_interaction = false
+# Exceptions to block interaction, so invert the logic of the prevent_block_interaction setting
+prevent_block_interaction_exceptions_ids = []
+prevent_block_interaction_exceptions_tags = []
+
+# Prevents players from using items in claims
+prevent_item_use = false
+# Exceptions to item use, so invert the logic of the prevent_item_use setting
+prevent_item_use_exceptions_ids = []
+prevent_item_use_exceptions_tags = []
+
+# Prevents players from using items on blocks in claims
+prevent_item_use_on_block = true
+# Exceptions to item use on blocks, so invert the logic of the prevent_item_use_on_block setting
+prevent_item_use_on_block_exceptions_ids = []
+prevent_item_use_on_block_exceptions_tags = []
+
+# [Entity Protection Settings]
+
+protect_entity_from_attack = true
+protect_entity_from_attack_exceptions_ids = []
+protect_entity_from_attack_exceptions_tags = []
+protect_entity_from_interaction = true
+protect_entity_from_interaction_exceptions_ids = []
+protect_entity_from_interaction_exceptions_tags = []
+# Protects claim owner from hostile mobs
+protect_from_hostile_mob = true
+
+# [PvP and Projectile Protection Settings]
+
+# Prevents PvP targeting claim owner
+protect_owner_pvp = true
+# Prevents PvP in claims
+
+protect_everyone_pvp = false
+# Prevents projectiles from damaging entities in claims
+prevent_projectile_damage = true
+# Shows visual effects when projectiles are blocked
+show_projectile_effects = true
+# Projectile particle scale (0.1 to 2.0)
+projectile_particle_scale = 1.0
+# Maximum particles per projectile effect (1 to 50)
+projectile_particle_count = 16
+# Cooldown between projectile effects in ticks (1 to 200)
+projectile_effect_cooldown = 100
+# Density of projectile particles (0.1 to 2.0)
+projectile_particle_density = 1.0
+
+
+# [Environment Protection Settings]
+
+# Prevents fluid flow into claims
+prevent_fluid_flow_into_claim = true
+# Radius around claims where fluid placement is prevented
+fluid_placement_protection_radius = 3
+
+# Prevents fire from spreading across claim boundaries
+prevent_fire_spread_across_claim = true
+
+
+# Prevents explosions in claims
+prevent_explosion = true
+# Shows visual effects when explosions are blocked
+show_explosion_effects = true
+# Explosion particle scale (0.1 to 2.0)
+explosion_particle_scale = 0.5
+# Volume of explosion sound effects (0 to 100)
+explosion_sound_volume = 50
+# Cooldown between explosion effects in ticks (1 to 1000)
+explosion_effect_cooldown = 500
+
+
+# Prevents pistons from moving blocks across claim boundaries
+prevent_piston_interaction = true
+
+
+# Prevents dispensers from interacting with blocks in claims
+prevent_dispenser_interaction = true
+
+
+# [Essence System Settings]
+
+# Enables the essence system for claim maintenance
+enable_essence_system = true
+# Amount of essence consumed per interval
+essence_consumption_amount = 1.0
+# Interval between essence consumption in ticks
+essence_consumption_interval = 1200
+# Grace period after claim creation before essence consumption starts
+initial_grace_period_ticks = 2400
+# Maximum essence that can be stored in a claim
+max_essence_storage = 2000
+# Amount of essence provided by each essence item
+essence_per_item = 20
+# Item ID for claim essence
+essence_item_id = "enlightened_end:stardust"
+
+
+# [Visual Settings]
+
+# Shows claim borders to players
+show_claim_borders = true
+# Distance at which claim borders are visible
+claim_border_view_distance = 128
+# Scale of particles in claim borders (0.1 to 2.0)
+claim_particle_scale = 2.0
+# Update interval for claim border particles in ticks
+claim_particle_update_interval = 20
+# Density of particles in claim borders (0.1 to 2.0)
+claim_particle_density = 1.0
+# Color for basic claims in hex format (#RRGGBB)
+tier0_claim_color = "#57368F"
+# Color for advanced claims in hex format (#RRGGBB)
+tier1_claim_color = "#B876D6"
+# Color for elite claims in hex format (#RRGGBB)
+tier2_claim_color = "#FFBABA"
+
+# [Logging Settings]
+
+# Logs when claims are created
+log_claim_creation = true
+# Logs when claims are removed
+log_claim_removal = true
+# Logs when claims are modified
+log_claim_modification = true
+# Logs when players receive warnings about claim violations
+log_player_warnings = true
+# Enables periodic statistics logging
+log_periodic_stats = false
+# Time between statistics logging in minutes
+periodic_stats_interval = 720
+# Logs when configuration changes are made
+log_config_changes = true
+# Enables debug logging
+log_debug_info = false
+

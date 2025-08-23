@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "enlightened_end:irradium_brick_stairs",
+    "enlightened_end:irradium_brick_wall",
+    "enlightened_end:irradium_brick_slab",
+    "enlightened_end:irradium_bricks",
+    "alexscaves:acidic_radrock",
+    "alexscaves:radrock_uranium_ore",
+    "alexscaves:nuclear_furnace_component",
+    "enlightened_end:raw_irradium_block",
+    "alexscaves:waste_drum",
+    "alexscaves:uranium"
+  ]
+}

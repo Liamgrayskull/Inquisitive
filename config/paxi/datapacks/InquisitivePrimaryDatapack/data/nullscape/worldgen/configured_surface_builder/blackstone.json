@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "quark:myalite_crystal"
+    },
+    "under_material": {
+      "Name": "quark:myalite"
+    },
+    "underwater_material": {
+      "Name": "quark:dusky_myalite"
+    }
+  },
+  "type": "minecraft:default"
+}

@@ -1,0 +1,57 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "etcetera:raw_bismuth"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_axe"
+    },
+    "result": {
+        "item": "miningmaster:ultima_axe"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:sharpness",
+            "lvl": 1
+        },
+        {
+            "enchantment": "minecraft:efficiency",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:beheading",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:lumberjack",
+            "lvl": 1
+        },
+        {
+            "enchantment": "minecraft:knockback",
+            "lvl": 2
+        }
+    ]
+}

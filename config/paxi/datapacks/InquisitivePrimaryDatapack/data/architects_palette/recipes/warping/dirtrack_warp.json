@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "minecraft:dirt"
+        }
+    ],
+    "result": {
+        "item": "minecraft:netherrack"
+    },
+    "dimension": "minecraft:the_nether"
+}

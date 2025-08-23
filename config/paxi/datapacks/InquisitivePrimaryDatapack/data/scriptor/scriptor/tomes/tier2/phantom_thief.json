@@ -1,0 +1,20 @@
+{
+  "name": "tome.scriptor.phantom_thief",
+  "author": "The Joker, Baby",
+  "tier": 2,
+  "spell": {
+    "subject": "projectile",
+    "spells": [
+      {
+        "action": "bring",
+        "descriptors": [
+          "blue",
+          "inventory",
+          "first_filled",
+          "caster_inventory",
+          "caster_first_matching"
+        ]
+      }
+    ]
+  }
+}

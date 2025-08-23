@@ -1,0 +1,7 @@
+
+[Thruster]
+	#Particle additional velocity modifier when ship is moving in the same direction as exhaust.
+	"Particle velocity offset" = 0.15
+	#The higher this number is - the more particles are spawned.
+	"Particle count multiplier" = 1.0
+

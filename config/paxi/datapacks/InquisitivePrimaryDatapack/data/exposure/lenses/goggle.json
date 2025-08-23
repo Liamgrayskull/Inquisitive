@@ -1,0 +1,9 @@
+{
+  "item": {
+    "item": "create:goggles"
+  },
+  "focal_range": {
+    "min": 10,
+    "max": 50
+  }
+}

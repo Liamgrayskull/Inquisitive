@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "molten_metals:slag"
+        }
+    ],
+    "result": {
+        "item": "etcetera:raw_bismuth"
+    },
+    "dimension": "minecraft:the_nether"
+}

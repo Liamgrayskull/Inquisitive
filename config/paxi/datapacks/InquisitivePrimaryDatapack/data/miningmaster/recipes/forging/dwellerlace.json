@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "dweller_dweller:dweller_dweller_tooth"
+        },
+        {
+            "item": "dweller_dweller:dweller_dweller_tooth"
+        },
+        {
+            "item": "dweller_dweller:dweller_dweller_tooth"
+        }
+    ],
+    "catalyst": {
+        "item": "createaddition:iron_wire"
+    },
+    "result": {
+        "item": "dweller_dweller:teeth_necklace_chestplate"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:wardenspine",
+            "lvl": 1
+        }
+    ]
+}

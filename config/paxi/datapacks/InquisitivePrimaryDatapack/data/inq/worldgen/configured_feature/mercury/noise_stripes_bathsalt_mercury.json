@@ -1,0 +1,35 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "#inq:mercury_noise",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "alexscaves:primal_magma"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "alexscaves:flood_basalt"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 90,
+          "primary_min": -0.07,
+          "primary_max": 0.07,
+          "secondary_min": -0.2,
+          "secondary_max": 0.2,
+          "vertical_scale": 0.5
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:deepslate_target",
+    "second_target_placer": [],
+    "use_biome_filter": true,
+    "biomes": "ad_astra:mercury_deltas"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "clockwork" : {
+      "type" : "object",
+      "properties" : {
+        "disableGrabbedShipCollision" : {
+          "type" : "boolean",
+          "description" : "Gravitron will disable collision of grabbed ships against the user."
+        }
+      },
+      "additionalProperties" : false
+    },
+    "create" : {
+      "type" : "object",
+      "properties" : {
+        "insteadCreateInteractiveDeployer" : {
+          "type" : "boolean",
+          "description" : "Disable Create Interactive deployer mixin to use VS Addition's"
+        }
+      },
+      "additionalProperties" : false
+    },
+    "experimental" : {
+      "type" : "object",
+      "properties" : {
+        "fakeAirPocket" : {
+          "type" : "boolean",
+          "description" : "Enable fake air pocket. This feature may frequently change, potentially causing damage to your old save files. Please consider enabling it with caution."
+        }
+      },
+      "additionalProperties" : false
+    },
+    "maxTiltAngle" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Maximum tilt angle (in degrees) at which an entity can stand on a ship."
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

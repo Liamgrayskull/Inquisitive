@@ -1,0 +1,9 @@
+
+[---Sandstorm---]
+	#Push entities: 
+	value = true
+
+[---Other---]
+	#Spawn monsters with poncho: 
+	value = true
+

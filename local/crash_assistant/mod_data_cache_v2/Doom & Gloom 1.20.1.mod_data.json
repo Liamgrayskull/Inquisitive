@@ -1,0 +1,1 @@
+{"jarName":"Doom \u0026 Gloom 1.20.1.jar","modId":"doom_and_gloom","version":"1.1.1","mixinConfigs":["doom_and_gloom.mixins.json"],"jarJarMods":[{"jarName":"hats-forge-1.20.1-1.1.2.jar","modId":"galena_hats","version":"1.20.1-1.1.2","mixinConfigs":["galena_hats.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

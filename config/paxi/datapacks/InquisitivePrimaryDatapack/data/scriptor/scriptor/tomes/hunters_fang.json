@@ -1,0 +1,17 @@
+{
+  "name": "Hunter's Trap",
+  "author": "GRR",
+  "tier": 2,
+  "item": "scriptor:spellbook_yellow",
+  "spell": {
+    "subject": "rune",
+    "spells": [
+      {
+        "action": "action.scriptor.fang",
+        "descriptors": [
+          "yellow"
+        ]
+      }
+    ]
+  }
+}

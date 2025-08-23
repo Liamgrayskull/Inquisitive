@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " c ",
+    "rbr",
+    " r "
+  ],
+  "reagents": "sfsf",
+  "key": {
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "b": {
+      "item": "eidolon:basic_ring"
+    },
+    "c": {
+      "item": "alexscaves:occult_gem"
+    },
+    "s": {
+      "item": "simpleradio:speaker_module"
+    },
+    "f": {
+      "item": "gardens_of_the_dead:soulblight_fungus"
+    }
+  },
+  "result": {
+    "item": "eidolon:enervating_ring"
+  }
+}

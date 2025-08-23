@@ -1,0 +1,27 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:filling",
+  "ingredients":[
+     {
+        "item":"sullysmod:amber"
+     },
+     {
+        "amount":250,
+        "fluid":"alexscaves:acid"
+     }
+  ],
+  "results":[
+     {
+        "item":"minecraft:nautilus_shell"
+     }
+  ]
+}

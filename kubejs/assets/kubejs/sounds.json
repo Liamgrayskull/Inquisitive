@@ -1,0 +1,130 @@
+{
+  "pixelated_protagonist": {
+    "sounds": [
+      {
+        "name": "kubejs:pixelated_protagonist",
+        "stream": true
+      }
+    ]
+  },
+  "character_cartwheel": {
+  "sounds": [
+    {
+      "name": "kubejs:character_cartwheel",
+      "stream": true
+    }
+  ]
+},
+"old_school": {
+  "sounds": [
+    {
+      "name": "kubejs:old_school",
+      "stream": true
+    }
+  ]
+},
+"capybara": {
+  "sounds": [
+    {
+      "name": "kubejs:capybara",
+      "stream": true
+    }
+  ]
+},
+"creakstep": {
+  "sounds": [
+    {
+      "name": "kubejs:creakstep",
+      "stream": true
+    }
+  ]
+},
+"fox": {
+  "sounds": [
+    {
+      "name": "kubejs:fox",
+      "stream": true
+    }
+  ]
+},
+"fractal": {
+  "sounds": [
+    {
+      "name": "kubejs:fractal",
+      "stream": true
+    }
+  ]
+},
+"fragment": {
+  "sounds": [
+    {
+      "name": "kubejs:fragment",
+      "stream": true
+    }
+  ]
+},
+"hullabaloo": {
+  "sounds": [
+    {
+      "name": "kubejs:hullabaloo",
+      "stream": true
+    }
+  ]
+},
+"infinite_spooky_amethyst": {
+  "sounds": [
+    {
+      "name": "kubejs:infinite_spooky_amethyst",
+      "stream": true
+    }
+  ]
+},
+"kilobyte": {
+  "sounds": [
+    {
+      "name": "kubejs:kilobyte",
+      "stream": true
+    }
+  ]
+},
+"minecraft_live_2022": {
+  "sounds": [
+    {
+      "name": "kubejs:minecraft_live_2022",
+      "stream": true
+    }
+  ]
+},
+"star": {
+  "sounds": [
+    {
+      "name": "kubejs:star",
+      "stream": true
+    }
+  ]
+},
+"sun": {
+  "sounds": [
+    {
+      "name": "kubejs:sun",
+      "stream": true
+    }
+  ]
+},
+"twelve": {
+  "sounds": [
+    {
+      "name": "kubejs:twelve",
+      "stream": true
+    }
+  ]
+},
+"warp": {
+  "sounds": [
+    {
+      "name": "kubejs:warp",
+      "stream": true
+    }
+  ]
+}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "computercraft:computer_advanced"
+    }
+  ],
+  "results": [
+    {
+      "item": "computercraft:pocket_computer_advanced"
+    }
+  ]
+}

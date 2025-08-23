@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "miningmaster:kinetic_opal"
+        },
+        {
+            "item": "miningmaster:kinetic_opal"
+        },
+        {
+            "item": "miningmaster:kinetic_opal"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:golden_sword"
+    },
+    "result": {
+        "item": "netherdungeons:piglins_sword"
+    },
+    "enchantments": [
+        {
+            "enchantment": "mynethersdelight:poaching",
+            "lvl": 1
+        }
+    ]
+}

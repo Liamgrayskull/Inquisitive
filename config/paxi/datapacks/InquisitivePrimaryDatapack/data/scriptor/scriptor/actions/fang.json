@@ -1,0 +1,12 @@
+{
+  "cost": 0.2,
+  "disabled": false,
+  "cast_at_position": [
+    "summon evoker_fangs ~ ~ ~"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon evoker_fangs ~ ~ ~"
+  ],
+  "cast_on_item": [
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "client": {
+    "fixBiomeNamesComment": "Fixes biome names by adding missing spaces. Ex: ForestHills becomes Forest Hills",
+    "fixBiomeNames": true
+  },
+  "common": {
+    "maxSamplesComment": "The maximum number of samples to be taken when searching for a biome.",
+    "maxSamples": 50000,
+    "radiusModifierComment": "biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource intensive.",
+    "radiusModifier": 2500,
+    "sampleIntervalModifierComment": "biomeSize * sampleIntervalModifier = sampleInterval. Lowering this value will increase search accuracy but will make the process more resource intensive.",
+    "sampleIntervalModifier": 16,
+    "pointToClosestBiomeComment": "Instead of calibrating the compass to a fixed biome, it will always point at the matching biome closest to the players position. Disable to improve performance.",
+    "pointToClosestBiome": true,
+    "lootChanceComment": "Probability of finding a pre-calibrated compass in a dungeon chest. The value should be between 0 and 1. 1 is always, 0 is never.",
+    "lootChance": 0.05,
+    "lootableBiomesComment": "List of biomes for which pre-calibrated compasses can be found.",
+    "lootableBiomes": [
+      "minecraft:mushroom_fields",
+      "minecraft:badlands",
+      "minecraft:jungle",
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:cherry_grove",
+      "natures_spirit:alpine_highlands",
+      "atmospheric:aspen_parkland",
+      "natures_spirit:lavender_fields",
+      "natures_spirit:redwood_forest",
+      "natures_spirit:stratified_desert",
+      "atmospheric:petrified_dunes",
+      "atmospheric:kousa_jungle",
+      "environmental:blossom_woods"
+    ],
+    "recipes": []
+  }
+}

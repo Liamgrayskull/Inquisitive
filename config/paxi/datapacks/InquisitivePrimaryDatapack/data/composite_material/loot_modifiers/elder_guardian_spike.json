@@ -1,0 +1,13 @@
+{
+  "type": "composite_material:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:elder_guardian"
+      }
+    }
+  ],
+  "item": "composite_material:guardian_elder_spike"
+}

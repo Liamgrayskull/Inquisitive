@@ -1,0 +1,5 @@
+#Don't render side panels (weapon / armor) when viewed in FTB Quests
+ftb_quests_skip_side_panels = false
+#Screens which have issues (items showing when hovering in the area EMI is present even though it is hidden
+screen_blacklist = []
+

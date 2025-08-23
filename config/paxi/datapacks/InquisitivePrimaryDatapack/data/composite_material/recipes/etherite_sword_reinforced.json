@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:beacon"
+  },
+  "base": {
+    "item": "composite_material:etherite_sword"
+  },
+  "result": {
+    "item": "composite_material:etherite_sword_reinforced"
+  },
+  "template": {
+    "item": "composite_material:evolutium"
+  }
+}

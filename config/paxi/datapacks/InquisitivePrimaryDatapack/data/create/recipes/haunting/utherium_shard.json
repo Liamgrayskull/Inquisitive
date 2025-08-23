@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "healpgood:heart_crystal_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "undergarden:utheric_shard"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "alexscaves:gingerbread_crumbs"
+        },
+        {
+            "amount": 250,
+            "fluid": "minecraft:milk"
+        }
+    ],
+    "results": [
+        {
+            "item": "create:sweet_roll",
+            "count": 3
+        }
+    ]
+}

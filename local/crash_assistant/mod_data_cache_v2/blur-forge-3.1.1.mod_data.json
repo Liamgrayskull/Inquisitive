@@ -1,0 +1,1 @@
+{"jarName":"blur-forge-3.1.1.jar","modId":"blur","version":"3.1.1","mixinConfigs":["mixins.blur.json"],"jarJarMods":[{"jarName":"satin-forge-1.20.1+1.15.0-SNAPSHOT.jar","modId":"satin","version":"1.20.1+1.15.0-SNAPSHOT","mixinConfigs":["mixins.satin.client.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

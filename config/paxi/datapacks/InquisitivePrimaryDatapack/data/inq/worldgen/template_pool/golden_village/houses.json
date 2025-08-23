@@ -1,0 +1,24 @@
+{
+  "name": "inq:golden_village/buildings",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "inq:golden_village/house_medium",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "inq:golden_village/house_small",
+        "processors": "minecraft:empty"
+      }
+   }
+   ]
+   
+}

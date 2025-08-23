@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "eidolon:withered_heart"
+    }
+  ],
+  "results": [
+    {
+      "item": "alexsmobs:soul_heart"
+    }
+  ]
+}

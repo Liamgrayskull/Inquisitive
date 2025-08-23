@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "rubinated_nether:rough_ruby"
+    }
+  ],
+  "results": [
+    {
+      "item": "miningmaster:kinetic_opal"
+    }
+  ]
+}

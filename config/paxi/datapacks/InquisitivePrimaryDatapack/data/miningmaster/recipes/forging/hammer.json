@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "etcetera:bismuth_ingot"
+        },
+        {
+            "item": "etcetera:bismuth_ingot"
+        },
+        {
+            "item": "etcetera:bismuth_ingot"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "result": {
+        "item": "etcetera:hammer"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:unbreaking",
+            "lvl": 1
+        }
+    ]
+}

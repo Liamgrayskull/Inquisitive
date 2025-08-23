@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " p ",
+    "iai",
+    " o "
+  ],
+  "reagents": "s s ",
+  "key": {
+    "p": {
+      "item": "etcetera:bismuth_ingot"
+    },
+    "i": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "a": {
+      "item": "eidolon:basic_amulet"
+    },
+    "o": {
+      "item": "enlightened_end:void_shale"
+    },
+    "s": {
+      "item": "eidolon:soul_shard"
+    }
+  },
+  "result": {
+    "item": "eidolon:void_amulet"
+  }
+}

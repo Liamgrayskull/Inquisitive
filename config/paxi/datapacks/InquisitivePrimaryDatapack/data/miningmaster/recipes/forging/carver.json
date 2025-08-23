@@ -1,0 +1,22 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexsmobs:void_worm_mandible"
+        },
+        {
+            "item": "alexsmobs:void_worm_eye"
+        },
+        {
+            "item": "alexsmobs:void_worm_mandible"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "result": {
+        "item": "alexsmobs:dimensional_carver"
+    },
+    "enchantments": [
+    ]
+}

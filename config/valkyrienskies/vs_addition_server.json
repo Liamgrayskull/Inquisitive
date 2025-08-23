@@ -1,0 +1,33 @@
+{
+  "defaultBlockMass" : 100.0,
+  "defaultBlockElasticity" : 0.3,
+  "defaultBlockFriction" : 0.5,
+  "defaultBlockHardness" : 1.0,
+  "disableSomeWarnings" : true,
+  "getEntitiesAabbSizeLimit" : 1000.0,
+  "create" : {
+    "stickerCompliance" : 1.0E-128,
+    "stickerMaxForce" : 1.0E300,
+    "fanForceMultiplier" : 1.0
+  },
+  "createBigCannons" : {
+    "bigCannonRecoilForce" : 100000.0,
+    "mediumCannonRecoilForce" : 21600.0,
+    "autoCannonRecoilForce" : 800.0,
+    "customAutoCannonFireRates" : [ 120, 80, 60, 48, 40, 30, 24, 20, 15, 12, 10, 8, 6, 5, 4 ],
+    "spreadMultiplier" : 1.0
+  },
+  "physBearing" : {
+    "physBearingCompliance" : 1.0E-10,
+    "physBearingMaxForce" : 1.0E10,
+    "physBearingOmegaErrorMultiplier" : 1.0,
+    "physBearingAngleErrorMultiplier" : 1.0
+  },
+  "computercraft" : {
+    "eventQueueMaxSize" : 256,
+    "defaultMinPeriod" : 5,
+    "enableCheatCannonMountPeripheral" : false,
+    "enableCheatFlapBearingPeripheral" : false
+  },
+  "$schema" : "schemas/vs_addition_server.schema.json"
+}

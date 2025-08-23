@@ -1,0 +1,17 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "tetra:pristine_emerald"
+    },
+    "enchantments": [
+        "minecraft:smite",
+        "minecraft:channeling",
+        "minecraft:piercing",
+        "enchancement:extracting",
+        "enchancement:bury",
+        "alexscaves:energy_efficiency"
+    ]
+}

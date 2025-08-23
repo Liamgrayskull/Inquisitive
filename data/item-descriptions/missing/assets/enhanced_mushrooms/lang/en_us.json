@@ -1,0 +1,11 @@
+{
+  "block.enhanced_mushrooms.chiseled_mushroom_bookshelf.description": " ??? tag.minecraft.mineable.axe.description, tag.blueprint.wooden_chiseled_bookshelves.description",
+  "block.enhanced_mushrooms.mushroom_beehive.description": " ??? tag.raspberry.useable.shears.description, tag.blueprint.wooden_beehives.description, tag.computercraft.turtle_can_use.description, tag.alexsmobs.grizzly_beehive.description, tag.minecraft.mineable.axe.description, tag.minecraft.beehives.description",
+  "block.enhanced_mushrooms.mushroom_boards.description": " ??? tag.minecraft.mineable.axe.description, tag.woodworks.wooden_boards.description",
+  "block.enhanced_mushrooms.mushroom_cabinet.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.enhanced_mushrooms.mushroom_hanging_sign.description": " ??? tag.create.safe_nbt.description, tag.minecraft.mineable.axe.description, tag.minecraft.wall_hanging_signs.description, tag.minecraft.all_signs.description, tag.minecraft.all_hanging_signs.description",
+  "block.enhanced_mushrooms.mushroom_ladder.description": " ??? tag.blueprint.wooden_ladders.description, tag.create.copycat_deny.description, tag.forge.ladders.description, tag.minecraft.climbable.description, tag.minecraft.fall_damage_resetting.description, tag.minecraft.mineable.axe.description",
+  "block.enhanced_mushrooms.mushroom_stairs.description": " ??? tag.alexsmobs.cachalot_whale_breakables.description, tag.minecraft.wooden_stairs.description, tag.minecraft.mineable.axe.description",
+  "item.enhanced_mushrooms.large_mushroom_boat.description": " ??? lore, tag.boatload.large_boats.description",
+  "item.enhanced_mushrooms.mushroom_furnace_boat.description": " ??? lore, tag.boatload.furnace_boats.description"
+}

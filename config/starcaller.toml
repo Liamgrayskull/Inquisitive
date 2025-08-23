@@ -1,0 +1,16 @@
+# The seed used by star generation.
+# The default seed generates identical stars to vanilla.
+# To change the seed or limit of an existing world, delete data/starcaller_stars.dat
+# To keep existing colorings (but not positions), edit the values in the file manually.
+# Set to -1 to use the world seed.
+# default: 10842
+starSeed = 10842
+# The maximum amount of stars the generator may place.
+# The generator will iterate 3x of the limit, so less may appear.
+# Star names are provided via indexed translations e.g. star.starcaller.overworld.11
+# Starcaller provides "proper names" up to 780 stars, and fake bayer designations up to 7468 stars.
+# default: 780
+starLimit = 780
+# The amount of ticks a star can stay grounded as stardust.
+# default: 600
+starGroundedTicks = 600

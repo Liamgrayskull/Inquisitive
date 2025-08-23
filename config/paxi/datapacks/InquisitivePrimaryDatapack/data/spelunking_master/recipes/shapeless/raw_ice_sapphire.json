@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_ice_sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_ice_sapphire",
+    "count": 4
+  }
+}

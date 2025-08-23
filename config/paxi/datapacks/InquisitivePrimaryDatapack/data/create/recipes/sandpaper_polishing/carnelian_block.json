@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "rubinated_nether:rough_ruby_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "rubinated_nether:ruby_block"
+    }
+  ]
+}

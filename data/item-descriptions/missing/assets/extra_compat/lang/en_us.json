@@ -1,0 +1,7 @@
+{
+  "block.extra_compat.tortoise_egg_crate.description": " ??? tag.minecraft.mineable.axe.description",
+  "item.extra_compat.adzuki_stew_cup.description": " ??? lore, tag.forge.food.description",
+  "item.extra_compat.foul_soup_cup.description": " ??? lore, tag.origins.meat.description, tag.forge.food.description",
+  "item.extra_compat.mosquito_repellent_stew_cup.description": " ??? lore, tag.forge.food.description",
+  "item.extra_compat.pumpkin_adzuki_stew_cup.description": " ??? lore, tag.forge.food.description"
+}

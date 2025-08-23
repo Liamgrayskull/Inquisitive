@@ -1,0 +1,20 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "minecraft:echo_shard"
+    },
+    "enchantments": [
+        "alexscaves:sated_blade",
+        "alexscaves:double_stab",
+        "allurement:spread_of_ailments",
+        "minecraft:swift_sneak",
+        "enchancement:wardenspine",
+        "domesticationinnovation:rejuvenation",
+        "domesticationinnovation:muffled",
+        "allurement:alleviating",
+        "minecraft:unbreaking"
+    ]
+}

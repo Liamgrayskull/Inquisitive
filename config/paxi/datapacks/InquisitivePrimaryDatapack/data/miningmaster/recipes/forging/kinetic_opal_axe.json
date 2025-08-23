@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "rubinated_nether:ruby"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        },
+        {
+            "item": "rubinated_nether:ruby"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_axe"
+    },
+    "result": {
+        "item": "miningmaster:kinetic_opal_axe"
+    },
+    "enchantments": [
+        {
+            "enchantment": "supplementaries:lumisene_fire_aspect",
+            "lvl": 1
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "B",
+    "S"
+  ],
+  "key": {
+    "#": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "S": {
+      "item": "create:railway_casing"
+    }
+  },
+  "result": {
+    "item": "vs_eureka:engine",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "vs_eureka:balloons"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "vs_eureka:light_gray_balloon"
+    }
+  ]
+}

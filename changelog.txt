@@ -1,0 +1,151 @@
+2.4.0
+
+# 2.4.0: Tempered
+
+## Balanced, as all things should be
+Much of Inquisitive has been rebalanced, rerevised, and rewritten- with much more on the way -this being the last major release before 3.0.0's development cycle.
+
+- Temperature : utilizing the mod Cold Sweat, temperature is intended to give purpose to the regions you explore- making many regions trickier to safely navigate, yet it has been configured to take presence mostly when you are in mortal danger, or sweltering outside mid-summer. This is still due playtesting, but we're keeping a close ear to the ground in balancing it specifically for Inquisitive's varied environments!
+
+- Revised Hunger: Taking a (literal) note from Valheim, food is now mostly beneficial in a variety. The satiation of your food is determined by how difficult it is to craft (plus it's added effect bonuses) -and more food = more health/speed while your stomach is full.
+
+- Darkness: Darkness now holds much more weight, with new optimized dynamic lighting enabling more present and unique interactions with it, along with a revised lightmap to improve it's appearance. This is intended both to act as an aesthetic and gameplay element (mechanics working in tandem with it to flesh it's purpose out more later)
+
+- Enchantments: Enchancement (the final intended enchantment rework) has made it's debut, with custom configuration to give purpose to all enchantments across the board. Less minmaxing, more versatility and unique purposed enchants, as opposed to boring stat changes.
+
+- Structures: Many of the reworks for 3.0.0 have found their way into this version, with varyingly massive megastructures ready to be explored beyond the- quite massive- world we already have.
+
+
+But this is just balance. Along with this, we have:
+
+- A multitude of updates, fixes, QOL updates, performance tweaks and boosts
+- Many revisions of assets, culling of bloat and patches for future updates
+- Improved ambience 
+- Revamped item customization
+- Entity sizing
+- Working Voice Chat radios
+- Reworked void mechanics
+- Guard Villagers
+- Cloud Storage (we see your feedback, here's that storage solution!)
+- A new skybox
+- New particle-based weather systems & wind
+- Entirely new menus with sound design
+- Ruby-based economy block
+- Map Atlases
+- Longer day length
+- Seasons!
+- So, so much more, and lots of groundwork for 3.0.0
+
+Please post any feedback/issues in our new discord ticket system, or in the github's issue tracker!
+https://github.com/Liamgrayskull/Inquisitive/issues
+
+This will be the last major release before 3.0.0, but the server will still be up for a while! You'll know when the time is nearing for the reset (sometime this upcoming late spring) I'm working hard to perfect what I can and sweep up what's needed for a polished product.
+Added:
+
+- Cave Dust
+- World Playtime
+- Screenshot Viewer
+- Plonk
+- Zetter
+- Zetter Gallery
+- Delete Worlds to Trash
+- World Preview
+- Default Options
+- So I Heard You Were Talking Crap About Minecraft's Difficulty
+- Spice Of Life: Valheim
+- Fabric Skyboxes
+- FSB interop
+- Polytone
+- Cold Sweat
+- Serene Seasons
+- Shoulder Surfing
+- Argonauts
+- Trading Post
+- Cloud Storage
+- Weather 2
+- Integrated API
+- Integrated Dungeons & Structures
+- Guard Villagers
+- Universal Bone Meal
+- Immersive Thunder
+- Amendments
+- Travellers Titles
+- Forgiving Void
+- Authlib
+- Sky Villages
+- ObsidianUI
+- Ryonamic Lights
+- Oculus/Flywheel Compat
+- Skylands
+- Integrated Stronghold
+- Farsighted Mobs
+- Labels
+- Resource Pack Overrides
+- Fog looks Modern Now
+- Dynamic FPS
+- TooltipFix
+- Enchancement
+- Simple Voice Radio
+- Vanity: Core
+- Vanity: Elementals
+- Vanity: Ancient Tools
+- Vanity: Aesthetic Armory
+- Vanity: Ornate Weaponry
+- Vanity: Colossal Weapons
+- Vanity: Invisible Armory
+- Map Atlas
+- Pehkui
+- Debugify
+- Configured Defaults
+- Saturn
+- Animatica
+- Achievement Optimizers
+- Easy Anvils
+- Infinite Music
+- Hopo Better Ruined Portals
+- Hopo Better Underwater Ruins
+- Portable Crafting
+- Create: Diesel Generators
+- Towers of the Wild: Modded
+- Ruby Exchange
+- Frame Changer
+
+
+Removed:
+- Appleskin
+- Stellar View
+- AutoTag
+- Better Jukeboxes
+- Carpeted Stairs & Slabs
+- Ender Trigon
+- Total  Dragon
+- True Ending
+- Invariable Paintings
+- Grind Enchantments
+- Potioncraft
+- Chroma World Border
+- Portfolio
+- Stendhal
+- Remove Loading Screen
+- Shimmer
+- RP Renames
+- Wavey Capes
+- Enchantment Decay
+- Spellbound
+- The Conjurer
+- Inventory Profiles
+- Yung's Better Strongholds
+- Spawn Animations
+- Serious Player Animations
+- Mixin Trace
+- Fabric Tailor
+- Nicer Skies
+- Emotecraft
+- Bendy Lib
+
+# Moved to Optional List
+
+- Replay Mod
+- Distant Horizons
+- Axiom
+- Ambient Sounds

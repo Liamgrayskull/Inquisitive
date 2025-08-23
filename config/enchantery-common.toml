@@ -1,0 +1,8 @@
+
+[misc]
+	soulbound_mending_compat = false
+	disable_anvil_enchanting = true
+	disable_anvil_cost = true
+	#Range: 0 ~ 16
+	enchant_count_boost = 0
+

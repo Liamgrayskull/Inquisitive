@@ -1,0 +1,1 @@
+{"jarName":"minecraft-cursor-forge-3.9.2+1.20.1-forge.2.jar","modId":"minecraft_cursor","version":"3.9.2+1.20.1-forge.2","mixinConfigs":["minecraft-cursor.forge.mixins.json","minecraft-cursor.mixins.json"],"jarJarMods":[{"jarName":"io.github.fishstiz.minecraft-cursor-common-api-3.9.2+1.20.1-forge.2.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

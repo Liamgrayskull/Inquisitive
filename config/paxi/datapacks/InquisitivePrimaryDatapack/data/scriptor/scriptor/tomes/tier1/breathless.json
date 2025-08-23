@@ -1,0 +1,14 @@
+{
+  "name": "tome.scriptor.breathless",
+  "author": "Berlin",
+  "tier": 1,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "water_breathing",
+        "descriptors": []
+      }
+    ]
+  }
+}

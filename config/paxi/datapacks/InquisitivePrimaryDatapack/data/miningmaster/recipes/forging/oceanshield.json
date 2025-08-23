@@ -1,0 +1,48 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexsmobs:shark_tooth"
+        },
+        {
+            "item": "alexsmobs:shark_tooth"
+        },
+        {
+            "item": "alexsmobs:shark_tooth"
+        },
+        {
+            "item": "alexsmobs:serrated_shark_tooth"
+        },
+        {
+            "item": "alexsmobs:serrated_shark_tooth"
+        },
+        {
+            "item": "alexsmobs:serrated_shark_tooth"
+        },
+        {
+            "item": "upgrade_aquatic:thrasher_tooth"
+        },
+        {
+            "item": "upgrade_aquatic:thrasher_tooth"
+        },
+        {
+            "item": "upgrade_aquatic:thrasher_tooth"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:heart_of_the_sea"
+    },
+    "result": {
+        "item": "alexsmobs:shield_of_the_deep"
+    },
+    "enchantments": [
+        {
+            "enchantment": "allurement:alleviating",
+            "lvl": 1
+        },
+        {
+            "enchantment": "allurement:reforming",
+            "lvl": 1
+        }
+    ]
+}

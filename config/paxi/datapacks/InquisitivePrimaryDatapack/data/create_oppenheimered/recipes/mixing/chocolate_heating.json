@@ -1,0 +1,25 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:mixing",
+   "heatRequirement":"heated",
+   "ingredients":[
+      {
+         "item":"alexscaves:block_of_chocolate"
+      }
+   ],
+   "results":[
+      {
+         "fluid":"create:chocolate",
+         "amount":250
+      }
+   ]
+}

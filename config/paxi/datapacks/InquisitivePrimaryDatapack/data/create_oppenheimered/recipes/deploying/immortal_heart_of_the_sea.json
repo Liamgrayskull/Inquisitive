@@ -1,0 +1,28 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+     {
+        "item":"alexscaves:immortal_embryo"
+     },
+     {
+        "item":"alexscaves:ortholance"
+     }
+  ],
+  "keepHeldItem": true,
+  "results":[
+     {
+        "item":"minecraft:heart_of_the_sea",
+        "count":8
+     }
+  ]
+}

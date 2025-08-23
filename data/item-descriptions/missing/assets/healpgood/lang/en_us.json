@@ -1,0 +1,15 @@
+{
+  "block.healpgood.heart_crystal.description": " ??? tag.minecraft.needs_diamond_tool.description",
+  "block.healpgood.heart_crystal_lantern.description": " ??? ",
+  "block.healpgood.polished_heart_crystal.description": " ??? tag.minecraft.needs_diamond_tool.description",
+  "block.healpgood.polished_heart_crystal_stairs.description": " ??? tag.minecraft.needs_diamond_tool.description",
+  "entity.healpgood.health.description": " ??? ",
+  "entity.healpgood.health_bottle.description": " ??? ",
+  "item.healpgood.crystal_apple.description": " ??? lore, tag.forge.food.description, tag.diet.fruits.description",
+  "item.healpgood.crystal_heart.description": " ??? lore",
+  "item.healpgood.ender_soul.description": " ??? lore, tag.sortilege.is_soulbind_material.description",
+  "item.healpgood.golden_heart.description": " ??? lore",
+  "item.healpgood.heart_bottle.description": " ??? lore",
+  "item.healpgood.heart_crystal_shard.description": " ??? lore",
+  "item.healpgood.withered_heart.description": " ??? lore"
+}

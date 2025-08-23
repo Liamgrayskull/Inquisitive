@@ -1,0 +1,12 @@
+{
+  "cost": 0.5,
+  "disabled": false,
+  "cast_at_position": [
+    "summon alexscaves:thrown_waste_drum ~ ~20 ~"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon alexscaves:thrown_waste_drum ~ ~20 ~"
+  ],
+  "cast_on_item": [
+  ]
+}

@@ -1,0 +1,7 @@
+
+[client]
+	#Copper pots emit effect particles when cooking or ready to cook
+	"Cooking particles" = true
+	#Specialized food items have details in their tooltips
+	tooltips = true
+

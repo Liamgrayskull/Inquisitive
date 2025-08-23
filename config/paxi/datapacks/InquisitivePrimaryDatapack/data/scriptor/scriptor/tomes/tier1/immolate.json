@@ -1,0 +1,14 @@
+{
+  "name": "tome.scriptor.immolate",
+  "author": "Arnold the Unwise",
+  "tier": 1,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "inflame",
+        "descriptors": []
+      }
+    ]
+  }
+}

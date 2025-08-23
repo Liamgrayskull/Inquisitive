@@ -1,0 +1,18 @@
+{
+    "replace": true,
+    "values": [
+       
+       
+        "minecraft:echo_shard",
+        "miningmaster:ice_sapphire",
+        "miningmaster:lucky_citrine",
+        "sullysmod:jade",
+        "miningmaster:dive_aquamarine",
+        "create:rose_quartz",
+        "etcetera:raw_bismuth",
+        "rubinated_nether:ruby",
+        "enlightened_end:malachite",
+        "galosphere:lumiere_shard",
+        "galosphere:allurite_shard"
+    ]
+}

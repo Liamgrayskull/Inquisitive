@@ -1,0 +1,1 @@
+{"jarName":"sullysmod-3.2.1-beta-all.jar","modId":"sullysmod","version":"3.2.1-beta","mixinConfigs":["sullysmod.mixins.json"],"jarJarMods":[{"jarName":"MosaicCosmetics-1.20.1-1.0.0-forge.jar","modId":"mosaic_cosmetics","version":"1.0.0","mixinConfigs":["mosaic_cosmetics.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

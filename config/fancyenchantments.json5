@@ -1,0 +1,1008 @@
+{
+	/* Set level = 0 to disable the enchantment.
+	   Enchantments with a default maximum level of 1 should not be set to numbers other than 0 and 1
+	   The valid value of rarity is: "COMMON" "UNCOMMON" "RARE" "VERY_RARE"
+	   The elemental conditions in order are Aer, Aqua, Ignis, Terra, Holy, Twisted
+	*/
+	"enableIncompatibility": true,
+	"enableModBookTexture": true,
+	"elementStatOptions": {
+		"aerLevelToGetSpeed": 5,
+		"ignisLevelToGetFireResistance": 8,
+		// Can amplify the effect
+		"aquaLevelToGetRegeneration": 6,
+		// Can amplify the effect
+		"terraLevelToGetResistance": 9,
+		// actually twisted level - holy level
+		"twistedLevelToGetDebuff": 10,
+		// The probability of getting a debuff per second
+		"probabilityToGetDebuff": 0.02,
+		// second
+		"debuffDuration": 3
+	},
+	"chestLootOptions": {
+		// The chance of spawning a mod enchanted book
+		"chanceOfSpawningBook": 0.3
+	},
+	"jeiInfoOptions": {
+		"enableDescription": true,
+		"enableMaxLevel": true,
+		"enableRarity": true
+	},
+	"advancedLootingOptions": {
+		/* Looting level += level * multiplier (There is a level / (level + 5) probability of adding additional levels) 
+		   (vanilla Looting X provides X looting level)
+		*/
+		"lootingLevelMultiplier": 2,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"advancedSharpnessOptions": {
+		// Damage += base + multiplier * level
+		"baseDamage": 1.5,
+		"damageMultiplier": 1.0,
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"counterattackOptions": {
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "UNCOMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"eaterOfSoulsOptions": {
+		// damage += sqrt(kill count) * level * multiplier
+		"damageMultiplier": 0.30000001192092896,
+		// damage cap
+		"cap": 1000.0,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"giftOfFireOptions": {
+		// damage += level * multiplier
+		"beneficialMultiplier": 2.5,
+		// damage -= level * multiplier
+		"harmfulMultiplier": 0.5,
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "UNCOMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"lightnessOptions": {
+		// speed while blocking *= 1 + level * multiplier
+		"speedMultiplier": 0.800000011920929,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "COMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"oceanCurrentOptions": {
+		// attack speed += level * multiplier
+		"speedMultiplier": 0.20000000298023224,
+		// attack speed while in water += level * multiplier * extra multiplier
+		"extraSpeedMultiplier": 1.5,
+		"ineffectiveWhenOnFire": true,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"pyromaniacOptions": {
+		// Heal Amount = explosive damage * multiplayer * level
+		"healMultiplier": 0.10000000149011612,
+		// Durability value of armor -= base + healAmount * multiplier
+		"armorBaseDamage": 3,
+		"damageMultiplier": 1.0,
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"reflectingOptions": {
+		// Reflected project velocity = 1.0 + baseVelocity * level
+		"baseVelocity": 0.5,
+		// Durability value of shield -= base
+		"baseDamage": 3,
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "UNCOMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"solidAsARockOptions": {
+		// armor *= 1 + multiplier * level
+		"armorMultiplier": 0.15,
+		// toughness *= 1 + multiplier * level
+		"toughnessMultiplier": 0.1,
+		"movementSpeedReducer": 0.1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"overflowOptions": {
+		// The probability of generating a puddle of water (per level)
+		"probability": 0.1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"fireDisasterOptions": {
+		// The probability of generating a fire (per level)
+		"probability": 0.05,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"theFallenOptions": {
+		// weapon attack damage *= 1 + multiplier * level * numberOfCurse
+		"damageMultiplier": 0.30000001192092896,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"empathyOptions": {
+		"shootPowerMultiplier": 0.1,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"rollingStoneOptions": {
+		// damage += multiplier * level * speed
+		"damageMultiplier": 25.0,
+		// damageTaken *= 1 - reducer * level
+		"damageReducer": 0.10000000149011612,
+		// Lower limit, Minimum percentage of damage taken
+		"lowerLimit": 0.5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "UNCOMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"blessedWindOptions": {
+		// speed while sprinting += level * multiplier (The initial walking speed is 0.1 and the sprinting speed is 0.133)
+		"sprintSpeedMultiplier": 0.03999999910593033,
+		// speed while walking += level * multiplier
+		"walkSpeedMultiplier": 0.009999999776482582,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "UNCOMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"heavyBlowOptions": {
+		// rate = baseRate * level
+		"baseRate": 0.1,
+		// damage *= 1 + level * multiplier
+		"damageMultiplier": 1.0,
+		// attackSpeed *= 1 - reducer
+		"speedReducer": 0.1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"windBladeOptions": {
+		// damage *= 1 + extraSpeedAttributeValue * level * BaseMultiplier
+		"baseDamageMultiplier": 0.5,
+		// damage *= 1 - reducer
+		"damageReducer": 0.1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"floatingOptions": {
+		// damage *= 1 - reducer
+		"damageReducer": 0.2,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"cumbersomeOptions": {
+		// The probability of get debuff
+		"probability": 0.05,
+		// attack speed *= 1 - reducer
+		"atkSpeedReducer": 0.2,
+		// Duration (second)
+		"duration": 3,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"bullyingOptions": {
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"hungryOptions": {
+		// The probability of generating a copy = level * probability
+		"probability": 0.2,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"dominionOptions": {
+		// Damage += sum of enchantment level * multiplier
+		"damageMultiplier": 1.0,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"bloodthirstyOptions": {
+		// Hunger Value += damageValue * multiplier
+		"hungerMultiplier": 0.5,
+		"hungerUpperLimit": 20,
+		// Saturation += damageValue * multiplier
+		"saturationMultiplier": 0.20000000298023224,
+		"saturationCap": 25.0,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"fallingStoneOptions": {
+		// damage = (1 + level * multiplier) * fallingDistance
+		"damageMultiplier": 0.5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "UNCOMMON",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"featherFallOptions": {
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"unyieldingSpiritOptions": {
+		// Extra Time To Live (second)
+		"extraTime": 8,
+		// Durability value of shield -= base
+		"baseDamage": 5,
+		// The health set when enchantment takes effect, percentage
+		"healthPercentage": 0.5,
+		// Slowness effect level, set 0 to disable
+		"slownessLevel": 3,
+		// Damage resistance effect level, set 0 to disable
+		"damageResistanceLevel": 3,
+		"enableBlindness": false,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"cursedGazeOptions": {
+		// The effective distance = min (level * baseDistance, 128)
+		"baseDistance": 5.0,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"calmerOptions": {
+		// Cooldown (second)
+		"cooldown": 5,
+		// Duration (second)
+		"duration": 3,
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"feintAttackOptions": {
+		// Damage to the target *= 1 - reducer
+		"damageReducer": 0.699999988079071,
+		// Damage to others *= 1 + multiplier * level
+		"damageMultiplier": 0.20000000298023224,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"purifyingOptions": {
+		// Damage to undead += 1 + addon * level
+		"addon": 3.0,
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"duellistsPrerogativeOptions": {
+		// Damage *= 1 + multiplier * level
+		"damageMultiplier": 0.20000000298023224,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"paladinsShieldOptions": {
+		"damageTransferRatio": 0.5,
+		// Damage reduction while holding a shield -= baseDamageReductionRatio * level
+		"baseDamageReductionRatio": 0.05000000074505806,
+		// Damage the enchantment holder receives = damage * damageTransferRatio * transferredDamageRatio
+		"transferredDamageRatio": 0.5,
+		// If the final damage exceeds the upperLimit * receiver's maxHealth, it will not be transferred.
+		"upperLimit": 0.5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"eucharistOptions": {
+		// The minimum hunger point to obtain the buff
+		"minimumHunger": 6,
+		// The effect duration = multiplier * foodSaturation (second)
+		"durationMultiplier": 3,
+		// taken damage *= multiplier
+		"damageMultiplier": 0.10000000149011612,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"melterOptions": {
+		// All level, reduce base damage
+		"damageReducer": 0.5,
+		// Armor *= 1 - reducer * level
+		"armorReducer": 0.2,
+		// The effect duration = level * duration (second)
+		"duration": 3,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"stackingWavesOptions": {
+		"attackSpeedMultiplier": 0.30000001192092896,
+		// Attack speed * = 1 - reducer * level
+		"attackSpeedReducer": 0.10000000149011612,
+		// second
+		"duration": 2,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"chargeOptions": {
+		"chargeDistanceMultiplier": 2.0,
+		// Duration = 5 + durationPerLevel * level (tick)
+		"invincibleDurationPerLevel": 5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"lavaBurstOptions": {
+		// The probability of generating a burst = level * probability
+		"probability": 0.2,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.25,
+		"elementalCondition": [
+			0,
+			0,
+			5,
+			3,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"armorForgingOptions": {
+		// Upper limit of forging value = value * level
+		"forgingValue": 1000,
+		// Increased armor = value / base * 100%
+		"armorBase": 5000,
+		"toughnessBase": 10000,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.1,
+		"elementalCondition": [
+			0,
+			0,
+			6,
+			6,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"nirvanaOptions": {
+		// Minimum health ratio to trigger the effect
+		"minimumHealthRatio": 0.5,
+		// Trigger interval (second)
+		"interval": 10,
+		// instant health duration (tick)
+		"duration": 3,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"selfImmolationOptions": {
+		"baseProbability": 0.05,
+		// Probability of being ignited if target is on fire
+		"probabilityWithFire": 0.5,
+		// Second
+		"fireTime": 3,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"bubbleShieldOptions": {
+		// Triggering condition: airSupplyValue >= maxValue * Ratio
+		"airSupplyRatio": 0.8,
+		"costRatio": 0.7,
+		// damage -= airSupplyValue * costRatio * multiplier * level
+		"multiplier": 0.1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"drowningOptions": {
+		"airSupplyValue": -40,
+		"damage": 1.0,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"pervertOptions": {
+		"dropProbability": 0.9,
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"pureFateOptions": {
+		// Probability of removing curse per level
+		"probability": 0.1,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.1,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			0,
+			3,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"bloodSacrificeOptions": {
+		// damage to player per level
+		"damage": 2.0,
+		// damage *= 1 + (base + LostHealth / MaxHealth) * level
+		"base": 0.10000000149011612,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.1,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			3
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"sharpRockOptions": {
+		// damage += armor * damageMultiplier * level
+		"damageMultiplierForShield": 0.4,
+		"damageMultiplierForOthers": 0.2,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.25,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			5,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"delayedExecutionOptions": {
+		// Proportion of damage to store
+		"storedDamage": 0.800000011920929,
+		// damage = storedDamage * (1 + multiplier * level)
+		"damageMultiplier": 0.800000011920929,
+		// second
+		"duration": 5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"sacredSupremeSharpnessOptions": {
+		// damage += base + level * multiplier
+		"baseDamage": 5.0,
+		"damageMultiplier": 1.5,
+		"damageMultiplierToUndead": 3.0,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.25,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			0,
+			3,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 5,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"greedySupremeLootingOptions": {
+		// loot level += multiplier * level (probability * level double it)
+		"lootLevelMultiplier": 3,
+		"probabilityOfDoubling": 0.05,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.25,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			3
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"windFireWheelsOptions": {
+		"speedMultiplier": 0.06,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.1,
+		"elementalCondition": [
+			5,
+			0,
+			5,
+			0,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"spreadSporesOptions": {
+		// Reaching the cap triggers the damage
+		"sporeCap": 10,
+		"damageMultiplier": 3.0,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.2,
+		"elementalCondition": [
+			0,
+			5,
+			0,
+			5,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"thrillingThunderOptions": {
+		// time gap of causing damage
+		"tickGap": 10,
+		// damage = effect level * multiplier
+		"damageMultiplier": 1.0,
+		"probabilityOfApplyingEffectPerLevel": 0.1,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.2,
+		"elementalCondition": [
+			5,
+			5,
+			0,
+			0,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"recoilOptions": {
+		"distanceMultiplierPerLevel": 0.5,
+		"probabilityPerLevel": 0.2,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"airAttackOptions": {
+		// damage = fallDistance * multiplier * level
+		"damageMultiplier": 0.30000001192092896,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"erodingOptions": {
+		"probabilityPerLevel": 0.15,
+		"damageMultiplier": 1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"sanderOptions": {
+		"damageMultiplier": 1.0,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"advancedProtectionOptions": {
+		// enchantment protection factor per level, can not exceed vanilla limit
+		"EPFMultiplier": 2.0,
+		// ====== Basic options below ======
+		"level": 4,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"mountainSupremeProtectionOptions": {
+		"EPFMultiplier": 3.0,
+		// Fixed damage reduction, per level
+		"reducer": 0.5,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.2,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			5,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 4,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"afterimageOptions": {
+		// probability of dodging = extraSpeed(%) * multiplier
+		"probabilityMultiplier": 0.5,
+		"probabilityCapPerLevel": 0.1,
+		"probabilityMaxCap": 0.5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"standingWallOptions": {
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.1,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			8,
+			0,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 1,
+		"rarity": "RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"conditionOverloadOptions": {
+		// damage *= 1 + multiplier * level * debuffCount
+		"damageMultiplier": 0.05,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"fearlessChallengerOptions": {
+		// trigger when target's HP / user's HP > condition
+		"HPCondition": 3.0,
+		// damage *= 1 + target's HP / user's HP * multiplier * level
+		"multiplier": 1.0,
+		// damageBonusCap
+		"cap": 10.0,
+		// ====== Chest Loot Condition ======
+		"probabilityOfGeneration": 0.1,
+		"elementalCondition": [
+			0,
+			0,
+			0,
+			0,
+			8,
+			0
+		],
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": true,
+		"isTradeable": false,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": false
+	},
+	"windWingsOptions": {
+		"speedMultiplierPerLevel": 0.5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"heavyArrowOptions": {
+		"damageMultiplierPerLevel": 0.15,
+		"knockbackAddonPerLevel": 1,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"downwindOptions": {
+		"pushForceMultiplier": 2.0,
+		"damageMultiplierPerLevel": 0.2,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"nightmareOptions": {
+		"explodeRadiusMultiplier": 2,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"dexterityOptions": {
+		"rangeMultiplierPerLevel": 0.5,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	},
+	"crackedCrownOptions": {
+		"damageMultiplier": 0.3,
+		"takenDamageMultiplier": 0.3,
+		// ====== Basic options below ======
+		"level": 3,
+		"rarity": "VERY_RARE",
+		"isTreasure": false,
+		"isTradeable": true,
+		"isAllowedOnBooks": true,
+		"isDiscoverable": true
+	}
+}

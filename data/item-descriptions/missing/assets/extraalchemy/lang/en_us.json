@@ -1,0 +1,22 @@
+{
+  "effect.extraalchemy.combustion.description": " ??? ",
+  "effect.extraalchemy.concentration.description": " ??? ",
+  "effect.extraalchemy.crumbling.description": " ??? ",
+  "effect.extraalchemy.detection.description": " ??? ",
+  "effect.extraalchemy.fuse.description": " ??? ",
+  "effect.extraalchemy.gravity.description": " ??? ",
+  "effect.extraalchemy.learning.description": " ??? ",
+  "effect.extraalchemy.magnetism.description": " ??? ",
+  "effect.extraalchemy.magnetism_disabled.description": " ??? ",
+  "effect.extraalchemy.pacifism.description": " ??? ",
+  "effect.extraalchemy.photosynthesis.description": " ??? ",
+  "effect.extraalchemy.piper.description": " ??? ",
+  "effect.extraalchemy.recall.description": " ??? ",
+  "effect.extraalchemy.returning.description": " ??? ",
+  "effect.extraalchemy.sails.description": " ??? ",
+  "item.extraalchemy.breakable_potion.description": " ??? lore, tag.extraalchemy.potion_for_bag.description",
+  "item.extraalchemy.empty_ring.description": " ??? lore",
+  "item.extraalchemy.empty_vial.description": " ??? lore",
+  "item.extraalchemy.potion_bag.description": " ??? lore",
+  "item.extraalchemy.potion_ring.description": " ??? lore, tag.trinkets.hand.ring.description"
+}

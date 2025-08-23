@@ -1,0 +1,11 @@
+{
+  "block.structure_gel.blue_gel.description": " ??? ",
+  "block.structure_gel.cyan_gel.description": " ??? ",
+  "block.structure_gel.data_handler.description": " ??? tag.alexscaves.unmovable.description, tag.alexscaves.nuke_proof.description, tag.alexscaves.resists_magnetron_body_building.description, tag.alexscaves.corrodent_blocks_digging.description, tag.alexscaves.gum_worm_blocks_digging.description, tag.incendium.knight_immune.description, tag.minecraft.dragon_immune.description, tag.minecraft.wither_immune.description",
+  "block.structure_gel.dynamic_spawner.description": " ??? tag.arboria.island.not_replaceable.description, tag.minecraft.lava_pool_stone_cannot_replace.description, tag.arboria.mushroom.irreplaceable.description, tag.minecraft.features_cannot_replace.description, tag.arboria.snow.irreplaceable.description",
+  "block.structure_gel.green_gel.description": " ??? ",
+  "block.structure_gel.orange_gel.description": " ??? ",
+  "block.structure_gel.red_gel.description": " ??? ",
+  "block.structure_gel.yellow_gel.description": " ??? ",
+  "item.structure_gel.building_tool.description": " ??? lore"
+}

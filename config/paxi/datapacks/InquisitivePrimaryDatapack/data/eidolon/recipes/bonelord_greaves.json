@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "bdb",
+    "s s",
+    "s s"
+  ],
+  "reagents": "hlal",
+  "key": {
+    "s": {
+      "item": "oreganized:silver_block"
+    },
+    "b": {
+      "item": "alexscaves:heavy_bone"
+    },
+    "d": {
+      "item": "alexscaves:primordial_pantse"
+    },
+    "h": {
+      "item": "eidolon:holy_symbol"
+    },
+    "a": {
+      "item": "spelunkery:salt"
+    },
+    "l": {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  },
+  "result": {
+    "item": "eidolon:bonelord_greaves"
+  }
+}

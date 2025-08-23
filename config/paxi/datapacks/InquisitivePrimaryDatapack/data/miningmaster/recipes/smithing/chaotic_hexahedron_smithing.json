@@ -1,0 +1,24 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "dungeonnowloading:chaotic_hexahedron"
+    },
+    "enchantments": [
+        "enchancement:chaos",
+        "enchancement:disarm",
+        "enchancement:warp",
+        "farmersdelight:backstabbing",
+        "create:capacity",
+        "domesticationinnovation:void_cloud",
+        "scriptor:charged",
+        ""
+        
+        
+        
+        
+        
+    ]
+}

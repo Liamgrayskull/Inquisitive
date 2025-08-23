@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "paradise_lost:levita_gem"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:soul_bead"
+    }
+  ]
+}

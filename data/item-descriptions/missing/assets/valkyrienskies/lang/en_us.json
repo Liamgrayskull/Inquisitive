@@ -1,0 +1,13 @@
+{
+  "block.valkyrienskies.test_chair.description": " ??? ",
+  "block.valkyrienskies.test_flap.description": " ??? ",
+  "block.valkyrienskies.test_hinge.description": " ??? ",
+  "block.valkyrienskies.test_sphere.description": " ??? ",
+  "block.valkyrienskies.test_wing.description": " ??? ",
+  "entity.valkyrienskies.ship_mounting_entity.description": " ??? ",
+  "entity.valkyrienskies.vs_physics_entity.description": " ??? ",
+  "item.valkyrienskies.physics_entity_creator.description": " ??? lore",
+  "item.valkyrienskies.ship_assembler.description": " ??? lore",
+  "item.valkyrienskies.ship_creator.description": " ??? lore",
+  "item.valkyrienskies.ship_creator_smaller.description": " ??? lore"
+}

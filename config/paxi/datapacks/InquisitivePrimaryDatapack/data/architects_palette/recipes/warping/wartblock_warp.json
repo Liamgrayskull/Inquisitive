@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "minecraft:nether_wart_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:warped_wart_block"
+    },
+    "dimension": "minecraft:the_nether"
+}

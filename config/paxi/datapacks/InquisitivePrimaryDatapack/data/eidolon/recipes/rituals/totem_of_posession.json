@@ -1,0 +1,40 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "focusItems": [
+    {
+      
+      "item": "alexscaves:forsaken_idol"
+      
+    }
+  ],
+  "healthRequirement": 100.0,
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "alexscaves:totem_of_possession"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:shadow_gem"
+    },
+    {
+      "item": "alexscaves:thornwood_branch"
+    },
+    {
+      "item": "alexscaves:thornwood_branch"
+    },
+    {
+      "item": "alexscaves:thornwood_branch"
+    },
+    {
+      "item": "alexscaves:thornwood_branch"
+    },
+    {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ]
+}

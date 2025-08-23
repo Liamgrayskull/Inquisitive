@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "bountifulfares:chamomile_flowers"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 2,
+      "item": "bountifulfares:chamomile_tea_blend"
+    }
+  ]
+}

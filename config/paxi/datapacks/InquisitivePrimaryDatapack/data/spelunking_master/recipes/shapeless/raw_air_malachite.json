@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spelunking_master:raw_air_malachite_block"
+    }
+  ],
+  "result": {
+    "item": "spelunking_master:raw_air_malachite",
+    "count": 4
+  }
+}

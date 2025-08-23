@@ -1,0 +1,17 @@
+{
+  "name": "Whistling Quad",
+  "author": "Yondu",
+  "tier": 3,
+  "item": "scriptor:spellbook_light_gray",
+  "spell": {
+    "subject": "projectile",
+    "spells": [
+      {
+        "action": "action.scriptor.seeking_arrow_4",
+        "descriptors": [
+          "red"
+        ]
+      }
+    ]
+  }
+}

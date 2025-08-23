@@ -1,0 +1,20 @@
+{
+  "type": "eidolon:ritual_brazier_command",
+  "color": 16711680,
+  "command": "/effect give @e[distance=..5] doom_and_gloom:fog 214",
+  "focusItems": [],
+  "pedestalItems": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "cloudstorage:cloud"
+    }
+  ],
+  "symbol": "eidolon:particle/water_sign"
+}

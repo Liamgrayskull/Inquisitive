@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {"M": {"item": "computercraft:monitor_normal"}, "A": {"tag": "forge:gems/amethyst"}},
+  "pattern": ["MA"],
+  "result": {"item": "computercraft:monitor_advanced"},
+  "show_notification": true
+}

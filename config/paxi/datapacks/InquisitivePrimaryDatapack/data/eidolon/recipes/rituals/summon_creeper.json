@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "savage_and_ravage:creeper_spore_sack"
+    }
+  ],
+  "output": {
+    "count": 9,
+    "entity": "minecraft:creeper"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "enlightened_end:stardust"
+    }
+  ]
+}

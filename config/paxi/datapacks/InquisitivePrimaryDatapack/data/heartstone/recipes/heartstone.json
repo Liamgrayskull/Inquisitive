@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "101",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "healpgood:crystal_heart"
+    },
+    "0": {
+      "item": "enlightened_end:stardust"
+    }
+  },
+  "result": {
+    "item": "heartstone:heartstone",
+    "count": 2
+  }
+}

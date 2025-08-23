@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "healthRequirement": 20.0,
+  "focusItems": [
+    {
+      "item": "alexscaves:heart_of_iron"
+    }
+  ],
+  "output": {
+    "item": "healpgood:golden_heart"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:lesser_soul_gem"
+    },
+    {
+      "item": "healpgood:crystal_heart"
+    },
+    {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "healpgood:withered_heart"
+    }
+  ]
+}

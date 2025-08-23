@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {"I": {"tag": "forge:plates/iron"}, "L": {"item": "minecraft:lectern"}, "A": {"item": "create:andesite_casing"}},
+  "pattern": ["I", "L", "A"],
+  "result": {"item": "computercraft:disk_drive"},
+  "show_notification": true
+}

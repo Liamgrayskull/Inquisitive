@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "minecraft:lightning_rod"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "entity": "caverns_and_chasms:copper_golem"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:carved_pumpkin"
+    }
+  ]
+}

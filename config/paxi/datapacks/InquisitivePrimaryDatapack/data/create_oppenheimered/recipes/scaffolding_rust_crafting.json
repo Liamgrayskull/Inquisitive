@@ -1,0 +1,26 @@
+{
+    "conditions":[
+       {
+          "type":"forge:mod_loaded",
+          "modid":"alexscaves"
+       }
+    ],
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+       "MMM",
+       "S S",
+       "S S"
+    ],
+    "key":{
+       "M":{
+          "item":"alexscaves:rusty_scrap_metal"
+       },
+       "S":{
+         "item":"alexscaves:rusty_rebar"
+       }
+    },
+    "result":{
+       "item":"alexscaves:rusty_scaffolding",
+       "count":6
+    }
+ }

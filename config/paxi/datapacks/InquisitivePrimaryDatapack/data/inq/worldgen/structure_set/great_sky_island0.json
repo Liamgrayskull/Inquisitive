@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "inq:great_sky_island",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1361998249,
+    "spacing": 12,
+    "separation": 8
+  }
+}

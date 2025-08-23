@@ -1,0 +1,26 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "impaled:ancient_trident"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:trident"
+    },
+    "result": {
+        "item": "impaled:hellfork"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:berserk",
+            "lvl": 1
+        }
+    ]
+}

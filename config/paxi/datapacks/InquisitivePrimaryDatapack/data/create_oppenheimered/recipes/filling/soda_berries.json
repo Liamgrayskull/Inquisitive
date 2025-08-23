@@ -1,0 +1,27 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:filling",
+   "ingredients":[
+      {
+         "item":"minecraft:sweet_berries"
+      },
+      {
+         "amount":250,
+         "fluid":"alexscaves:purple_soda"
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:giant_sweetberry"
+      }
+   ]
+}

@@ -1,0 +1,8 @@
+{
+  "maxSize": 4,
+  "mergeCooldown": 0,
+  "onSplitCooldown": 100,
+  "splitCooldown": 0,
+  "spawnedMergeCooldown": 0,
+  "useSplitting": true
+}

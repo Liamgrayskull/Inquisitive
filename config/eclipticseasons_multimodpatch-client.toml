@@ -1,0 +1,7 @@
+
+#Particle Rain
+[particlerain]
+	Enable = true
+	#When it rains in desert biomes, replace it with a sandstorm.
+	FixSand = true
+

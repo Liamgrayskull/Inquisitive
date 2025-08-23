@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "2": {
+      "item": "composite_material:perkin"
+    },
+    "3": {
+      "item": "composite_material:etherite_ingot"
+    }
+  },
+  "pattern": [
+    "2",
+    "3",
+    "3"
+  ],
+  "result": {
+    "item": "composite_material:etherite_wand"
+  }
+}

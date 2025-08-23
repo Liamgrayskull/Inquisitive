@@ -1,0 +1,63 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "minecraft:grass_block",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "immersive_weathering:grassy_sandy_dirt"
+          }
+        },
+        
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "immersive_weathering:rooted_grass_block"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 60,
+          "primary_min": -0.1,
+          "primary_max": 0.1,
+          "secondary_min": -0.15,
+          "secondary_max": 0.15,
+          "vertical_scale": 1.0
+        }
+      }
+    ],
+    "use_second_target": true,
+    "second_target": "minecraft:dirt",
+    "second_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "immersive_weathering:sandy_dirt"
+          }
+        },
+        
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:rooted_dirt"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 60,
+          "primary_min": -0.1,
+          "primary_max": 0.1,
+          "secondary_min": -0.15,
+          "secondary_max": 0.15,
+          "vertical_scale": 1.0
+        }
+      }
+    ],
+    "use_biome_filter": false,
+    "surface_offset": 0,
+    "bottom_offset": 74,
+    "biomes": ""
+    
+  }
+}

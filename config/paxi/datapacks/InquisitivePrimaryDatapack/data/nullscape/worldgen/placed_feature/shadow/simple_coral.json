@@ -1,0 +1,43 @@
+{
+	"feature": "nullscape:shadow/simple_coral",
+	"placement": [
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"blocks": [
+							"endergetic:end_corrock_block",
+							"endergetic:speckled_end_corrock",
+							"endergetic:eumus"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air"
+						]
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							1,
+							0
+						],
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				]
+			}
+		}
+	]
+}

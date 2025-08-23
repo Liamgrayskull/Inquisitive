@@ -1,0 +1,14 @@
+{
+  "block.salt.deepslate_rock_salt_ore.description": " ??? ",
+  "block.salt.large_salt_bud.description": " ??? ",
+  "block.salt.medium_salt_bud.description": " ??? ",
+  "block.salt.raw_rock_salt_block.description": " ??? tag.salt.salt_cluster_growables.description",
+  "block.salt.rock_salt_ore.description": " ??? ",
+  "block.salt.salt_block.description": " ??? tag.minecraft.mineable.shovel.description, tag.computercraft.turtle_shovel_harvestable.description",
+  "block.salt.salt_cauldron.description": " ??? ",
+  "block.salt.salt_cluster.description": " ??? ",
+  "block.salt.salt_lamp.description": " ??? ",
+  "block.salt.small_salt_bud.description": " ??? ",
+  "item.salt.raw_rock_salt.description": " ??? lore",
+  "item.salt.salt.description": " ??? lore"
+}

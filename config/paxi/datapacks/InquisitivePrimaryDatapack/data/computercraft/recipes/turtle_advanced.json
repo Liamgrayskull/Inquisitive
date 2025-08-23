@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "H": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "B": {
+      "item": "create:brass_hand"
+    },
+    "O": {
+      "item": "create:content_observer"
+    },
+    "C": {
+      "item": "computercraft:computer_advanced"
+    },
+    "F": {
+      "item": "create:encased_fan"
+    }
+  },
+  "pattern": [
+    " H ",
+    "BOB",
+    " C ",
+    " F "
+  ],
+  "result": {
+    "item": "computercraft:turtle_advanced"
+  }
+}

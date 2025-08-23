@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "s s",
+    "bwb",
+    "sbs"
+  ],
+  "reagents": "htlt",
+  "key": {
+    "b": {
+      "item": "alexscaves:heavy_bone"
+    },
+    "w": {
+      "item": "alexscaves:primordial_tunic"
+    },
+    "s": {
+      "item": "oreganized:silver_block"
+    },
+    "t": {
+      "item": "eidolon:tattered_cloth"
+    },
+    "h": {
+      "item": "eidolon:holy_symbol"
+    },
+    "l": {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  },
+  "result": {
+    "item": "eidolon:bonelord_chestplate"
+  }
+}

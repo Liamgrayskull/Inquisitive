@@ -1,0 +1,12 @@
+{
+  "type": "alexscaves_torpedoes:shadow_casting",
+  "ingredients": [
+    {
+      "item": "brewinandchewin:beer"
+    }
+  ],
+  "output": {
+    "item": "brewinandchewin:withering_dross",
+    "count": 1
+  }
+}

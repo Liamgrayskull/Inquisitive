@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "spelunking_master:raw_kinetic_opal"
+    }
+  },
+  "result": {
+    "item": "spelunking_master:raw_kinetic_opal_block"
+  }
+}

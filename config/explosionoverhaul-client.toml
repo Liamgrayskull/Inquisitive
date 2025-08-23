@@ -1,0 +1,30 @@
+
+#Visual effect settings (client-side only)
+["Render Settings"]
+	#
+	#Configuration for the ground dust cloud effect
+	#Enables or disables the dust cloud effect from explosions.
+	enableGroundDustEffect = true
+	#Quality of the dust cloud effect. Affects particle count and duration.
+	#Lower values can improve performance on weaker PCs.
+	#0.0 = minimum particles, 1.0 = default quality.
+	#Range: 0.0 ~ 1.0
+	groundDustQuality = 1.0
+	#Dust Propagation Quality. Controls how often dust particles check for the ground beneath them.
+	#A value of 1 means every particle checks (highest quality, high performance cost).
+	#A value of 10 means every 10th particle checks (default performance).
+	#Range: 1 ~ 20
+	groundDustRaycastFrequency = 10
+	#
+	#Configuration for the ground mist effect
+	#Enables or disables the white mist effect that spreads from explosions.
+	enableMistEffect = true
+	#Quality of the mist effect. Affects particle count and duration.
+	#Lower values can improve performance.
+	#Range: 0.0 ~ 1.0
+	mistQuality = 1.0
+	#Mist Propagation Quality. Controls how often mist particles check for the ground.
+	#A value of 1 means every particle checks (max quality, high cost).
+	#Range: 1 ~ 20
+	mistRaycastFrequency = 10
+

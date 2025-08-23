@@ -1,0 +1,74 @@
+{
+  "cawezs_mantle_to_stratus:the_above_2": {
+    "height": 384,
+    "depth": 0,
+    "ceiling": false,
+    "floor": false,
+    "dimabove": "cawezs_mantle_to_stratus:the_above_2",
+    "dimbelow": "minecraft:the_end"
+  },
+  "minecraft:the_end": {
+    "height": 256,
+    "depth": 0,
+    "ceiling": false,
+    "floor": false,
+    "dimabove": "cawezs_mantle_to_stratus:the_above_2",
+    "dimbelow": "cawezs_mantle_to_stratus:the_above_1"
+  },
+  "cawezs_mantle_to_stratus:the_above_1": {
+    "height": 384,
+    "depth": 0,
+    "ceiling": false,
+    "floor": false,
+    "dimabove": "minecraft:the_end",
+    "dimbelow": "cawezs_mantle_to_stratus:the_above"
+  },
+  "cawezs_mantle_to_stratus:the_above": {
+    "height": 384,
+    "depth": 0,
+    "ceiling": false,
+    "floor": false,
+    "dimabove": "cawezs_mantle_to_stratus:the_above_1",
+    "dimbelow": "minecraft:overworld"
+  },
+  "minecraft:overworld": {
+    "height": 320,
+    "depth": -64,
+    "ceiling": false,
+    "floor": true,
+    "dimabove": "cawezs_mantle_to_stratus:the_above",
+    "dimbelow": "cawezs_mantle_to_stratus:the_below"
+  },
+  "cawezs_mantle_to_stratus:the_below": {
+    "height": 128,
+    "depth": 0,
+    "ceiling": true,
+    "floor": true,
+    "dimabove": "minecraft:overworld",
+    "dimbelow": "cawezs_mantle_to_stratus:the_below_1"
+  },
+  "cawezs_mantle_to_stratus:the_below_1": {
+    "height": 128,
+    "depth": 0,
+    "ceiling": true,
+    "floor": true,
+    "dimabove": "cawezs_mantle_to_stratus:the_below",
+    "dimbelow": "minecraft:the_nether"
+  },
+  "minecraft:the_nether": {
+    "height": 128,
+    "depth": 0,
+    "ceiling": true,
+    "floor": true,
+    "dimabove": "cawezs_mantle_to_stratus:the_below_1",
+    "dimbelow": "cawezs_mantle_to_stratus:the_below_2"
+  },
+  "cawezs_mantle_to_stratus:the_below_2": {
+    "height": 128,
+    "depth": 0,
+    "ceiling": true,
+    "floor": false,
+    "dimabove": "minecraft:the_nether",
+    "dimbelow": "cawezs_mantle_to_stratus:the_below_2"
+  }
+}

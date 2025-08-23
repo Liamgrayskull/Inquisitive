@@ -1,0 +1,32 @@
+{
+    "type": "eidolon:worktable",
+    "pattern": [
+      " d ",
+      " a ",
+      " g "
+    ],
+    "reagents": "hsws",
+    "key": {
+      "d": {
+        "tag": "forge:storage_blocks/diamond"
+      },
+      "a": {
+        "item": "eidolon:basic_amulet"
+      },
+      "g": {
+        "item": "minecraft:glass"
+      },
+      "h": {
+        "item": "healpgood:heart_crystal_shard"
+      },
+      "s": {
+        "item": "eidolon:lesser_soul_gem"
+      },
+      "w": {
+        "item": "alexsmobs:soul_heart"
+      }
+    },
+    "result": {
+      "item": "eidolon:glass_hand"
+    }
+  }

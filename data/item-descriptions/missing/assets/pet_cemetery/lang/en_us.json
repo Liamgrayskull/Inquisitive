@@ -1,0 +1,9 @@
+{
+  "entity.pet_cemetery.skeleton_cat.description": "A twice respawned feline. A little weaker than their fleshy variant.",
+  "entity.pet_cemetery.skeleton_parrot.description": "A twice respawned avian. A little weaker than their fleshy variant.",
+  "entity.pet_cemetery.skeleton_wolf.description": "A twice respawned canine. A little weaker than their fleshy variant.",
+  "entity.pet_cemetery.zombie_cat.description": "A once respawned feline. A little hardier than their furry variant. May be cured with weakness and a golden apple!",
+  "entity.pet_cemetery.zombie_parrot.description": "A once respawned avian. A little hardier than their feathery variant. May be cured with weakness and a golden apple!",
+  "entity.pet_cemetery.zombie_wolf.description": "A once respawned canine. A little hardier than their fluffy variant. May be cured with weakness and a golden apple!",
+  "item.pet_cemetery.pet_collar.description": "Dropped from any deceased pets. When taken to a respawn anchor, will let you respawn them!"
+}

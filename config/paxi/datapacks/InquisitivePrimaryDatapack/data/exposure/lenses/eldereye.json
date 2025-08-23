@@ -1,0 +1,9 @@
+{
+  "item": {
+    "item": "upgrade_aquatic:elder_eye"
+  },
+  "focal_range": {
+    "min": 22,
+    "max": 222
+  }
+}

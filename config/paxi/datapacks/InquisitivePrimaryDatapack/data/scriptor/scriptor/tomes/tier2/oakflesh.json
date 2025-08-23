@@ -1,0 +1,17 @@
+{
+  "disabled": "true",
+  "name": "tome.scriptor.oakflesh",
+  "author": "Shuckster",
+  "tier": 2,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "resistance",
+        "descriptors": [
+          "long"
+        ]
+      }
+    ]
+  }
+}

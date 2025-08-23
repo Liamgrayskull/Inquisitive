@@ -1,0 +1,15 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "biomemakeover:illunite_shard"
+    },
+    "enchantments": [
+        "enchancement:grapple",
+        "alexsmobs:straddle_jump",
+        "minecraft:infinity",
+        "minecraft:unbreaking"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "miningmaster:heart_rhodonite"
+    },
+    "enchantments": []
+}

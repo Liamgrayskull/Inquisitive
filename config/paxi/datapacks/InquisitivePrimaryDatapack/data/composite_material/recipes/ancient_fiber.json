@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:pitcher_plant"
+    },
+    {
+      "item": "minecraft:mangrove_roots"
+    },
+    {
+      "item": "minecraft:mangrove_roots"
+    },
+    {
+      "item": "minecraft:torchflower"
+    }
+  ],
+  "result": {
+    "item": "composite_material:ancient_fiber"
+  }
+}

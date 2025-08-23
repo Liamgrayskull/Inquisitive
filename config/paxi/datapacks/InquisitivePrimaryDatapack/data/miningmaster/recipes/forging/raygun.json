@@ -1,0 +1,56 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexscaves:polymer_plate"
+        },
+        {
+            "item": "alexscaves:polymer_plate"
+        },
+        {
+            "item": "alexscaves:polymer_plate"
+        },
+        {
+            "item": "alexscaves:uranium_rod"
+        },
+        {
+            "item": "alexscaves:uranium_rod"
+        },
+        {
+            "item": "alexscaves:uranium_rod"
+        },
+        {
+            "item": "alexscaves:polymer_plate"
+        },
+        {
+            "item": "alexscaves:polymer_plate"
+        },
+        {
+            "item": "alexscaves:polymer_plate"
+        }
+    ],
+    "catalyst": {
+        "item": "alexscaves:fissile_core"
+    },
+    "result": {
+        "item": "alexscaves:raygun"
+    },
+    "enchantments": [
+        {
+            "enchantment": "alexscaves:x_ray",
+            "lvl": 1
+        },
+        {
+            "enchantment": "alexscaves:gamma_ray",
+            "lvl": 1
+        },
+        {
+            "enchantment": "alexscaves:solar",
+            "lvl": 1
+        },
+        {
+            "enchantment": "alexscaves:energy_efficiency",
+            "lvl": 1
+        }
+    ]
+}

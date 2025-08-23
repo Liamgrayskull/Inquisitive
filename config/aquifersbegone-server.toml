@@ -1,0 +1,3 @@
+#Whether ABG leaves lava in caves or remove it. false = remove lava.
+lava_in_caves = true
+

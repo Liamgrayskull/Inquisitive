@@ -1,0 +1,131 @@
+{
+  "attached_dimention_id": "ad_astra:venus",
+  "skybox_data": {
+    "texture_id": "skybox_solar",
+    "alpha": 215,
+    "yaw": 29,
+    "pitch": -69,
+    "roll": 29,
+    "rotation_plane": "pitch",
+    "fade": "night"
+  },
+  "dimensional_data": {
+    "dimension_type": "planet",
+    "weather": false,
+    "weather_data": {
+      "condition": "rain",
+      "texture_id": "acid_rain",
+      "speed": 1,
+      "sound_generic": "weather.rain",
+      "sound_special": "weather.rain.above",
+      "power": 3,
+      "hurt": true,
+      "damage": 3
+    },
+    "clouds": true,
+    "sky_objects": false,
+    "gravity": 90.4,
+    "air_resistance": 0.98,
+    "atmospheric_data": {
+      "atmosphere_y": 560,
+      "travel_to": "cosmos:solar_system",
+      "origin_x": -9000,
+      "origin_y": 900,
+      "origin_z": -4000,
+      "overlay_texture_id": "venus_bar",
+      "shipbit_y": 27,
+      "ship_min_y": 120
+    }
+  },
+  "sky_data": {
+    "sun": {
+      "type": "object",
+      "phased": false,
+      "object_yaw": 45,
+      "object_pitch": 40,
+      "object_roll": 35,
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw_speed": 0,
+      "pitch_speed": 0,
+      "roll_speed": 1,
+      "scale": 0.24,
+      "core_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "bloom_color": {
+        "r": 64,
+        "g": 16,
+        "b": 8
+      }
+    },
+    "earth": {
+      "type": "object",
+      "phased": false,
+      "texture_id": "earth",
+      "object_yaw": 20,
+      "object_pitch": 30,
+      "object_roll": 40,
+      "yaw": 225,
+      "pitch": 0,
+      "roll": 360,
+      "yaw_speed": 0.5,
+      "pitch_speed": 0,
+      "roll_speed": 1,
+      "scale": 0.0085,
+      "cloud_data": {
+        "animation_folder": "clouds/high/",
+        "tick_delay": 40,
+        "frames": 30,
+        "cloud_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "alpha": 255
+        }
+      },
+      "atmosphere_color": {
+        "r": 102,
+        "g": 178,
+        "b": 255,
+        "alpha": 38
+      }
+    },
+    "mercury": {
+      "type": "object",
+      "phased": true,
+      "texture_id": "mercury",
+      "object_yaw": 45,
+      "object_pitch": 40,
+      "object_roll": 45,
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 270,
+      "yaw_speed": 0,
+      "pitch_speed": 0,
+      "roll_speed": 1,
+      "scale": 0.03
+    },
+    "ring1": {
+  "type": "ring",
+  "yaw": 0,
+  "pitch": 23,
+  "roll": 12,
+  "texture_id": "sat1",
+  "additive": true,
+  "scale_radius": 0.07
+},
+"ring2": {
+  "type": "ring",
+  "yaw": 0,
+  "pitch": 23,
+  "roll": 12,
+  "texture_id": "sat2",
+  "additive": true,
+  "scale_radius": 0.14
+}
+  }
+}

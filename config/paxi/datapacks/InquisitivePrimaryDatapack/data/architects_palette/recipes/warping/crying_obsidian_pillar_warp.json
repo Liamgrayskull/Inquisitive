@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "frame_changer:obsidian_pillar"
+        }
+    ],
+    "result": {
+        "item": "frame_changer:crying_obsidian_pillar"
+    },
+    "dimension": "minecraft:the_nether"
+}

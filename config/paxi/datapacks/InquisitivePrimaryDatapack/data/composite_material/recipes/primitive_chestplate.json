@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "composite_material:primitive_tenacity"
+  },
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "result": {
+    "item": "composite_material:primitive_chestplate"
+  },
+  "template": {
+    "item": "composite_material:ancient_fiber"
+  }
+}

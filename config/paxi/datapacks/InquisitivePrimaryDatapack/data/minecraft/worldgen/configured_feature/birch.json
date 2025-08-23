@@ -1,0 +1,721 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "height": 3,
+                      "offset": 0,
+                      "radius": 2,
+                      "type": "minecraft:blob_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:birch_leaves",
+                        "Properties": {
+                          "distance": "7",
+                          "persistent": "false",
+                          "waterlogged": "false"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 1,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 2,
+                      "height_rand_b": 0,
+                      "type": "minecraft:straight_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "state": {
+                        "Name": "minecraft:birch_log",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:moss_block",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria_saplings:saplings/birch_1",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:rooted_dirt",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": "arboria_saplings:saplings/birch_2",
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:mycelium",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": "arboria_saplings:birch/no_bees/9",
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.065,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/10",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.035,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/no_bees/11",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.035,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/12",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.036,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/13",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.05,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/1",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.15,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/2",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.15,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/no_bees/3",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.3,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/no_bees/4",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.15,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/5",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.25,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/6",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.333,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/7",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.7,
+                        "feature": {
+                          "feature": "arboria_saplings:birch/no_bees/8",
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": [
+                              "minecraft:moss_block",
+                              "minecraft:rooted_dirt",
+                              "minecraft:mycelium"
+                            ],
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicates": [
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:birch_sapling",
+                                "Properties": {
+                                  "stage": "1"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:birch_sapling",
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "type": "minecraft:solid"
+                                  }
+                                ],
+                                "type": "minecraft:any_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "default": {
+                              "feature": "arboria_saplings:big_birch/no_bees/2",
+                              "placement": []
+                            },
+                            "features": [
+                              {
+                                "chance": 0.2,
+                                "feature": {
+                                  "feature": "arboria_saplings:big_birch/no_bees/1",
+                                  "placement": []
+                                }
+                              }
+                            ]
+                          },
+                          "type": "minecraft:random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:birch_sapling",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "count": 24,
+                            "type": "minecraft:count"
+                          },
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "type": "minecraft:solid"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          },
+                          {
+                            "xz_spread": {
+                              "value": {
+                                "min_inclusive": -1,
+                                "max_inclusive": 0
+                              },
+                              "type": "minecraft:uniform"
+                            },
+                            "y_spread": 0,
+                            "type": "minecraft:random_offset"
+                          },
+                          {
+                            "predicate": {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:moss_block",
+                              "minecraft:rooted_dirt",
+                              "minecraft:mycelium"
+                            ],
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:birch_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:birch_sapling",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "type": "minecraft:solid"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 32,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 48,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

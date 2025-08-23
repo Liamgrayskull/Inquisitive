@@ -1,0 +1,12 @@
+{
+  "type": "alexscaves_torpedoes:shadow_casting",
+  "ingredients": [
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "output": {
+    "item": "alexscaves:totem_of_possession",
+    "count": 1
+  }
+}

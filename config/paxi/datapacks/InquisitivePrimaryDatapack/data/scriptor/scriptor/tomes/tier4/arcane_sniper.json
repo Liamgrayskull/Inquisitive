@@ -1,0 +1,14 @@
+{
+  "name": "tome.scriptor.arcane_sniper",
+  "author": "Tulin",
+  "tier": 4,
+  "spell": {
+    "subject": "hitscan",
+    "spells": [
+      {
+        "action": "explosion",
+        "descriptors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "spelunking_master:raw_heart_rhodonite"
+    }
+  },
+  "result": {
+    "item": "spelunking_master:raw_heart_rhodonite_block"
+  }
+}

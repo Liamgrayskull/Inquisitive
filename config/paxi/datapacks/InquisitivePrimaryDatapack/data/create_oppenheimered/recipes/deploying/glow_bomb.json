@@ -1,0 +1,27 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+     {
+        "item":"alexscaves:ink_bomb"
+     },
+     {
+        "item":"minecraft:glowstone_dust"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:glow_ink_bomb",
+        "count":4
+     }
+  ]
+}

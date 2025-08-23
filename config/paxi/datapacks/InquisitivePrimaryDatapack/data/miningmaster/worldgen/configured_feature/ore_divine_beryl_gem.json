@@ -1,0 +1,86 @@
+{
+  "config": {
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:granite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:granite_divine_beryl_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:andesite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_divine_beryl_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:diorite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_divine_beryl_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:tuff"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_divine_beryl_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:divine_beryl_ore"
+            }
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:deepslate"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_divine_beryl_ore"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "type": "miningmaster:ore_gem_feature"
+}

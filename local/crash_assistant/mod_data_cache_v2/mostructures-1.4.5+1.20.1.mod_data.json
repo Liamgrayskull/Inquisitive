@@ -1,0 +1,1 @@
+{"jarName":"mostructures-1.4.5+1.20.1.jar","modId":"mostructures","version":"1.4.5+1.20.1","mixinConfigs":["mostructures.mixins.json"],"jarJarMods":[{"jarName":"omega-config-1.4.1-1.20.1.jar","modId":"omega-config","version":"1.4.1+1.20.1","mixinConfigs":["omega-config.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

@@ -1,0 +1,36 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "biomemakeover:illunite_shard"
+        },
+        {
+            "item": "biomemakeover:illunite_shard"
+        },
+        {
+            "item": "biomemakeover:illunite_shard"
+        },
+        {
+            "item": "biomemakeover:illunite_shard"
+        },
+        {
+            "item": "biomemakeover:illunite_shard"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "result": {
+        "item": "miningmaster:unbreaking_iolite_pickaxe"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:unbreaking",
+            "lvl": 1
+        },
+        {
+            "enchantment": "minecraft:silk_touch",
+            "lvl": 1
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "ywy",
+    "zxz",
+    "z z"
+  ],
+  "reagents": "a s ",
+  "key": {
+    "x": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "y": {
+      "item": "etcetera:bismuth_ingot"
+    },
+    "z": {
+      "tag": "minecraft:planks"
+    },
+    "w": {
+      "item": "farmersdelight:rich_soil"
+    },
+    "a": {
+      "item": "spelunkery:salt"
+    },
+    "s": {
+      "item": "eidolon:soul_shard"
+    }
+  },
+  "result": {
+    "item": "eidolon:planter"
+  }
+}

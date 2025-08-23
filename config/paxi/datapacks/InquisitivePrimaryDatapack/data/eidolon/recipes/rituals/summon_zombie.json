@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "caverns_and_chasms:rotten_flesh_block"
+    }
+  ],
+  "output": {
+    "count": 9,
+    "entity": "minecraft:zombie"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+  "item": "eidolon:soul_shard"
+}
+  ],
+  "reagent": [
+    {
+      "item": "enlightened_end:stardust"
+    }
+  ]
+}

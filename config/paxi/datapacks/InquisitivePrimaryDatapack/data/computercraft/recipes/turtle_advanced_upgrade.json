@@ -1,0 +1,8 @@
+{
+  "type": "computercraft:computer_upgrade",
+  "category": "redstone",
+  "key": {"B": {"item": "create:brass_hand"}, "P": {"item": "create:propeller"}, "A": {"tag": "forge:gems/amethyst"}, "R": {"tag": "forge:storage_blocks/redstone"}, "C": {"item": "computercraft:turtle_normal"}},
+  "pattern": [" B ", "PCA", " R "],
+  "result": {"item": "computercraft:turtle_advanced"},
+  "show_notification": true
+}

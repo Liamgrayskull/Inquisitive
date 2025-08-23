@@ -1,0 +1,32 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:compacting",
+   "heatRequirement":"superheated",
+   "ingredients":[
+      {
+         "item":"alexscaves:fissile_core"
+      },
+      {
+         "item":"alexscaves:unrefined_waste"
+      }
+   ],
+   "results":[
+      {
+         "fluid":"alexscaves:acid",
+         "amount":250
+      },
+      {
+         "item":"alexscaves:uranium",
+         "count":3
+      }
+   ]
+}

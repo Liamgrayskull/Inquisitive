@@ -1,0 +1,33 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "minecraft:packed_mud"
+        },
+        {
+          "item": "minecraft:packed_mud"
+        },
+        {
+          "item": "minecraft:packed_mud"
+        },
+        {
+          "item": "minecraft:packed_mud"
+        }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        {
+          "item": "enlightened_end:stardust"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:elder_brick",
+    "count": 16
+  }
+}

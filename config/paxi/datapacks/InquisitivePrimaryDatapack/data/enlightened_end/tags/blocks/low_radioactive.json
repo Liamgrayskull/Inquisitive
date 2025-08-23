@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "alexscaves:radrock",
+    "alexscaves:radrock_stairs",
+    "alexscaves:radrock_slab",
+    "alexscaves:radrock_wall",
+    "alexscaves:radrock_bricks",
+    "alexscaves:radrock_brick_stairs",
+    "alexscaves:radrock_brick_slab",
+    "alexscaves:radrock_brick_wall",
+    "alexscaves:radrock_chiseled"
+  ]
+}

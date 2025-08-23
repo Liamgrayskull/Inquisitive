@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "galosphere:allurite_block"
+        }
+    ],
+    "result": {
+        "item": "galosphere:lumiere_block"
+    },
+    "dimension": "minecraft:the_nether"
+}

@@ -1,0 +1,26 @@
+{
+	"example_modid": {
+		"msg": "",
+		"should_crash_on_startup": true
+	},
+	"xaerominimap": {
+		"msg": "The Xaero's map suite is incompatible with Inquisitive! This is partly for reasons of game balance and VS integration, yet https://modrinth.com/mod/antique-atlas-4 is the alternative.",
+		"should_crash_on_startup": true
+	},
+	"xaeroworldmap": {
+		"msg": "The Xaero's map suite is incompatible with Inquisitive! This is partly for reasons of game balance and VS integration, yet https://modrinth.com/mod/antique-atlas-4 is the alternative.",
+		"should_crash_on_startup": true
+	},
+	"xaerominimapfair": {
+		"msg": "The Xaero's map suite is incompatible with Inquisitive! This is partly for reasons of game balance and VS integration, yet https://modrinth.com/mod/antique-atlas-4 is the alternative.",
+		"should_crash_on_startup": true
+	},
+	"essential": {
+		"msg": "Essential is incompatible with Inquisitive, due to menu tweaking and closed source features. <br> However, some of it's more significant features are implemented, such as through: <br> https://modrinth.com/mod/e4mc",
+		"should_crash_on_startup": true
+	},
+	"optifine": {
+		"msg": "Optifine is not compatible with Inquisitive, and is unfortunately incredibly outdated! <br> This link explains why, along with plenty of alternatives, all of which can work with Inquisitive should be installed. <br> If a feature you'd like is missing, please request it in the discord. <br> https://optifine.alternatives.lambdaurora.dev/",
+		"should_crash_on_startup": true
+	}
+}

@@ -1,0 +1,1 @@
+{"jarName":"Oreganized 1.20.1-4.1.1.jar","modId":"oreganized","version":"4.1.1","mixinConfigs":["oreganized.mixins.json"],"jarJarMods":[{"jarName":"hats-forge-1.20.1-1.1.2.jar","modId":"galena_hats","version":"1.20.1-1.1.2","mixinConfigs":["galena_hats.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

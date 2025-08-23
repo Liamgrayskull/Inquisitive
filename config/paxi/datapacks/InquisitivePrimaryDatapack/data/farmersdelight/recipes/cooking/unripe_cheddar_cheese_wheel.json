@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "spelunkery:salt"
+    },
+    {
+      "item": "spelunkery:salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "hearthandharvest:unripe_cheddar_cheese_wheel"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "block.etched.album_jukebox.description": "A jukebox with 9 slots that will cycle through it's songs and stop with a redstone signal!",
+  "block.etched.etching_table.description": "The Bard Villager's workstation, along with your gateway into etching vinyl! With a blank disc and label, put in any MP3, WAV, OGG, MC sound, or SoundCloud/Bandcamp song, and customize your label!",
+  "block.etched.radio.description": "Will play music from any URL that leads to an MP3, WAV, OGG, MC sound, or SoundCloud/Bandcamp song!",
+  "entity.etched.jukebox_minecart.description": "Music on wheels!",
+  "item.etched.album_cover.description": "A shockingly fascinating item, will fetch data from the nether realm to create an album cover for any vinyl you put inside!",
+  "item.etched.blank_music_disc.description": "A music disc with it's etching smelted off. Create a custom record with it and a label in the etching table!",
+  "item.etched.boombox.description": "A mobile means of playing music discs! Load discs into the item in your inventory, and press Left Shift + Right Button to pause them.",
+  "item.etched.complex_music_label.description": "A multicolored music label, crafted by combining two music labels together!",
+  "item.etched.etched_music_disc.description": "A disc containing ultimate power.",
+  "item.etched.jukebox_minecart.description": "Music on wheels!",
+  "item.etched.music_label.description": "A sticker for blank music discs! Can be combined with them in an etching table, with dye to color them, or with one another to make complex labels!",
+  "item.etched.portal_radio.description": "Do doot do doo! Do doot do dew do dew do. Dodo do dew, do do do dew, do doot."
+}

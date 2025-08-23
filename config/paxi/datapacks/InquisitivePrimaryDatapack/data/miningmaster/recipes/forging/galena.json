@@ -1,0 +1,44 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexscaves:ferrouslime_ball"
+        },
+        {
+            "item": "alexscaves:ferrouslime_ball"
+        },
+        {
+            "item": "alexscaves:packed_galena"
+        },
+        {
+            "item": "alexscaves:packed_galena"
+        },
+        {
+            "item": "alexscaves:telecore"
+        },
+        {
+            "item": "alexscaves:packed_galena"
+        },
+        {
+            "item": "alexscaves:packed_galena"
+        },
+        {
+            "item": "alexscaves:ferrouslime_ball"
+        },
+        {
+            "item": "alexscaves:ferrouslime_ball"
+        }
+    ],
+    "catalyst": {
+        "item": "alexsmobs:falconry_glove"
+    },
+    "result": {
+        "item": "alexscaves:galena_gauntlet"
+    },
+    "enchantments": [
+        {
+            "enchantment": "alexscaves:crystallization",
+            "lvl": 1
+        }
+    ]
+}

@@ -1,0 +1,735 @@
+{
+	"default_scaling": {
+		"type": "static",
+		"scaling": 1.0,
+		"scale_loot": true,
+		"scale_xp": true,
+		"scale_health": "none",
+		"scale_damage": "none",
+		"scale_speed": "none"
+	},
+	"include_list": [
+		"minecraft:*"
+	],
+	"exclude_list": [
+		"minecraft:shulker",
+		"minecraft:wither"
+	],
+	"keep_scaling_on_conversion": true,
+	"scaling_overrides": {
+		"minecraft:allay": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"minecraft:bee": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:bison": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"minecraft:blaze": {
+			"type": "uniform",
+			"min_scaling": 0.9,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:bone_serpent": {
+			"type": "uniform",
+			"min_scaling": 0.3,
+			"max_scaling": 2.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"sullysmod:bouldering_zombie": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:boundroid": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:brainiac": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"trials:breeze": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"netherexp:carcass": {
+			"type": "uniform",
+			"min_scaling": 0.9,
+			"max_scaling": 1.1,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:cat": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"etcetera:chapple": {
+			"type": "uniform",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"minecraft:chicken": {
+			"type": "uniform",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:corrodent": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:cosmic_cod": {
+			"type": "uniform",
+			"min_scaling": 0.5,
+			"max_scaling": 3.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"minecraft:cow": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:creeper": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"savage_and_ravage:creepie": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:crow": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"spelunkery:dust_bunny": {
+			"type": "uniform",
+			"min_scaling": 0.3,
+			"max_scaling": 2.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:elephant": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:enderiophage": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"minecraft:enderman": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:evoker": {
+			"type": "uniform",
+			"min_scaling": 0.9,
+			"max_scaling": 1.1,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:fly": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:frog": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:froststalker": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:gammaroach": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:ghast": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:gloomoth": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"upgrade_aquatic:great_thrasher": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:grizzly_bear": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:hoglin": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:hullbreaker": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:husk": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:iron_golem": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:magnetron": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:mine_guardian": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:notor": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:nucleeper": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:pig": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:piglin_brute": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:pillager": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"galosphere:preserved": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:radgill": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:ravager": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:rhinoceros": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:sheep": {
+			"type": "gaussian",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"close_to_original": false,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:silverfish": {
+			"type": "uniform",
+			"min_scaling": 0.5,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:skeleton": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:skreecher": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.7,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:spectre": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 4.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"netherexp:stampede": {
+			"type": "uniform",
+			"min_scaling": 0.9,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"ad_astra:star_crawler": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 4.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:stray": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:subterranodon": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexsmobs:sunbird": {
+			"type": "uniform",
+			"min_scaling": 1.5,
+			"max_scaling": 3.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:teletor": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"upgrade_aquatic:thrasher": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:tremorsaurus": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:vallumraptor": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"alexscaves:vesper": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:vex": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "none",
+			"scale_speed": "inverse"
+		},
+		"minecraft:vindicator": {
+			"type": "uniform",
+			"min_scaling": 0.9,
+			"max_scaling": 1.1,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"enlightened_end:void_leviathan": {
+			"type": "uniform",
+			"min_scaling": 1.5,
+			"max_scaling": 3.0,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:warden": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"netherexp:wisp": {
+			"type": "uniform",
+			"min_scaling": 0.7,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:wither_skeleton": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.5,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:wolf": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"quark:wraith": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		},
+		"minecraft:zombie": {
+			"type": "uniform",
+			"min_scaling": 0.8,
+			"max_scaling": 1.3,
+			"scale_loot": true,
+			"scale_xp": true,
+			"scale_health": "normal",
+			"scale_damage": "normal",
+			"scale_speed": "inverse"
+		}
+	}
+}

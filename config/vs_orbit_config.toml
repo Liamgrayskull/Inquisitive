@@ -1,0 +1,29 @@
+
+[Core]
+	#每秒多少次刻。
+	#How many ticks per second.
+	#请注意:当瓦尔基里的运算速度与本mod物理核心运算速度不一致时将会出现严重的精度问题。
+	#Please note: Serious accuracy issues will occur when Valkyrie's speed does not match the speed of the mod's physics core.
+	tick_speed = 100
+	#单位刻相当于现实的多少秒。
+	#The unit tick is equivalent to the number of seconds in reality.
+	#当目标速度为1.0时该值应为(1除以Core_TICK_SPEED)所得到的值。
+	#When the target speed is 1.0, the value should be (1 divided by Core_TICK_SPEED).
+	tick_time = 0.01
+
+[Gravitation]
+	#重力计算在哪些世界中工作，需要维度的注册名。
+	#In which worlds gravity calculations work, the registration name of the dimension is required.
+	work_world = ["cosmos:solar_system"]
+	#引力常数。
+	#Gravitational constant.
+	gravitational_constant = 6.676E-11
+
+[ValkyrienSkies]
+	#是否启用对瓦尔基里的运算。
+	#Whether or not compatibility with Valkyrie is enabled.
+	enable = true
+	#物理体的加速度缩放。
+	#Acceleration scaling of a physical body.
+	acceleration_scaling = 1.0
+

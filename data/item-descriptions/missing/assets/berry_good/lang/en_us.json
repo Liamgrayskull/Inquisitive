@@ -1,0 +1,8 @@
+{
+  "block.berry_good.glow_berry_basket.description": " ??? tag.minecraft.mineable.axe.description",
+  "block.berry_good.sweet_berry_basket.description": " ??? tag.minecraft.mineable.axe.description",
+  "item.berry_good.glowgurt.description": " ??? lore, tag.forge.food.description, tag.diet.fruits.description",
+  "item.berry_good.music_disc_fox.description": " ??? lore",
+  "item.berry_good.sweet_berry_meatballs.description": " ??? lore, tag.forge.food.description, tag.diet.fruits.description, tag.salt.can_be_salted.description, tag.origins.meat.description",
+  "item.berry_good.sweet_berry_mince.description": " ??? lore, tag.diet.fruits.description, tag.forge.food.description, tag.origins.meat.description"
+}

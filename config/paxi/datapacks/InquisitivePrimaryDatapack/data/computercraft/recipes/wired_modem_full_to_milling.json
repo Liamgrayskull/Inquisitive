@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "computercraft:wired_modem_full"
+    }
+  ],
+  "processingTime": 25,
+  "results": [
+    {
+      "count": 1,
+      "item": "computercraft:wired_modem"
+    },
+    {
+      "count": 1,
+      "item": "create:andesite_casing"
+    }
+  ]
+}

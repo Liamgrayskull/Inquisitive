@@ -1,0 +1,6 @@
+{
+  "minDelay": 120,
+  "maxDelay": 300,
+  "printOnSkip": true,
+  "debugLog": false
+}

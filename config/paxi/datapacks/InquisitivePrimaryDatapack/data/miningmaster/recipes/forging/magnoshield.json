@@ -1,0 +1,44 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexscaves:azure_neodymium_ingot"
+        },
+        {
+            "item": "alexscaves:azure_neodymium_ingot"
+        },
+        {
+            "item": "alexscaves:azure_neodymium_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "alexscaves:scarlet_neodymium_ingot"
+        },
+        {
+            "item": "alexscaves:scarlet_neodymium_ingot"
+        },
+        {
+            "item": "alexscaves:scarlet_neodymium_ingot"
+        }
+    ],
+    "catalyst": {
+        "item": "alexscaves:heart_of_iron"
+    },
+    "result": {
+        "item": "alexscaves:resistor_shield"
+    },
+    "enchantments": [
+        {
+            "enchantment": "allurement:reforming",
+            "lvl": 1
+        }
+    ]
+}

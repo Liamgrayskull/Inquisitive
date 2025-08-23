@@ -1,0 +1,61 @@
+{
+	/* -> General
+	   OFF/FAST/FANCY (default: FANCY)
+	*/
+	"betterGrassMode": "FANCY",
+	// (default: true)
+	"resourcePackCompatibilityMode": true,
+	/* Blocks
+	   (default: true)
+	*/
+	"grassBlocks": true,
+	// (default: true)
+	"snowy": true,
+	// (default: true)
+	"dirtPaths": false,
+	// (default: true)
+	"farmLands": false,
+	// (default: true)
+	"podzol": true,
+	// (default: true)
+	"mycelium": true,
+	// (default: true)
+	"crimsonNylium": true,
+	// (default: true)
+	"warpedNylium": true,
+	"moreBlocks": [
+		"species:alphacene_grass_block",
+		"bountifulfares:grassy_dirt",
+		"flying_stuff:fiery_grass_block",
+		"immersive_weathering:grassy_silt",
+		"immersive_weathering:grassy_sandy_dirt",
+		"immersive_weathering:grassy_permafrost",
+		"immersive_weathering:rooted_grass_block",
+		"flying_stuff:glaciated_grass_block",
+		"undergarden:deepturf_block",
+		"undergarden:frozen_deepturf_block",
+		"undergarden:ashen_deepturf_block"
+	],
+	/* -> Better Snow
+	   OFF/OPTIFINE/LAMBDA (default: OPTIFINE)
+	*/
+	"betterSnowMode": "OPTIFINE",
+	"snowLayers": [
+		"snow",
+		"moss_carpet"
+	],
+	"excludedTags": [
+		"leaves",
+		"buttons",
+		"rails",
+		"wooden_pressure_plates"
+	],
+	"excludedBlocks": [
+		"heavy_weighted_pressure_plate",
+		"light_weighted_pressure_plate",
+		"polished_blackstone_pressure_plate",
+		"stone_pressure_plate"
+	],
+	"whitelistedTags": [],
+	"whitelistedBlocks": []
+}

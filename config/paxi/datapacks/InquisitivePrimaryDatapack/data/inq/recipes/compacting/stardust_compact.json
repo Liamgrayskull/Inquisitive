@@ -1,0 +1,16 @@
+{
+  "conditions":[
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+     {
+        "item":"enlightened_end:stardust_block"
+     }
+  ],
+  "results":[
+     {
+        "item":"eidolon:soul_shard",
+        "count":1
+     }
+  ]
+}

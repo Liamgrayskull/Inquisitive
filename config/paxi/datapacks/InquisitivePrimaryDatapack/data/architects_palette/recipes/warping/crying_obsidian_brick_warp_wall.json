@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "frame_changer:obsidian_brick_wall"
+        }
+    ],
+    "result": {
+        "item": "frame_changer:crying_obsidian_brick_wall"
+    },
+    "dimension": "minecraft:the_nether"
+}

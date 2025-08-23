@@ -1,0 +1,11 @@
+{
+  "generator": "scriptor:static_generator",
+  "bindings": [
+    {
+      "word": "descriptor:color.scriptor.enby",
+      "parameters": {
+        "token": "ᚭᚯᚬᚮ"
+      }
+    }
+  ]
+}

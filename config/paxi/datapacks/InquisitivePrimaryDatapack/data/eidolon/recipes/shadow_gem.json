@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "eidolon",
+  "ingredients": [
+    {
+      "item": "eidolon:shadow_gem_block"
+    }
+  ],
+  "result": {
+    "item": "alexscaves:occult_gem",
+    "count": 9
+  }
+}

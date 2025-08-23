@@ -1,0 +1,18 @@
+{
+  "type": "eidolon:ritual_brazier",
+  "focusItems": [],
+  "pedestalItems": [
+    {
+      "item": "etcetera:bismuth_ingot"
+    },
+    {
+      "item": "etcetera:bismuth_ingot"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "enlightened_end:stardust"
+    }
+  ],
+  "ritual": "eidolon:crystal"
+}

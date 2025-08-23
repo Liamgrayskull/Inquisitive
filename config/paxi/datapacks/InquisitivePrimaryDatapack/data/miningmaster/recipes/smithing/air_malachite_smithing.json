@@ -1,0 +1,17 @@
+{
+    "type": "miningmaster:gem_smithing_recipe",
+    "blacklist": {
+        "tag": "miningmaster:gem_enchanting_blacklist"
+    },
+    "gem": {
+        "item": "enlightened_end:malachite"
+    },
+    "enchantments": [
+        "enchancement:gale",
+        "enchancement:warp",
+        "enchancement:perception",
+        "domesticationinnovation:total_recall",
+        "miningmaster:floatation",
+        "miningmaster:knight_jump"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:ritual_brazier_command",
+  "color": 33078284,
+  "command": "/effect give @e[distance=..5] mowziesmobs:suns_blessing 214",
+  "focusItems": [],
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "architects_palette:sunstone"
+    },
+    {
+      "item": "architects_palette:sunmetal_brick"
+    },
+    {
+      "item": "architects_palette:sunstone"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "oreganized:electrum_block"
+    }
+  ],
+  "symbol": "eidolon:particle/harmony_sign"
+}

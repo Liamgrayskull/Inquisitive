@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "moyai:moyai"
+        }
+    ],
+    "result": {
+        "item": "mysticaloaktree:wise_oak"
+    },
+    "dimension": "minecraft:the_nether"
+}

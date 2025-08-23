@@ -1,0 +1,12 @@
+{
+  "pointer": {
+    "x": 0.0,
+    "y": 0.0,
+    "size": 60,
+    "enabled": false,
+    "identifier": {
+      "f_135804_": "cursorfolder",
+      "f_135805_": "customcursor_crystal.png"
+    }
+  }
+}

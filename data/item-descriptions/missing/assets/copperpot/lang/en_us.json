@@ -1,0 +1,23 @@
+{
+  "block.copperpot.baked_alaska_block.description": " ??? ",
+  "block.copperpot.copper_pot.description": " ??? ",
+  "block.copperpot.meringue_block.description": " ??? ",
+  "item.copperpot.aestival_agar.description": " ??? lore, tag.forge.food.description, tag.diet.fruits.description",
+  "item.copperpot.autumnal_agar.description": " ??? lore, tag.forge.food.description, tag.diet.fruits.description",
+  "item.copperpot.baked_alaska_slice.description": " ??? lore, tag.forge.food.description, tag.diet.fruits.description",
+  "item.copperpot.brumal_agar.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.carrot_cupcake.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.creeping_yogurt.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.guardian_souffle.description": " ??? lore, tag.diet.proteins.description, tag.diet.sugars.description, tag.salt.can_be_salted.description, tag.forge.food.description, tag.diet.grains.description",
+  "item.copperpot.incendiary_meringue.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.meringue.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.mint_meringue.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.mooncake.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.pork_sandwich.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.raw_meringue.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.royal_jelly.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.sourdough.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.spiced_apple_jam.description": " ??? lore, tag.forge.food.description",
+  "item.copperpot.tropical_meringue.description": " ??? lore, tag.forge.food.description, tag.diet.sugars.description",
+  "item.copperpot.vernal_agar.description": " ??? lore, tag.forge.food.description"
+}

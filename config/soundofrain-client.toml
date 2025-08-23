@@ -1,0 +1,45 @@
+
+#Sound of Rain Configuration
+#20 ticks = 1 second = 1000ms
+["sound behaviour"]
+	#The radius that gets checked for blocks (in blocks), closest blocks to the player will be prioritized[default: 12]
+	#Range: 1 ~ 32
+	soundRadius = 12
+	#Minimum interval in ticks checking for blocks within the radius, must be lower than maxSoundInterval[default: 2]
+	#Range: 1 ~ 100
+	minSoundInterval = 2
+	#Maximum interval in ticks checking for blocks within the radius, must be higher than minSoundInterval[default: 15]
+	#Range: 1 ~ 200
+	maxSoundInterval = 15
+	#Amount of material based blocks that will be playing rain sounds(glass, amethyst, etc), within the radius[default: 14]
+	#Range: 1 ~ 64
+	maxSoundsPerCycle = 14
+	#Cooldown for sounds that can play at the same position, and clean up old positions, in ms [default: 3500] plus minus 500ms
+	#Range: 100 ~ 60000
+	cleanupIntervalMs = 3500
+	#(for debugging) This shows a note particle above the blocks playing the rain sounds, and gives some feedback in the console log[recommended: false, since it can spam the console]
+	debugShowSoundBlock = false
+
+["material rain sound blocks"]
+	#tags and ids for the default blocks in this mod, you can add new blocks and tags here, even modded blocks. Removing tags and ids will make the material rain sound not play for those blocks.
+	#Tags for Amethyst like blocks
+	amethystTags = [""]
+	#Block IDs for Amethyst like blocks
+	amethystBlocks = [""]
+	#Tags for Fabric blocks
+	fabricTags = ["#minecraft:wool", "#minecraft:wool_carpet", "#minecraft:beds", "#minecraft:banners"]
+	#Block IDs for Fabric blocks
+	fabricBlocks = [""]
+	#Tags for Foliage blocks
+	foliageTags = ["#minecraft:leaves", "#minecraft:flowers"]
+	#Block IDs for Foliage blocks
+	foliageBlocks = [""]
+	#Tags for Glass blocks
+	glassTags = ["#forge:glass", "#forge:glass_panes"]
+	#Block IDs for Glass blocks
+	glassBlocks = [""]
+	#Tags for Metal blocks
+	metalTags = ["#minecraft:beacon_base_blocks"]
+	#Block IDs for Metal blocks
+	metalBlocks = ["minecraft:cauldron", "minecraft:hopper"]
+

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "arboria_saplings:palm/branch/4_oak_east",
+        "placement": []
+      },
+      {
+        "feature": "arboria_saplings:palm/branch/4_oak_south",
+        "placement": []
+      },
+      {
+        "feature": "arboria_saplings:palm/branch/4_oak_west",
+        "placement": []
+      },
+      {
+        "feature": "arboria_saplings:palm/branch/4_oak_north",
+        "placement": []
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

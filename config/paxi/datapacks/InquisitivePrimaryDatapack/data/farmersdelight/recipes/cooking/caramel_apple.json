@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "cookingtime": 100,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "hearthandharvest:caramel"
+    },
+    {
+      "item": "hearthandharvest:caramel"
+    },
+    {
+      "item": "hearthandharvest:caramel"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "hearthandharvest:caramel_apple"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "blackstone",
+    "end_stone",
+    "obsidian",
+    "crying_obsidian",
+    "quark:myalite_crystal",
+    "architects_palette:onyx",
+    "architects_palette:warpstone",
+    "quark:dusky_myalite",
+    "quark:myalite",
+    "amethyst_block"
+  ]
+}

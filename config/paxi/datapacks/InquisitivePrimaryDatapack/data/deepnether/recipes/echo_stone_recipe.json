@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "141",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:echo_shard"
+    },
+    "4": {
+      "item": "undergarden:utherium_crystal"
+    }
+  },
+  "result": {
+    "item": "deepnether:deep_nether",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+[2025-08-22 19:48:00.113] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: JVM args: [-XX:+UseSerialGC, -XX:MaxHeapFreeRatio=30, -XX:MinHeapFreeRatio=10, -XX:MaxGCPauseMillis=10000, -Xms8m, -Xmx512m]
+[2025-08-22 19:48:00.118] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: program args: [-jarPath, C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\local\crash_assistant\31444_1755917266533_app.jar, -parentPID, 31444, -parentStarted, 1755917266533, -platform, FORGE, -loaderJarName, fmlloader-1.20.1-47.4.6.jar, -minecraftVersion, 1.20.1, -childProcessesPIDs, VU5ERUZJTkVE, -crashAssistantModJarPath, C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main\mods\CrashAssistant-forge-1.19-1.20.1-1.9.15.jar, -log4jApi, C:\Users\Liam\AppData\Roaming\ModrinthApp\meta\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar, -log4jCore, C:\Users\Liam\AppData\Roaming\ModrinthApp\meta\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar, -googleGson, C:\Users\Liam\AppData\Roaming\ModrinthApp\meta\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar, -commonIo, C:\Users\Liam\AppData\Roaming\ModrinthApp\meta\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar, -parentXms, unknown, -parentXmx, 8192M, -systemRAM, 15.9g, -processor, QU1EIFJ5emVuIDkgMzkwMFggMTItQ29yZSBQcm9jZXNzb3IgICAgICAgICAgICA=, -serialisedGPUs, VnVsa2FuIEdQVSBkZXRlY3Rpb24gYWRkb24gbm90IGZvdW5kLCBmYWxsaW5nIGJhY2sgdG8gRGlyZWN0WApTdWNjZXNzZnVsbHkgZGV0ZWN0ZWQgR1BVcyB1c2luZyBEaXJlY3RYOgpERURJQ0FURUQgOiBOVklESUEgR2VGb3JjZSBSVFggNDA3MAoNCg==, -recursiveStart]
+[2025-08-22 19:48:00.118] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running from: C:\Users\Liam\AppData\Roaming\ModrinthApp\profiles\Inquisitive-main
+[2025-08-22 19:48:00.119] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: crashAssistantJarName: CrashAssistant-forge-1.19-1.20.1-1.9.15.jar
+[2025-08-22 19:48:00.119] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent PID: 31444
+[2025-08-22 19:48:00.119] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent started: 1755917266533
+[2025-08-22 19:48:00.123] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Platform: FORGE
+[2025-08-22 19:48:00.124] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: loaderJarName: fmlloader-1.20.1-47.4.6.jar
+[2025-08-22 19:48:00.124] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftVersion: 1.20.1
+[2025-08-22 19:48:00.124] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: childProcessesPIDs: UNDEFINED
+[2025-08-22 19:48:00.126] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXms: unknown
+[2025-08-22 19:48:00.126] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXmx: 8192M
+[2025-08-22 19:48:00.127] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemRAM: 15.9g
+[2025-08-22 19:48:00.127] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: processor: AMD Ryzen 9 3900X 12-Core Processor            
+[2025-08-22 19:48:00.127] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Boot.serialisedGPUs:
+Vulkan GPU detection addon not found, falling back to DirectX
+Successfully detected GPUs using DirectX:
+DEDICATED : NVIDIA GeForce RTX 4070
+
+
+[2025-08-22 19:48:00.128] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: os.name: windows 11
+[2025-08-22 19:48:00.140] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java path: C:\Users\Liam\AppData\Roaming\ModrinthApp\meta\java_versions\zulu17.44.53-ca-jre17.0.8.1-win_x64\bin\javaw.exe
+[2025-08-22 19:48:00.140] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java version: 17.0.8.1+1-LTS
+[2025-08-22 19:48:00.179] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp started successfully. Waiting for PID 31444 to stop.
+[2025-08-22 19:49:13.930] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft is running on renderer:
+NVIDIA GeForce RTX 4070/PCIe/SSE2

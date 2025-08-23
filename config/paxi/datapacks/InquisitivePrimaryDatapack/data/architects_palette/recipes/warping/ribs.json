@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "sons_of_sins:ribs"
+        }
+    ],
+    "result": {
+        "item": "ender_sins:warped_ribs"
+    },
+    "dimension": "minecraft:the_nether"
+}

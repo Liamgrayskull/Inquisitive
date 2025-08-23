@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "  ",
+    "yxy",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:candle"
+    },
+    "y": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "supplementaries:candle_holder",
+    "count": 1
+  }
+}

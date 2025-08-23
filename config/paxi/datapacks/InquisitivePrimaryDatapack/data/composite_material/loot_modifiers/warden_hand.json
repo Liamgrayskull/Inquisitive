@@ -1,0 +1,13 @@
+{
+  "type": "composite_material:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:warden"
+      }
+    }
+  ],
+  "item": "composite_material:warden_hand"
+}

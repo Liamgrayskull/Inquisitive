@@ -1,0 +1,36 @@
+{
+  "feature": "nullscape:shadow/simple_coral",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 80
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+             "endergetic:end_corrock_block",
+							"endergetic:speckled_end_corrock",
+							"endergetic:eumus"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

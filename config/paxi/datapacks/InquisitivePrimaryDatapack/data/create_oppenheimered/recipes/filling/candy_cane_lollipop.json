@@ -1,0 +1,27 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:filling",
+   "ingredients":[
+      {
+         "item":"alexscaves:candy_cane"
+      },
+      {
+         "amount":250,
+         "fluid":"create:honey"
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:lollipop_bunch"
+      }
+   ]
+}

@@ -1,0 +1,25 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:cutting",
+  "ingredients":[
+     {
+        "item":"alexscaves:cooked_dinosaur_chop"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:dinosaur_nugget",
+        "count": 24
+     }
+  ],
+  "processingTime":100
+}

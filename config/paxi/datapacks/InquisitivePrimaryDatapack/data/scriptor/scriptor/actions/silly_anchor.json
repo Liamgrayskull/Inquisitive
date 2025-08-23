@@ -1,0 +1,14 @@
+{
+  "cost": 0.3,
+  "disabled": false,
+  "cast_at_position": [
+    "summon alexscaves:mine_guardian_anchor ~ ~5 ~",
+    "effect give @s enlightened_end:burdened 10 1 true"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon alexscaves:mine_guardian_anchor ~ ~5 ~",
+    "effect give @s enlightened_end:burdened 10 1 true"
+  ],
+  "cast_on_item": [
+  ]
+}

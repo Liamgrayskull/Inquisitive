@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "alexscaves:azure_neodymium_ingot"
+        }
+    ],
+    "result": {
+        "item": "alexscaves:scarlet_neodymium_ingot"
+    },
+    "dimension": "minecraft:the_nether"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "composite_material:primitive_tenacity"
+  },
+  "base": {
+    "item": "composite_material:flint_pickaxe"
+  },
+  "result": {
+    "item": "composite_material:primitive_pickaxe"
+  },
+  "template": {
+    "item": "composite_material:ancient_fiber"
+  }
+}

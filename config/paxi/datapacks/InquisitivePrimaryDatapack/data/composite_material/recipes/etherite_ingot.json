@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "composite_material:echoium_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "composite_material:allay_steel_ingot"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "composite_material:etherite_ingot"
+  }
+}

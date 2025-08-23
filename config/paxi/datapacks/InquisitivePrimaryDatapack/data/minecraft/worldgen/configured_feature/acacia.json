@@ -1,0 +1,2332 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "config": {
+                    "decorators": [],
+                    "dirt_provider": {
+                      "state": {
+                        "Name": "minecraft:dirt"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "foliage_placer": {
+                      "offset": 0,
+                      "radius": 2,
+                      "type": "minecraft:acacia_foliage_placer"
+                    },
+                    "foliage_provider": {
+                      "state": {
+                        "Name": "minecraft:acacia_leaves",
+                        "Properties": {
+                          "distance": "7",
+                          "persistent": "false",
+                          "waterlogged": "false"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    },
+                    "force_dirt": false,
+                    "ignore_vines": true,
+                    "minimum_size": {
+                      "limit": 1,
+                      "lower_size": 0,
+                      "upper_size": 2,
+                      "type": "minecraft:two_layers_feature_size"
+                    },
+                    "trunk_placer": {
+                      "base_height": 5,
+                      "height_rand_a": 2,
+                      "height_rand_b": 2,
+                      "type": "minecraft:forking_trunk_placer"
+                    },
+                    "trunk_provider": {
+                      "state": {
+                        "Name": "minecraft:acacia_log",
+                        "Properties": {
+                          "axis": "y"
+                        }
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:tree"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "blocks": "minecraft:moss_block",
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "default": {
+                      "feature": "arboria_saplings:acacia/5",
+                      "placement": []
+                    },
+                    "features": [
+                      {
+                        "chance": 0.2,
+                        "feature": {
+                          "feature": "arboria_saplings:acacia/1",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.2,
+                        "feature": {
+                          "feature": "arboria_saplings:acacia/6",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.05,
+                        "feature": {
+                          "feature": "arboria_saplings:acacia/7",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.35,
+                        "feature": {
+                          "feature": "arboria_saplings:acacia/8",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.54,
+                        "feature": {
+                          "feature": "arboria_saplings:acacia/9",
+                          "placement": []
+                        }
+                      },
+                      {
+                        "chance": 0.5,
+                        "feature": {
+                          "feature": "arboria_saplings:acacia/4",
+                          "placement": []
+                        }
+                      }
+                    ]
+                  },
+                  "type": "minecraft:random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:moss_block",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "predicates": [
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              },
+                              {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      0,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "offset": [
+                                      -1,
+                                      0,
+                                      -1
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                ],
+                                "type": "minecraft:all_of"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              },
+              {
+                "feature": {
+                  "config": {
+                    "features": [
+                      {
+                        "feature": {
+                          "config": {
+                            "to_place": {
+                              "state": {
+                                "Name": "minecraft:acacia_sapling",
+                                "Properties": {
+                                  "stage": "1"
+                                }
+                              },
+                              "type": "minecraft:simple_state_provider"
+                            }
+                          },
+                          "type": "minecraft:simple_block"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "predicate": {
+                                "predicates": [
+                                  {
+                                    "blocks": "minecraft:acacia_sapling",
+                                    "type": "minecraft:matching_blocks"
+                                  },
+                                  {
+                                    "type": "minecraft:solid"
+                                  }
+                                ],
+                                "type": "minecraft:any_of"
+                              },
+                              "type": "minecraft:not"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      },
+                      {
+                        "feature": {
+                          "config": {
+                            "features": [
+                              {
+                                "feature": "arboria_saplings:baobab/3",
+                                "placement": [
+                                  {
+                                    "predicate": {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -2,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  -1,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          },
+                                          {
+                                            "predicates": [
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  0
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -1
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  0,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  1,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              },
+                                              {
+                                                "blocks": "minecraft:acacia_sapling",
+                                                "offset": [
+                                                  2,
+                                                  0,
+                                                  -2
+                                                ],
+                                                "type": "minecraft:matching_blocks"
+                                              }
+                                            ],
+                                            "type": "minecraft:all_of"
+                                          }
+                                        ],
+                                        "type": "minecraft:any_of"
+                                      },
+                                      "type": "minecraft:not"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  },
+                                  {
+                                    "count": 24,
+                                    "type": "minecraft:count"
+                                  },
+                                  {
+                                    "predicate": {
+                                      "predicate": {
+                                        "type": "minecraft:solid"
+                                      },
+                                      "type": "minecraft:not"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  },
+                                  {
+                                    "xz_spread": {
+                                      "value": {
+                                        "min_inclusive": -1,
+                                        "max_inclusive": 0
+                                      },
+                                      "type": "minecraft:uniform"
+                                    },
+                                    "y_spread": 0,
+                                    "type": "minecraft:random_offset"
+                                  },
+                                  {
+                                    "predicate": {
+                                      "predicates": [
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            1,
+                                            0,
+                                            1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            0,
+                                            0,
+                                            1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        }
+                                      ],
+                                      "type": "minecraft:all_of"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  }
+                                ]
+                              },
+                              {
+                                "feature": {
+                                  "config": {
+                                    "default": {
+                                      "feature": "arboria_saplings:baobab/2",
+                                      "placement": []
+                                    },
+                                    "features": [
+                                      {
+                                        "chance": 0.75,
+                                        "feature": {
+                                          "feature": "arboria_saplings:baobab/1",
+                                          "placement": []
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "type": "minecraft:random_selector"
+                                },
+                                "placement": [
+                                  {
+                                    "predicate": {
+                                      "predicates": [
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -2,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                -1,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        },
+                                        {
+                                          "predicates": [
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                0
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -1
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                0,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                1,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            },
+                                            {
+                                              "blocks": "minecraft:acacia_sapling",
+                                              "offset": [
+                                                2,
+                                                0,
+                                                -2
+                                              ],
+                                              "type": "minecraft:matching_blocks"
+                                            }
+                                          ],
+                                          "type": "minecraft:all_of"
+                                        }
+                                      ],
+                                      "type": "minecraft:any_of"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  },
+                                  {
+                                    "count": 48,
+                                    "type": "minecraft:count"
+                                  },
+                                  {
+                                    "predicate": {
+                                      "predicate": {
+                                        "type": "minecraft:solid"
+                                      },
+                                      "type": "minecraft:not"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  },
+                                  {
+                                    "xz_spread": {
+                                      "value": {
+                                        "min_inclusive": -1,
+                                        "max_inclusive": 1
+                                      },
+                                      "type": "minecraft:uniform"
+                                    },
+                                    "y_spread": 0,
+                                    "type": "minecraft:random_offset"
+                                  },
+                                  {
+                                    "predicate": {
+                                      "predicates": [
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            1,
+                                            0,
+                                            1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            0,
+                                            0,
+                                            1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            -1,
+                                            0,
+                                            1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            -1,
+                                            0,
+                                            0
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            -1,
+                                            0,
+                                            -1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            0,
+                                            0,
+                                            -1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
+                                        {
+                                          "blocks": "minecraft:acacia_sapling",
+                                          "offset": [
+                                            1,
+                                            0,
+                                            -1
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        }
+                                      ],
+                                      "type": "minecraft:all_of"
+                                    },
+                                    "type": "minecraft:block_predicate_filter"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "type": "minecraft:simple_random_selector"
+                        },
+                        "placement": [
+                          {
+                            "predicate": {
+                              "blocks": "minecraft:acacia_sapling",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            "type": "minecraft:block_predicate_filter"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "minecraft:simple_random_selector"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "predicate": {
+                            "blocks": "minecraft:moss_block",
+                            "offset": [
+                              0,
+                              -1,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
+                          "type": "minecraft:not"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "blocks": "minecraft:acacia_sapling",
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    -1
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:all_of"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "predicates": [
+                          {
+                            "blocks": "minecraft:acacia_sapling",
+                            "type": "minecraft:matching_blocks"
+                          },
+                          {
+                            "type": "minecraft:solid"
+                          }
+                        ],
+                        "type": "minecraft:any_of"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  },
+                  {
+                    "count": 32,
+                    "type": "minecraft:count"
+                  },
+                  {
+                    "predicate": {
+                      "predicate": {
+                        "type": "minecraft:solid"
+                      },
+                      "type": "minecraft:not"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "minecraft:simple_random_selector"
+        },
+        "placement": [
+          {
+            "count": 32,
+            "type": "minecraft:count"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "type": "minecraft:solid"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "minecraft:simple_random_selector"
+}

@@ -1,0 +1,4 @@
+{
+  "enablePointRemoval" : true,
+  "$schema" : "schemas/vs_addition_client.schema.json"
+}

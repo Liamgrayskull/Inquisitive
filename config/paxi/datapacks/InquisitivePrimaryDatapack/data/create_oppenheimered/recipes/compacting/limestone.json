@@ -1,0 +1,30 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:compacting",
+  "ingredients":[
+     {
+        "item":"minecraft:clay"
+     },
+     {
+        "item":"minecraft:bone_meal"
+     },
+     {
+        "item":"minecraft:flint"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:limestone",
+        "count":4
+     }
+  ]
+}

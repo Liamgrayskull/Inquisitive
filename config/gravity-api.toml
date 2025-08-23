@@ -1,0 +1,21 @@
+
+["Gravity Settings"]
+	#animation rotation time
+	#Range: > 0
+	rotationTime = 500
+	#gravity strength multiplier
+	#Range: 0.0 ~ 3.4028234663852886E38
+	gravityStrengthMultiplier = 1.0
+	#world velocity
+	worldVelocity = false
+	#reset gravity on respawn
+	resetGravityOnRespawn = true
+	#void damage when above world
+	voidDamageAboveWorld = true
+	#void damage when horizontally fall too far
+	voidDamageOnHorizontalFallTooFar = true
+	#auto jump on gravity plate inner corner
+	autoJumpOnGravityPlateInnerCorner = true
+	#adjust position after gravity change
+	adjustPositionAfterChangingGravity = true
+

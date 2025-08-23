@@ -1,0 +1,1 @@
+{"jarName":"supplemental_patches-0.4.1-beta.jar","modId":"supplemental_patches","version":"0.4.1-beta","mixinConfigs":["supplemental_patches.mixins.json"],"jarJarMods":[{"jarName":"conditional-mixin-forge-0.6.4.jar","modId":"conditional_mixin","version":"0.6.4","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

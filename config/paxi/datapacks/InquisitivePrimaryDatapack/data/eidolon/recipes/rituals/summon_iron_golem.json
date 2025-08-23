@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:ritual_brazier_summoning",
+  "focusItems": [
+    {
+      "item": "minecraft:poppy"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "entity": "minecraft:iron_golem"
+  },
+  "pedestalItems": [
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:carved_pumpkin"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "block.exposure.flash.description": " ??? ",
+  "block.exposure.lightroom.description": " ??? tag.minecraft.mineable.axe.description",
+  "entity.exposure.photograph.description": " ??? ",
+  "entity.exposure.photograph_frame.description": " ??? ",
+  "item.exposure.aged_photograph.description": " ??? lore",
+  "item.exposure.album.description": " ??? lore, tag.minecraft.lectern_books.description, tag.minecraft.bookshelf_books.description",
+  "item.exposure.black_and_white_film.description": " ??? lore, tag.exposure.film_rolls.description",
+  "item.exposure.camera.description": " ??? lore",
+  "item.exposure.chromatic_sheet.description": " ??? lore",
+  "item.exposure.color_film.description": " ??? lore, tag.exposure.film_rolls.description",
+  "item.exposure.developed_black_and_white_film.description": " ??? lore, tag.exposure.developed_film_rolls.description",
+  "item.exposure.developed_color_film.description": " ??? lore, tag.exposure.developed_film_rolls.description",
+  "item.exposure.interplanar_projector.description": " ??? lore, tag.exposure.filters.description",
+  "item.exposure.photograph.description": " ??? lore",
+  "item.exposure.photograph_frame.description": " ??? lore",
+  "item.exposure.signed_album.description": " ??? lore, tag.minecraft.lectern_books.description, tag.minecraft.bookshelf_books.description",
+  "item.exposure.stacked_photographs.description": " ??? lore"
+}

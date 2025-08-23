@@ -1,0 +1,36 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "result": {
+        "item": "miningmaster:haste_peridot_pickaxe"
+    },
+    "enchantments": [
+        {
+            "enchantment": "minecraft:efficiency",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:extracting",
+            "lvl": 1
+        }
+    ]
+}

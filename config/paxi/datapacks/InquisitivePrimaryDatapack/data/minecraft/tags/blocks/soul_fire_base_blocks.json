@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:soul_soil",
+    "minecraft:soul_sand",
+    "immersive_weathering:permafrost",
+    "spelunkery:rough_quartz_block",
+    "ad_astra:permafrost",
+    "architects_palette:nebulite",
+    "netherdungeons:ominous_quartz",
+    "architects_palette:craterstone",
+    "architects_palette:moonshale",
+    "minecraft:smooth_quartz"
+  ]
+}

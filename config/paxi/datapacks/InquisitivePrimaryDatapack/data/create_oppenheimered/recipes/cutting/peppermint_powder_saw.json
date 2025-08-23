@@ -1,0 +1,25 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:cutting",
+  "ingredients":[
+     {
+        "item":"alexscaves:candy_cane"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:peppermint_powder",
+        "count": 5
+     }
+  ],
+  "processingTime":20
+}

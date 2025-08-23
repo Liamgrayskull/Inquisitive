@@ -1,0 +1,1 @@
+{"jarName":"claimorous-0.9.2.jar","modId":"claimorous","version":"0.9.2","mixinConfigs":["claimorous.mixins.json"],"jarJarMods":[{"jarName":"toml4j-0.7.2.jar","modId":"com_moandjiezana_toml_toml4j","version":"0.7.2","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

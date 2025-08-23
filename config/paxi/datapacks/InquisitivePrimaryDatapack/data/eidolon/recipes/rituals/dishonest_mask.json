@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "focusItems": [
+  ],
+  "output": {
+    "item": "savage_and_ravage:mask_of_dishonesty"
+  },
+  "pedestalItems": [
+    {
+      "item": "enlightened_end:stardust"
+    },
+    {
+  "item": "enlightened_end:stardust"
+},
+{
+  "item": "enlightened_end:stardust"
+},
+{
+  "item": "enlightened_end:stardust"
+}
+  ],
+  "reagent": [
+    {
+      "item": "bountifulfares:ceramic_dish"
+    }
+  ]
+}

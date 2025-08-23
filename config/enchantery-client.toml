@@ -1,0 +1,6 @@
+
+[general]
+	#Enable Tooltips
+	enable_tooltips = true
+	bookshelf_labels_shift = true
+

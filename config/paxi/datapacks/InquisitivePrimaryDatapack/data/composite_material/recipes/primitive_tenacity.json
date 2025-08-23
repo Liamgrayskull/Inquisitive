@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "composite_material:guardian_elder_spike"
+    },
+    {
+      "item": "minecraft:conduit"
+    },
+    {
+      "item": "minecraft:ancient_debris"
+    },
+    {
+      "item": "minecraft:sniffer_egg"
+    }
+  ],
+  "result": {
+    "item": "composite_material:primitive_tenacity"
+  }
+}

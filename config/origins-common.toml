@@ -1,0 +1,617 @@
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+		"origins_mixed:tall_only" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+		"origins_mixed:tiny_only" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."medievalorigins:yeti"]
+		enabled = true
+		"medievalorigins:yeti/frigid_pulse" = true
+		"medievalorigins:yeti/from_whence_you_came" = true
+		"medievalorigins:yeti/frosty_breath" = true
+		"medievalorigins:yeti/titanic" = true
+		"medievalorigins:yeti/unstoppable" = true
+		"medievalorigins:yeti/winter_body" = true
+		"medievalorigins:yeti/flammable" = true
+		"medievalorigins:yeti/thick_fur" = true
+		"medievalorigins:yeti/spell_power" = true
+		"origins_env_deh:cold_resistance" = true
+		"thermoo-patches:cold_immune" = true
+		"origins_survive:cold_resistance" = true
+		"origins_toughasnails:cold_resistance" = true
+		"extra_compat:cold_resistance" = true
+
+	[origins."medievalorigins:incubus"]
+		enabled = true
+		"medievalorigins:incubus/demon_fire" = true
+		"medievalorigins:incubus/hellborne" = true
+		"medievalorigins:incubus/carnivore" = true
+		"medievalorigins:incubus/unholy_deal" = true
+		"medievalorigins:incubus/hydrophobe" = true
+		"medievalorigins:incubus/impure" = true
+		"medievalorigins:incubus/dimension_strength" = true
+		"medievalorigins:incubus/lava_swim" = true
+		"medievalorigins:incubus/red" = true
+		"medievalorigins:incubus/spell_power" = true
+		"origins:nether_spawn" = true
+		"origins_env_deh:heat_resistance" = true
+		"thermoo-patches:heat_immune" = true
+		"thermoo-patches:cold_vulnerability" = true
+		"origins_survive:lava_drinker" = true
+		"origins_survive:heat_resistance" = true
+		"origins_toughasnails:lava_drinker" = true
+		"origins_toughasnails:thermal_regulator" = true
+		"extra_compat:lava_drinker" = true
+		"extra_compat:thermal_regulator" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."tinkerer:demishort"]
+		enabled = true
+		"tinkerer:demishort" = true
+
+	[origins."toomanyorigins:hare"]
+		enabled = true
+		"toomanyorigins:hot_hops" = true
+		"toomanyorigins:superfall" = true
+		"toomanyorigins:frail" = true
+		"origins:vegetarian" = true
+		"toomanyorigins:drenchable_fur" = true
+		"toomanyorigins:waterskipper" = true
+		"toomanyorigins:small_appetite" = true
+		"toomanyorigins:extra_step_height" = true
+		"toomanyorigins:prevent_movement_checks" = true
+		"toomanyorigins:cancel_out_sprint_disable_on_hit" = true
+
+	[origins."tinkerer:tallest"]
+		enabled = true
+		"tinkerer:tallest" = true
+
+	[origins."tinkerer:demitall"]
+		enabled = true
+		"tinkerer:demitall" = true
+
+	[origins."tinkerer:orcish"]
+		enabled = true
+		"tinkerer:orcish" = true
+
+	[origins."toomanyorigins:withered"]
+		enabled = true
+		"toomanyorigins:affliction" = true
+		"toomanyorigins:soul_siphon" = true
+		"origins:nether_spawn" = true
+		"toomanyorigins:hell_raised" = true
+		"toomanyorigins:spirit_strider" = true
+		"toomanyorigins:deathly_digestion" = true
+		"toomanyorigins:unholy" = true
+
+	[origins."tinkerer:short"]
+		enabled = true
+		"tinkerer:short" = true
+
+	[origins."tinkerer:sized"]
+		enabled = true
+		"tinkerer:sized" = true
+
+	[origins."toomanyorigins:hisskin"]
+		enabled = true
+		"toomanyorigins:buildup" = true
+		"toomanyorigins:aerial_stability" = true
+		"toomanyorigins:stubby_legs" = true
+		"toomanyorigins:conductive" = true
+		"toomanyorigins:ailurophobia" = true
+		"toomanyorigins:redirect_lightning_chance" = true
+
+	[origins."tinkerer:impish"]
+		enabled = true
+		"tinkerer:impish" = true
+
+	[origins."toomanyorigins:swarm"]
+		enabled = true
+		"toomanyorigins:hover" = true
+		"toomanyorigins:pollination" = true
+		"toomanyorigins:calming_aura" = true
+		"toomanyorigins:stinging_pains" = true
+		"toomanyorigins:unity" = true
+		"toomanyorigins:beekeeper" = true
+		"origins:arthropod" = true
+
+	[origins."toomanyorigins:dragonborn"]
+		enabled = true
+		"toomanyorigins:draconic_breath" = true
+		"toomanyorigins:block_synergistics" = true
+		"toomanyorigins:weaponry_pride" = true
+		"toomanyorigins:zenith_scales" = true
+		"toomanyorigins:rough_claws" = true
+
+	[origins."tinkerer:taller"]
+		enabled = true
+		"tinkerer:taller" = true
+
+	[origins."tinkerer:oversize2"]
+		enabled = true
+		"tinkerer:oversize2" = true
+
+	[origins."tinkerer:stout"]
+		enabled = true
+		"tinkerer:stout" = true
+
+	[origins."tinkerer:oversize1"]
+		enabled = true
+		"tinkerer:oversize1" = true
+
+	[origins."tinkerer:demilanky"]
+		enabled = true
+		"tinkerer:demilanky" = true
+
+	[origins."tinkerer:demistout"]
+		enabled = true
+		"tinkerer:demistout" = true
+
+	[origins."tinkerer:oversize3"]
+		enabled = true
+		"tinkerer:oversize3" = true
+
+	[origins."tinkerer:semishort"]
+		enabled = true
+		"tinkerer:semishort" = true
+
+	[origins."tinkerer:hemidemishort"]
+		enabled = true
+		"tinkerer:hemidemishort" = true
+
+	[origins."tinkerer:unaffected"]
+		enabled = true
+
+	[origins."tinkerer:lanky"]
+		enabled = true
+		"tinkerer:lanky" = true
+
+	[origins."tinkerer:tall"]
+		enabled = true
+		"tinkerer:tall" = true
+
+	[origins."origins_mixed:gravityguy"]
+		enabled = true
+		"origins_mixed:gravity_powers" = true
+		"origins_mixed:gravitypowers2" = true
+		"origins:fall_immunity" = true
+
+	[origins."origins_mixed:scared"]
+		enabled = true
+		"origins_mixed:tiny_body" = true
+		"origins_mixed:magic_fear" = true
+		"origins_mixed:strong_hit" = true
+		"origins:fall_immunity" = true
+		"origins:vegetarian" = true
+
+	[origins."origins_mixed:sculk_born"]
+		enabled = true
+		"origins_mixed:blind" = true
+		"origins:carnivore" = true
+		"origins_mixed:deep_sleep" = true
+		"origins:climbing" = true
+		"origins_mixed:dark_hit" = true
+		"origins_mixed:slight_short" = true
+
+	[origins."origins_mixed:snowman"]
+		enabled = true
+		"origins_mixed:needcold" = true
+		"origins_mixed:coldpower" = true
+		"origins_mixed:cantswim" = true
+
+	[origins."origins_mixed:zombie"]
+		enabled = true
+		"origins_mixed:zflesh" = true
+		"origins_mixed:strong_hit" = true
+		"origins_mixed:cantswim" = true
+
+	[origins."allay:allay"]
+		enabled = true
+		"allay:flight" = true
+		"allay:small" = true
+		"allay:fall" = true
+		"allay:music" = true
+		"allay:delicate" = true
+		"origins:light_armor" = true
+		"allay:blue" = true
+		"allay:clone" = true
+		"allay:social" = true
+		"allay:itemfind" = true
+		"allay:panic" = true
+		"allay:flamable" = true
+
+	[origins."mcube:mcube"]
+		enabled = true
+		"mcube:sloppy" = true
+		"mcube:bounce" = true
+		"mcube:jelly_body" = true
+		"mcube:ignore_water" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+
+	[origins."cloudfolk:cloud"]
+		enabled = true
+		"cloudfolk:cloud/transform_to_harpy" = true
+		"cloudfolk:resources/transform_cd" = true
+		"cloudfolk:common/claustophobia" = true
+		"cloudfolk:common/free_spirit" = true
+		"cloudfolk:common/like_air" = true
+		"cloudfolk:common/mining_speed" = true
+		"cloudfolk:common/no_hunger_drain" = true
+		"cloudfolk:common/night_vision" = true
+		"cloudfolk:common/no_elytra" = true
+		"cloudfolk:common/trauma" = true
+		"cloudfolk:common/nomadic" = true
+		"cloudfolk:common/no_wool_place" = true
+		"cloudfolk:cloud/incorporeal" = true
+		"cloudfolk:cloud/no_fall" = true
+		"cloudfolk:cloud/swim" = true
+		"cloudfolk:cloud/translucent" = true
+		"cloudfolk:cloud/particles" = true
+		"cloudfolk:cloud/lava_up" = true
+		"cloudfolk:cloud/no_hit" = true
+		"cloudfolk:cloud/no_dmg" = true
+		"cloudfolk:cloud/humidity" = true
+		"cloudfolk:common/dirt_place" = true
+		"cloudfolk:cloud/no_heal" = true
+		"cloudfolk:resources/humidity_resource" = true
+		"cloudfolk:cloud/absorb" = true
+		"cloudfolk:cloud/no_buckets" = true
+		"cloudfolk:cloud/slow_swim" = true
+		"cloudfolk:cloud/water_place" = true
+		"cloudfolk:cloud/enlarge_trigger" = true
+
+	[origins."slime:slime"]
+		enabled = true
+		"slime:size_changes" = true
+		"slime:gooey" = true
+		"slime:no_drinking" = true
+		"slime:riding_at_extreme_sizes" = true
+		"slime:reset_size" = true
+		"slime:green" = true
+		"slime:rush" = true
+		"slime:throw" = true
+		"slime:honey_to_slime" = true
+		"slime:eat_slime" = true
+
+	[origins."witch:witch"]
+		enabled = true
+		"witch:starting_gear" = true
+		"witch:experimental_brew" = true
+		"witch:witch_curse" = true
+		"witch:crafting" = true
+		"witch:potion_length" = true
+		"witch:feeble" = true
+		"witch:hated" = true
+		"witch:melting" = true
+		"origins:fragile" = true
+		"witch:potion_strength" = true
+
+	[origins."farlander:farlander"]
+		enabled = true
+		"farlander:astrobiotic" = true
+		"farlander:moonlit_gateway" = true
+		"farlander:gravity_manipulation" = true
+		"farlander:warp_jump" = true
+		"farlander:outlandish" = true
+		"farlander:arduous_environment" = true
+		"farlander:fragile" = true
+		"farlander:dependent" = true
+		"farlander:unknown" = true
+
+	[origins."cloudfolk:base"]
+		enabled = true
+		"cloudfolk:base/select" = true
+		"cloudfolk:display/cloud_description" = true
+		"cloudfolk:display/harpy_description" = true
+		"cloudfolk:display/downsides_description" = true
+
+	[origins."sander:copy"]
+		enabled = true
+		"sander:mimicstart" = true
+		"sander:d1" = true
+		"sander:d2" = true
+		"sander:d3" = true
+		"sander:d4" = true
+		"sander:d5" = true
+		"sander:candle" = true
+		"sander:candle_aura" = true
+		"sander:candle_effect" = true
+		"sander:candle_jump" = true
+		"sander:candle_sound_effect" = true
+		"sander:desaturate_shader_effect" = true
+		"sander:remove_power_check" = true
+		"sander:remove_power_check2" = true
+
+	[origins."irongolem:irongolem"]
+		enabled = true
+		"irongolem:extra_health" = true
+		"irongolem:repairs" = true
+		"irongolem:no_regen" = true
+		"irongolem:defense" = true
+		"irongolem:damage_more" = true
+		"irongolem:poppy" = true
+		"irongolem:toss" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+		"irongolem:maxhp" = true
+
+	[origins."cloudfolk:harpy"]
+		enabled = true
+		"cloudfolk:harpy/transform_to_cloud" = true
+		"cloudfolk:resources/transform_cd" = true
+		"cloudfolk:common/claustophobia" = true
+		"cloudfolk:common/free_spirit" = true
+		"cloudfolk:common/like_air" = true
+		"cloudfolk:common/mining_speed" = true
+		"cloudfolk:common/no_hunger_drain" = true
+		"cloudfolk:common/night_vision" = true
+		"cloudfolk:harpy/winged_beasts" = true
+		"cloudfolk:harpy/claws" = true
+		"cloudfolk:harpy/grab" = true
+		"cloudfolk:harpy/flap" = true
+		"cloudfolk:harpy/knockback" = true
+		"cloudfolk:harpy/no_shield" = true
+		"cloudfolk:common/no_elytra" = true
+		"cloudfolk:common/trauma" = true
+		"cloudfolk:common/nomadic" = true
+		"cloudfolk:common/no_wool_place" = true
+		"cloudfolk:harpy/slow" = true
+		"cloudfolk:common/dirt_place" = true
+		"cloudfolk:resources/humidity_resource" = true
+		"cloudfolk:display/no_elytra" = true
+
+	[origins."warden:warden"]
+		enabled = true
+		"warden:vision" = true
+		"warden:tremorsreference" = true
+		"warden:glowing" = true
+		"warden:tracking" = true
+		"warden:focus" = true
+		"warden:shield" = true
+		"warden:nvision" = true
+		"warden:beam" = true
+		"warden:funny" = true
+		"warden:muscles" = true
+		"warden:losecharge" = true
+
+	[origins."cosmic:voidspawn"]
+		enabled = true
+		"cosmic:voidspawn/void_blink" = true
+		"cosmic:voidspawn/voidblurred_sight" = true
+		"cosmic:voidspawn/void_weakness" = true
+		"cosmic:voidspawn/etheral_form" = true
+		"cosmic:voidspawn/extra_damage" = true
+		"cosmic:voidspawn/increased_speed" = true
+		"cosmic:voidspawn/voidform_color" = true
+		"cosmic:voidspawn/sunlight" = true
+
+	[origins."cosmic:ciphered_entity"]
+		enabled = true
+		"cosmic:ciphered_entity/glass_mind" = true
+		"cosmic:ciphered_entity/chaotic_presence" = true
+		"cosmic:ciphered_entity/chaotic_presence_laugh" = true
+		"cosmic:ciphered_entity/chaotic_presence_argh" = true
+		"cosmic:ciphered_entity/chaotic_presence_dumb" = true
+		"cosmic:ciphered_entity/dreamscape_sight" = true
+		"cosmic:ciphered_entity/dimensional_distortion" = true
+		"cosmic:ciphered_entity/reality_warp" = true
+		"cosmic:ciphered_entity/intangible_form" = true
+		"cosmic:ciphered_entity/heart" = true
+
+	[origins."cosmic:maturins_shell"]
+		enabled = true
+		"cosmic:maturins_shell/eternal_shell" = true
+		"cosmic:maturins_shell/cosmicastral" = true
+		"cosmic:maturins_shell/universal_patience" = true
+		"cosmic:maturins_shell/galactic_wisdom" = true
+		"cosmic:maturins_shell/dreamspace_shell" = true
+		"cosmic:maturins_shell/turtle_passives" = true
+		"cosmic:maturins_shell/cosmic_stillness" = true
+		"cosmic:maturins_shell/armour" = true
+		"cosmic:maturins_shell/cosmic_fortitude" = true
+		"cosmic:maturins_shell/turtle_traits_minimal" = true
+		"cosmic:maturins_shell/turtle_knocback" = true
+		"cosmic:maturins_shell/turtle_fire" = true
+		"cosmic:maturins_shell/turtle_fire_" = true
+		"cosmic:maturins_shell/turtle_chest" = true
+		"cosmic:maturins_shell/turtle_armour" = true
+		"cosmic:maturins_shell/cosmicinvulnerable_shell" = true
+		"cosmic:maturins_shell/buff" = true
+		"cosmic:maturins_shell/warning" = true
+		"cosmic:maturins_shell/cosmic_power" = true
+		"cosmic:maturins_shell/disable_shield" = true
+		"cosmic:maturins_shell/turtle_bulk" = true
+
+	[origins."cosmic:author"]
+		enabled = true
+		"cosmic:author/codex_of_resistance" = true
+		"cosmic:author/fragile_health" = true
+		"cosmic:author/swiftness" = true
+		"cosmic:author/strenght" = true
+		"cosmic:author/fire" = true
+		"cosmic:author/spyglass_reveal" = true
+		"cosmic:author/resourceful" = true
+		"cosmic:author/passive" = true
+		"cosmic:author/mystic_amulate" = true
+		"cosmic:author/redline" = true
+		"cosmic:author/journal_1_unlock_ritual" = true
+		"cosmic:author/journal_2_unlock" = true
+		"cosmic:author/journal_3_unlock" = true
+		"cosmic:author/keep" = true
+		"cosmic:author/webbane" = true
+		"cosmic:author/hollow_tip" = true
+		"cosmic:author/rotbane" = true
+		"cosmic:author/sulfur_touch" = true
+		"cosmic:author/glimpsebreaker" = true
+		"cosmic:author/eldritch_insight" = true
+		"cosmic:author/arcane_siphon" = true
+		"cosmic:author/nether" = true
+		"cosmic:author/fractured_focus" = true
+		"cosmic:author/starting_journal" = true
+		"cosmic:author/mnemonic_pocket" = true
+		"cosmic:author/echo_army" = true
+		"cosmic:author/flight_kinda" = true
+		"cosmic:author/mind_fracture" = true
+
+	[origins."cosmic:deadlights"]
+		enabled = true
+		"cosmic:deadlights/gaze_of_madness" = true
+		"cosmic:deadlights/eldrich_hunger" = true
+		"cosmic:deadlights/cant_consume" = true
+		"cosmic:deadlights/cloud" = true
+		"cosmic:deadlights/gaze_active" = true
+		"cosmic:deadlights/fire" = true
+		"cosmic:deadlights/villager_hate" = true
+		"cosmic:deadlights/sunlight" = true
+
+	[origins."cosmic:deadlights_host"]
+		enabled = true
+		"cosmic:deadlights_host/fray_the_veil" = true
+		"cosmic:deadlights_host/static_aura" = true
+		"cosmic:deadlights_host/flickering_form" = true
+		"cosmic:deadlights_host/memory_leak" = true
+		"cosmic:deadlights_host/echoing_steps" = true
+		"cosmic:deadlights_host/incomprehensible" = true
+		"cosmic:deadlights_host/mind_shatter" = true
+		"cosmic:deadlights_host/fire" = true
+
+	[origins."cosmic:cipher_vessel"]
+		enabled = true
+		"cosmic:cipher_vessel/reality_fold" = true
+		"cosmic:cipher_vessel/trickster_form" = true
+		"cosmic:cipher_vessel/phase_flicker" = true
+		"cosmic:cipher_vessel/glitch_resist" = true
+		"cosmic:cipher_vessel/colour" = true
+		"cosmic:cipher_vessel/particles" = true
+		"cosmic:cipher_vessel/fire" = true
+		"cosmic:cipher_vessel/fire_" = true
+		"cosmic:cipher_vessel/fall_immunity" = true
+		"cosmic:cipher_vessel/phase_flicker_cooldown" = true
+		"cosmic:cipher_vessel/insomniac" = true
+		"cosmic:cipher_vessel/world_corrupt" = true
+		"cosmic:cipher_vessel/sleep_glitch_effects" = true
+		"cosmic:cipher_vessel/water" = true
+
+	[origins."cosmic:unstable_reality"]
+		enabled = true
+
+	[origins."cosmic:occult_devotee"]
+		enabled = true
+		"cosmic:occult_devotee/ritual_lore" = true
+		"cosmic:occult_devotee/lore" = true
+		"cosmic:occult_devotee/glow" = true
+		"cosmic:occult_devotee/fragile_health" = true
+		"cosmic:occult_devotee/cult_trappings" = true
+		"cosmic:occult_devotee/empower" = true
+		"cosmic:occult_devotee/cipher_evo" = true
+		"cosmic:occult_devotee/deadlights_evo" = true
+
+	[origins."cosmic:drifter"]
+		enabled = true
+		"cosmic:spacecowboy/low_gravity" = true
+		"cosmic:spacecowboy/revolver" = true
+		"cosmic:spacecowboy/revolver_ammo" = true
+		"cosmic:spacecowboy/revolver_fire" = true
+		"cosmic:spacecowboy/revolver_reloading" = true
+		"cosmic:spacecowboy/dimensional_satchel" = true
+		"cosmic:spacecowboy/dual" = true
+		"cosmic:spacecowboy/boadicea" = true
+		"cosmic:spacecowboy/jetstep" = true
+		"cosmic:spacecowboy/starting_gear" = true
+		"cosmic:spacecowboy/solar_hop" = true
+		"cosmic:spacecowboy/slow_falling" = true
+		"cosmic:spacecowboy/cosmic_poncho_lore" = true
+		"cosmic:spacecowboy/solar_hop_lore" = true
+		"cosmic:spacecowboy/blade_rejector" = true
+		"cosmic:spacecowboy/levitate_on_hit" = true
+		"cosmic:spacecowboy/cowboy_hat_armor_boost" = true
+

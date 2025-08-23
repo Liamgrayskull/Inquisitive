@@ -1,0 +1,43 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "galosphere:allurite_shard"
+        },
+        {
+            "item": "galosphere:allurite_shard"
+        },
+        {
+            "item": "miningmaster:dive_aquamarine"
+        },
+        {
+            "item": "miningmaster:dive_aquamarine"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        },
+        {
+            "item": "enlightened_end:malachite"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:diamond_boots"
+    },
+    "result": {
+        "item": "miningmaster:paragon_boots"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:gale",
+            "lvl": 1
+        },
+        {
+            "enchantment": "allurement:shockwave",
+            "lvl": 1
+        },
+        {
+            "enchantment": "enchancement:buoy",
+            "lvl": 1
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"jarName":"OneEnoughItem-1.0.3_hotfix-all.jar","modId":"oneenoughitem","version":"1.0.3_hotfix","mixinConfigs":["oneenoughitem.mixins.json"],"jarJarMods":[{"jarName":"oelib-1319210-6841973.jar","modId":"oelib","version":"0.0.2","mixinConfigs":["oelib.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jarjar/"}]}

@@ -1,0 +1,406 @@
+{
+  "config": {
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:granite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:granite_ice_sapphire_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_spirit_garnet_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_dive_aquamarine_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_divine_beryl_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_spider_kunzite_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_fire_ruby_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_haste_peridot_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_lucky_citrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:granite_unbreaking_iolite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:andesite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_ice_sapphire_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_spirit_garnet_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_dive_aquamarine_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_divine_beryl_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_spider_kunzite_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_fire_ruby_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_haste_peridot_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_lucky_citrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:andesite_unbreaking_iolite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:diorite"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_ice_sapphire_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_spirit_garnet_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_dive_aquamarine_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_divine_beryl_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_spider_kunzite_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_fire_ruby_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_haste_peridot_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_lucky_citrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:diorite_unbreaking_iolite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:tuff"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_ice_sapphire_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_spirit_garnet_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_dive_aquamarine_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_divine_beryl_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_spider_kunzite_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_fire_ruby_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_haste_peridot_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_lucky_citrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "spelunking_master:tuff_unbreaking_iolite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:stone"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:ice_sapphire_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:spirit_garnet_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:dive_aquamarine_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:divine_beryl_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:spider_kunzite_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:fire_ruby_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:haste_peridot_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:lucky_citrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:unbreaking_iolite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:deepslate"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_ice_sapphire_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_spirit_garnet_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_dive_aquamarine_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_divine_beryl_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_spider_kunzite_ore"
+            },
+            "weight": 2
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_fire_ruby_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_haste_peridot_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_lucky_citrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:deepslate_unbreaking_iolite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:base_stone_nether"
+        },
+        "states": [
+          {
+            "state": {
+              "Name": "miningmaster:power_pyrite_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:kinetic_opal_ore"
+            },
+            "weight": 1
+          },
+          {
+            "state": {
+              "Name": "miningmaster:heart_rhodonite_ore"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "type": "miningmaster:ore_gem_feature"
+}

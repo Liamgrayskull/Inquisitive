@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "minecraft:crimson_nylium"
+        }
+    ],
+    "result": {
+        "item": "minecraft:warped_nylium"
+    },
+    "dimension": "minecraft:the_nether"
+}

@@ -1,0 +1,28 @@
+{
+   "conditions":[
+      {
+         "type":"forge:mod_loaded",
+         "modid":"alexscaves"
+      },
+      {
+         "type":"forge:mod_loaded",
+         "modid":"create"
+      }
+   ],
+   "type":"create:filling",
+   "ingredients":[
+      {
+         "item":"minecraft:slime_ball"
+      },
+      {
+         "amount":1000,
+         "fluid":"alexscaves:acid"
+      }
+   ],
+   "results":[
+      {
+         "item":"alexscaves:toxic_paste",
+         "count":12
+      }
+   ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "alexscaves:occult_gem"
+    }
+  },
+  "result": {
+    "item": "eidolon:shadow_gem_block"
+  }
+}

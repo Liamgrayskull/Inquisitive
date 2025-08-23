@@ -1,0 +1,33 @@
+{
+    "conditions":[
+       {
+          "type":"forge:mod_loaded",
+          "modid":"alexscaves"
+       },
+       {
+          "type":"forge:mod_loaded",
+          "modid":"create"
+       }
+    ],
+    "type":"create:crushing",
+    "ingredients":[
+       {
+          "item":"alexscaves:azure_neodymium_pillar"
+       }
+    ],
+    "processingTime":150,
+    "results":[
+       {
+          "item":"alexscaves:raw_azure_neodymium",
+          "count": 2
+       },
+       {
+          "chance":0.5,
+          "item":"alexscaves:raw_azure_neodymium"
+       },
+       {
+         "chance":0.25,
+         "item":"alexscaves:raw_azure_neodymium"
+       }
+    ]
+ }

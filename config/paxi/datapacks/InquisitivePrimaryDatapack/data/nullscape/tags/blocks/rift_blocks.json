@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "quark:myalite_crystal",
+    "end_stone",
+    "obsidian",
+    "crying_obsidian"
+  ]
+}

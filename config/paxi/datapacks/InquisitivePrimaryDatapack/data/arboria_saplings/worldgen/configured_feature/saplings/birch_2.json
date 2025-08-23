@@ -1,0 +1,25 @@
+{
+  "config": {
+    "default": {
+      "feature": "arboria_saplings:dead_birch/3",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.35,
+        "feature": {
+          "feature": "arboria_saplings:dead_birch/1",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.75,
+        "feature": {
+          "feature": "arboria_saplings:dead_birch/2",
+          "placement": []
+        }
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

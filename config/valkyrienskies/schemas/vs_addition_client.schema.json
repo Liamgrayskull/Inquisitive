@@ -1,0 +1,50 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "embeddium" : {
+      "type" : "object",
+      "properties" : {
+        "enableBlockEntityCullOnShips" : {
+          "type" : "boolean"
+        }
+      },
+      "additionalProperties" : false
+    },
+    "enablePointRemoval" : {
+      "type" : "boolean",
+      "description" : "Enable mechanical arm item remove unavailable interaction point"
+    },
+    "experimental" : {
+      "type" : "object",
+      "properties" : {
+        "cullWaterSurfaceInFakeAirPocket" : {
+          "type" : "boolean",
+          "description" : "Cull water surface when it's in fake air pocket."
+        },
+        "highLightFakedAirPocket" : {
+          "type" : "boolean",
+          "description" : "High light fake air pocket aabb."
+        },
+        "removeBubbleLikeParticlesInFakeAirPocket" : {
+          "type" : "boolean",
+          "description" : "Remove bubble like particles in fake air pocket."
+        },
+        "removeFogInFakeAirPocket" : {
+          "type" : "boolean",
+          "description" : "Remove under water fog when the camera is in fake air pocket."
+        },
+        "seaLevel" : {
+          "type" : "number",
+          "format" : "double",
+          "description" : "Cull water surface when it's in fake air pocket."
+        }
+      },
+      "additionalProperties" : false
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

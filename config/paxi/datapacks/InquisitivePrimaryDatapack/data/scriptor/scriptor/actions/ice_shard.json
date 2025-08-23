@@ -1,0 +1,12 @@
+{
+  "cost": 0.2,
+  "disabled": false,
+  "cast_at_position": [
+    "summon blocky_siege:projectile_ice_drop ~ ~15 ~"
+  ],
+  "cast_on_entity": [
+    "execute at @s run summon blocky_siege:projectile_ice_drop ~ ~15 ~"
+  ],
+  "cast_on_item": [
+  ]
+}

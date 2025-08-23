@@ -1,0 +1,15 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+  ],
+  "ingredients": [
+    {
+      "item": "cosmopolitan:sprouted_underbeans"
+    }
+  ],
+  "results": [
+    {
+      "item": "cold_sweat:soul_sprout"
+    }
+  ]
+}

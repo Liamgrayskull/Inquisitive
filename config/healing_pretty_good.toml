@@ -1,0 +1,40 @@
+
+["Healing Pretty Good Configs"]
+	#Percent Chance a Mob Drops a Heart, will multiply by Entity Health if Entity Health is true
+	#Range: 0 ~ 100
+	"Mob Drop Chance" = 14
+	#Percent Chance a Boss Mob Drops a Heart, will multiply by Entity Health / 2 if Entity Health is true
+	#Range: 0 ~ 100
+	"Boss Drop Chance" = 40
+	#Minimum amount of Hearts a Mob can drop
+	#Range: > 0
+	"Minimum Mob Drop" = 0
+	#Maximum amount of Hearts a Mob can drop
+	#Range: > 0
+	"Maximum Mob Drop" = 1
+	#Minimum amount of Hearts a Boss Mob can drop
+	#Range: > 0
+	"Minimum Boss Drop" = 5
+	#Maximum amount of Hearts a Boss Mob can drop
+	#Range: > 0
+	"Maximum Boss Drop" = 15
+	#Amount of Health a mob needs to drop hearts like a Boss Mob
+	#Range: > 0
+	"Boss Health Threshold" = 150
+	#Mobs added to this list will act as Boss Mobs even if they don't have the Health necessary to classify as one
+	"Other Boss Mobs" = ["minecraft:elder_guardian", "minecraft:ravager"]
+	#Determines if Drop Chance is effected by Mob Health
+	"Scale With Health" = true
+	#Determines how many Hearts a Heart Crystal rewards the Player
+	#Range: > 0
+	"Temp Crystal Heart Value" = 2
+	#Determines how much Health you can get from Heart Crystals before they stop working
+	#Range: > 0
+	"Max Crystal Heart Increase" = 20
+	#Determines how many Hearts a Heart Container rewards the Player
+	#Range: > 0
+	"Min Heart Container Increase" = 2
+	#Determines how much Health you can get from Heart Containers before they stop working
+	#Range: > 0
+	"Heart Container Health Value" = 20
+

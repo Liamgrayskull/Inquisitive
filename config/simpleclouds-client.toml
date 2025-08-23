@@ -1,0 +1,145 @@
+#Specifies how the clouds should behave in a client-side only context. SINGLE uses only a single cloud type. AMBIENT carves clouds around the player, keeping them at a distance. Due to be on a client-side only context, DEFAULT can not be picked and the vanilla weather system will be used. If Simple Clouds is installed on a server, this option will be ignored and the client will instead use the option set by the server.
+#Default: AMBIENT
+#Allowed Values: SINGLE, AMBIENT
+clientSideCloudMode = "AMBIENT"
+#Specifies if the info pop-up should appear when opening the cloud previewer menu.
+#Default: true
+showCloudPreviewerInfoPopup = true
+#Specifies the movement speed of the clouds.
+#Default: 1.0
+#Range: 0.1 ~ 32.0
+clientSideSpeedModifier = 1.0
+#Specifies the render Y offset for the clouds.
+#Default: 128
+#Range: 0 ~ 2048
+clientSideCloudHeight = 128
+#Specifies the allowed dimensions that Simple Clouds is active in.
+dimensionWhitelist = ["minecraft:overworld"]
+#Specifies if the dimension whitelist should instead be use as a blacklist.
+#Default: false
+whitelistAsBlacklist = false
+#Shows the Vivecraft notice on startup.
+#Default: true
+showVivecraftNotice = true
+
+#Preference
+[preference]
+	#Specifies the type of world fog that should be used. Each has their own advantages and disadvantages, ranging from visual discrepancies to possible compatibility issues.
+	#Default: SCREEN_SPACE
+	#Allowed Values: VANILLA, SCREEN_SPACE, OFF
+	fogMode = "SCREEN_SPACE"
+	#Specifies the angle of the rain, perpendicular to the ground. Higher values makes it more horizontal.
+	#Default: 15.0
+	#Range: 0.0 ~ 45.0
+	rainAngle = 15.0
+	#Specifies the angle parellel to the horizon that the storm fog should be directed to.
+	#Default: 80.0
+	#Range: 50.0 ~ 90.0
+	stormFogAngle = 80.0
+	#Specifies if lightning should have slight random color variation.
+	#Default: true
+	lightningColorVariation = true
+	#Specifies the attenuation distance for thunder. The lower the value, the quieter it will be from longer distances.
+	#Default: 2000
+	#Range: 100 ~ 20000
+	thunderAttenuationDistance = 2000
+
+#Visual
+[visual]
+	#Specifies if normals should be applied to each individual cube in the cloud which applies a bit of shading per cube face. Helps distinguish each individual cube in a cloud.
+	#Default: false
+	cubeNormals = false
+	#Specifies if minimal shading should be applied to clouds. May cause performance drops
+	#Requires restart.
+	#Default: true
+	shadedClouds = true
+	#Specifies if transparent cubes should be generated for supported cloud types. May cause performance drops.
+	#Default: true
+	transparency = true
+	#Specifies if a purely visual 2D atmospheric cloud layer should render.
+	#Default: true
+	atmosphericClouds = true
+
+#Seed
+[seed]
+	#Specifies the seed to use for the clouds. Will apply for all servers that the user connects to with the mod on the client-side only.
+	#Default: 0
+	cloudSeed = 0
+	#Specifies if the seed set by the 'Cloud Seed' option should be used or not.
+	#Default: false
+	useSpecificSeed = false
+
+#Performance
+[performance]
+	#EXPERIMENTAL. Uses a slightly modified algorithm that removes sync calls between chunk generator compute dispatches at the cost of higher memory usage. May result in a performance boost.
+	#Default: false
+	concurrentComputeDispatches = false
+	#Specifies if faces that are not visible to the camera should be tested during mesh generation. Settings this to off can improve performance at the cost of visual issues with shadows and storm fog.
+	#Default: false
+	testSidesThatAreOccluded = false
+	#Specifies if 'rain' beneath storm clouds should appear or not. Disabling can improve performance, especially when in VR.
+	#Default: true
+	renderStormFog = true
+	#Specifies the quality of the level of detail. A lower setting makes clouds lower quality faster.
+	#Default: HIGH
+	#Allowed Values: LOW, MEDIUM, HIGH
+	levelOfDetail = "HIGH"
+	#Culls cloud chunks not visible to the player. Generally should not be disabled, but can fix visual issues when looking around fast with higher frames per mesh generation values.
+	#Default: true
+	frustumCulling = true
+	#Toggles lightning flashes that can be seen in storm fog. Disabling can lead to potential performance gains when lightning spawns.
+	#Default: true
+	stormFogLightningFlashes = true
+	#Specifies the maximum percentage of the total viewable distance transparent cubes can be generated in.
+	#Default: 50
+	#Range: 1 ~ 100
+	transparencyRenderDistancePercentage = 50
+
+	#Mesh Generation
+	[performance.mesh_generation]
+		#How the amount of frames used to generate the entire mesh is calculated. Static will use the 'Frames To Generate Mesh' option. Dynamic will calculate it automatically depending on your FPS. Target FPS will target a certain perceived framerate for mesh generation.
+		#Default: TARGET_FPS
+		#Allowed Values: STATIC, DYNAMIC, TARGET_FPS
+		generationInterval = "TARGET_FPS"
+		#Specifies how many frames it should take to generate the entire cloud mesh. Higher values will improve performance at the cost of stuttery cloud movement.
+		#Default: 5
+		#Range: 1 ~ 32
+		framesToGenerateMesh = 5
+		#Used to set the target FPS with the 'Target FPS' option in 'Generation Interval'.
+		#Default: 30
+		#Range: 1 ~ 1000
+		targetMeshGenFps = 30
+
+#Debug
+[debug]
+	#Toggles rendering of the clouds.
+	#Default: true
+	renderClouds = true
+	#Toggles the generation of the cloud mesh.
+	#Default: true
+	generateMesh = true
+
+#Single Mode
+[single_mode]
+	#Specifies the cloud type that should be used when the SINGLE cloud mode is active.
+	#Default: simpleclouds:itty_bitty
+	clientSideSingleModeCloudType = "simpleclouds:itty_bitty"
+	#Specifies the percentage of the cloud render distance that the clouds should begin to fade away, when using the single cloud type mode (e.x. 50 would start to make the clouds fade away at half of the cloud render distance).
+	#Default: 80
+	#Range: 0 ~ 100
+	singleModeFadeStartPercentage = 80
+	#Specifies the percentage of the cloud render distance that the clouds will be fully faded away, when using the single cloud type mode (e.x. 50 would make the clouds completely disappear past half the cloud render distance).
+	#Default: 100
+	#Range: 0 ~ 100
+	singleModeFadeEndPercentage = 100
+
+#Distant Horizons
+[distant_horizons]
+	#Toggles shadows that appear on distant terrain.
+	#Default: true
+	distantShadows = true
+	#Specifies the distance shadows can render.
+	#Default: 5000
+	#Range: 500 ~ 15000
+	shadowDistance = 5000
+

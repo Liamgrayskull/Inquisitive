@@ -1,0 +1,14 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "particleRopeRenderer" : {
+      "type" : "boolean",
+      "description" : "Use the particle rope renderer instead of the line rope renderer"
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

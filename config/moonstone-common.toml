@@ -1,0 +1,138 @@
+#The growth rate of plague research sites
+#Range: 0.0 ~ 100.0
+GrowthSpeed = 0.1
+#The corrosion speed of the plague
+#Range: 0.0 ~ 100.0
+CorrosionSpeed = 0.01
+#What is this value, divide the damage by (“2” is “/2”)
+#Range: 1 ~ 1000
+Int = 2
+#The maximum amount of damage that can be dealt
+#Range: 0.0 ~ 5120.0
+"Nine Sword Books" = 256.0
+
+["一般配置"]
+	#关闭飞剑
+	killFlySword = false
+	#第一次死亡给予“远古病毒”
+	giveYtgld = true
+	#可以取下月之石的“不可以取下”的物品
+	Can = false
+	#开局给书
+	give = true
+	#物品再发现时可以获得品阶
+	Quality_ = false
+	#玩家可以在不佩戴相关前置物品的情况下使用噩梦的相关物品
+	canUseNightmare = false
+	#玩家可以在不佩戴相关前置物品的情况下使用深渊的相关物品
+	canUseAbyss = false
+
+["噩梦"]
+	#“”噩梦基座“给玩家的罪孽数量
+	#Range: 0 ~ 7
+	nig = 3
+	#Nightecora病毒的额外生命值惩罚，单位百分比
+	#Range: 0 ~ 100
+	Nightecora = 25
+	#“欺骗”恢复的生命值，单位百分比
+	#Range: 0 ~ 100
+	nightmare_base_redemption_deception = 100
+	#“欺骗”恢复的生命值，单位秒
+	#Range: 0 ~ 100
+	nightmare_base_redemption_deception_time = 7
+	#危险的头骨造成的额外伤害，“2”是两倍
+	#Range: 0 ~ 9999
+	nightmare_base_fool_bone = 2
+	#疯狂灵药的最大属性加成，单位百分比
+	#Range: 0 ~ 99999
+	nightmare_base_insight_drug = 100
+	#疯狂灵药的单物品计算的属性衰败，单位百分比
+	#Range: 0 ~ 99999
+	nightmare_base_insight_drug_2 = 8
+	#癫狂之石的杀死生物后获得的伤害加成，单位百分比
+	#Range: 0 ~ 99999
+	nightmare_base_insight_insane = 150
+
+["狂暴or扭曲"]
+	#狂暴之眼最多可以偷盗的属性（相对于玩家）
+	#Range: 0.0 ~ 1000.0
+	rage_eye = 0.25
+	#狂暴之眼最多可以偷盗的属性（相对于怪物）
+	#Range: 0.0 ~ 1000.0
+	rage_eye_copy = 0.1
+	#邪祟之戒获得最大伤害加成和增加速度，单位百分比
+	#Range: 0.0 ~ 999999.0
+	pain_ring_ = 100.0
+
+["一般物品"]
+	#一些饰品的反伤效果，默认开启
+	openDamageForAttacker = true
+	#一些（诺克萨斯纹章/决裁徽章/符石）的粒子效果
+	blockParticle = true
+	#终极湮灭病毒的增值速度，单位：刻，值越大速度越慢
+	#Range: 1 ~ 999999
+	ytgld_curse = 15
+	#终极湮灭病毒的研究速度，10点是0.1%
+	#Range: 1 ~ 999999
+	ytgld_research = 10
+	#启用终极湮灭病毒
+	off_or_on_ytgld = true
+	#”七剑修罗·万法“和”七剑修罗·剑阵之章“同时佩戴后仍然可以发射飞剑
+	canFlySword = true
+	#”灵质幸运星的最大幸运转换“
+	#Range: 0 ~ 1024
+	EctoplasmStar = 100
+	#深渊石球的附魔等级加成
+	#Range: 0 ~ 100
+	EnchantmentBonus = 2
+	#莫里斯脑子的伤害次数
+	#Range: 1 ~ 100
+	MBrain_many = 5
+	#莫里斯脑子的伤害
+	#Range: 1.0 ~ 999.0
+	MBrain_critical_multiplier = 2.25
+	#电池的速度
+	#Range: 0.0 ~ 999.0
+	battery = 0.1
+	#四头肌强化的速度
+	#Range: 0.0 ~ 999.0
+	quadriceps = 0.25
+	#夜行蝠突变基因的速度
+	#Range: 0.0 ~ 999.0
+	flygene = 0.125
+	#暗影瘟疫的速度
+	#Range: 0.0 ~ 999.0
+	bloodvirus = 0.175
+	#运动控制强化的速度
+	#Range: 0.0 ~ 999.0
+	motor_speed = 0.15
+	#万腐之心的属性
+	#Range: 0 ~ 999
+	nightmarerotten = 10
+	#夜行蝙蝠基因：蝙蝠给予玩家的最大伤害加成，默认2（200%）
+	#Range: 0.0 ~ 99999.0
+	batgene = 2.0
+	#决裁者徽章的伤害，“1”就是100%
+	#Range: 0.0 ~ 99999.0
+	undead_blood_charm = 1.0
+
+["战利品"]
+	#”暗影瘟疫“的战利品出现几率，值越大，概率越高
+	#Range: 1 ~ 100
+	Plague_probability = 10
+	#”Necora病毒“的战利品出现几率，值越大，概率越高
+	#Range: 1 ~ 100
+	Necora_probability = 10
+	#”深渊之眼“的战利品出现几率，值越大，概率越高
+	#Range: 1 ~ 100
+	Nightmare_probability = 10
+	#注意！这个值影响了普通战利品的出现概率。它的值越大，概率越小！不要改反了
+	#Range: 0.1 ~ 100.0
+	Common_probability = 1.0
+	#给予九剑归一诀”
+	NineSwordBooks = true
+
+[AllLootTable]
+	#如果开启则将模组内的战利品表禁用
+	all_loot_table = false
+

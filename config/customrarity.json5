@@ -1,0 +1,12 @@
+{
+	// Item IDs set to common rarity (white text)
+	"commons": [
+		"minecraft:debug_stick"
+	],
+	// Item IDs set to uncommon rarity (yellow text)
+	"uncommons": [],
+	// Item IDs set to rare rarity (aqua text)
+	"rares": [],
+	// Item IDs set to epic rarity (magenta text)
+	"epics": []
+}

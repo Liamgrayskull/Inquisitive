@@ -1,0 +1,14 @@
+type = user_variables
+
+variable {
+  name = tramsition
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = transition
+  value = 1
+  reset_on_launch = false
+}
+

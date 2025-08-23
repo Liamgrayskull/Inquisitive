@@ -1,0 +1,20 @@
+
+[Render]
+	#速度渲染的缩放。
+	#Scaling of velocity rendering.
+	speed_show_scaling = 1.0
+	#加速度渲染的缩放。
+	#Scaling of accelerated rendering.
+	acceleration_show_scaling = 1.0
+
+[OrbitPrediction]
+	#轨道预测每经过多少游戏刻进行一次。
+	#The track predicts how many game ticks it passes.
+	orbit_prediction_tick = 20
+	#轨道预测步数。
+	#Track predicts the number of steps.
+	orbit_prediction_frequency = 20
+	#轨道预测步长。
+	#Orbit predicts step size.
+	orbit_prediction_time = 1000.0
+

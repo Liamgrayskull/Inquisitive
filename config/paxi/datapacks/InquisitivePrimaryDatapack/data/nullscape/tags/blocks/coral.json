@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "endergetic:eumus",
+    "endergetic:end_corrock_block",
+    "dead_horn_coral_block",
+    "dead_bubble_coral_block"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "architects_palette:warping",
+    "ingredient": [
+        {
+            "item": "minecraft:beetroot_seeds"
+        }
+    ],
+    "result": {
+        "item": "soulfulnether:soulroot_seeds"
+    },
+    "dimension": "minecraft:the_nether"
+}

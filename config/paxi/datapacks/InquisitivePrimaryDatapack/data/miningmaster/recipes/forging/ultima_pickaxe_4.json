@@ -1,0 +1,50 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "unusualend:citrine_chunk"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "ruby_exchange:ruby"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "sullysmod:jade"
+        },
+        {
+            "item": "unusualend:citrine_chunk"
+        }
+    ],
+    "catalyst": {
+        "item": "miningmaster:unbreaking_iolite_pickaxe"
+    },
+    "result": {
+        "item": "miningmaster:ultima_pickaxe"
+    },
+    "enchantments": [
+     {
+         "enchantment": "minecraft:efficiency",
+         "lvl": 1
+     },
+     {
+         "enchantment": "enchancement:extracting",
+         "lvl": 1
+     },
+     {
+         "enchantment": "minecraft:unbreaking",
+         "lvl": 1
+     },
+     {
+         "enchantment": "miningmaster:smelting",
+         "lvl": 1
+     }
+    ]
+}

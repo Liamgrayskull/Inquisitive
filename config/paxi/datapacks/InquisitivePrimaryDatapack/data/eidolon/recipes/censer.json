@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    " x ",
+    "s s",
+    "xpx"
+  ],
+  "key": {
+    "x": {
+      "item": "oreganized:electrum_ingot"
+    },
+    "p": {
+      "item": "etcetera:bismuth_ingot"
+    },
+    "s": {
+      "item": "caverns_and_chasms:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "eidolon:censer"
+  }
+}

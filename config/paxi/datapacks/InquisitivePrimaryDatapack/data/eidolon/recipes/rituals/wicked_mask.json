@@ -1,0 +1,30 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "focusItems": [
+    {
+      "item": "species:wicked_wax"
+    }
+  ],
+  "output": {
+    "item": "species:wicked_mask"
+  },
+  "pedestalItems": [
+    {
+      "item": "enlightened_end:stardust"
+    },
+    {
+      "item": "spelunkery:sulfur"
+    },
+    {
+      "item": "enlightened_end:stardust"
+    },
+    {
+      "item": "spelunkery:sulfur"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "savage_and_ravage:mask_of_dishonesty"
+    }
+  ]
+}

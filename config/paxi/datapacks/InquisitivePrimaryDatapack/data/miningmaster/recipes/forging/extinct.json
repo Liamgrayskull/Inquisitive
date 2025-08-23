@@ -1,0 +1,47 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "alexscaves:heavy_bone"
+        },
+        {
+            "item": "alexscaves:heavy_bone"
+        },
+        {
+            "item": "alexscaves:amber_curiosity"
+        },
+        {
+            "item": "alexscaves:tectonic_shard"
+        },
+        {
+            "item": "alexscaves:tectonic_shard"
+        },
+        {
+            "item": "alexscaves:tectonic_shard"
+        },
+        {
+            "item": "alexscaves:tectonic_shard"
+        },
+        {
+            "item": "alexscaves:amber_curiosity"
+        },
+        {
+            "item": "alexscaves:heavy_bone"
+        },
+        {
+            "item": "alexscaves:heavy_bone"
+        }
+    ],
+    "catalyst": {
+        "item": "alexscaves:limestone_spear"
+    },
+    "result": {
+        "item": "alexscaves:extinction_spear"
+    },
+    "enchantments": [
+        {
+            "enchantment": "alexscaves:herd_phalanx",
+            "lvl": 1
+        }
+    ]
+}

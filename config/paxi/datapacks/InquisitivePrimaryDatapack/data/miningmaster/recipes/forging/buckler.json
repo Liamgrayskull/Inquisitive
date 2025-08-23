@@ -1,0 +1,44 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "miningmaster:kinetic_opal"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "miningmaster:kinetic_opal"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "miningmaster:kinetic_opal"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "miningmaster:kinetic_opal"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:shield"
+    },
+    "result": {
+        "item": "piglinproliferation:buckler"
+    },
+    "enchantments": [
+        {
+            "enchantment": "piglinproliferation:bang",
+            "lvl": 1
+        }
+    ]
+}

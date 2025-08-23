@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "composite_material:prismarine_alloy_ingot"
+    },
+    "2": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "item": "composite_material:heart_of_the_dry"
+  }
+}

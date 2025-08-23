@@ -1,0 +1,142 @@
+{
+  "$schema" : "https://json-schema.org/draft/2019-09/schema",
+  "type" : "object",
+  "properties" : {
+    "ballastNoWeight" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The weight of a ballast when redstone powered"
+    },
+    "ballastWeight" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The weight of a ballast when not redstone powered"
+    },
+    "balloonAnalogStrength" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "How much stronger a balloon will get when powered (1.0 is 15x stronger at max power)"
+    },
+    "balloonBaseHeight" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Base height of a balloon"
+    },
+    "balloonPower" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force a balloon applies to a ship"
+    },
+    "blockBlacklist" : {
+      "description" : "The list of blocks that don't get assembled by the ship assembler",
+      "type" : "array",
+      "items" : {
+        "type" : "string",
+        "description" : "The list of blocks that don't get assembled by the ship assembler"
+      }
+    },
+    "chunkLoadTimeout" : {
+      "type" : "integer",
+      "format" : "int32",
+      "description" : "After how many ticks to error when loading chunk still not finished? (throws error when double this amount of ticks has passed)"
+    },
+    "chunkTicketsPerTick" : {
+      "type" : "integer",
+      "format" : "int32",
+      "description" : "How many chunk tickets can be processed each level tick? (-1 means unlimited)"
+    },
+    "chunksPerTicket" : {
+      "type" : "integer",
+      "format" : "int32",
+      "description" : "How many chunks can be loaded per chunk ticket?"
+    },
+    "propellerBigAccel" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "The acceleration of a big propeller. (deaccel = accel * 2)"
+    },
+    "propellerBigForce" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force of a big propeller at max speed"
+    },
+    "propellerBigSpeed" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "The max speed of a big propeller at max redstone input"
+    },
+    "propellerSmallAccel" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "The acceleration of a big propeller. (deaccel = accel * 2)"
+    },
+    "propellerSmallForce" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force of a big propeller at max speed"
+    },
+    "propellerSmallSpeed" : {
+      "type" : "number",
+      "format" : "float",
+      "description" : "The max speed of a big propeller at max redstone input"
+    },
+    "pulseGunForce" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force the pulse gun applies to a ship"
+    },
+    "removeAllAttachments" : {
+      "type" : "boolean",
+      "description" : "DO NOT CHANGE THIS UNLESS YOU KNOW WHAT YOU ARE DOING!"
+    },
+    "ropeMaxForce" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The maximum force a rope can handle before breaking"
+    },
+    "sensorDistance" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "Maximum distance a sensor can detect a ship from"
+    },
+    "spinnerSpeed" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force a spinner applies to a ship"
+    },
+    "thrusterShutoffSpeed" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The speed at which the thruster will stop applying force. (-1 means that it always applies force)"
+    },
+    "thrusterSpeed" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force a thruster applies to a ship * tier"
+    },
+    "thrusterTiersNormal" : {
+      "type" : "integer",
+      "format" : "int32",
+      "description" : "The maximum amount of tiers a normal thruster can have (1-5)"
+    },
+    "thrusterTiersTiny" : {
+      "type" : "integer",
+      "format" : "int32",
+      "description" : "The maximum amount of tiers a tiny thruster can have (1-5)"
+    },
+    "thrusterTinyForceMultiplier" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force multiplier of a tiny thruster"
+    },
+    "unpoweredBalloonMul" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The force multiplier of a balloon (not for \"powered balloon\")"
+    },
+    "$schema" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}

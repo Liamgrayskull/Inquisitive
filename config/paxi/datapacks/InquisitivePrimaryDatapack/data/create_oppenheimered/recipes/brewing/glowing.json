@@ -1,0 +1,31 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ], 
+  "type":"create:mixing",
+  "heatRequirement":"heated",
+  "ingredients":[
+     {
+        "item":"alexscaves:bioluminesscence"
+     },
+     {
+        "amount":1000,
+        "fluid":"create:potion",
+        "nbt": {"Potion": "minecraft:awkward"}
+     }
+  ],
+  "results":[
+     {
+        "amount":1000,
+        "fluid":"create:potion",
+        "nbt": {"Potion": "alexscaves:glowing"}
+     }
+  ]
+}

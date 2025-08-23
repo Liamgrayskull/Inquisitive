@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "eidolon:pewter_blend"
+  },
+  "result": "etcetera:bismuth_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}

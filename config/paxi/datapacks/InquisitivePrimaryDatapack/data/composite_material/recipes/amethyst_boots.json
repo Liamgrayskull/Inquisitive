@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "1": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "pattern": [
+    "1 1",
+    "1 1"
+  ],
+  "result": {
+    "item": "composite_material:amethyst_boots"
+  }
+}

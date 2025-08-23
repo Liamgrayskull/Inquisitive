@@ -1,0 +1,30 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "oreganized:electrum_nugget" },
+        { "item": "oreganized:electrum_nugget" },
+        { "item": "spelunkery:bismuth_nugget" },
+        { "item": "spelunkery:bismuth_nugget" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" },
+        { "item": "eidolon:soul_shard" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "paradise_lost:levita_gem" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:lesser_soul_gem"
+  }
+}

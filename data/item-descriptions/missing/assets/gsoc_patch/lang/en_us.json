@@ -1,0 +1,10 @@
+{
+  "block.gsoc_patch.andesite_spinel_ore.description": " ??? tag.minecraft.needs_stone_tool.description",
+  "block.gsoc_patch.diorite_spinel_ore.description": " ??? tag.minecraft.needs_stone_tool.description",
+  "block.gsoc_patch.granite_spinel_ore.description": " ??? tag.minecraft.needs_stone_tool.description",
+  "block.gsoc_patch.rough_spinel_block.description": " ??? tag.minecraft.needs_stone_tool.description",
+  "block.gsoc_patch.tuff_spinel_ore.description": " ??? tag.minecraft.needs_stone_tool.description",
+  "item.gsoc_patch.rough_spinel.description": " ??? lore, tag.spelunkery.grindable.description",
+  "item.gsoc_patch.rough_spinel_shard.description": " ??? lore",
+  "item.gsoc_patch.spinel_shard.description": " ??? lore"
+}

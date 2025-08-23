@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "oreganized:electrum_nugget"
+    }
+  },
+  "result": {
+    "item": "oreganized:electrum_ingot"
+  }
+}

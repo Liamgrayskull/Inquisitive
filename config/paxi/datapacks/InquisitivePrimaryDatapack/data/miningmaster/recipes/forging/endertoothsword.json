@@ -1,0 +1,30 @@
+{
+    "type": "miningmaster:forging_recipe",
+    "gems": [
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        },
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        },
+        {
+            "item": "endermanoverhaul:enderman_tooth"
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:wooden_sword"
+    },
+    "result": {
+        "item": "endermanoverhaul:corrupted_blade"
+    },
+    "enchantments": [
+        {
+            "enchantment": "enchancement:beserk",
+            "lvl": 1
+        },
+        {
+            "enchantment": "miningmaster:leeching",
+            "lvl": 1
+        }
+    ]
+}

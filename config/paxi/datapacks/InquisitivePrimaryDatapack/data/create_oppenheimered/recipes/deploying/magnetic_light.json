@@ -1,0 +1,27 @@
+{
+  "conditions":[
+     {
+        "type":"forge:mod_loaded",
+        "modid":"alexscaves"
+     },
+     {
+        "type":"forge:mod_loaded",
+        "modid":"create"
+     }
+  ],
+  "type":"create:deploying",
+  "ingredients":[
+     {
+        "item":"minecraft:iron_ingot"
+     },
+     {
+        "item":"alexscaves:notor_gizmo"
+     }
+  ],
+  "results":[
+     {
+        "item":"alexscaves:magnetic_light",
+        "count":4
+     }
+  ]
+}
