@@ -17,9 +17,9 @@
 				cow = true
 				pig = true
 				skeleton = true
-				frog = true
-				husk = true
 				bat = true
+				husk = true
+				frog = true
 				experience_bottle = true
 				rabbit = true
 				silverfish = true
@@ -76,6 +76,9 @@
 				cod = true
 				spider = true
 
+			[light_sources.settings.entities.habitat]
+				passerine = true
+
 			[light_sources.settings.entities.mowziesmobs]
 				umvuthana_raptor = true
 				foliaath = true
@@ -84,14 +87,11 @@
 				lantern = true
 				ferrous_wroughtnaut = true
 
-			[light_sources.settings.entities.habitat]
-				passerine = true
-
 			[light_sources.settings.entities.alexsmobs]
 				crocodile = true
-				hammerhead_shark = true
-				seal = true
 				murmur_head = true
+				seal = true
+				hammerhead_shark = true
 				blue_jay = true
 				triops = true
 				cachalot_echo = true
