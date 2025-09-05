@@ -1,14 +1,13 @@
-[15:16:19] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[15:16:19] [INIT] Loaded plugins:
-[15:16:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:16:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:16:19] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[15:16:19] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[15:16:21] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
-[15:16:21] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
-[15:16:21] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
-[15:16:21] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
-[15:16:21] [INFO] Loaded script startup_scripts:rarity.js in 0.273 s
-[15:16:21] [INFO] Loaded script startup_scripts:start.js in 0.011 s
-[15:16:21] [INFO] Loaded 2/2 KubeJS startup scripts in 1.435 s with 0 errors and 0 warnings
-[15:16:56] [INFO] start.js#18: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
+[09:30:59] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[09:30:59] [INIT] Loaded plugins:
+[09:30:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[09:30:59] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[09:30:59] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[09:30:59] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[09:31:01] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
+[09:31:01] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
+[09:31:01] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
+[09:31:01] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
+[09:31:01] [INFO] Loaded script startup_scripts:rarity.js in 0.196 s
+[09:31:01] [INFO] Loaded script startup_scripts:start.js in 0.013 s
+[09:31:01] [INFO] Loaded 2/2 KubeJS startup scripts in 1.3 s with 0 errors and 0 warnings

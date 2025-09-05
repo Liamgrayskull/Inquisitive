@@ -2477,7 +2477,20 @@ ServerEvents.tags('item', event => {
 
 
 
+  event.add('paradise_lost:decaying_floaters',
+    'miningmaster:deepslate_unbreaking_iolite_ore',
+    'spelunking_master:andesite_unbreaking_iolite_ore',
+    'spelunking_master:diorite_unbreaking_iolite_ore',
+    'spelunking_master:granite_unbreaking_iolite_ore',
+    'spelunking_master:tuff_unbreaking_iolite_ore',
+    'miningmaster:unbreaking_iolite_ore',
+    'enlightened_end:adamantite_node'
+  )
 
+  event.add('paradise_lost:push_floaters',
+    'spelunking_master:raw_unbreaking_iolite_block',
+    'miningmaster:unbreaking_iolite_block',
+  )
 
 
 
@@ -2611,7 +2624,7 @@ ServerEvents.tags('item', event => {
   event.add('inq:frigid', /ice_/, /_ice/, / ice/, /snow/, /frozen/, /freeze/, /frost/, /icicle/, /frigid/, 'minecraft:ice', /glacium/)
   event.add('inq:gold', /gold/, /gilded/, /piglin/)
   event.add('inq:lead', /lead_/, /_lead/, /glance/, /brain_damage/, /shrapnel/, 'supplementaries:bomb_spiky')
-  event.add('inq:redstone', /redstone/, /cinnabar/, /repeater/, /dropper/, /dispenser/, /minecart/, /rail/,'minecraft:comparator','minecraft:piston','minecraft:sticky_piston','minecraft:slime_block','minecraft:honey_block','minecraft:observer','minecraft:hopper','minecraft:target','minecraft:lever', /lightning_rod/, 'minecraft:daylight_detector','minecraft:tripwire_hook','minecraft:tnt','paradise_lost:levitator','ad_astra:oxygen_sensor','galosphere:monstrometer','galosphere:warped_anchor','galosphere:stranded_membrane_block','vs_eureka:anchor','vs_eureka:engine','vs_eureka:floater','vs_eureka:ballast', /ship_helm/,'spelunkery:compression_blast_miner','spelunkery:wooden_channel','spelunkery:wooden_sluice', 'supplementaries:cog_block','supplementaries:relayer','supplementaries:spring_launcher','supplementaries:speaker_block','supplementaries:speaker_block','supplementaries:turn_table','supplementaries:pulley_block','supplementaries:lock_block','supplementaries:bellows','supplementaries:clock_block','supplementaries:crank','supplementaries:wind_vane','supplementaries:faucet','supplementaries:wrench')
+  event.add('inq:redstone', /redstone/, /cinnabar/, /repeater/, /dropper/, /dispenser/, /minecart/, /rail/, 'minecraft:comparator', 'minecraft:piston', 'minecraft:sticky_piston', 'minecraft:slime_block', 'minecraft:honey_block', 'minecraft:observer', 'minecraft:hopper', 'minecraft:target', 'minecraft:lever', /lightning_rod/, 'minecraft:daylight_detector', 'minecraft:tripwire_hook', 'minecraft:tnt', 'paradise_lost:levitator', 'ad_astra:oxygen_sensor', 'galosphere:monstrometer', 'galosphere:warped_anchor', 'galosphere:stranded_membrane_block', 'vs_eureka:anchor', 'vs_eureka:engine', 'vs_eureka:floater', 'vs_eureka:ballast', /ship_helm/, 'spelunkery:compression_blast_miner', 'spelunkery:wooden_channel', 'spelunkery:wooden_sluice', 'supplementaries:cog_block', 'supplementaries:relayer', 'supplementaries:spring_launcher', 'supplementaries:speaker_block', 'supplementaries:speaker_block', 'supplementaries:turn_table', 'supplementaries:pulley_block', 'supplementaries:lock_block', 'supplementaries:bellows', 'supplementaries:clock_block', 'supplementaries:crank', 'supplementaries:wind_vane', 'supplementaries:faucet', 'supplementaries:wrench')
   event.add('inq:amethyst', /amethyst/)
   event.add('inq:allurite', /allurite/)
   event.add('inq:lumiere', /lumiere/)

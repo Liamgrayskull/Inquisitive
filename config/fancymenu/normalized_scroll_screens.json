@@ -1,0 +1,11 @@
+{
+  "accessibility_options_screen": true,
+  "dev.isxander.yacl3.gui.YACLScreen": true,
+  "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen": false,
+  "language_select_screen": false,
+  "mouse_settings_screen": true,
+  "sound_options_screen": true,
+  "net.minecraft.client.gui.screens.controls.KeyBindsScreen": false,
+  "chat_options_screen": true,
+  "options_screen": false
+}

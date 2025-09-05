@@ -165,9 +165,6 @@ createRarity("SOUL", 0x00ffef)
 createRarity("STEEL", 0x565457)
 
 createRarity("IRON", 0x979591)
-createRarity("EXPOSED_IRON", 0xa56142)
-createRarity("WEATHERED_IRON", 0x984b27)
-createRarity("RUSTED_IRON", 0x733323)
 
 createRarity("TWISTED", 0xba49eb)
 
@@ -177,7 +174,7 @@ createRarity("GLOWSTONE", 0xcdc6b0)
 createRarity("BRASS", 0xb8af61)
 createRarity("ANDESITE", 0x646866)
 
-createRarity("SAND", 0x988261)
+createRarity("SAND", 0xa89272)
 
 createRarity("AMBER", 0xcb5714)
 
@@ -562,9 +559,6 @@ ItemEvents.modification((event) => {
     event.modify("minecraft:chain", (item) => { item.rarity = "IRON" })
 
 
-    event.modify(/exposed_iron/, (item) => { item.rarity = "EXPOSED_IRON" })
-    event.modify(/weathered_iron/, (item) => { item.rarity = "WEATHERED_IRON" })
-    event.modify(/rusted_iron/, (item) => { item.rarity = "RUSTED_IRON" })
 
 
     event.modify(/ice_/, (item) => { item.rarity = "FRIGID" })

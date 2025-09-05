@@ -16,6 +16,9 @@
 	multiplayer_boss_attack_scale = 0.0
 	#Whether the boss drops loot for all the players that fought the boss.
 	toggle_multiplayer_boss_loot = true
+	#Multiplies the boss exhaustion (frequency of attack) by this value per additional player.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	multiplayer_boss_exhaustion_scale = 0.5
 
 [boss-scaling]
 	#Multiplies the boss health by this value.

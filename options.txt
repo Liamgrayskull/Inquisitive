@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","file/mod-descriptions-v7.zip","Inquisitive-Resources-3.0.0.zip"]
+resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","Inquisitive-3.0.0-RP.zip","file/mod-descriptions-v7.zip","file/testrp"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -53,7 +53,7 @@ chatLineSpacing:1.0
 textBackgroundOpacity:0.0
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0

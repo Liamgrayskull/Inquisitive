@@ -16,6 +16,7 @@
 				arrow = true
 				cow = true
 				pig = true
+				llama = true
 				skeleton = true
 				bat = true
 				husk = true
@@ -29,6 +30,7 @@
 				dolphin = true
 				stray = true
 				item = true
+				turtle = true
 				salmon = true
 				vex = true
 				ocelot = true
@@ -36,8 +38,10 @@
 				vindicator = true
 				horse = true
 				phantom = true
+				minecart = true
 				evoker = true
 				glow_squid = true
+				warden = true
 				glow_item_frame = true
 				squid = true
 				parrot = true
@@ -51,8 +55,10 @@
 				fox = true
 				slime = true
 				pillager = true
+				iron_golem = true
 				area_effect_cloud = true
 				endermite = true
+				cat = true
 				zombie = true
 				guardian = true
 				sheep = true
@@ -78,56 +84,69 @@
 
 			[light_sources.settings.entities.habitat]
 				passerine = true
+				pooka = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				umvuthana_raptor = true
 				foliaath = true
 				umvuthana_follower_raptor = true
+				umvuthana = true
 				grottol = true
 				lantern = true
 				ferrous_wroughtnaut = true
 
+			[light_sources.settings.entities.archeryexp]
+				diamond_arrow = true
+
 			[light_sources.settings.entities.alexsmobs]
-				crocodile = true
 				murmur_head = true
-				seal = true
-				hammerhead_shark = true
 				blue_jay = true
-				triops = true
+				skelewag = true
 				cachalot_echo = true
-				gazelle = true
 				catfish = true
+				anteater = true
 				tasmanian_devil = true
 				centipede_tail = true
+				rhinoceros = true
 				comb_jelly = true
-				underminer = true
 				skunk = true
-				terrapin = true
-				gorilla = true
-				flying_fish = true
 				leafcutter_ant = true
-				cockroach = true
-				murmur = true
 				blobfish = true
 				lobster = true
 				snow_leopard = true
 				grizzly_bear = true
-				centipede_body = true
 				rocky_roller = true
 				centipede_head = true
+				flutter = true
+				orca = true
+				crow = true
+				crocodile = true
+				seal = true
+				hammerhead_shark = true
+				triops = true
+				gazelle = true
+				underminer = true
+				terrapin = true
+				gorilla = true
+				flying_fish = true
+				platypus = true
+				capuchin_monkey = true
+				murmur = true
+				cockroach = true
+				centipede_body = true
+				bald_eagle = true
 				seagull = true
 				raccoon = true
-				flutter = true
 				fly = true
 				giant_squid = true
 				toucan = true
 				alligator_snapping_turtle = true
 				skreecher = true
-				orca = true
 				cachalot_whale = true
-				crow = true
+				hummingbird = true
 				frilled_shark = true
 				bison = true
+				sugar_glider = true
 
 			[light_sources.settings.entities.xp_jellies]
 				titanxpsnail = true
@@ -154,6 +173,7 @@
 			[light_sources.settings.entities.galosphere]
 				sparkle = true
 				spectre = true
+				berserker = true
 				specterpillar = true
 
 			[light_sources.settings.entities.ender_beetles]
@@ -176,6 +196,7 @@
 				lionfish = true
 				great_thrasher = true
 				nautilus = true
+				perch = true
 
 			[light_sources.settings.entities.untagged_mobs]
 				sweeper = true
@@ -194,6 +215,7 @@
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
+				contraption = true
 
 			[light_sources.settings.entities.autumnity]
 				snail = true
@@ -203,7 +225,11 @@
 				spawner_carrier = true
 				chaos_spawner = true
 				great_experience_bottle = true
+				fairkeeper_serpent_caller = true
 				sealed_chaos = true
+				scuttle = true
+				flame_projectile = true
+				repulsor = true
 
 			[light_sources.settings.entities.yungscavebiomes]
 				sand_snapper = true
@@ -219,6 +245,10 @@
 				reindeer = true
 				koi = true
 				duck = true
+
+			[light_sources.settings.entities.dimdoors]
+				monolith = true
+				mask = true
 
 			[light_sources.settings.entities.savage_and_ravage]
 				skeleton_villager = true
@@ -289,7 +319,11 @@
 				bouldering_zombie = true
 
 			[light_sources.settings.entities.trials]
+				wind_charge = true
 				bogged = true
+
+			[light_sources.settings.entities.exposure]
+				photograph_frame = true
 
 			[light_sources.settings.entities.species]
 				cliff_hanger = true

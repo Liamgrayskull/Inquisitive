@@ -136,6 +136,10 @@ to make editing this file much easier.
 	"new": {"Name": "natures_spirit:white_wisteria_vines",},
 	"old": {"Name": "environmental:white_hanging_wisteria_leaves", "Properties": { "half": "lower" } }
 },
+{
+	"new": {"Name": "supplementaries:bamboo_spikes", "Properties": { "facing": "up" } },
+	"old": {"Name": "dungeonnowloading:spikes"}
+},
 	],
 	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
 	   Example:
@@ -265,11 +269,11 @@ to make editing this file much easier.
 		"alexscaves:amber": "sullysmod:amber",
 		
 		
-		"dungeonnowloading:spikes": "supplementaries:bamboo_spikes",
 
-
-
+		"dungeonnowloading:dungeon_wall_torch": "supplementaries:sconce_wall",
 		
+		
+
 		
 
 

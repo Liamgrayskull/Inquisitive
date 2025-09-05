@@ -1,0 +1,387 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Don't be sad, have a hug! <3
+
+Time: 2025-09-04 12:34:09
+Description: Initializing game
+
+net.minecraftforge.fml.loading.EarlyLoadingException: Could not execute entrypoint stage 'client' due to errors, provided by 'sortilege' at 'net.lyof.sortilege.SortilegeClient'!
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23528!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.minecraft.client.Minecraft.handler$enc000$connectormod$earlyInit(Minecraft.java:48945) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-47.4.8.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin from mod flywheel,pl:mixin:APP:cubes-without-borders.mixins.json:MainMixin from mod cubes_without_borders,pl:mixin:APP:chatplus-common.mixins.json:AWTHackMixin from mod chatplus,pl:mixin:APP:screenshot_viewer.mixins.json:MainMixin from mod screenshot_viewer,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.8.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.8.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar%2386!/:?] {}
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar%2386!/:?] {}
+Caused by: java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'sortilege' at 'net.lyof.sortilege.SortilegeClient'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:133) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:131) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:46) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23528!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	... 24 more
+Caused by: java.lang.ExceptionInInitializerError
+	at net.lyof.sortilege.SortilegeClient.onInitializeClient(SortilegeClient.java:39) ~[Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar%231986!/:?] {re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:46) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23528!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	... 24 more
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraftforge.fml.ModList.isLoaded(String)" because the return value of "net.minecraftforge.fml.ModList.get()" is null
+	at traben.entity_texture_features.ETF.isThisModLoaded(ETF.java:197) ~[entity_texture_features_1.20.1-forge-7.0.2.jar%23631!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	at traben.entity_model_features.EMFManager.<init>(EMFManager.java:100) ~[entity_model_features_1.20.1-forge-3.0.1.jar%23630!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:lazyyyyy.mixins.json:lazy_entity_renderers.entity_model_features.EMFManagerMixin from mod (unknown),pl:mixin:A}
+	at traben.entity_model_features.EMFManager.getInstance(EMFManager.java:111) ~[entity_model_features_1.20.1-forge-3.0.1.jar%23630!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:lazyyyyy.mixins.json:lazy_entity_renderers.entity_model_features.EMFManagerMixin from mod (unknown),pl:mixin:A}
+	at traben.entity_model_features.EMF.testForForgeLoadingError(EMF.java:123) ~[entity_model_features_1.20.1-forge-3.0.1.jar%23630!/:?] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.minecraft.client.model.Model.handler$egj000$entity_model_features$emf$discoverEMFModel(Model.java:542) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:entity_model_features.mixins.json:MixinModel from mod entity_model_features,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.client.model.Model.<init>(Model.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:entity_model_features.mixins.json:MixinModel from mod entity_model_features,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.client.model.EntityModel.<init>(EntityModel.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.client.model.EntityModel.<init>(EntityModel.java:15) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.lyof.sortilege.item.custom.rendering.custom.WitchHatModel.<init>(WitchHatModel.java:16) ~[Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar%231986!/:?] {re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.lyof.sortilege.item.custom.rendering.custom.WitchHatRenderer.<clinit>(WitchHatRenderer.java:17) ~[Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar%231986!/:?] {re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.lyof.sortilege.SortilegeClient.onInitializeClient(SortilegeClient.java:39) ~[Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar%231986!/:?] {re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:46) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23528!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	... 24 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.46+1.20.1.jar%23519!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23528!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading,pl:rei_plugin_compatibilities:B}
+	at net.minecraft.client.Minecraft.handler$enc000$connectormod$earlyInit(Minecraft.java:48945) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23887!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.26100.3624 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.DLL:Base cryptographic API DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL Utility Library DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.26100.4484 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.25070.5 (1bc206b886f4747b112648744606a95aff69f1cf):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		Oleacc.dll:Active Accessibility Core Component:7.2.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:Power Profile Helper DLL:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		PROPSYS.dll:Microsoft Property System:7.0.26100.4768 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		SETUPAPI.dll:Windows Setup API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.26100.4768 (WinBuild.160101.0800):Microsoft Corporation
+		SspiCli.dll:Security Support Provider Interface:10.0.26100.4484 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.26100.1301 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.29.30135.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINSTA.dll:Winstation Library:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		WINTRUST.dll:Microsoft Trust Verification APIs:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WTSAPI32.dll:Windows Remote Desktop Session Host Server SDK APIs:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:Application Compatibility Client Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		cryptnet.dll:Crypto Network Related API:10.0.26100.3624 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP Client Service:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6 Client:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		drvstore.dll:Driver Store API:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft Desktop Window Manager API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		explorer-details-better-file-sizes_1.4.9_298394.dll
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.26100.3915 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		imagehlp.dll:Windows NT Image Helper:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		inputhost.dll:InputHost:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		instrument.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		java.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		javaw.exe:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		jemalloc.dll
+		jimage.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		jli.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		jna15288280048745372554.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		jvm.dll:Zulu 64-Bit Server VM:17.0.8.1:Azul Systems Inc.
+		kernel.appcore.dll:AppModel API Host:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		libc++.dll
+		libunwind.dll
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		management_ext.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		msasn1.dll:ASN.1 Runtime APIs:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.29.30135.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		nio.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT Layer DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		nvgpucomp64.dll:NVIDIA GPU Compiler Driver, Version 576.40 :32.0.15.7640:NVIDIA Corporation
+		nvoglv64.dll:NVIDIA Compatible OpenGL ICD:32.0.15.7640:NVIDIA Corporation
+		nvspcap64.dll:NVIDIA Game Proxy 8FileVersion  1:11.0.3.241  8Produc:NVIDIA Corporation  L$FileDescriptio
+		ole32.dll:Microsoft OLE for Windows:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows System Performance Objects DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.26100.4768 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shcore.dll:SHCORE:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		slick-window-arrangement_1.0.2_605799.dll
+		sunmscapi.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.29.30135.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+		win32u.dll:Win32u:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		windhawk.dll:Windhawk:1.5.1:Ramen Software
+		windows.staterepositorycore.dll:Windows StateRepository API Core:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.26100.1457 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.26100.1882 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows Base Types DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		wldp.dll:Windows Lockdown Policy:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft Common Controller API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:Zulu Platform x64 Architecture:17.0.8.1:Azul Systems Inc.
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-47.4.8.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin from mod flywheel,pl:mixin:APP:cubes-without-borders.mixins.json:MainMixin from mod cubes_without_borders,pl:mixin:APP:chatplus-common.mixins.json:AWTHackMixin from mod chatplus,pl:mixin:APP:screenshot_viewer.mixins.json:MainMixin from mod screenshot_viewer,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.8.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.8.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) ~[theseus.jar%2386!/:?] {}
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) ~[theseus.jar%2386!/:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8.1, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 1075409896 bytes (1025 MiB) / 2302672896 bytes (2196 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 3900X 12-Core Processor            
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.79
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 4070
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2786
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.7640
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 51104.68
+	Virtual memory used (MB): 21092.83
+	Swap memory total (MB): 34816.00
+	Swap memory used (MB): 1103.31
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8192M
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Sinytra Connector: 1.0.0-beta.46+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| enchancement-1.20-26$step-height-entity-attribute- | Step Height Entity Attribute   | step_height_entity_attribute   | 1.2.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0_mapped_ | Fabric Language Kotlin         | fabric_language_kotlin         | 1.11.0kotlin.2.0.0   |
+		| respackopts-4.6.2_mapped_srg_1.20.1.jar            | Resource Pack Options          | respackopts                    | 4.6.2                |
+		| enchancement-1.20-26$cardinal-components-entity-5. | Cardinal Components API (entit | cardinal_components_entity     | 5.2.2                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-core-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| mostructures-1.4.5+1.20.1_mapped_srg_1.20.1.jar    | Mo' Structures                 | mostructures                   | 1.4.51.20.1          |
+		| perspective-1.2.0-alpha.2+1.20.0-1$releasetypeutil | releasetypeutils               | com_github_mclegoman_releasety | 2.0.0                |
+		| immersive-hotbar-1.0.4-1.20-1.20.4_mapped_srg_1.20 | Immersive Hotbar               | immersive_hotbar               | 1.0.4-1.20-1.20.4    |
+		| libjf-3.12.5$libjf-config-commands-v1-unspecified_ | LibJF Config Commands          | libjf_config_commands_v1       | 3.12.5               |
+		| paradise-lost-2.2.4-beta+1.20.0_mapped_srg_1.20.1. | Paradise Lost                  | paradise_lost                  | 2.2.4-beta1.20.0     |
+		| spellbound-1.20.3_mapped_srg_1.20.1.jar            | Spellbound                     | spellbound                     | 1.20.3               |
+		| perspective-1.2.0-alpha.2+1.20.0-1$fabric-simpleli | Simple Fabric Libs             | fabric_simplelibs              | 2.0.0                |
+		| libjf-3.12.5_mapped_srg_1.20.1.jar                 | LibJF                          | libjf                          | 3.12.5               |
+		| bountifulfares-1.2.1-1.20.1_mapped_srg_1.20.1.jar  | Bountiful Fares                | bountifulfares                 | 1.2.1-1.20.1         |
+		| smoothscroll-2.2.3.1+1.20.1_mapped_srg_1.20.1.jar  | Smooth Scroll                  | smoothscroll                   | 2.2.3.1              |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-reflect                 | org_jetbrains_kotlin_kotlin_re | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-coroutines-core-jvm    | org_jetbrains_kotlinx_kotlinx_ | 1.8.1                |
+		| language-reload-1.5.10+1.20.1$mixinextras-fabric-0 | MixinExtras                    | com_github_llamalad7_mixinextr | 0.2.0-rc.5           |
+		| ohmymeteors-0.3.0+1.20.1$structureplacerapi-1.1.4_ | StructurePlacerAPI             | structureplacerapi             | 1.1.4                |
+		| enchancement-1.20-26$cardinal-components-world-5.2 | Cardinal Components API (world | cardinal_components_world      | 5.2.2                |
+		| dense-flowers-0.2.1+mc1.20.1_mapped_srg_1.20.1.jar | Dense Flowers                  | dense_flowers                  | 0.2.1mc1.20.1        |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$atomicf | atomicfu-jvm                   | org_jetbrains_kotlinx_atomicfu | 0.24.0               |
+		| paradise-lost-2.2.4-beta+1.20.0$customportalapi-0. | Custom Portal Api              | customportalapi                | 0.0.1-beta65-1.20    |
+		| libjf-3.12.5$libjf-config-ui-tiny-v1-unspecified_m | LibJF Config UI: Tiny          | libjf_config_ui_tiny_v1        | 3.12.5               |
+		| fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar         | FastQuit                       | fastquit                       | 3.0.01.20            |
+		| enchancement-1.20-26$cardinal-components-base-5.2. | Cardinal Components API (base) | cardinal_components_base       | 5.2.2                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib                  | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib-jdk8             | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib-jdk7             | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| libjf-3.12.5$libjf-data-v0-unspecified_mapped_srg_ | LibJF Data                     | libjf_data_v0                  | 3.12.5               |
+		| libjf-3.12.5$libjf-config-reflect-v1-unspecified_m | LibJF Config Reflect           | libjf_config_reflect_v1        | 3.12.5               |
+		| surveystones-1.3.1+1.20_mapped_srg_1.20.1.jar      | Surveystones                   | surveystones                   | 1.3.11.20            |
+		| libjf-3.12.5$libjf-data-manipulation-v0-unspecifie | LibJF Data Manipulation        | libjf_data_manipulation_v0     | 3.12.5               |
+		| paradise-lost-2.2.4-beta+1.20.0$Fabric-ASM-2.3_map | Manningham Mills               | mm                             | 2.3                  |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-datetime-jvm           | org_jetbrains_kotlinx_kotlinx_ | 0.6.0                |
+		| BOMD-1.7.5-1.20.1_mapped_srg_1.20.1.jar            | Bosses of Mass Destruction (Be | bosses_of_mass_destruction     | 1.7.5-1.20.1         |
+		| euphonium-1.0.3+1.20_mapped_srg_1.20.1.jar         | Euphonium                      | euphonium                      | 1.0.31.20            |
+		| symbol-chat-1.20.1-1.1.2_mapped_srg_1.20.1.jar     | Symbol Chat                    | symbol_chat                    | 1.20.1-1.1.2         |
+		| libjf-3.12.5$libjf-translate-v1-unspecified_mapped | LibJF Translate                | libjf_translate_v1             | 3.12.5               |
+		| citresewn-1.2.2+1.20.1_mapped_srg_1.20.1.jar       | CIT Resewn                     | citresewn                      | 1.2.21.20.1          |
+		| libjf-3.12.5$libjf-web-v0-unspecified_mapped_srg_1 | LibJF Web                      | libjf_web_v0                   | 3.12.5               |
+		| material-beacons-1.0.1+1.20.1_mapped_srg_1.20.1.ja | Material Beacons               | material_beacons               | 1.0.11.20.1          |
+		| libjf-3.12.5$libjf-unsafe-v0-unspecified_mapped_sr | LibJF Unsafe                   | libjf_unsafe_v0                | 3.12.5               |
+		| potionparticlepack-1.0.1_mapped_srg_1.20.1.jar     | potionparticlepack             | potionparticlepack             | 1.0.1                |
+		| surveyor-0.6.26+1.20_mapped_srg_1.20.1.jar         | Surveyor Map Framework         | surveyor                       | 0.6.261.20           |
+		| smoothskies-1.1.0_mapped_srg_1.20.1.jar            | Smooth Skies                   | smoothskies                    | 1.1.0                |
+		| ohmymeteors-0.3.0+1.20.1$particleanimationlib-0.1. | Particle Animation Library (PA | particleanimationlib           | 0.1.2                |
+		| antique-atlas-2.11.2+1.20_mapped_srg_1.20.1.jar    | Antique Atlas                  | antique_atlas                  | 2.11.21.20           |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-coroutines-jdk8        | org_jetbrains_kotlinx_kotlinx_ | 1.8.1                |
+		| perspective-1.2.0-alpha.2+1.20.0-1_mapped_srg_1.20 | Perspective                    | perspective                    | 1.2.0-alpha.2        |
+		| enchancement-1.20-26_mapped_srg_1.20.1.jar         | Enchancement                   | enchancement                   | 1.20-26              |
+		| BOMD-1.7.5-1.20.1$MultipartEntities-1.20-SNAPSHOT_ | MultipartEntities              | multipart_entities             | 1.5-1.20             |
+		| euphonium-1.0.3+1.20$kaleido-config-0.3.1+1.3.2_ma | kaleido-config                 | folk_sisby_kaleido_config      | 0.3.11.3.2           |
+		| BOMD-1.7.5-1.20.1$maelstrom-lib-e26888c_mapped_srg | Maelstrom Library              | maelstrom_library              | 1.6.1-1.20           |
+		| youwereslain-1.0.0-1.20.x_mapped_srg_1.20.1.jar    | You Were Slain                 | youwereslain                   | 1.0.0-1.20.x         |
+		| libjf-3.12.5$libjf-config-core-v1-unspecified_mapp | LibJF Config                   | libjf_config_core_v1           | 3.12.5               |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-json-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| tellme-fabric-1.20.1-0.9.1_mapped_srg_1.20.1.jar   | TellMe                         | tellme                         | 0.9.1                |
+		| continuity-3.0.0+1.20.1.forge_mapped_srg_1.20.1.ja | Continuity                     | continuity                     | 3.0.01.20.1.forge    |
+		| owo-lib-0.11.2+1.20$jankson-1.2.2_mapped_srg_1.20. | jankson                        | blue_endless_jankson           | 1.2.2                |
+		| fasterrandom-5.1.0_mapped_srg_1.20.1.jar           | Faster Random                  | faster_random                  | 5.1.0                |
+		| async-pack-scan-0.2.0_mapped_srg_1.20.1.jar        | Async Pack Scan                | async_pack_scan                | 0.2.0                |
+		| Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar       | Sortilege                      | sortilege                      | 1.7.2                |
+		| smoothswapping-0.9.3.1-1.20.2-fabric_mapped_srg_1. | Smooth Swapping                | smoothswapping                 | 0.9.3.1              |
+		| explosive-enhancement-1.2.1-1.20.x_mapped_srg_1.20 | Explosive Enhancement          | explosiveenhancement           | 1.2.1-1.20.x         |
+		| mostructures-1.4.5+1.20.1$omega-config-1.4.1-1.20. | OmegaConfig                    | omega_config                   | 1.4.11.20.1          |
+		| souper_secret_settings-1.0.9-mc1.20+_mapped_srg_1. | Souper Secret Settings         | souper_secret_settings         | 1.0.9-mc1.20         |
+		| auditory-0.0.6-1.20.1_mapped_srg_1.20.1.jar        | Auditory                       | auditory                       | 0.0.6-1.20.1         |
+		| claimorous-0.9.2$toml4j-0.7.2_mapped_srg_1.20.1.ja | toml4j                         | com_moandjiezana_toml_toml4j   | 0.7.2                |
+		| language-reload-1.5.10+1.20.1_mapped_srg_1.20.1.ja | Language Reload                | languagereload                 | 1.5.101.20.1         |
+		| citresewn-1.2.2+1.20.1$citresewn-defaults-1.2.2+1. | CIT Resewn: Defaults           | citresewn_defaults             | 1.2.21.20.1          |
+		| spellbound-1.20.3$modify-drops-api-0.5.1.1_mapped_ | Modify Drops API               | modify_drops_api               | 0.5.1.1              |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-cbor-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| Debugify-1.20.1+2.0_mapped_srg_1.20.1.jar          | Debugify                       | debugify                       | 1.20.12.0            |
+		| extraalchemy-fabric-1.20.1-1.10.0_mapped_srg_1.20. | Extra Alchemy                  | extraalchemy                   | 1.10.0               |
+		| mob-ai-tweaks-1.8.3-1.20.1_mapped_srg_1.20.1.jar   | Mob AI Tweaks                  | mob_ai_tweaks                  | 1.8.3                |
+		| owo-lib-0.11.2+1.20_mapped_srg_1.20.1.jar          | oωo                            | owo                            | 0.11.21.20           |
+		| bountifulfares-1.2.1-1.20.1$terraform-wood-api-v1- | Terraform Wood API (v1)        | terraform_wood_api_v1          | 7.0.1                |
+		| claimorous-0.9.2_mapped_srg_1.20.1.jar             | Claimorous!                    | claimorous                     | 0.9.2                |
+		| libjf-3.12.5$libjf-base-unspecified_mapped_srg_1.2 | LibJF Base                     | libjf_base                     | 3.12.5               |
+		| respackopts-4.6.2$muscript-1.4-SNAPSHOT_mapped_srg | muscript                       | io_gitlab_jfronny_muscript     | 1.4-SNAPSHOT         |
+		| perspective-1.2.0-alpha.2+1.20.0-1$crowdin-transla | CrowdinTranslate               | crowdin_translate              | 1.41.19.3            |
+		| ohmymeteors-0.3.0+1.20.1_mapped_srg_1.20.1.jar     | Oh My, Meteors!                | ohmymeteors                    | 0.3.01.20.1          |
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.8.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.8.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.8.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.8.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.8.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar crash_assistant TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar lazyyyyy TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-transmogrifier TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		kotlinforforge@4.11.0
+		javafml@null
+		lowcodefml@null

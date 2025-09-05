@@ -23,6 +23,8 @@
 	powerful_thruster_energy_consume_rate = 0
 	#Powerful thruster oxygen consume rate. (mB/t) which hydrogen will consume twice as much.
 	powerful_thruster_fuel_consume_rate = 0
+	#This setting will allow thruster flame to push and to burn entities in its area, and set the first block it hits on fire.
+	thruster_flame_impact = true
 
 [Misc]
 	#Max force the drag inducer can use to slow down
@@ -71,4 +73,8 @@
 	#However then you can only build blocks on ships.
 	#It is highly recommended to turn on Misc.enable_place_ship_platform at same time.
 	enable_empty_space_chunk = false
+	#Disable the beam rendering from the detonator item. Can significantly improve FPS
+	disable_detonator_render = true
+	#Disables the rendering of the projector block. Enable this for more FPS if you don't need the projector
+	disable_projector_render = false
 

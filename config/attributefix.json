@@ -528,6 +528,17 @@
         "value": 1024
       }
     },
+    "windswept:fragrance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:water_visibility": {
       "enabled": false,
       "min": {
@@ -790,6 +801,17 @@
       "max": {
         "default": Infinity,
         "value": Infinity
+      }
+    },
+    "windswept:snow_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "sons_of_sins:cooldown_cap": {
@@ -1934,6 +1956,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "windswept:sprint_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "savage_and_ravage:explosive_damage_reduction": {

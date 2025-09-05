@@ -1,5 +1,5 @@
-#The version of the config. DO NOT CHANGE IT :D | default= 2 | type= Integer
-version:2
+#The version of the config. DO NOT CHANGE IT :D | default= 3 | type= Integer
+version:3
 
 #Expressed in blocks, represents the min distance (as in a radius) from the origin of the meteor (like a player) in which the meteor wont' spawn in. (Remember that it has an angled trajectory so it could end up in that area regardless) | default= 2 | type= Integer
 min_meteor_spawn_distance:50
@@ -27,6 +27,8 @@ natural_meteor_min_size:1
 natural_meteor_max_size:10
 #A factor to ADD to the explosion power (by default, the power is equal to the meteor size), thus increasing the damage and radius of the explosion. Also supports negative numbers | default= 0 | type= Integer
 explosion_power_modifier:0
+#A factor to ADD to the speed at which the meteor falls downwards. It is added to a randomly generated number between 1 and 0. Also supports negative numbers | default= 0 | type= Integer
+downwards_speed_modifier:0
 
 #Should meteors bypass leaves blocks instead of colliding with them midair? | default= true | type= Boolean
 should_bypass_leaves:true
@@ -88,4 +90,19 @@ special_meteors_chance:10
 
 #Should meteor and laser particles be forced? They will be rendered further away and look better, but if there are too many of them you may want to disable this for lag reasons. Note: some particles will never displays as forced, like the lasers target box | default= true | type= Boolean
 use_forced_particles:true
+
+#A list of the IDs of the dimensions in which meteors can naturally spawn in, vanilla or not. | default= [minecraft:overworld, minecraft:the_end] | type= List12
+spawn_dimensions:[minecraft:overworld, minecraft:the_end]
+#A map consisting of dimension=chance of spawning. The dimension must be present in the list above, otherwise meteors won't spawn at all. This chance will ALWAYS ovveride the default if present. The spawn chance works as described above. | default= {minecraft:the_end=200000} | type= Map1
+dimension_chances:{minecraft:the_end=200000}
+#The same as above but with a possibly different chance at night if enabled | default= {minecraft:the_end=100000} | type= Map1
+dimension_night_chances:{minecraft:the_end=100000}
+#If set to false will behave like a blacklist, aka meteors won't spawn in those biomes. If true will behave like a whitelist, meteors will spawn ONLY in those biomes. | default= false | type= Boolean
+biome_list_mode:false
+#A black or whitelist of the biomes in which meteor will or will not spawn according to the setting above | default= [minecraft:cherry_grove, minecraft:soul_sand_valley, modname:modbiome] | type= ListN
+biome_spawn_list:[minecraft:cherry_grove, minecraft:soul_sand_valley, modname:modbiome]
+#A map consisting of biome=chance of spawning. The spawn chance works as described above. The meteors must be able to spawn in those biomes, otherwise they won't! | default= {modname:modbiome=2025, minecraft:desert=19990} | type= MapN
+biome_chances:{modname:modbiome=2025, minecraft:desert=19990}
+#The same as above but with a possibly different chance at night if enabled | default= {modname:modbiome=2025, minecraft:desert=9995} | type= MapN
+biome_night_chances:{modname:modbiome=2025, minecraft:desert=9995}
 

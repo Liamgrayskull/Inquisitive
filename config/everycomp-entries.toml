@@ -69,6 +69,7 @@
 
 		[types.wood_type.netherexp]
 			claret = true
+			smokestalk = true
 
 		[types.wood_type.gardens_of_the_dead]
 			soulblight = true
@@ -115,6 +116,14 @@
 
 		[types.wood_type.autumnity]
 			maple = true
+
+		[types.wood_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+
+		[types.wood_type.dimdoors]
+			driftwood = true
 
 	[types.leaves_type]
 
@@ -240,6 +249,15 @@
 
 		[types.leaves_type.rainbowoaks]
 			rainbow = true
+
+		[types.leaves_type.windswept]
+			holly = true
+			chestnut = true
+			pine = true
+			flowering_acacia = true
+
+		[types.leaves_type.dimdoors]
+			driftwood = true
 
 	[types.cake]
 
