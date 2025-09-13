@@ -45,6 +45,10 @@
 		#If Woodworks is loaded, whether all sawmill recipes should becomes stonecutter recipes instead.
 		"Stonecutter more like woodcutter am I right" = false
 
+	[Vanilla.bed]
+		#If having monsters next to you or being too far from bed should no longer prevent you from sleeping
+		"Good ahh sleep" = true
+
 [atmospheric]
 
 	[atmospheric.Oranges]
@@ -125,4 +129,11 @@
 	["John Species"."Combustion Effect"]
 		#If explosions caused by mobs that die with the Species Combustion effect should not any blcks
 		"Less combusty combustion" = false
+
+["jaden nether expansion"]
+
+	["jaden nether expansion"."Bone Rods"]
+		#If bone rods should be placed by right clicking vanilla bones, instead of having a new bone rod item
+		#This will not change the loot table or recipe for bone rods. Modpack devs are expected to change those themselves
+		"Bone ahh bone" = false
 

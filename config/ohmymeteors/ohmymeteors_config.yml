@@ -1,10 +1,10 @@
-#The version of the config. DO NOT CHANGE IT :D | default= 3 | type= Integer
-version:3
+#The version of the config. DO NOT CHANGE IT :D | default= 4 | type= Integer
+version:4
 
 #Expressed in blocks, represents the min distance (as in a radius) from the origin of the meteor (like a player) in which the meteor wont' spawn in. (Remember that it has an angled trajectory so it could end up in that area regardless) | default= 2 | type= Integer
-min_meteor_spawn_distance:50
+min_meteor_spawn_distance:2
 #Expressed in blocks, represents the max distance (as in a radius) from the origin of the meteor (like a player) in which a meteor can spawn in. (Remember that it has an angled trajectory so it could end up in that area regardless) | default= 25 | type= Integer
-max_meteor_spawn_distance:200
+max_meteor_spawn_distance:25
 #The world height (y level) at which meteors spawn in | default= 300 | type= Integer
 meteor_spawn_height:300
 #Expressed as '1 in <x>' chances of spawning a meteor. For example, by default it has a chance of 1 in 20000 | default= 20000 | type= Integer
@@ -30,9 +30,9 @@ explosion_power_modifier:0
 #A factor to ADD to the speed at which the meteor falls downwards. It is added to a randomly generated number between 1 and 0. Also supports negative numbers | default= 0 | type= Integer
 downwards_speed_modifier:0
 
-#Should meteors bypass leaves blocks instead of colliding with them midair? | default= true | type= Boolean
+#This option has no effect as of version 0.4.0. Please use the 'ohmymeteors:meteor_bypasses' tag instead. | default= true | type= Boolean
 should_bypass_leaves:true
-#Should the bypassed leaves be destroyed when the meteor passes through them? | default= true | type= Boolean
+#This option has no effect as of version 0.4.0. Please use the 'ohmymeteors:meteor_bypasses_and_destroy' tag instead | default= true | type= Boolean
 should_destroy_leaves:true
 #Should meteors be (more or less) directed towards the nearest player? | default= false | type= Boolean
 homing_meteors:false
@@ -41,7 +41,7 @@ announce_meteor_spawn:false
 #Should players get a message in chat/hotbar when a meteor is destroyed? | default= false | type= Boolean
 announce_meteor_destroyed:false
 #Should the above announcement be displayed above the hotbar in the actionbar or in chat? | default= true | type= Boolean
-actionbar_announcements:false
+actionbar_announcements:true
 #Should the explosion sound of the meteor be heard by all players online? | default= false | type= Boolean
 global_explosion_sound:false
 #Should the explosion sound of the meteor be heard by all players around a certain area from the impact point? | default= false | type= Boolean
@@ -67,9 +67,9 @@ basic_laser_area_radius:32
 #How many blocks up from the position of the basic laser should meteors be checked for? (note that the detection box is only 2 blocks thick, not the whole way) | default= 64 | type= Integer
 basic_laser_height:64
 #The radius in blocks of the xz area covered by the advanced laser block, where meteors will be blown up | default= 48 | type= Integer
-advanced_laser_area_radius:64
+advanced_laser_area_radius:48
 #How many blocks up from the position of the advanced laser should meteors be checked for? (note that the detection box is only 2 blocks thick, not the whole way) | default= 64 | type= Integer
-advanced_laser_height:164
+advanced_laser_height:64
 #Should the laser be in a cooldown where it can't fire, after it has just fired? | default= true | type= Boolean
 should_basic_laser_cooldown:true
 #How many seconds should this cooldown last? | default= 3 | type= Integer
@@ -84,7 +84,7 @@ max_small_meteor_size:4
 #The maximum size of meteor that can be considered medium, and will spawn a medium meteor structure upon impact | default= 7 | type= Integer
 max_medium_meteor_size:7
 #The maximum size of meteor that can be considered big, and will spawn a big meteor structure upon impact. Only these can spawn a meteor cat by default. | default= 20 | type= Integer
-max_big_meteor_size:7
+max_big_meteor_size:20
 #The chance of spawning a special meteor structure in a certain size category (for example the meteor cat meteor) (works like the other chances, aka 1 in x probability) | default= 10 | type= Integer
 special_meteors_chance:10
 
@@ -105,4 +105,9 @@ biome_spawn_list:[minecraft:cherry_grove, minecraft:soul_sand_valley, modname:mo
 biome_chances:{modname:modbiome=2025, minecraft:desert=19990}
 #The same as above but with a possibly different chance at night if enabled | default= {modname:modbiome=2025, minecraft:desert=9995} | type= MapN
 biome_night_chances:{modname:modbiome=2025, minecraft:desert=9995}
+
+#If true will use a spherical explosion instead of the vanilla cubical one. These look nicer at higher explosion power/ranges, but after power 100 become quite laggy. | default= true | type= Boolean
+use_better_explosions:true
+#How far should meteors be rendered. WARNING: YOU NEED TO RESTART YOUR SERVER AND CLIENT IF YOU CHANGE THIS VALUE in order for it to take effect. It is multiplied by the 'entity render' distance of the server | default= 200 | type= Integer
+meteor_render_distance:200
 

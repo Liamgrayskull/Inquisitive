@@ -1,0 +1,1 @@
+{"jarName":"amble-1.1.14-1.20.1+forge-beta.jar","modId":"amblekit","version":"1.1.14-1.20.1+forge-beta","mixinConfigs":["multidim.mixins.json","scheduler.mixins.json","animation.mixins.json","queue.mixins.json","amblekit.mixins.json"],"jarJarMods":[{"jarName":"exp4j-0.4.8.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

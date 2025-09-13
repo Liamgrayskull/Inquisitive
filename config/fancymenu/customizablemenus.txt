@@ -102,3 +102,9 @@ com.claimorous.screen.ClaimAnchorScreen {
 net.minecraft.client.gui.screens.DeathScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
+}
+

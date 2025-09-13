@@ -3,6 +3,6 @@
   "serverPlayTimePosition": "left",
   "serverPlayTimeColor": "(128, 128, 128, 255)",
   "showWorldPlayTime": true,
-  "worldPlayTimePosition": "left",
+  "worldPlayTimePosition": "right",
   "worldPlayTimeColor": "(128, 128, 128, 255)"
 }

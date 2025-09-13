@@ -1,22 +1,27 @@
-Mods count: 363
+Mods count: 360
  
 jar name                                                                              | mod id (isMCreator)                                      | mixin configs
-fmlloader-1.20.1-47.4.8.jar (modloader)                                               | forge                                                    | 
-abnormals_delight-1.20.1-5.0.0.jar                                                    | abnormals_delight                                        | abnormals_delight.mixins.json
+fmlloader-1.20.1-47.4.0.jar (modloader)                                               | forge                                                    | 
+abnormals_delight-1.20.1-5.0.1.jar                                                    | abnormals_delight                                        | abnormals_delight.mixins.json
 ad_astra-forge-1.20.1-1.15.19.jar                                                     | ad_astra                                                 | adastra.mixins.json, adastra-common.mixins.json
     /META-INF/jars/jlayer-1.0.1.jar                                                   |                                                          | 
 AdditionalPlacements-1.20-1.8.0.jar                                                   | additionalplacements                                     | mixins.additionalplacements.json, mixins.additionalplacements.refmap.json
 AI-Improvements-1.20-0.5.2.jar                                                        | aiimprovements                                           | 
+aitforger-1.0.4+1.2.12.jar                                                            | aitforger                                                | 
+    /META-INF/jarjar/bootstrap.jar                                                    | aitforger                                                | aitforger.mixins.json
+    /META-INF/jarjar/remapped.jar                                                     | ait                                                      | planet.mixins.json, gun.mixins.json, ait.mixins.json, gaslighter.mixins.json
+    /META-INF/jarjar/shim.jar                                                         | aitforger_mixin_shim                                     | 
 alexscaves-2.0.2.jar                                                                  | alexscaves                                               | citadel.mixins.json, alexscaves.mixins.json
 alexsmobs-1.22.9.jar                                                                  | alexsmobs                                                | citadel.mixins.json
 allurement-1.20.1-4.0.0.jar                                                           | allurement                                               | allurement.mixins.json
 AlwaysEat-5.2.jar                                                                     | salwayseat                                               | 
 AmbientEnvironment-forge-1.20.1-11.0.0.1.jar                                          | ambientenvironment                                       | ambientenvironment.mixins.json
+amble-1.1.14-1.20.1+forge-beta.jar                                                    | amblekit                                                 | multidim.mixins.json, scheduler.mixins.json, animation.mixins.json, queue.mixins.json, amblekit.mixins.json
+    /META-INF/jars/exp4j-0.4.8.jar                                                    |                                                          | 
 amendments-1.20-2.0.7.jar                                                             | amendments                                               | amendments-common.mixins.json, amendments.mixins.json
 antique-atlas-2.11.2+1.20.jar                                                         | antique_atlas                                            | antique_atlas.mixins.json
 Aquaculture-1.20.1-2.5.5.jar                                                          | aquaculture                                              | 
 aquaculturedelight-1.1.1-forge-1.20.1.jar                                             | aquaculturedelight (MCreator mod)                        | 
-aquifers-be-gone-forge-1.20.1-1.2.0.jar                                               | aquifersbegone                                           | aquifersbegone.common.mixins.json
 ArcheryExpansion-forge-1.20.1-1.0.6-all.jar                                           | archeryexp                                               | archeryexp.forge.mixins.json, archeryexp.mixins.json
 archexpsquared-0.3.0.jar                                                              | archexpsquared                                           | 
 Architects-Palette-1.20.1-1.3.6.1.jar                                                 | architects_palette                                       | architects_palette.mixins.json
@@ -25,20 +30,16 @@ armorcurve-3.0.jar                                                              
 async-pack-scan-0.2.0.jar                                                             | async-pack-scan                                          | async-pack-scan.mixins.json, async-pack-scan.client.mixins.json
 atmospheric-1.20.1-6.1.1.jar                                                          | atmospheric                                              | atmospheric.mixins.json
 AttributeFix-Forge-1.20.1-21.0.4.jar                                                  | attributefix                                             | attributefix.mixins.json
-auditory-0.0.6-1.20.1.jar                                                             | auditory                                                 | auditory.mixins.json
-    /META-INF/jars/cloth-config-fabric-11.1.118.jar                                   | cloth-config                                             | 
-        /META-INF/jars/basic-math-0.6.1.jar                                           | cloth-basic-math                                         | 
 autumnity-1.20.1-5.0.2.jar                                                            | autumnity                                                | autumnity.mixins.json
 BadOptimizations-2.3.0-1.20.1.jar                                                     | badoptimizations                                         | forge-badoptimizations.mixins.json, fabric-badoptimizations.mixins.json
-balm-forge-1.20.1-7.3.34-all.jar                                                      | balm                                                     | balm.mixins.json
-    /META-INF/jarjar/kuma-api-forge-20.1.10+1.20.1.jar                                | kuma_api                                                 | kuma_api.forge.mixins.json, kuma_api.mixins.json
+balm-forge-1.20.1-7.3.35-all.jar                                                      | balm                                                     | balm.mixins.json
+    /META-INF/jarjar/kuma-api-forge-20.1.11+1.20.1.jar                                | kuma_api                                                 | kuma_api.forge.mixins.json, kuma_api.mixins.json
 BeansBackpacks-forge-1.20.1-2.0.2.jar                                                 | beansbackpacks                                           | beansbackpacks.mixins.json, beansbackpacks.forge.mixins.json
 berry_good-1.20.1-7.0.0.jar                                                           | berry_good                                               | berry_good.mixins.json
 better-clouds-1.3.35-beta+1.20.1-forge.rev.edd63c1.jar                                | betterclouds                                             | betterclouds.optional.mixins.json, betterclouds.runtime.mixins.json, betterclouds.required.mixins.json
     /META-INF/jars/api-5.0.0.jar                                                      |                                                          | 
 BetterAdvancements-NeoForge-1.20.1-0.4.2.25.jar                                       | betteradvancements                                       | 
 bettercombat-forge-1.8.6+1.20.1.jar                                                   | bettercombat                                             | bettercombat.mixins.json
-BetterCompatibilityChecker-3.0.1-build.58+mc1.20.jar                                  | bcc                                                      | bcc.mixins.json
 BetterF3-7.0.2-Forge-1.20.1.jar                                                       | betterf3                                                 | betterf3.mixins.json, betterf3.forge.mixins.json
 Block+Swap-forge-1.20.1-5.0.0.0.jar                                                   | blockswap                                                | blockswap_forge.mixins.json, blockswap.mixins.json
 blueprint-1.20.1-7.1.3.jar                                                            | blueprint                                                | blueprint.mixins.json
@@ -112,17 +113,21 @@ cullleaves-forge-3.2.0.jar                                                      
 curios-forge-5.14.1+1.20.1.jar                                                        | curios                                                   | curios.mixins.json
 cwb-forge-3.0.0+mc1.20.jar                                                            | cubes_without_borders                                    | cubes-without-borders.mixins.json
 cyanide-forge-1.20.1-4.1.1.jar                                                        | cyanide                                                  | cyanide.mixins.json, cyanide.common.mixins.json
+Darker Depths-1.20.1-2.0.4.jar                                                        | darkerdepths                                             | darkerdepths.mixins.json
 darkness-1.20.1-1.0.1.jar                                                             | darkness                                                 | darkness.client.json, mixin.refmap.json
 Debugify-1.20.1+2.0.jar                                                               | debugify                                                 | debugify.mixins.json, debugify.client.mixins.json
 deeper-oceans-2.0.0-forge-1.20.1.jar                                                  | deeper_oceans                                            | deeper_oceans.mixins.json
-DeepNetherPortal-v1.0.4_Forge-1.20.1.jar                                              | deepnether (MCreator mod)                                | 
+DeepNetherPortal-v1.1.0_Forge-1.20.1.jar                                              | deepnether (MCreator mod)                                | 
 DefaultWorldType-1.20.1-4.0.4.jar                                                     | defaultworldtype                                         | defaultworldtype.mixins.json
 dense-flowers-0.2.1+mc1.20.1.jar                                                      | dense-flowers                                            | dense-flowers.mixins.json
 diet-forge-2.1.1+1.20.1.jar                                                           | diet                                                     | diet.mixins.json
     /META-INF/jarjar/spectrelib-forge-0.13.14+1.20.1.jar                              | spectrelib                                               | 
+dimdoors-5.4.4-1.20.1-forge.jar                                                       | dimdoors                                                 | dimdoors.mixins.json, dimdoors-common.mixins.json
+    /META-INF/jars/flow-math-1.0.3.jar                                                |                                                          | 
+    /META-INF/jars/jgrapht-core-1.1.0.jar                                             |                                                          | 
+    /META-INF/jars/poly2tri.java-0.1.1.jar                                            |                                                          | 
 do_a_barrel_roll-forge-3.5.6+1.20.1.jar                                               | do_a_barrel_roll                                         | do_a_barrel_roll.forge.mixins.json, do_a_barrel_roll.mixins.json
-dolt_mod_how-1.20.1-2.4.1-all.jar                                                     | dolt_mod_how                                             | dolt_mod_how.mixins.json
-domesticationinnovation-1.7.1-1.20.1.jar                                              | domesticationinnovation                                  | domesticationinnovation.mixins.json, citadel.mixins.json
+dolt_mod_how-1.20.1-2.4.2-all.jar                                                     | dolt_mod_how                                             | dolt_mod_how.mixins.json
 Doom & Gloom 1.20.1.jar                                                               | doom_and_gloom                                           | doom_and_gloom.mixins.json
     /META-INF/jarjar/hats-forge-1.20.1-1.1.2.jar                                      | galena_hats                                              | galena_hats.mixins.json
 drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar                                        | drippyloadingscreen                                      | drippyloadingscreen.forge.mixins.json, drippyloadingscreen.mixins.json
@@ -150,8 +155,8 @@ endergetic-1.20.1-5.0.1.jar                                                     
 endrem_forge-5.3.3-R-1.20.1.jar                                                       | endrem                                                   | endrem.mixins.json
 enhanced_mushrooms-5.0.0.jar                                                          | enhanced_mushrooms                                       | 
 enlightend-5.0.14-1.20.1.jar                                                          | enlightened_end (MCreator mod)                           | 
-entity_model_features_1.20.1-forge-3.0.1.jar                                          | entity_model_features                                    | entity_model_features.mixins.json
-entity_texture_features_1.20.1-forge-7.0.2.jar                                        | entity_texture_features                                  | entity_texture_features.mixins.json
+entity_model_features_forge_1.20.1-2.4.1.jar                                          | entity_model_features                                    | entity_model_features-common.mixins.json, entity_model_features-optional.mixins.json, entity_model_features.mixins.json
+entity_texture_features_forge_1.20.1-6.2.9.jar                                        | entity_texture_features                                  | entity_texture_features-forge.mixins.json, entity_texture_features-common.mixins.json
     /META-INF/jars/httpmime-4.5.10.jar                                                |                                                          | 
 entityculling-forge-1.8.2-mc1.20.1.jar                                                | entityculling                                            | entityculling.mixins.json, entityculling.refmap.mixins.json
     /META-INF/jars/TRender-1.0.5-1.20.1-forge-SNAPSHOT.jar                            | trender                                                  | trender.mixins.json, trender.refmap.mixins.json
@@ -285,7 +290,6 @@ fancymenu_forge_3.7.0_MC_1.20.1.jar                                             
     /META-INF/jarjar/japng-0.5.3.jar                                                  |                                                          | 
 FarmersDelight-1.20.1-1.2.9.jar                                                       | farmersdelight                                           | farmersdelight.mixins.json
 farmersrespite-1.20.1-2.1.2.jar                                                       | farmersrespite                                           | farmersrespite.mixins.json
-FarmersStructures-1.0.3-1.20.jar                                                      | farmers_structures (MCreator mod)                        | 
 fasterrandom-5.1.0.jar                                                                | faster-random                                            | fasterrandom.mixins.json
 FastFurnace-1.20.1-8.0.2.jar                                                          | fastfurnace                                              | fastfurnace.mixins.json
 fastquit-3.0.0+1.20+.jar                                                              | fastquit                                                 | fastquit.mixins.json
@@ -294,7 +298,8 @@ FastWorkbench-1.20.1-8.0.4.jar                                                  
 ferritecore-6.0.1-forge.jar                                                           | ferritecore                                              | ferritecore.modelsides.mixin.json, ferritecore.mrl.mixin.json, ferritecore.dedupbakedquad.mixin.json, ferritecore.threaddetec.mixin.json, ferritecore.blockstatecache.mixin.json, ferritecore.dedupmultipart.mixin.json, ferritecore.fastmap.mixin.json, ferritecore.predicates.mixin.json
 foglooksmodernnow-1.2.1.jar                                                           | foglooksmodernnow                                        | foglooksmodernnow.mixins.json
 foragersinsight-1.20.1-1.0(TnT).jar                                                   | foragersinsight                                          | foragersinsight.mixins.json
-forge-dungeonsdelight-1.20.1-1.2.6.jar                                                | dungeonsdelight                                          | dungeonsdelight.mixin.json
+forge-dungeonsdelight-1.20.1-1.2.8.jar                                                | dungeonsdelight                                          | dungeonsdelight.mixin.json
+forge-runiclib-1.20.1-4.3.7.jar                                                       | runiclib                                                 | runiclib.forge.mixins.json, runiclib.mixins.json
 ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar                                            | forgeconfigscreens                                       | 
 frame_changer-1.20.1-2.0.2-all.jar                                                    | frame_changer                                            | frame_changer.mixins.json
 framework-forge-1.20.1-0.7.6.jar                                                      | framework                                                | 
@@ -309,24 +314,22 @@ gardens-of-the-dead-forge-4.0.1.jar                                             
 geckolib-forge-1.20.1-4.7.4.jar                                                       | geckolib                                                 | geckolib.mixins.json
     /META-INF/jarjar/mclib-20.jar                                                     |                                                          | 
 global-server-config-forge-1.18.2+-1.0.jar                                            | global_server_config                                     | global_server_config.mixins.json
-glow-1.2.0.jar                                                                        | glow                                                     | 
 habitat-1.3.1.jar                                                                     | habitat                                                  | habitat.mixins.json
 hardcorerevival-forge-1.20.1-12.0.8.jar                                               | hardcorerevival                                          | hardcorerevival.mixins.json
 hardernaturalhealing-1.20-46.1.14.jar                                                 | hardernaturalhealing                                     | 
 hauntedharvest-1.20-3.2.0.jar                                                         | hauntedharvest                                           | hauntedharvest-common.mixins.json, hauntedharvest.mixins.json
 healpgood-1.4.1F.jar                                                                  | healpgood                                                | mixins.healpgood.json
-heart_crystals-1.20.1-2.1.0.jar                                                       | heart_crystals                                           | heart_crystals.mixins.json
+heart_crystals-1.20.1-2.1.1.jar                                                       | heart_crystals                                           | heart_crystals.mixins.json
 hearthandharvest-1.20.1-1.0.12.jar                                                    | hearthandharvest                                         | 
 heartstone-1.20-1.3.0.jar                                                             | heartstone                                               | heartstone-common.mixins.json, heartstone.mixins.json
-hexlands-forge-1.20-5.0.0.jar                                                         | hexlands                                                 | hexlands.common.mixins.json, hexlands.mixins.json
 holdmyitems-1.20.1-4v2.0.jar                                                          | holdmyitems                                              | holdmyitems.mixins.json
 hourglass-1.20-1.2.1.1.jar                                                            | hourglass                                                | 
 idas_forge-1.10.3+1.20.1.jar                                                          | idas                                                     | idas.mixins.json
 immersive-hotbar-1.0.4-1.20-1.20.4.jar                                                | immersive-hotbar                                         | immersive-hotbar.mixins.json, immersive-hotbar.client.mixins.json
-immersive_aircraft-1.3.3+1.20.1-forge.jar                                             | immersive_aircraft                                       | immersive_aircraft.mixins.json
+immersive_aircraft-1.4.0+1.20.1-forge.jar                                             | immersive_aircraft                                       | immersive_aircraft.mixins.json
     /META-INF/jars/MathParser.org-mXparser-5.2.1.jar                                  |                                                          | 
 immersive_melodies-0.6.0+1.20.1-forge.jar                                             | immersive_melodies                                       | immersive_melodies.mixin.json
-immersive_optimization-forge-1.20.1-0.0.4.jar                                         | immersive_optimization                                   | immersive_optimization.mixins.json
+immersive_optimization-forge-1.20.1-0.1.0.jar                                         | immersive_optimization                                   | immersive_optimization.mixins.json
 immersive_weathering-1.20.1-2.0.5-forge.jar                                           | immersive_weathering                                     | immersive_weathering-common.mixins.json, immersive_weathering.mixins.json
 ImmersiveUI-FORGE-0.3.0.jar                                                           | immersiveui                                              | immersiveui-common.mixins.json, immersiveui.mixins.json
 incubation-1.20.1-4.0.4.jar                                                           | incubation                                               | incubation.mixins.json
@@ -374,7 +377,6 @@ libjf-3.12.5.jar                                                                
     /META-INF/jars/libjf-web-v0-unspecified.jar                                       | libjf-web-v0                                             | 
         /META-INF/jars/fabric-command-api-v2-2.2.12+b3afc78b77.jar                    | fabric-command-api-v2                                    | fabric-command-api-v2.mixins.json, fabric-command-api-v2.client.mixins.json
 lithostitched-forge-1.20.1-1.4.11.jar                                                 | lithostitched                                            | lithostitched.mixins.json, lithostitched.forge.mixins.json
-lmft-1.0.4+1.20.1-forge.jar                                                           | lmft                                                     | lmft.mixins.json, lmft-common.mixins.json
 lootr-forge-1.20-0.7.35.93.jar                                                        | lootr                                                    | lootr.mixins.json
 man_of_many_planes-0.2.0+1.20.1-forge.jar                                             | man_of_many_planes                                       | man_of_many_planes-common.mixins.json, man_of_many_planes.mixins.json
 material-beacons-1.0.1+1.20.1.jar                                                     | material_beacons                                         | material_beacons.mixins.json
@@ -397,7 +399,7 @@ modmenu-7.2.2.jar                                                               
     /META-INF/jars/fabric-key-binding-api-v1-1.0.36+fb8d95da77.jar                    | fabric-key-binding-api-v1                                | fabric-key-binding-api-v1.mixins.json
     /META-INF/jars/fabric-lifecycle-events-v1-2.2.20+b3afc78b77.jar                   | fabric-lifecycle-events-v1                               | fabric-lifecycle-events-v1.client.mixins.json, fabric-lifecycle-events-v1.mixins.json
 molten_metals-1.20.1-0.1.4-forge.jar                                                  | molten_metals                                            | molten_metals.mixins.json, molten_metals-common.mixins.json
-moonlight-1.20-2.16.8-forge.jar                                                       | moonlight                                                | moonlight.mixins.json, moonlight-common.mixins.json
+moonlight-1.20-2.16.10-forge.jar                                                      | moonlight                                                | moonlight.mixins.json, moonlight-common.mixins.json
 mostructures-1.4.5+1.20.1.jar                                                         | mostructures                                             | mostructures.mixins.json
     /META-INF/jars/omega-config-1.4.1-1.20.1.jar                                      | omega-config                                             | omega-config.mixins.json
 MouseTweaks-forge-mc1.20.1-2.25.1.jar                                                 | mousetweaks                                              | mousetweaks-fabric.mixins.json, mousetweaks.mixins.refmap.json, mousetweaks.mixins.json
@@ -431,14 +433,13 @@ OctoLib-FORGE-0.5.0.1+1.20.1.jar                                                
     /META-INF/jars/snakeyaml-2.2.jar                                                  |                                                          | 
 oculus-mc1.20.1-1.8.0.jar                                                             | oculus                                                   | mixins.oculus.compat.sodium.json, sodiumCompatibility-oculus-mixins-refmap.json, mixins.oculus.integrationtest.json, mixins.oculus.compat.dh.json, mixins.oculus.vertexformat.json, mixins.oculus.fixes.maxfpscrash.json, oculus-batched-entity-rendering.mixins.json, mixins.oculus.compat.indium.json, mixins.oculus.json, oculus-mixins-refmap.json, mixins.oculus.compat.indigo.json, mixins.oculus.bettermipmaps.json, mixins.oculus.compat.pixelmon.json, mixins.oculus.fantastic.json
     /META-INF/jars/jcpp-1.4.14.jar                                                    |                                                          | 
-ohmymeteors-0.3.0+1.20.1.jar                                                          | ohmymeteors                                              | ohmymeteors.mixins.json
+ohmymeteors-1.0.0+1.20.1.jar                                                          | ohmymeteors                                              | ohmymeteors.mixins.json
     /META-INF/jars/particleanimationlib-0.1.2.jar                                     | particleanimationlib                                     | particleanimationlib.mixins.json
-    /META-INF/jars/structureplacerapi-1.1.4.jar                                       | structureplacerapi                                       | 
+    /META-INF/jars/structureplacerapi-1.1.6+1.20.1.jar                                | structureplacerapi                                       | 
 OneEnoughItem-1.0.3_hotfix-all.jar                                                    | oneenoughitem                                            | oneenoughitem.mixins.json
     /META-INF/jarjar/oelib-1319210-6841973.jar                                        | oelib                                                    | oelib.mixins.json
 onion_onion-1.20.1-2.0.4.jar                                                          | onion_onion                                              | onion_onion.mixins.json
-opalescence-1.0.3+1.20.1.jar                                                          | opalescence                                              | 
-Oreganized 1.20.1-4.2.3.jar                                                           | oreganized                                               | oreganized.mixins.json
+Oreganized 1.20.1-4.2.4.jar                                                           | oreganized                                               | oreganized.mixins.json
     /META-INF/jarjar/hats-forge-1.20.1-1.2.1.jar                                      | galena_hats                                              | galena_hats.mixins.json
     /META-INF/jarjar/multikulti-datagen-forge-fix-1.20.1-1.1.2.jar                    | multikulti_datagen_fixes                                 | multikulti_datagen_fixes.mixins.json
 Oreganized Carcinogenius 1.20.1-4.1.0.jar                                             | oreganized_carcinogenius                                 | 
@@ -454,6 +455,7 @@ paradise-lost-2.2.4-beta+1.20.0.jar                                             
 particle_core-0.2.6+1.20.1+forge.jar                                                  | particle_core                                            | particle_core.mixins.json
     /META-INF/jars/conditional-mixin-forge-0.6.4.jar                                  | conditional_mixin                                        | 
 particlerain-4.0.0-alpha.3+1.20.1-forge.jar                                           | particlerain                                             | particlerain.mixins.json
+ParticleTweaks-1.1.1-1.20.jar                                                         | particletweaks                                           | particletweaks.mixins.json, mixins.particletweaks.refmap.json
 PassableFoliage-1.20.1-forge-8.2.1.jar                                                | passablefoliage                                          | passablefoliage.mixins.json
 Patchouli-1.20.1-84.1-FORGE.jar                                                       | patchouli                                                | patchouli_xplat.mixins.json
 Paxi-1.20-Forge-4.0.jar                                                               | paxi                                                     | paxi.mixins.json, paxi_forge.mixins.json
@@ -471,7 +473,7 @@ playeranimatorapi-forge-1.20.1-2.1.7.jar                                        
     /META-INF/jars/zigysmultiloaderutils-forge-1.20.1-1.3.1.jar                       | zigysmultiloaderutils                                    | zigysmultiloaderutils-common.mixins.json, zigysmultiloaderutils.mixins.json
 polymorph-forge-0.49.10+1.20.1.jar                                                    | polymorph                                                | polymorph.mixins.json, polymorph-integrations.forge.mixins.json
     /META-INF/jarjar/spectrelib-forge-0.13.17+1.20.1.jar                              | spectrelib                                               | 
-polytone-1.20-3.5.5.jar                                                               | polytone                                                 | polytone.mixins.json, polytone-common.mixins.json
+polytone-1.20-3.5.7.jar                                                               | polytone                                                 | polytone.mixins.json, polytone-common.mixins.json
     /META-INF/jars/exp4j-0.4.8.jar                                                    |                                                          | 
 portfolio-1.20.1-1.4.0-forge.jar                                                      | portfolio                                                | 
 Poscendo-1.20.1-1.1.0.jar                                                             | poscendo                                                 | poscendo.mixins.json
@@ -506,7 +508,6 @@ RoughlyEnoughItems-12.1.785-forge.jar                                           
 RubinatedNether-forge-1.3.0.E-1.20.1.jar                                              | rubinated_nether                                         | rubinated_nether.mixins.json
     /META-INF/jars/critter-forge-0.1-beta.14.jar                                      | critter_lib                                              | 
     /META-INF/jars/resourcefulconfig-forge-1.20.1-2.1.2.jar                           | resourcefulconfig                                        | 
-RunicLib-forge-1.20.1-4.3.5.jar                                                       | runiclib                                                 | runiclib.forge.mixins.json, runiclib.mixins.json
 RyoamicLights-forge-0.2.3+mc1.20.1.jar                                                | ryoamiclights                                            | ryoamiclights.forge.mixins.json, ryoamiclights.common.mixins.json
 salt-1.20.1-1.2.6.jar                                                                 | salt                                                     | mixins.salt.refmap.json, mixins.salt.json
 sapience-1.20.1-1.0.0.jar                                                             | sapience                                                 | sapience.mixins.json
@@ -529,7 +530,7 @@ shortstacks-1.2.1.jar                                                           
 shutter-2.2.0-1.20.1.jar                                                              | shutter                                                  | mixins.shutter.refmap.json, mixins.shutter.json
 simpleradio-forge-1.20.1-3.4.6.jar                                                    | simpleradio                                              | simpleradio.forge.mixins.json, simpleradio.mixins.json
 SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar                                     | skyvillages                                              | 
-sleep_tight-1.20-1.4.5.jar                                                            | sleep_tight                                              | sleep_tight.mixins.json, sleep_tight-common.mixins.json
+sleep_tight-1.20-1.4.6.jar                                                            | sleep_tight                                              | sleep_tight.mixins.json, sleep_tight-common.mixins.json
 smoothscroll-2.2.3.1+1.20.1.jar                                                       | smoothscroll                                             | smoothscroll.mixins.json
 smoothskies-1.1.0.jar                                                                 | smoothskies                                              | smoothskies.mixins.json
 smoothswapping-0.9.3.1-1.20.2-fabric.jar                                              | smoothswapping                                           | smoothswapping-common.mixins.json
@@ -583,24 +584,18 @@ surveyor-0.6.26+1.20.jar                                                        
 surveystones-1.3.1+1.20.jar                                                           | surveystones                                             | surveystones.mixins.json
 symbol-chat-1.20.1-1.1.2.jar                                                          | symbol-chat                                              | symbol-chat.mixins.json
 TansHugeTrees-1.5.2-forge-1.20.1.jar                                                  | tanshugetrees                                            | 
-tellme-fabric-1.20.1-0.9.1.jar                                                        | tellme                                                   | mixins.tellme.json
-    /META-INF/jars/fabric-api-base-0.4.29+b04edc7a77.jar                              | fabric-api-base                                          | 
-    /META-INF/jars/fabric-command-api-v2-2.2.11+b3afc78b77.jar                        | fabric-command-api-v2                                    | fabric-command-api-v2.mixins.json, fabric-command-api-v2.client.mixins.json
-    /META-INF/jars/fabric-networking-api-v1-1.3.8+b3afc78b77.jar                      | fabric-networking-api-v1                                 | fabric-networking-api-v1.mixins.json, fabric-networking-api-v1.client.mixins.json
-    /META-INF/jars/fabric-registry-sync-v0-2.2.6+b3afc78b77.jar                       | fabric-registry-sync-v0                                  | fabric-registry-sync-v0.mixins.json, fabric-registry-sync-v0.client.mixins.json
 temporalapi-1.6.6.jar                                                                 | temporalapi                                              | 
 TerraBlender-forge-1.20.1-3.0.1.10.jar                                                | terrablender                                             | terrablender.mixins.json, terrablender_forge.mixins.json
 The_Undergarden-1.20.1-0.8.14.jar                                                     | undergarden                                              | undergarden.mixins.json
 thigh_highs_etc-forge-1.0.4.jar                                                       | thigh_highs_etc                                          | thigh_highs_etc.mixins.json
     /META-INF/jarjar/Registrate-MC1.20-1.3.3.jar                                      |                                                          | 
-tidal-towns-1.3.4.jar                                                                 | mr_tidal_towns                                           | 
 Tips-Forge-1.20.1-12.1.8.jar                                                          | tipsmod                                                  | 
 transmog-forge-1.3.0+1.20.jar                                                         | transmog                                                 | mixins.transmog.common.json, mixins.transmog.forge.json
 Trials-2.3.3.jar                                                                      | trials                                                   | 
 Twigs-1.20.1-3.1.1.jar                                                                | twigs                                                    | twigs.mixins.json
 undergardendelight-1.1.2-forge-1.20.1.jar                                             | undergardendelight (MCreator mod)                        | 
 upgrade_aquatic-1.20.1-6.0.3.jar                                                      | upgrade_aquatic                                          | upgrade_aquatic.mixins.json
-valkyrienskies-120-2.3.0-beta.9.jar                                                   | valkyrienskies                                           | valkyrienskies-forge.mixins.json, valkyrienskies-common.mixins.json
+valkyrienskies-120-2.3.0-beta.10.jar                                                  | valkyrienskies                                           | valkyrienskies-forge.mixins.json, valkyrienskies-common.mixins.json
     /META-INF/jars/api-1.1.0+cf6990a85d.jar                                           |                                                          | 
     /META-INF/jars/classmate-1.5.1.jar                                                |                                                          | 
     /META-INF/jars/cloth-config-forge-11.1.106.jar                                    | cloth_config                                             | 
@@ -626,13 +621,14 @@ vanillabackport-forge-1.20.1-1.1.4.3.jar                                        
 visual_keybinder-1.20.1 - 0.1.5.jar                                                   | visual_keybinder                                         | visual_keybinder.mixins.json, mixins.visual_keybinder.refmap.json
 visuality-forge-2.0.2.jar                                                             | visuality                                                | visuality.mixins.json
 VisualWorkbench-v8.0.1-1.20.1-Forge.jar                                               | visualworkbench                                          | visualworkbench.common.mixins.json
-voicechat-forge-1.20.1-2.6.2.jar                                                      | voicechat                                                | 
+voicechat-forge-1.20.1-2.6.3.jar                                                      | voicechat                                                | 
 wab-1.20.1-1.3.1.jar                                                                  | wan_ancient_beasts                                       | wan_ancient_beasts.mixins.json
 wakes-1.20.1-Forge-1.0.5.jar                                                          | wakes                                                    | wakes.mixins.json
 waystones-forge-1.20.1-14.1.17.jar                                                    | waystones                                                | waystones.mixins.json
+weaponmaster_ydm-forge-1.20.1-4.2.3.jar                                               | weaponmaster_ydm                                         | weaponmaster_ydm.mixins.refmap.json, weaponmaster_ydm.mixins.json
 welcomescreen-forge-1.0.0-1.20.1.jar                                                  | welcomescreen                                            | mixins.welcomescreen.json
 whiffowisp-1.20.1-1.0.5-all.jar                                                       | whiffowisp                                               | whiffowisp.mixins.json
-windswept-1.20.1-3.0.0.jar                                                            | windswept                                                | windswept.mixins.json
+windswept-1.20.1-3.0.1.jar                                                            | windswept                                                | windswept.mixins.json
 woodworks-1.20.1-3.0.2.jar                                                            | woodworks                                                | woodworks.mixins.json
 worldplaytime-1.2.3-1.20.x-FORGE.jar                                                  | worldplaytime                                            | worldplaytime.mixins.json
 yet-another-furniture-1.0pre3+forge-1.20.1.jar                                        | yaf                                                      | yaf.mixins.json, yaf-common.mixins.json
@@ -648,6 +644,7 @@ yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar                                
     /META-INF/jarjar/json-0.2.1.jar                                                   |                                                          | 
 youwereslain-1.0.0-1.20.x.jar                                                         | youwereslain                                             | youwereslain.mixins.json
 YungsApi-1.20-Forge-4.0.6.jar                                                         | yungsapi                                                 | yungsapi.mixins.json, yungsapi_forge.mixins.json
+YungsBetterCaves-1.20.1-Forge-2.0.5.jar                                               | bettercaves                                              | bettercaves.mixins.json
 YungsBetterDesertTemples-1.20-Forge-3.0.3.jar                                         | betterdeserttemples                                      | betterdeserttemples.mixins.json, betterdeserttemples_forge.mixins.json
 YungsBetterDungeons-1.20-Forge-4.0.4.jar                                              | betterdungeons                                           | betterdungeons_forge.mixins.json, betterdungeons.mixins.json
 YungsBetterEndIsland-1.20-Forge-2.0.6.jar                                             | betterendisland                                          | betterendisland_forge.mixins.json, betterendisland.mixins.json
@@ -661,3 +658,4 @@ Zeta-1.0-30.jar                                                                 
 zetter-1.20.1-0.21.5.jar                                                              | zetter                                                   | 
 zettergallery-1.20.1-0.6.0.jar                                                        | zettergallery                                            | mixins.zettergallery.json, mixins.zettergallery.refmap.json
 mod-descriptions-v7.zip (resourcepack)                                                |                                                          | 
+testrp (resourcepack)                                                                 |                                                          | 

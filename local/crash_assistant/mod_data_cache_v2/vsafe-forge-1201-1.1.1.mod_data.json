@@ -1,0 +1,1 @@
+{"jarName":"vsafe-forge-1201-1.1.1.jar","modId":"vsafe","version":"1.1.1","mixinConfigs":["vsafe-common.mixins.json","vsafe.mixins.json"],"jarJarMods":[{"jarName":"toml4j-0.7.2.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

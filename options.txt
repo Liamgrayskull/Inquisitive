@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -148,6 +148,7 @@ key_key.valkyrienskies.ship_down:key.keyboard.left.control
 key_key.valkyrienskies.ship_cruise:key.keyboard.semicolon
 key_key.ad_astra.toggle_suit_flight:key.keyboard.unknown
 key_key.ad_astra.open_radio:key.keyboard.unknown
+key_key.weaponmaster_ydm.opengui:key.keyboard.v
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_key.extend:key.keyboard.up
@@ -171,7 +172,6 @@ key_key.enchancement.dash:key.keyboard.left.shift
 key_key.enchancement.slam:key.keyboard.left.control
 key_key.enchancement.slide:key.keyboard.left.control
 key_key.enchancement.strafe:key.keyboard.left.control
-key_auditory.sound_reload_key:key.keyboard.unknown
 key_key.extraalchemy.magnetism_toggle:key.keyboard.unknown
 key_key.extraalchemy.potion_bag_mode:key.keyboard.unknown
 key_obscure_tooltips_fix.print_screen:key.keyboard.unknown
@@ -267,8 +267,8 @@ key_key.diet.open.desc:key.keyboard.unknown
 key_Inspect Key:key.keyboard.i
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.wan_ancient_beasts.special_ability:key.keyboard.unknown
-soundCategory_master:0.7254464285714286
-soundCategory_music:0.08258928571428571
+soundCategory_master:1.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

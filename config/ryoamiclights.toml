@@ -31,6 +31,7 @@
 				stray = true
 				item = true
 				turtle = true
+				shulker = true
 				salmon = true
 				vex = true
 				ocelot = true
@@ -57,6 +58,7 @@
 				pillager = true
 				iron_golem = true
 				area_effect_cloud = true
+				zombified_piglin = true
 				endermite = true
 				cat = true
 				zombie = true
@@ -100,6 +102,7 @@
 
 			[light_sources.settings.entities.alexsmobs]
 				murmur_head = true
+				kangaroo = true
 				blue_jay = true
 				skelewag = true
 				cachalot_echo = true
@@ -123,6 +126,7 @@
 				crocodile = true
 				seal = true
 				hammerhead_shark = true
+				sunbird = true
 				triops = true
 				gazelle = true
 				underminer = true
@@ -172,6 +176,7 @@
 
 			[light_sources.settings.entities.galosphere]
 				sparkle = true
+				spectator_vision = true
 				spectre = true
 				berserker = true
 				specterpillar = true
@@ -180,10 +185,15 @@
 				enderbeetle = true
 				endermite_queen = true
 
+			[light_sources.settings.entities.darkerdepths]
+				body_snatcher = true
+				void_soul_knight = true
+
 			[light_sources.settings.entities.cloudstorage]
 				balloon = true
 				balloon_tie = true
 				bloviator = true
+				badloon = true
 
 			[light_sources.settings.entities.atmospheric]
 				tetra = true
@@ -325,9 +335,13 @@
 			[light_sources.settings.entities.exposure]
 				photograph_frame = true
 
+			[light_sources.settings.entities.windswept]
+				chilled = true
+
 			[light_sources.settings.entities.species]
 				cliff_hanger = true
 				bewereager = true
+				wicked_fireball = true
 				birt = true
 				quake = true
 				limpet = true

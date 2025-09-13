@@ -1,9 +1,7 @@
-8 possible world presets found:
+6 possible world presets found:
+- "minecraft:debug_all_block_states"
+- "minecraft:flat"
+- "minecraft:normal"
 - "minecraft:amplified"
 - "minecraft:large_biomes"
-- "hexlands:hexlands"
-- "hexlands:hexlands_overworld_only"
 - "minecraft:single_biome_surface"
-- "minecraft:normal"
-- "minecraft:flat"
-- "minecraft:debug_all_block_states"

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = language_select_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1751585218166
+  last_edited_time = 1757286075711
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:35dd47e7-ebf1-4f53-b9d0-4de18af97d03-1751585208059] = [groups:][instances:]
+  [loading_requirement_container_meta:f019e403-6bc2-4bd4-a817-f95b54a2f9a3-1757286035296] = [groups:][instances:]
 }
 
 menu_background {
@@ -76,10 +76,14 @@ element {
 vanilla_button {
   button_element_executable_block_identifier = e50e953b-e873-40f0-9ffc-9f373982c4c1-1751585141244
   [executable_block:e50e953b-e873-40f0-9ffc-9f373982c4c1-1751585141244][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/filler.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/circle1.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  hoverlabel = &6< &d&lBack &r&6>
+  label = Back
   navigatable = true
   widget_active_state_requirement_container_identifier = 1009939f-5b38-41da-8611-8e064ce5976e-1751585141244
   [loading_requirement_container_meta:1009939f-5b38-41da-8611-8e064ce5976e-1751585141244] = [groups:][instances:]
@@ -105,12 +109,12 @@ vanilla_button {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1444
   sticky_anchor = false
   anchor_point = vanilla
-  x = 261
-  y = 261
+  x = 325
+  y = 333
   width = 150
   height = 20
   stretch_x = false
@@ -133,6 +137,8 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 1752e057-0612-4459-acbe-77708eea2c2d-1751585141244
   [executable_block:1752e057-0612-4459-acbe-77708eea2c2d-1751585141244][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/filler.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/circle1.png
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -162,12 +168,12 @@ vanilla_button {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 0
-  auto_sizing_base_screen_height = 0
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1444
   sticky_anchor = false
   anchor_point = vanilla
-  x = 101
-  y = 261
+  x = 165
+  y = 333
   width = 150
   height = 20
   stretch_x = false
