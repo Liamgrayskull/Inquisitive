@@ -1,14 +1,14 @@
-[21:07:19] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[21:07:19] [INIT] Loaded plugins:
-[21:07:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[21:07:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[21:07:19] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[21:07:19] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[21:07:21] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
-[21:07:21] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
-[21:07:21] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
-[21:07:21] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
-[21:07:21] [INFO] Loaded script startup_scripts:rarity.js in 0.2 s
-[21:07:21] [INFO] Loaded script startup_scripts:start.js in 0.013 s
-[21:07:21] [INFO] Loaded 2/2 KubeJS startup scripts in 1.457 s with 0 errors and 0 warnings
-[21:07:59] [INFO] start.js#18: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
+[18:09:51] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[18:09:51] [INIT] Loaded plugins:
+[18:09:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:09:51] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:09:51] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[18:09:51] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
+[18:09:52] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
+[18:09:52] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
+[18:09:52] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
+[18:09:52] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
+[18:09:52] [INFO] Loaded script startup_scripts:rarity.js in 0.2 s
+[18:09:52] [INFO] Loaded script startup_scripts:start.js in 0.015 s
+[18:09:52] [INFO] Loaded 2/2 KubeJS startup scripts in 1.152 s with 0 errors and 0 warnings
+[18:10:23] [INFO] start.js#18: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'

@@ -122,9 +122,6 @@
 			chestnut = true
 			pine = true
 
-		[types.wood_type.dimdoors]
-			driftwood = true
-
 		[types.wood_type.darkerdepths]
 			petrified = true
 
@@ -258,9 +255,6 @@
 			chestnut = true
 			pine = true
 			flowering_acacia = true
-
-		[types.leaves_type.dimdoors]
-			driftwood = true
 
 	[types.cake]
 

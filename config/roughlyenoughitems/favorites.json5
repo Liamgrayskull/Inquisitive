@@ -2,7 +2,8 @@
 	"favorites": [
 		"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}",
 		"{type:\"roughlyenoughitems:weather\",weather:\"NOT_SET\"}",
-		"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}"
+		"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}",
+		"{data:{Count:1b,id:\"minecraft:potion\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 	],
 	"hiddenFavorites": [],
 	"displays": []

@@ -2,6 +2,6 @@
 /* =================== Client =================== */
   "instant_place": false,            // Default: false
   "menu_visibility": "HIDE_ABLE",    // DISABLE : HIDE_ABLE (Default) : SHOWN
-  "hidden_tabs": "BUNDLE, ENDER, BACKPACK, POT, CAULDRON", // For Internal Use (Employees Only!)
+  "hidden_tabs": "ENDER, BUNDLE, POT, CAULDRON, BACKPACK", // For Internal Use (Employees Only!)
   "tooltip_style": "INTEGRATED"      // VANILLA : COMPACT (Default) : INTEGRATED
 }

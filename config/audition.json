@@ -1,0 +1,20 @@
+{
+  "enableDynamicMixing": true,
+  "enableAdaptiveQuality": true,
+  "enableSpatialOptimization": true,
+  "maxSimilarSoundsPerTick": 1,
+  "cacheFrequentSounds": true,
+  "distantSoundQualityMultiplier": 0.5,
+  "maxConcurrentSounds": 32,
+  "skipOffScreenCalculations": true,
+  "spatialCullingDistance": 16.0,
+  "enableDetailedLogging": false,
+  "batchingTimeWindowMs": 250,
+  "cleanupIntervalMs": 5000,
+  "minVolumeThreshold": 0.1,
+  "optimizeWithDistance": true,
+  "muteVeryDistantSounds": true,
+  "veryDistantThreshold": 48.0,
+  "optimizeRepetitiveSounds": true,
+  "useSoundPriorities": true
+}

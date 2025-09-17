@@ -188,6 +188,7 @@
 			[light_sources.settings.entities.darkerdepths]
 				body_snatcher = true
 				void_soul_knight = true
+				void_soul = true
 
 			[light_sources.settings.entities.cloudstorage]
 				balloon = true

@@ -96,9 +96,6 @@ org.infernalstudios.miningmaster.client.gui.screen.inventory.GemForgeScreen {
 net.minecraft.client.gui.screens.MouseSettingsScreen {
 }
 
-com.claimorous.screen.ClaimAnchorScreen {
-}
-
 net.minecraft.client.gui.screens.DeathScreen {
 }
 
@@ -106,5 +103,11 @@ net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
 }
 
 net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.EditWorldScreen {
 }
 

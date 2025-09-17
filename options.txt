@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:14
+renderDistance:32
 simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:4
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","Inquisitive-3.0.0-RP.zip","file/mod-descriptions-v7.zip","file/testrp"]
+resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","Inquisitive-3.0.0-RP.zip","file/mod-descriptions-v7.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -127,7 +127,6 @@ key_info.structure_gel.building_tool.undo:key.keyboard.unknown
 key_info.structure_gel.building_tool.redo:key.keyboard.unknown
 key_key.structure_gel.open_building_tool_gui:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.h
-key_key.additionalplacements.placement_toggle:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.right.bracket
 key_iris.keybind.shaderPackSelection:key.keyboard.left.bracket
@@ -148,7 +147,6 @@ key_key.valkyrienskies.ship_down:key.keyboard.left.control
 key_key.valkyrienskies.ship_cruise:key.keyboard.semicolon
 key_key.ad_astra.toggle_suit_flight:key.keyboard.unknown
 key_key.ad_astra.open_radio:key.keyboard.unknown
-key_key.weaponmaster_ydm.opengui:key.keyboard.v
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_key.extend:key.keyboard.up
