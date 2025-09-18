@@ -45,15 +45,14 @@ ServerEvents.loaded(event => {
 
 })
 
-PlayerEvents.loggedIn(event => {
-  //Checks if the player already has the 'new_join' stage and if not it adds it, effectively only running
-  //this once on first world join.
-  if (!event.player.stages.has('new_join')) {
-    event.player.stages.add('new_join')
-    //Equips player in full leather
-    event.entity.setItemSlot(5, 'ad_astra:space_helmet')
-    event.entity.setItemSlot(4, 'ad_astra:space_suit')
-    event.entity.setItemSlot(3, 'ad_astra:space_pants')
-    event.entity.setItemSlot(2, 'ad_astra:space_boots')
-  }
-  });
+
+
+
+
+
+
+
+
+
+
+

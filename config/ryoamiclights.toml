@@ -15,12 +15,14 @@
 				bee = true
 				arrow = true
 				cow = true
+				magma_cube = true
 				pig = true
 				llama = true
 				skeleton = true
 				bat = true
 				husk = true
 				frog = true
+				hoglin = true
 				experience_bottle = true
 				rabbit = true
 				silverfish = true
@@ -34,6 +36,8 @@
 				shulker = true
 				salmon = true
 				vex = true
+				wither_skeleton = true
+				piglin_brute = true
 				ocelot = true
 				item_frame = true
 				vindicator = true
@@ -59,10 +63,13 @@
 				iron_golem = true
 				area_effect_cloud = true
 				zombified_piglin = true
+				piglin = true
+				blaze = true
 				endermite = true
 				cat = true
 				zombie = true
 				guardian = true
+				ghast = true
 				sheep = true
 				player = true
 				illusioner = true
@@ -77,6 +84,7 @@
 				elder_guardian = true
 				small_fireball = true
 				polar_bear = true
+				strider = true
 				painting = true
 				cave_spider = true
 				witch = true
@@ -105,14 +113,17 @@
 				kangaroo = true
 				blue_jay = true
 				skelewag = true
+				bone_serpent_part = true
 				cachalot_echo = true
 				catfish = true
 				anteater = true
+				laviathan = true
 				tasmanian_devil = true
 				centipede_tail = true
 				rhinoceros = true
 				comb_jelly = true
 				skunk = true
+				dropbear = true
 				leafcutter_ant = true
 				blobfish = true
 				lobster = true
@@ -123,10 +134,14 @@
 				flutter = true
 				orca = true
 				crow = true
+				mosquito_spit = true
 				crocodile = true
+				stradpole = true
+				crimson_mosquito = true
 				seal = true
 				hammerhead_shark = true
 				sunbird = true
+				straddler = true
 				triops = true
 				gazelle = true
 				underminer = true
@@ -137,6 +152,7 @@
 				capuchin_monkey = true
 				murmur = true
 				cockroach = true
+				bone_serpent = true
 				centipede_body = true
 				bald_eagle = true
 				seagull = true
@@ -150,7 +166,14 @@
 				hummingbird = true
 				frilled_shark = true
 				bison = true
+				warped_toad = true
 				sugar_glider = true
+
+			[light_sources.settings.entities.netherexp]
+				apparition = true
+				shotgun_pellet = true
+				vessel = true
+				wisp = true
 
 			[light_sources.settings.entities.xp_jellies]
 				titanxpsnail = true
@@ -200,14 +223,20 @@
 				tetra = true
 
 			[light_sources.settings.entities.rottencreatures]
+				dead_beard = true
 				undead_miner = true
+				burned = true
 
 			[light_sources.settings.entities.upgrade_aquatic]
 				thrasher = true
 				lionfish = true
 				great_thrasher = true
+				pike = true
 				nautilus = true
 				perch = true
+
+			[light_sources.settings.entities.ribbits]
+				ribbit = true
 
 			[light_sources.settings.entities.untagged_mobs]
 				sweeper = true
@@ -218,6 +247,7 @@
 				forgotten = true
 				glass_frame = true
 				stoneling = true
+				foxhound = true
 				flamerang = true
 				pickarang = true
 
@@ -266,6 +296,8 @@
 				executioner = true
 				spore_cloud = true
 				creepie = true
+				griefer = true
+				rune_prison = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -341,14 +373,16 @@
 
 			[light_sources.settings.entities.species]
 				cliff_hanger = true
-				bewereager = true
+				spectre = true
 				wicked_fireball = true
 				birt = true
-				quake = true
 				limpet = true
+				leaf_hanger = true
+				bewereager = true
+				wraptor = true
+				quake = true
 				ghoul = true
 				deepfish = true
-				leaf_hanger = true
 				wicked = true
 
 			[light_sources.settings.entities.wan_ancient_beasts]
@@ -357,6 +391,9 @@
 
 			[light_sources.settings.entities.doom_and_gloom]
 				holler = true
+
+			[light_sources.settings.entities.neapolitan]
+				plantain_spider = true
 
 			[light_sources.settings.entities.corpse]
 				corpse = true

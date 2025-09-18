@@ -1,14 +1,17 @@
-[18:10:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[18:10:49] [INIT] Loaded plugins:
-[18:10:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[18:10:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[18:10:49] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[18:10:49] [INIT] - net.mehvahdjukaar.sawmill.integration.KubeJsPlugin
-[18:10:49] [INFO] Loaded script server_scripts:gamerules.js in 0.008 s
-[18:10:49] [INFO] Loaded script server_scripts:itemsnagger.js in 0.002 s
-[18:10:49] [INFO] Loaded script server_scripts:recipes.js in 0.006 s
-[18:10:49] [INFO] Loaded script server_scripts:structure.js in 0.001 s
-[18:10:49] [INFO] Loaded script server_scripts:tags.js in 0.01 s
-[18:10:49] [INFO] Loaded 5/5 KubeJS server scripts in 0.035 s with 0 errors and 0 warnings
-[18:10:49] [INFO] Scripts loaded
-[18:10:49] [INFO] Initializing recipe event...
+[19:39:17] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:39:17] [INIT] Loaded plugins:
+[19:39:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:39:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:39:17] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[19:39:17] [INFO] Loaded script server_scripts:gamerules.js in 0.001 s
+[19:39:17] [INFO] Loaded script server_scripts:itemsnagger.js in 0.0 s
+[19:39:17] [INFO] Loaded script server_scripts:recipes.js in 0.002 s
+[19:39:17] [INFO] Loaded script server_scripts:structure.js in 0.0 s
+[19:39:17] [INFO] Loaded script server_scripts:tags.js in 0.004 s
+[19:39:17] [INFO] Loaded 5/5 KubeJS server scripts in 0.012 s with 0 errors and 0 warnings
+[19:39:17] [INFO] Scripts loaded
+[19:39:17] [INFO] Initializing recipe event...
+[19:39:17] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[19:39:17] [WARN] You can still see the full log (including past reloads) in your latest.log file.
+[19:40:15] [INFO] Server resource reload complete!
+[19:40:15] [ERROR] ! gamerules.js#14: Event handler 'EntityEvents.spawned' can only be registered during script loading!

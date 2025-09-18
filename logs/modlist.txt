@@ -86,6 +86,7 @@ ConnectorExtras-1.11.2+1.20.1.jar                                               
 continuity-3.0.0+1.20.1.forge.jar                                                     | continuity                                               | continuity.mixins.json
 CopperPot-1.20.1-2.0.3.jar                                                            | copperpot                                                | 
 corpse-forge-1.20.1-1.0.21.jar                                                        | corpse                                                   | 
+Cosmic_Horizons_0.0.7.3-forge-1.20.1.jar                                              | cosmos                                                   | mixins.cosmos.refmap.json, mixins.cosmos.json
 cosmopolitan-1.20.1-1.0.5.jar                                                         | cosmopolitan                                             | cosmopolitan.mixins.json
 CrashAssistant-forge-1.19-1.20.1-1.9.15.jar                                           | crash_assistant                                          | 
     /META-INF/jarjar/app.jar                                                          |                                                          | 
@@ -275,7 +276,7 @@ fastquit-3.0.0+1.20+.jar                                                        
 ferritecore-6.0.1-forge.jar                                                           | ferritecore                                              | ferritecore.modelsides.mixin.json, ferritecore.mrl.mixin.json, ferritecore.dedupbakedquad.mixin.json, ferritecore.threaddetec.mixin.json, ferritecore.blockstatecache.mixin.json, ferritecore.dedupmultipart.mixin.json, ferritecore.fastmap.mixin.json, ferritecore.predicates.mixin.json
 foglooksmodernnow-1.2.1.jar                                                           | foglooksmodernnow                                        | foglooksmodernnow.mixins.json
 foragersinsight-1.20.1-1.0(TnT).jar                                                   | foragersinsight                                          | foragersinsight.mixins.json
-forge-dungeonsdelight-1.20.1-1.2.9.jar                                                | dungeonsdelight                                          | dungeonsdelight.mixin.json
+forge-dungeonsdelight-1.20.1-1.2.10.jar                                               | dungeonsdelight                                          | dungeonsdelight.mixin.json
 forge-runiclib-1.20.1-4.3.7.jar                                                       | runiclib                                                 | runiclib.forge.mixins.json, runiclib.mixins.json
 ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar                                            | forgeconfigscreens                                       | 
 frame_changer-1.20.1-2.0.2-all.jar                                                    | frame_changer                                            | frame_changer.mixins.json
@@ -326,14 +327,6 @@ kotlinforforge-4.11.0-all.jar                                                   
 kubejs-forge-2001.6.5-build.16.jar                                                    | kubejs                                                   | kubejs-common.mixins.json, kubejs-forge.mixins.json
 language-reload-1.5.10+1.20.1.jar                                                     | languagereload                                           | languagereload.mixins.json
 largemeals-1.20.1-1.3.0.jar                                                           | largemeals                                               | 
-lazyyyyy-lexforge-core-0.14.17.jar                                                    |                                                          | 
-    /META-INF/jars/lazyyyyy-lexforge-mod-0.14.17.jar                                  | lazyyyyy                                                 | lazyyyyy.forge.mixins.json
-        /META-INF/jars/Reflect-1.5.0.jar                                              |                                                          | 
-        /META-INF/jars/caffeine-3.1.8.jar                                             |                                                          | 
-        /META-INF/jars/caffeine-coroutines-1.2.1.jar                                  |                                                          | 
-        /META-INF/jars/hash4j-0.21.0.jar                                              |                                                          | 
-        /META-INF/jars/lazyyyyy-xplat-lexforge-0.14.17.jar                            | lazyyyyy                                                 | lazyyyyy.mixins.json
-        /META-INF/jars/mixinconstraints-1.0.7.jar                                     |                                                          | 
 lexiconfig-forge-1.4.18-1.jar                                                         | lexiconfig                                               | lexiconfig.forge.mixins.json, lexiconfig.mixins.json
 libjf-3.12.5.jar                                                                      | libjf                                                    | 
     /META-INF/jars/libjf-base-unspecified.jar                                         | libjf-base                                               | 
@@ -365,7 +358,7 @@ minecraft-cursor-forge-3.10.0+1.20.1.jar                                        
     /META-INF/jarjar/io.github.fishstiz.minecraft-cursor-common-api-3.10.0+1.20.1.jar |                                                          | 
 miners_delight-1.20.1-1.2.3.jar                                                       | miners_delight                                           | miners_delight.mixins.json
 miningmaster-1.20.1-4.1.3.jar                                                         | miningmaster                                             | mining-master.mixins.json
-mob-ai-tweaks-1.8.3-1.20.1.jar                                                        | mob-ai-tweaks                                            | mob-ai-tweaks.mixins.json
+mob-ai-tweaks-1.8.4-1.20.1.jar                                                        | mob-ai-tweaks                                            | mob-ai-tweaks.mixins.json
 modelfix-1.15.jar                                                                     | modelfix                                                 | modelfix.mixins.json
 modernfix-forge-5.24.4+mc1.20.1.jar                                                   | modernfix                                                | modernfix-common.mixins.json, modernfix-forge.mixins.json
 modmenu-7.2.2.jar                                                                     | modmenu                                                  | mixins.modmenu.json
@@ -487,7 +480,6 @@ RyoamicLights-forge-0.2.3+mc1.20.1.jar                                          
 salt-1.20.1-1.2.6.jar                                                                 | salt                                                     | mixins.salt.refmap.json, mixins.salt.json
 sapience-1.20.1-1.0.0.jar                                                             | sapience                                                 | sapience.mixins.json
 savage_and_ravage-1.20.1-6.0.0.jar                                                    | savage_and_ravage                                        | savage_and_ravage.mixins.json
-sawmill-1.20-1.4.10.jar                                                               | sawmill                                                  | sawmill.mixins.json, sawmill-common.mixins.json
 screenshot_viewer-1.3.2-forge-mc1.20.1.jar                                            | screenshot_viewer                                        | screenshot_viewer.mixins.json
 scriptor-1.2.6-1.20.1-forge-sgd.jar                                                   | scriptor                                                 | scriptor.mixins.json
 seamless-loading-screen-2.0.3+1.20.1-forge.jar                                        | seamless_loading_screen                                  | seamless_loading_screen-forge.mixins.json, seamless_loading_screen-common.mixins.json
@@ -543,6 +535,7 @@ spellbound-1.20.3.jar                                                           
 spelunkery-1.20.1-0.3.16-forge.jar                                                    | spelunkery                                               | spelunkery.mixins.json, spelunkery-common.mixins.json
 spelunking_master-1.20.1-0.3.0.jar                                                    | spelunking_master                                        | 
 spritearrows-forge-1.20-1.0.3.jar                                                     | spritearrows                                             | 
+starlance-1.3.3.jar                                                                   | vsch                                                     | vsch.mixins.json, mixins.vsch.refmap.json
 Statement-4.2.7+1.20.1-forge.jar                                                      | statement                                                | statement.mixins.json
 Stony Cliffs FML v1.1.2.jar                                                           | stonycliffs                                              | 
 structure_gel-1.20.1-2.16.2.jar                                                       | structure_gel                                            | structure_gel.mixins.json
@@ -596,7 +589,7 @@ wab-1.20.1-1.3.1.jar                                                            
 wakes-1.20.1-Forge-1.0.5.jar                                                          | wakes                                                    | wakes.mixins.json
 waystones-forge-1.20.1-14.1.17.jar                                                    | waystones                                                | waystones.mixins.json
 whiffowisp-1.20.1-1.0.5-all.jar                                                       | whiffowisp                                               | whiffowisp.mixins.json
-windswept-1.20.1-3.0.1.jar                                                            | windswept                                                | windswept.mixins.json
+windswept-1.20.1-3.0.2.jar                                                            | windswept                                                | windswept.mixins.json
 woodworks-1.20.1-3.0.2.jar                                                            | woodworks                                                | woodworks.mixins.json
 worldplaytime-1.2.3-1.20.x-FORGE.jar                                                  | worldplaytime                                            | worldplaytime.mixins.json
 yet-another-furniture-1.0pre3+forge-1.20.1.jar                                        | yaf                                                      | yaf.mixins.json, yaf-common.mixins.json

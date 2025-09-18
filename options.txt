@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:32
+renderDistance:18
 simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:4
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","Inquisitive-3.0.0-RP.zip","file/mod-descriptions-v7.zip"]
+resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","Inquisitive-3.0.0-RP.zip","file/mod-descriptions-v7.zip","file/Kai Fixes Glass - 1.20.1.zip","file/Kai Fixes Quartz - 1.20.1.zip","file/Kai Fixes Sand - 1.20.1.zip","file/§6Immersive§8_§6Interfaces§8.zip","file/§6Immersive§8_§6Interfaces§8_§6Farmersdelight.zip","file/§6Immersive§8_§6Interfaces§8_§6Modded.zip","file/§6Antique Atlas 4 §fCompat§8§o§k.zip","file/FreshAnimations_v1.10.1.zip","file/FreshCompats_v1.6.zip","file/§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip","file/§1Drodi\u0027s Illagers FA [V5] post 1.21.5.zip","file/waystones_update_2_1.20.1.zip","file/Slabfish\u0027d Ribbits.zip","file/JNEcompat.zip","file/Fresh Skeleton Physics.zip","file/Fresh AI Tweaks 1.19.4-1.20.6.zip","file/FA+Emissive-v1.4.zip","file/FA+Creepers-v2.0.zip","file/Double Flowers Retexture.zip","file/Discography 1.8.zip","file/DerpWood.zip","file/AL\u0027s Piglins Revamped+FA 1.1.3.zip","file/AL\u0027s Skeletons Revamped+FA 1.5.2.zip","file/AL\u0027s Enderman Revamped+FA 1.3.2.zip","file/Atmospheric Skies \u0026 Fog 1.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -143,8 +143,8 @@ key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.ryoamiclights.dyn_light:key.keyboard.unknown
-key_key.valkyrienskies.ship_down:key.keyboard.left.control
-key_key.valkyrienskies.ship_cruise:key.keyboard.semicolon
+key_key.valkyrienskies.ship_down:key.keyboard.v
+key_key.valkyrienskies.ship_cruise:key.keyboard.c
 key_key.ad_astra.toggle_suit_flight:key.keyboard.unknown
 key_key.ad_astra.open_radio:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
@@ -265,7 +265,7 @@ key_key.diet.open.desc:key.keyboard.unknown
 key_Inspect Key:key.keyboard.i
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.wan_ancient_beasts.special_ability:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.203125
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

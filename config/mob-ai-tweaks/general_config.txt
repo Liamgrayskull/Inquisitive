@@ -1,4 +1,4 @@
-#All cooldowns and durations are in ticks and all chances are in percentage
+#All cooldowns and durations are in ticks (20 ticks is 1 second), chances are in multiplied percentage (50 * 15% is 7.5), boosts are in added percentage (200% means 3x more, -100% means zero), and local difficulty is in percentage (250% means 2.5 local difficulty)
 allay_rework=true
 blaze_attack_rework=true
 blaze_fireball_count_easy=2
@@ -114,6 +114,8 @@ squid_ink_debuff_duration=100
 glow_squid_night_vision_on_stare_duration=600
 stray_special_attacks=true
 stray_special_attack_cooldown=120
+tamed_mobs_regen_amount=1
+tamed_mobs_regen_cooldown=20
 throwable_fire_charges=true
 undead_horses_burn_in_day=true
 vex_rework=true
@@ -133,8 +135,14 @@ wither_boss_health=300
 wither_skeleton_special_attacks=true
 wither_skeleton_special_attack_cooldown=200
 wither_skeletons_with_bows_chance=10
+wither_skeletons_with_bows_local_difficulty=250
 zombie_dads_from_bedrock=true
+zombie_dads_spawn_chance=1
+zombie_dads_spawn_local_difficulty=150
 zombie_leader_rework=true
+zombie_with_door_chance=1
+zombie_with_door_local_difficulty=250
 zombie_pigmen_can_use_crossbows=true
 zombie_pigmen_with_crossbows_chance=20
+zombie_pigmen_with_crossbows_local_difficulty=250
 zombie_villager_special_attacks=true
