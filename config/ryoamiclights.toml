@@ -107,6 +107,7 @@
 
 			[light_sources.settings.entities.archeryexp]
 				diamond_arrow = true
+				gold_arrow = true
 
 			[light_sources.settings.entities.alexsmobs]
 				murmur_head = true
@@ -120,6 +121,7 @@
 				laviathan = true
 				tasmanian_devil = true
 				centipede_tail = true
+				cosmic_cod = true
 				rhinoceros = true
 				comb_jelly = true
 				skunk = true
@@ -133,7 +135,10 @@
 				centipede_head = true
 				flutter = true
 				orca = true
+				maned_wolf = true
 				crow = true
+				banana_slug = true
+				elephant = true
 				mosquito_spit = true
 				crocodile = true
 				stradpole = true
@@ -142,6 +147,7 @@
 				hammerhead_shark = true
 				sunbird = true
 				straddler = true
+				emu = true
 				triops = true
 				gazelle = true
 				underminer = true
@@ -156,6 +162,7 @@
 				centipede_body = true
 				bald_eagle = true
 				seagull = true
+				mantis_shrimp = true
 				raccoon = true
 				fly = true
 				giant_squid = true
@@ -171,6 +178,7 @@
 
 			[light_sources.settings.entities.netherexp]
 				apparition = true
+				ecto_slab = true
 				shotgun_pellet = true
 				vessel = true
 				wisp = true
@@ -332,6 +340,25 @@
 				smallmouth_bass = true
 				minnow = true
 
+			[light_sources.settings.entities.undergarden]
+				stoneborn = true
+				rotwalker = true
+				mog = true
+				gloomper = true
+				smog_mog = true
+				sploogie = true
+				rotling = true
+				rotbeast = true
+				brute = true
+				nargoyle = true
+				muncher = true
+				forgotten = true
+				gwib = true
+				gwibling = true
+				forgotten_guardian = true
+				dweller = true
+				scintling = true
+
 			[light_sources.settings.entities.caverns_and_chasms]
 				peeper = true
 				glare = true
@@ -355,6 +382,7 @@
 				dust_bunny = true
 
 			[light_sources.settings.entities.sullysmod]
+				tortoise = true
 				thrown_throwing_knife = true
 				lanternfish = true
 				piranha = true
@@ -376,6 +404,7 @@
 				spectre = true
 				wicked_fireball = true
 				birt = true
+				stackatick = true
 				limpet = true
 				leaf_hanger = true
 				bewereager = true
@@ -391,6 +420,9 @@
 
 			[light_sources.settings.entities.doom_and_gloom]
 				holler = true
+
+			[light_sources.settings.entities.dungeonsdelight]
+				cleaver = true
 
 			[light_sources.settings.entities.neapolitan]
 				plantain_spider = true

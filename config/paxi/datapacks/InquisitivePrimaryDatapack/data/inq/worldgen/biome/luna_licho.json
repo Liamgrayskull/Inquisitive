@@ -1,0 +1,93 @@
+{
+  "carvers": {
+    "air": []
+  },
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 0,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "undergarden:ambient.mood",
+      "tick_delay": 6000
+    },
+    "music": {
+  "max_delay": 24000,
+  "min_delay": 12000,
+  "replace_current_music": true,
+  "sound": "undergarden:music.undergarden"
+},
+    "particle": {
+      "options": {
+        "type": "alexscaves:bio_pop"
+      },
+      "probability": 0.001
+    },
+    "sky_color": 1447444,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [
+    ],
+    [
+    ],
+    [
+      "inq:luna/noise_stripes_lichen_luna"
+    ],
+    [],
+    [
+      "undergarden:shiverstone_rock",
+      "spelunkery:inkcap",
+      "spelunkery:mushgloom",
+      "spelunkery:phosphor_fungus",
+      "inq:luna/mushgloom",
+      "inq:luna/phosphor_fungus",
+      "inq:luna/lichen_roots"
+    ],
+    [
+      "undergarden:shimmerweed_patch",
+      "undergarden:tall_shimmerweed_patch"
+    ],
+    [
+    ],
+    [],
+    [],
+    [
+      "inq:luna/huge_phosphor_bonemeal",
+      "inq:luna/huge_mushgloom_bonemeal",
+      "inq:luna/huge_veil_mushroom",
+      "inq:luna/lichen_mushroom"
+    ],
+    [
+      "waystones:waystone",
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "spelunkery:dust_bunny",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 50
+      },
+      {
+        "type": "galosphere:specterpillar",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 50
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.7
+}

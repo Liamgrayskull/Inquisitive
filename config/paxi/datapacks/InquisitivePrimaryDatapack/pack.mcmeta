@@ -1,6 +1,9 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "Custom-made for Inquisitive initially"
+    "description": "Custom-made for Inquisitive"
+  },
+"patched": {
+    "format_version": 1 
   }
 }

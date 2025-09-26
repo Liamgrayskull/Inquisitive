@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 4,
+    "xz_spread": 5,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:disk",
+        "config": {
+          "state_provider": {
+            "fallback": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:cyan_terracotta"
+              }
+            },
+            "rules": []
+          },
+          "target": {
+            "type": "minecraft:true"
+          },
+          "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 5,
+              "max_inclusive": 8
+            }
+          },
+          "half_height": 3
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 4
+        },
+        {
+          "type": "minecraft:in_square"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "lunarnether:add_carver",
+  "biomes": "#undergarden:is_undergarden",
+  "carvers": {
+    "air": "inq:lunar_canyon"
+  }
+}

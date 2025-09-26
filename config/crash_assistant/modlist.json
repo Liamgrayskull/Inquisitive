@@ -9,11 +9,6 @@
     "modId": "abnormals_delight",
     "version": "5.0.1"
   },
-  "ad_astra-forge-1.20.1-1.15.19.jar": {
-    "jarName": "ad_astra-forge-1.20.1-1.15.19.jar",
-    "modId": "ad_astra",
-    "version": "1.15.19"
-  },
   "AI-Improvements-1.20-0.5.2.jar": {
     "jarName": "AI-Improvements-1.20-0.5.2.jar",
     "modId": "aiimprovements",
@@ -287,10 +282,10 @@
     "modId": "copperpot",
     "version": "1.20.1-2.0.3"
   },
-  "corpse-forge-1.20.1-1.0.21.jar": {
-    "jarName": "corpse-forge-1.20.1-1.0.21.jar",
+  "corpse-forge-1.20.1-1.0.23.jar": {
+    "jarName": "corpse-forge-1.20.1-1.0.23.jar",
     "modId": "corpse",
-    "version": "1.20.1-1.0.21"
+    "version": "1.20.1-1.0.23"
   },
   "Cosmic_Horizons_0.0.7.3-forge-1.20.1.jar": {
     "jarName": "Cosmic_Horizons_0.0.7.3-forge-1.20.1.jar",
@@ -342,10 +337,10 @@
     "modId": "cyanide",
     "version": "4.1.1"
   },
-  "Darker Depths-1.20.1-2.0.4.jar": {
-    "jarName": "Darker Depths-1.20.1-2.0.4.jar",
+  "Darker Depths-1.20.1-2.0.5.jar": {
+    "jarName": "Darker Depths-1.20.1-2.0.5.jar",
     "modId": "darkerdepths",
-    "version": "2.0.4"
+    "version": "2.0.5"
   },
   "darkness-1.20.1-1.0.1.jar": {
     "jarName": "darkness-1.20.1-1.0.1.jar",
@@ -657,10 +652,10 @@
     "modId": "gardens_of_the_dead",
     "version": "4.0.1"
   },
-  "geckolib-forge-1.20.1-4.7.4.jar": {
-    "jarName": "geckolib-forge-1.20.1-4.7.4.jar",
+  "geckolib-forge-1.20.1-4.8.2.jar": {
+    "jarName": "geckolib-forge-1.20.1-4.8.2.jar",
     "modId": "geckolib",
-    "version": "4.7.4"
+    "version": "4.8.2"
   },
   "global-server-config-forge-1.18.2+-1.0.jar": {
     "jarName": "global-server-config-forge-1.18.2+-1.0.jar",
@@ -815,6 +810,9 @@
     "modId": "largemeals",
     "version": "1.20.1-1.3.0"
   },
+  "lazyyyyy-lexforge-core-0.14.19.jar": {
+    "jarName": "lazyyyyy-lexforge-core-0.14.19.jar"
+  },
   "lexiconfig-forge-1.4.18-1.jar": {
     "jarName": "lexiconfig-forge-1.4.18-1.jar",
     "modId": "lexiconfig",
@@ -839,6 +837,11 @@
     "jarName": "lootr-forge-1.20-0.7.35.93.jar",
     "modId": "lootr",
     "version": "0.7.35.92"
+  },
+  "lunarnether-0.5.4-all.jar": {
+    "jarName": "lunarnether-0.5.4-all.jar",
+    "modId": "lunarnether",
+    "version": "0.5.4"
   },
   "man_of_many_planes-0.2.0+1.20.1-forge.jar": {
     "jarName": "man_of_many_planes-0.2.0+1.20.1-forge.jar",
@@ -915,10 +918,10 @@
     "modId": "molten_metals",
     "version": "1.20.1-0.1.4"
   },
-  "moonlight-1.20-2.16.10-forge.jar": {
-    "jarName": "moonlight-1.20-2.16.10-forge.jar",
+  "moonlight-1.20-2.16.13-forge.jar": {
+    "jarName": "moonlight-1.20-2.16.13-forge.jar",
     "modId": "moonlight",
-    "version": "1.20-2.16.10"
+    "version": "1.20-2.16.13"
   },
   "mostructures-1.4.5+1.20.1.jar": {
     "jarName": "mostructures-1.4.5+1.20.1.jar",
@@ -954,6 +957,11 @@
     "jarName": "mysticaloaktree-1.20-1.11.jar",
     "modId": "mysticaloaktree",
     "version": "1.20-1.11"
+  },
+  "natures_delight-1.11-1.20.1.jar": {
+    "jarName": "natures_delight-1.11-1.20.1.jar",
+    "modId": "natures_delight",
+    "version": "1.11-1.20.1"
   },
   "natures_spirit-2.2.5-1.20.1.jar": {
     "jarName": "natures_spirit-2.2.5-1.20.1.jar",
@@ -1055,10 +1063,10 @@
     "modId": "onion_onion",
     "version": "2.0.4"
   },
-  "Oreganized 1.20.1-4.2.4.jar": {
-    "jarName": "Oreganized 1.20.1-4.2.4.jar",
+  "Oreganized 1.20.1-4.2.5.jar": {
+    "jarName": "Oreganized 1.20.1-4.2.5.jar",
     "modId": "oreganized",
-    "version": "4.2.4"
+    "version": "4.2.5"
   },
   "Oreganized Carcinogenius 1.20.1-4.1.0.jar": {
     "jarName": "Oreganized Carcinogenius 1.20.1-4.1.0.jar",
@@ -1099,6 +1107,11 @@
     "jarName": "PassableFoliage-1.20.1-forge-8.2.1.jar",
     "modId": "passablefoliage",
     "version": "8.2.1"
+  },
+  "Patched-3.4.1+1.20.1-forge.jar": {
+    "jarName": "Patched-3.4.1+1.20.1-forge.jar",
+    "modId": "patched",
+    "version": "3.4.1+1.20.1-forge"
   },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
@@ -1380,10 +1393,10 @@
     "modId": "soulfulnether",
     "version": "1.0.0"
   },
-  "sound-physics-remastered-forge-1.20.1-1.4.15.jar": {
-    "jarName": "sound-physics-remastered-forge-1.20.1-1.4.15.jar",
+  "sound-physics-remastered-forge-1.20.1-1.5.0.jar": {
+    "jarName": "sound-physics-remastered-forge-1.20.1-1.5.0.jar",
     "modId": "sound_physics_remastered",
-    "version": "1.20.1-1.4.15"
+    "version": "1.20.1-1.5.0"
   },
   "Sounds-2.2.1+1.20.1+forge.jar": {
     "jarName": "Sounds-2.2.1+1.20.1+forge.jar",
@@ -1474,6 +1487,11 @@
     "jarName": "surveyor-0.6.26+1.20.jar",
     "modId": "surveyor",
     "version": "0.6.26+1.20"
+  },
+  "surveystones-1.3.1+1.20.jar": {
+    "jarName": "surveystones-1.3.1+1.20.jar",
+    "modId": "surveystones",
+    "version": "1.3.1+1.20"
   },
   "symbol-chat-1.20.1-1.1.2.jar": {
     "jarName": "symbol-chat-1.20.1-1.1.2.jar",
@@ -1615,11 +1633,6 @@
     "modId": "yungsapi",
     "version": "1.20-Forge-4.0.6"
   },
-  "YungsBetterCaves-1.20.1-Forge-2.0.5.jar": {
-    "jarName": "YungsBetterCaves-1.20.1-Forge-2.0.5.jar",
-    "modId": "bettercaves",
-    "version": "1.20.1-Forge-2.0.5"
-  },
   "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar": {
     "jarName": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
     "modId": "betterdeserttemples",
@@ -1679,98 +1692,5 @@
     "jarName": "zettergallery-1.20.1-0.6.0.jar",
     "modId": "zettergallery",
     "version": "0.6.0"
-  },
-  "AL\u0027s Enderman Revamped+FA 1.3.2.zip (resourcepack)": {
-    "jarName": "AL\u0027s Enderman Revamped+FA 1.3.2.zip (resourcepack)"
-  },
-  "AL\u0027s Piglins Revamped+FA 1.1.3.zip (resourcepack)": {
-    "jarName": "AL\u0027s Piglins Revamped+FA 1.1.3.zip (resourcepack)"
-  },
-  "AL\u0027s Skeletons Revamped+FA 1.5.2.zip (resourcepack)": {
-    "jarName": "AL\u0027s Skeletons Revamped+FA 1.5.2.zip (resourcepack)"
-  },
-  "Atmospheric Skies \u0026 Fog 1.1.zip (resourcepack)": {
-    "jarName": "Atmospheric Skies \u0026 Fog 1.1.zip (resourcepack)"
-  },
-  "Atmospheric Skies \u0026 Fog.zip (resourcepack)": {
-    "jarName": "Atmospheric Skies \u0026 Fog.zip (resourcepack)"
-  },
-  "BetterMoss.zip (resourcepack)": {
-    "jarName": "BetterMoss.zip (resourcepack)"
-  },
-  "Chromatic Icons v3.2 mc1.20-1.21.5.zip (resourcepack)": {
-    "jarName": "Chromatic Icons v3.2 mc1.20-1.21.5.zip (resourcepack)"
-  },
-  "DerpWood.zip (resourcepack)": {
-    "jarName": "DerpWood.zip (resourcepack)"
-  },
-  "Discography 1.8.zip (resourcepack)": {
-    "jarName": "Discography 1.8.zip (resourcepack)"
-  },
-  "Double Flowers Retexture.zip (resourcepack)": {
-    "jarName": "Double Flowers Retexture.zip (resourcepack)"
-  },
-  "FA+Creepers-v2.0.zip (resourcepack)": {
-    "jarName": "FA+Creepers-v2.0.zip (resourcepack)"
-  },
-  "FA+Emissive-v1.4.zip (resourcepack)": {
-    "jarName": "FA+Emissive-v1.4.zip (resourcepack)"
-  },
-  "Fresh AI Tweaks 1.19.4-1.20.6.zip (resourcepack)": {
-    "jarName": "Fresh AI Tweaks 1.19.4-1.20.6.zip (resourcepack)"
-  },
-  "Fresh Skeleton Physics.zip (resourcepack)": {
-    "jarName": "Fresh Skeleton Physics.zip (resourcepack)"
-  },
-  "FreshAnimations_v1.10.1.zip (resourcepack)": {
-    "jarName": "FreshAnimations_v1.10.1.zip (resourcepack)"
-  },
-  "FreshCompats_v1.6.zip (resourcepack)": {
-    "jarName": "FreshCompats_v1.6.zip (resourcepack)"
-  },
-  "JNEcompat.zip (resourcepack)": {
-    "jarName": "JNEcompat.zip (resourcepack)"
-  },
-  "Kai Fixes Glass - 1.20.1.zip (resourcepack)": {
-    "jarName": "Kai Fixes Glass - 1.20.1.zip (resourcepack)"
-  },
-  "Kai Fixes Quartz - 1.20.1.zip (resourcepack)": {
-    "jarName": "Kai Fixes Quartz - 1.20.1.zip (resourcepack)"
-  },
-  "Kai Fixes Sand - 1.20.1.zip (resourcepack)": {
-    "jarName": "Kai Fixes Sand - 1.20.1.zip (resourcepack)"
-  },
-  "mod-descriptions-v7.zip (resourcepack)": {
-    "jarName": "mod-descriptions-v7.zip (resourcepack)"
-  },
-  "MossyLayers.zip (resourcepack)": {
-    "jarName": "MossyLayers.zip (resourcepack)"
-  },
-  "SimpleCreateRadiosDatapack.zip (resourcepack)": {
-    "jarName": "SimpleCreateRadiosDatapack.zip (resourcepack)"
-  },
-  "Slabfish\u0027d Ribbits.zip (resourcepack)": {
-    "jarName": "Slabfish\u0027d Ribbits.zip (resourcepack)"
-  },
-  "waystones_update_2_1.20.1.zip (resourcepack)": {
-    "jarName": "waystones_update_2_1.20.1.zip (resourcepack)"
-  },
-  "§1Drodi\u0027s Illagers FA [V5] post 1.21.5.zip (resourcepack)": {
-    "jarName": "§1Drodi\u0027s Illagers FA [V5] post 1.21.5.zip (resourcepack)"
-  },
-  "§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip (resourcepack)": {
-    "jarName": "§2Drodi\u0027s Villagers FA [V2.8.2] - 1.20.1.zip (resourcepack)"
-  },
-  "§6Antique Atlas 4 §fCompat§8§o§k.zip (resourcepack)": {
-    "jarName": "§6Antique Atlas 4 §fCompat§8§o§k.zip (resourcepack)"
-  },
-  "§6Immersive§8_§6Interfaces§8.zip (resourcepack)": {
-    "jarName": "§6Immersive§8_§6Interfaces§8.zip (resourcepack)"
-  },
-  "§6Immersive§8_§6Interfaces§8_§6Farmersdelight.zip (resourcepack)": {
-    "jarName": "§6Immersive§8_§6Interfaces§8_§6Farmersdelight.zip (resourcepack)"
-  },
-  "§6Immersive§8_§6Interfaces§8_§6Modded.zip (resourcepack)": {
-    "jarName": "§6Immersive§8_§6Interfaces§8_§6Modded.zip (resourcepack)"
   }
 }

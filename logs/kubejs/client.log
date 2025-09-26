@@ -1,11 +1,10 @@
-[19:35:14] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:35:14] [INIT] Loaded plugins:
-[19:35:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:35:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:35:14] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[19:35:15] [INFO] Loaded script client_scripts:discs.js in 0.002 s
-[19:35:15] [INFO] Loaded script client_scripts:rei_groups.js in 0.005 s
-[19:35:15] [INFO] Loaded script client_scripts:rei_removals.js in 0.013 s
-[19:35:15] [INFO] Loaded 3/3 KubeJS client scripts in 0.043 s with 0 errors and 0 warnings
-[19:35:35] [INFO] Client resource reload complete!
-[19:49:42] [INFO] Client resource reload complete!
+[23:52:20] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[23:52:20] [INIT] Loaded plugins:
+[23:52:20] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:52:20] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:52:20] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[23:52:20] [INFO] Loaded script client_scripts:discs.js in 0.003 s
+[23:52:20] [INFO] Loaded script client_scripts:rei_groups.js in 0.005 s
+[23:52:20] [INFO] Loaded script client_scripts:rei_removals.js in 0.014 s
+[23:52:20] [INFO] Loaded 3/3 KubeJS client scripts in 0.051 s with 0 errors and 0 warnings
+[23:52:40] [INFO] Client resource reload complete!

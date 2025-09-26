@@ -20,11 +20,6 @@ ServerEvents.recipes(event => {
   //-------------------------------------------------------------------------------------------
 
   event.remove({ output: 'minecraft:spyglass' })
-  event.remove({ output: 'ad_astra:energizer' })
-  event.remove({ type: 'ad_astra:alloying' })
-  event.remove({ type: 'ad_astra:compressing' })
-  event.remove({ type: 'ad_astra:fuel_refining' })
-  event.remove({ type: 'ad_astra:oxygen_loading' })
 
   //Smelting Recipes
   //-------------------------------------------------------------------------------------------
@@ -41,8 +36,8 @@ ServerEvents.recipes(event => {
   event.smelting('caverns_and_chasms:silver_ingot', 'caverns_and_chasms:silver_ore').xp(1).cookingTime(400)
   event.smelting('caverns_and_chasms:silver_ingot', 'caverns_and_chasms:deepslate_silver_ore').xp(1).cookingTime(400)
   event.smelting('caverns_and_chasms:silver_nugget', 'spelunkery:raw_silver_nugget').xp(0.1).cookingTime(100)
-  event.blasting('ad_astra:steel_ingot', 'undergarden:froststeel_ingot').xp(1).cookingTime(800)
-  event.blasting('ad_astra:steel_block', 'undergarden:froststeel_block').xp(9).cookingTime(1600)
+  
+  
 
 
 
@@ -127,7 +122,7 @@ event.shaped('alexscaves:uranium_rod', [
   'BAB'
 ], {
   A: 'enlightened_end:irradium_bar',
-  B: 'ad_astra:steel_nugget',
+  B: 'oreganized:lead_nugget',
   C: '#forge:glass_panes',
 })
   event.shaped('sortilege:heart_rhodonite_staff', [
@@ -587,11 +582,6 @@ event.custom({
     'oreganized:lead_ingot'         
   )
   event.replaceInput(
-    { input: 'netherdungeons:warped_nether_wart' }, 
-    'netherdungeons:warped_nether_wart',            
-    'netherexp:warped_wart'         
-  )
-  event.replaceInput(
     { input: 'eidolon:warped_sprouts' }, 
     'eidolon:warped_sprouts',            
     'netherexp:warped_wart'         
@@ -618,11 +608,6 @@ event.custom({
     { input: 'create:dough' }, 
     'create:dough',            
     'farmersdelight:wheat_dough'         
-  )
-  event.replaceInput(
-  { input: 'natures_spirit:aspen_planks' }, 
-  'natures_spirit:aspen_planks',            
-  'atmospheric:aspen_planks'         
   )
   event.replaceInput(
 { input: 'create:bar_of_chocolate' }, 

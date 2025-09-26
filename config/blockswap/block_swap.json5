@@ -338,23 +338,7 @@ to make editing this file much easier.
 		"quark:chiseled_shale_bricks": "oreganized:chiseled_glance",
 		"quark:shale_pillar": "oreganized:chiseled_glance",
 
-		"quark:permafrost": "ad_astra:permafrost",
-		"quark:permafrost_stairs": "architects_palette:polished_packed_ice_stairs",
-		"quark:permafrost_slab": "architects_palette:polished_packed_ice_slab",
-		"quark:permafrost_wall": "architects_palette:polished_packed_ice_wall",
-		"quark:permafrost_bricks": "ad_astra:permafrost_bricks",
-		"quark:permafrost_bricks_stairs": "ad_astra:permafrost_brick_stairs",
-		"quark:permafrost_bricks_slab": "ad_astra:permafrost_brick_slab",
-		"quark:permafrost_bricks_wall": "ad_astra:permafrost_brick_wall",
 
-		"quark:iron_ladder": "create:andesite_ladder",
-		"quark:iron_plate": "architects_palette:plating_block",
-		"quark:rusty_iron_plate": "immersive_weathering:rusted_plate_iron",
-		"quark:iron_plate_stairs": "ad_astra:iron_plating_stairs",
-		"quark:rusty_iron_plate_stairs": "immersive_weathering:rusted_cut_iron_stairs",
-		"quark:iron_plate_slab": "ad_astra:iron_plating_slab",
-		"quark:rusty_iron_plate_slab": "immersive_weathering:rusted_cut_iron_slab",
-		"quark:iron_pillar": "ad_astra:iron_pillar",
 		
 
 		"quark:bamboo_mat": "farmersdelight:tatami",

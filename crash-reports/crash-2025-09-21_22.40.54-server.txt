@@ -1,0 +1,718 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Embeddium instance tainted by mods: [eclipticseasons, entity_texture_features, valkyrienskies, dense_flowers, supplementaries, oculus, polytone]
+// Please do not reach out for Embeddium support without removing these mods first.
+// -------
+// There are four lights!
+
+Time: 2025-09-21 22:40:54
+Description: Exception generating new chunk
+
+java.lang.IllegalStateException: Trying to access unbound value 'ResourceKey[minecraft:worldgen/configured_carver / inq:lunar_caves]' from registry net.minecraft.core.MappedRegistry$1@3ad799c6
+	at net.minecraft.core.Holder$Reference.m_203334_(Holder.java:147) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:enchancement.mixins.json:vanillachanges.disabledisallowedenchantments.RegistryEntryReferenceMixin from mod enchancement,pl:mixin:APP:lithostitched.mixins.json:common.HolderReferenceAccessor from mod lithostitched,pl:mixin:APP:sortilege.mixins.json:accessor.RegistryEntryReferenceAccessor from mod sortilege,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_213679_(NoiseBasedChunkGenerator.java:279) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:noisium-common.mixins.json:compat.lithium.LithiumNoiseChunkGeneratorMixin from mod noisium,pl:mixin:APP:valkyrienskies-common.mixins.json:world.level.levelgen.MixinNoiseBasedChunkGenerator from mod valkyrienskies,pl:mixin:APP:yungscavebiomes.mixins.json:NoiseBasedChunkGenerator from mod yungscavebiomes,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_289182_(ChunkStatus.java:101) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:alexscaves.mixins.json:ChunkStatusMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:alexscaves.mixins.json:ChunkStatusMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.chunk_deadlock.ChunkMapLoadMixin from mod modernfix,pl:mixin:APP:lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium,pl:mixin:APP:valkyrienskies-common.mixins.json:accessors.server.level.ChunkMapAccessor from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:feature.tick_ship_chunks.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:server.world.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:lithostitched.mixins.json:common.ChunkMapMixin from mod lithostitched,pl:mixin:APP:debugify.mixins.json:basic.mc224729.ChunkMapMixin from mod debugify,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:vsch.mixins.json:minecraft.MixinChunkMap from mod vsch,pl:mixin:A,pl:connector_pre_launch:A}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2395!/:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.chunk_deadlock.ChunkMapLoadMixin from mod modernfix,pl:mixin:APP:lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium,pl:mixin:APP:valkyrienskies-common.mixins.json:accessors.server.level.ChunkMapAccessor from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:feature.tick_ship_chunks.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:server.world.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:lithostitched.mixins.json:common.ChunkMapMixin from mod lithostitched,pl:mixin:APP:debugify.mixins.json:basic.mc224729.ChunkMapMixin from mod debugify,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:vsch.mixins.json:minecraft.MixinChunkMap from mod vsch,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {re:mixin,re:computing_frames,pl:rei_plugin_compatibilities:B}
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {re:mixin,re:computing_frames,pl:rei_plugin_compatibilities:B}
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraft.core.Holder$Reference.m_203334_(Holder.java:147) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:enchancement.mixins.json:vanillachanges.disabledisallowedenchantments.RegistryEntryReferenceMixin from mod enchancement,pl:mixin:APP:lithostitched.mixins.json:common.HolderReferenceAccessor from mod lithostitched,pl:mixin:APP:sortilege.mixins.json:accessor.RegistryEntryReferenceAccessor from mod sortilege,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.m_213679_(NoiseBasedChunkGenerator.java:279) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:noisium-common.mixins.json:compat.lithium.LithiumNoiseChunkGeneratorMixin from mod noisium,pl:mixin:APP:valkyrienskies-common.mixins.json:world.level.levelgen.MixinNoiseBasedChunkGenerator from mod valkyrienskies,pl:mixin:APP:yungscavebiomes.mixins.json:NoiseBasedChunkGenerator from mod yungscavebiomes,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_289182_(ChunkStatus.java:101) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:alexscaves.mixins.json:ChunkStatusMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:alexscaves.mixins.json:ChunkStatusMixin from mod alexscaves,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.chunk_deadlock.ChunkMapLoadMixin from mod modernfix,pl:mixin:APP:lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium,pl:mixin:APP:valkyrienskies-common.mixins.json:accessors.server.level.ChunkMapAccessor from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:feature.tick_ship_chunks.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:server.world.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:lithostitched.mixins.json:common.ChunkMapMixin from mod lithostitched,pl:mixin:APP:debugify.mixins.json:basic.mc224729.ChunkMapMixin from mod debugify,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:vsch.mixins.json:minecraft.MixinChunkMap from mod vsch,pl:mixin:A,pl:connector_pre_launch:A}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2395!/:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.chunk_deadlock.ChunkMapLoadMixin from mod modernfix,pl:mixin:APP:lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium,pl:mixin:APP:valkyrienskies-common.mixins.json:accessors.server.level.ChunkMapAccessor from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:feature.tick_ship_chunks.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:server.world.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:lithostitched.mixins.json:common.ChunkMapMixin from mod lithostitched,pl:mixin:APP:debugify.mixins.json:basic.mc224729.ChunkMapMixin from mod debugify,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:vsch.mixins.json:minecraft.MixinChunkMap from mod vsch,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+-- Chunk to be generated --
+Details:
+	Location: -332,-149
+	Position hash: -635655160140
+	Generator: net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@473673eb
+Stacktrace:
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.chunk_deadlock.ChunkMapLoadMixin from mod modernfix,pl:mixin:APP:lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium,pl:mixin:APP:valkyrienskies-common.mixins.json:accessors.server.level.ChunkMapAccessor from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:feature.tick_ship_chunks.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:server.world.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:lithostitched.mixins.json:common.ChunkMapMixin from mod lithostitched,pl:mixin:APP:debugify.mixins.json:basic.mc224729.ChunkMapMixin from mod debugify,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:vsch.mixins.json:minecraft.MixinChunkMap from mod vsch,pl:mixin:A,pl:connector_pre_launch:A}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2395!/:?] {}
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:bugfix.chunk_deadlock.ChunkMapLoadMixin from mod modernfix,pl:mixin:APP:lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium,pl:mixin:APP:valkyrienskies-common.mixins.json:accessors.server.level.ChunkMapAccessor from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:feature.tick_ship_chunks.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:valkyrienskies-common.mixins.json:server.world.MixinChunkMap from mod valkyrienskies,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:lithostitched.mixins.json:common.ChunkMapMixin from mod lithostitched,pl:mixin:APP:debugify.mixins.json:basic.mc224729.ChunkMapMixin from mod debugify,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:vsch.mixins.json:minecraft.MixinChunkMap from mod vsch,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:classloading,pl:rei_plugin_compatibilities:B,pl:connector_pre_launch:A}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {re:mixin,re:computing_frames,pl:rei_plugin_compatibilities:B}
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {re:mixin,re:computing_frames,pl:rei_plugin_compatibilities:B}
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {re:mixin}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Grayskulll'/1780, l='ServerLevel[Three-factor authentication]', x=-5498.36, y=176.07, z=-2468.14]]
+	Chunk stats: 2013
+	Level dimension: undergarden:undergarden
+	Derived: true
+	Level spawn location: World: (0,66,0), Section: (at 0,2,0 in 0,4,0; chunk contains blocks 0,0,0 to 15,191,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,191,511)
+	Level time: 399530 game time, 109896 day time
+	Level name: Three-factor authentication
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:896) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:lexiconfig.mixins.json:MixinMinecraftServer from mod lexiconfig,pl:mixin:APP:valkyrienskies-common.mixins.json:server.MixinMinecraftServer from mod valkyrienskies,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:fastquit.mixins.json:MinecraftServerAccessor from mod fastquit,pl:mixin:APP:fastquit.mixins.json:MinecraftServerMixin from mod fastquit,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:spawn.mixins.json:MinecraftServerMixin from mod spawn,pl:mixin:APP:simpleradio.mixins.json:MixinMinecraftServer from mod simpleradio,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:scriptor.mixins.json:ReloadResourcesMixin from mod scriptor,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:blockswap.mixins.json:MixinMinecraftServer from mod blockswap,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-common.mixins.json:perf.remove_spawn_chunks.MinecraftServerMixin from mod modernfix,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:lexiconfig.mixins.json:MixinMinecraftServer from mod lexiconfig,pl:mixin:APP:valkyrienskies-common.mixins.json:server.MixinMinecraftServer from mod valkyrienskies,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:fastquit.mixins.json:MinecraftServerAccessor from mod fastquit,pl:mixin:APP:fastquit.mixins.json:MinecraftServerMixin from mod fastquit,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:spawn.mixins.json:MinecraftServerMixin from mod spawn,pl:mixin:APP:simpleradio.mixins.json:MixinMinecraftServer from mod simpleradio,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:scriptor.mixins.json:ReloadResourcesMixin from mod scriptor,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:blockswap.mixins.json:MixinMinecraftServer from mod blockswap,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-common.mixins.json:perf.remove_spawn_chunks.MinecraftServerMixin from mod modernfix,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:perf.thread_priorities.IntegratedServerMixin from mod modernfix,pl:mixin:APP:lithostitched.mixins.json:client.IntegratedServerMixin from mod lithostitched,pl:mixin:APP:blueprint.mixins.json:client.IntegratedServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:lexiconfig.mixins.json:MixinMinecraftServer from mod lexiconfig,pl:mixin:APP:valkyrienskies-common.mixins.json:server.MixinMinecraftServer from mod valkyrienskies,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:fastquit.mixins.json:MinecraftServerAccessor from mod fastquit,pl:mixin:APP:fastquit.mixins.json:MinecraftServerMixin from mod fastquit,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:spawn.mixins.json:MinecraftServerMixin from mod spawn,pl:mixin:APP:simpleradio.mixins.json:MixinMinecraftServer from mod simpleradio,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:scriptor.mixins.json:ReloadResourcesMixin from mod scriptor,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:blockswap.mixins.json:MixinMinecraftServer from mod blockswap,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-common.mixins.json:perf.remove_spawn_chunks.MinecraftServerMixin from mod modernfix,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23843!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:rei_plugin_compatibilities:B,pl:mixin:APP:modernfix-common.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:core.MinecraftServerMixin from mod modernfix,pl:mixin:APP:lexiconfig.mixins.json:MixinMinecraftServer from mod lexiconfig,pl:mixin:APP:valkyrienskies-common.mixins.json:server.MixinMinecraftServer from mod valkyrienskies,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:fastquit.mixins.json:MinecraftServerAccessor from mod fastquit,pl:mixin:APP:fastquit.mixins.json:MinecraftServerMixin from mod fastquit,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:spawn.mixins.json:MinecraftServerMixin from mod spawn,pl:mixin:APP:simpleradio.mixins.json:MixinMinecraftServer from mod simpleradio,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin from mod balm,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:scriptor.mixins.json:ReloadResourcesMixin from mod scriptor,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:blockswap.mixins.json:MixinMinecraftServer from mod blockswap,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin from mod kubejs,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin from mod kubejs,pl:mixin:APP:modernfix-common.mixins.json:perf.remove_spawn_chunks.MinecraftServerMixin from mod modernfix,pl:mixin:A,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Unknown Source) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8.1, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 1486888072 bytes (1418 MiB) / 8589934592 bytes (8192 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 3900X 12-Core Processor            
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.79
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: NVIDIA GeForce RTX 4070
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x2786
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.7640
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 55200.68
+	Virtual memory used (MB): 36237.83
+	Swap memory total (MB): 38912.00
+	Swap memory used (MB): 3307.31
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8192M
+	Loaded Shaderpack: (off)
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Grayskulll'/1780, l='ServerLevel[Three-factor authentication]', x=-5498.36, y=176.07, z=-2468.14]]
+	Data Packs: vanilla, mod:step_height_entity_attribute, mod:betterdungeons, mod:habitat, mod:fabric_language_kotlin, mod:connectorextras_kubejs_bridge, mod:dynamiccrosshair, mod:respackopts, mod:fabric_rendering_fluids_v1, mod:cardinal_components_entity, mod:fabric_models_v0, mod:critter_lib, mod:hourglass (incompatible), mod:stonycliffs (incompatible), mod:modernfix (incompatible), mod:fabric_command_api_v1, mod:fabric_block_view_api_v2, mod:fabric_command_api_v2, mod:yungsapi, mod:global_server_config (incompatible), mod:oneenoughitem, mod:connectorextras_rei_bridge, mod:createdieselgenerators (incompatible), mod:poscendo (incompatible), mod:exposure, mod:betterfortresses, mod:cloth_config (incompatible), mod:embeddium, mod:structure_gel, mod:corpse, mod:immersiveui, mod:blur (incompatible), mod:sleep_tight (incompatible), mod:org_jetbrains_kotlinx_kotlinx_serialization_core_jvm, mod:spark (incompatible), mod:mostructures, mod:oculus, mod:com_github_mclegoman_releasetypeutils, mod:immersive_hotbar, mod:mr_dungeons_andtaverns (incompatible), mod:noisium, mod:salt (incompatible), mod:shutter, mod:zapscompat_bb, mod:libjf_config_commands_v1, mod:transition, mod:betterendisland, mod:dynamic_fps, mod:fabric_rendering_data_attachment_v1, mod:trials, mod:paradise_lost (incompatible), mod:nebs (incompatible), mod:betterjungletemples, mod:fabric_client_tags_api_v1, mod:radium, mod:kiwi (incompatible), mod:visualworkbench, mod:attributefix (incompatible), mod:fabric_screen_handler_api_v1, mod:paxi, mod:immersive_weathering (incompatible), mod:libbamboo, mod:spellbound (incompatible), mod:dungeonnowloading (incompatible), mod:integrated_api, mod:fabric_simplelibs, mod:nirvana, mod:libjf, mod:fabric_particles_v1, mod:voicechat (incompatible), mod:terrablender, mod:forgeconfigscreens, mod:necronomicon, mod:fabric_block_api_v1, mod:bountifulfares, mod:fabric_resource_conditions_api_v1, mod:random_mob_sizes (incompatible), mod:forgeconfigapiport, mod:brewinandchewin, mod:notenoughanimations, mod:foglooksmodernnow (incompatible), mod:farmersrespite, mod:flywheel, mod:lexiconfig (incompatible), mod:smoothscroll, mod:minecraft_cursor (incompatible), mod:hardcorerevival, mod:ambientenvironment (incompatible), mod:fabric_registry_sync_v0, mod:lootr, mod:fabric_object_builder_api_v1, mod:org_jetbrains_kotlin_kotlin_reflect, mod:ryoamiclights (incompatible), mod:valkyrienskies (incompatible), mod:immersive_melodies (incompatible), mod:fabric_message_api_v1, mod:kuma_api, mod:fabric_renderer_api_v1, mod:multikulti_datagen_fixes, mod:lunarnether, mod:satin (incompatible), mod:org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm, mod:fabric_item_api_v1, mod:com_github_llamalad7_mixinextras, mod:galosphere (incompatible), mod:betteroceanmonuments, mod:worldplaytime (incompatible), mod:tipsmod (incompatible), mod:obsidianui (incompatible), mod:vs_eureka (incompatible), mod:cavedelight, mod:darkness (incompatible), mod:prism (incompatible), mod:placebo (incompatible), mod:rei_plugin_compatibilities (incompatible), mod:structureplacerapi, mod:cobweb (incompatible), mod:bookshelf, mod:cardinal_components_world, mod:dense_flowers, mod:blueprintfix, mod:zetter (incompatible), mod:melody (incompatible), mod:org_jetbrains_kotlinx_atomicfu_jvm, mod:fzzy_config (incompatible), mod:particle_core (incompatible), mod:fabric_api, mod:connectorextras_modmenu_bridge, mod:konkrete (incompatible), mod:natures_spirit, mod:entity_model_features (incompatible), mod:entity_texture_features (incompatible), mod:netherportalspread, mod:fabric_api_lookup_api_v1, mod:customportalapi, mod:libjf_config_ui_tiny_v1, mod:dynamiccrosshairapi (incompatible), mod:connectorextras_architectury_bridge, mod:cullleaves (incompatible), mod:midnightlib (incompatible), mod:fastquit, mod:connectormod, mod:cardinal_components_base, mod:aiimprovements, mod:mosaic_cosmetics (incompatible), mod:undergarden, mod:framework, mod:species, mod:org_jetbrains_kotlin_kotlin_stdlib, mod:zettergallery (incompatible), mod:fabric_key_binding_api_v1, mod:betteradvancements (incompatible), mod:org_jetbrains_kotlin_kotlin_stdlib_jdk8, mod:fabric_transfer_api_v1, mod:org_jetbrains_kotlin_kotlin_stdlib_jdk7, mod:libjf_data_v0, mod:libjf_config_reflect_v1, mod:libjf_data_manipulation_v0, mod:enhanced_mushrooms, mod:particlerain (incompatible), mod:connectorextras_pehkui_bridge, mod:fabric_resource_loader_v0, mod:obscure_tooltips_fix, mod:enlightened_end, mod:mm, mod:org_jetbrains_kotlinx_kotlinx_datetime_jvm, mod:everycomp (incompatible), mod:cyanide (incompatible), mod:soulfulnether, mod:connectorextras_energy_bridge, mod:miningmaster (incompatible), mod:rainbowoaks, mod:shortstacks, mod:healpgood, mod:rubinated_nether, mod:fabric_blockrenderlayer_v1, mod:obscure_tooltips (incompatible), mod:amecsapi, mod:creativecore, mod:symbol_chat, mod:libjf_translate_v1, mod:citresewn, mod:miners_delight (incompatible), mod:mynethersdelight, mod:fabric_biome_api_v1, mod:fancymenu (incompatible), mod:raised (incompatible), mod:mindful_eating (incompatible), mod:moderately_enough_effect_desc, mod:heart_crystals (incompatible), mod:libjf_web_v0, mod:ferritecore (incompatible), mod:betterf3, mod:spawn (incompatible), mod:wakes (incompatible), mod:badoptimizations (incompatible), mod:simpleradio (incompatible), mod:deepnether, mod:smsn, mod:man_of_many_planes (incompatible), mod:secondchanceforge (incompatible), mod:easyanvils, mod:netherexp, mod:material_beacons, mod:playeranimator (incompatible), mod:playeranimatorapi, mod:botarium (incompatible), mod:spritearrows (incompatible), mod:subtle_effects, mod:libjf_unsafe_v0, mod:aquaculturedelight, mod:sound_physics_remastered (incompatible), mod:fabric_convention_tags_v1, mod:potionparticlepack, mod:armorcurve (incompatible), mod:resourcepackoverrides, mod:surveyor, mod:balm, mod:fabric_screen_api_v1, mod:smoothskies, mod:soul_fire_d (incompatible), mod:particleanimationlib, mod:spelunkery (incompatible), mod:antique_atlas, mod:crash_assistant (incompatible), mod:connectorextras_terrablender_bridge, mod:galospheric_delight (incompatible), mod:fabric_game_rule_api_v1, mod:do_a_barrel_roll (incompatible), mod:hearthandharvest, mod:vanillabackport, mod:org_jetbrains_kotlinx_kotlinx_coroutines_jdk8, mod:resourcefulconfig (incompatible), mod:darkerdepths (incompatible), mod:mysticaloaktree (incompatible), mod:curios (incompatible), mod:perspective, mod:fabric_entity_events_v1, mod:sapience (incompatible), mod:hardernaturalhealing, mod:conditional_mixin (incompatible), mod:windswept, mod:bettermineshafts, mod:enchancement, mod:fabric_dimensions_v1, mod:stylisheffects, mod:mowziesmobs, mod:salwayseat (incompatible), mod:integrated_villages, mod:folk_sisby_kaleido_config, mod:fabric_model_loading_api_v1, mod:lithostitched, mod:youwereslain, mod:libjf_config_core_v1, mod:fabric_rendering_v1, mod:realmrpg_skeletons, mod:passablefoliage (incompatible), mod:fabric_renderer_indigo, mod:multikulti_core, mod:naturescompass, mod:oelib, mod:connectorextras_geckolib_fabric_compat, mod:runiclib (incompatible), mod:multikulti_registrate, mod:catalogue (incompatible), mod:memoryleakfix (incompatible), mod:puzzlesaccessapi, mod:org_jetbrains_kotlinx_kotlinx_serialization_json_jvm, mod:forge, mod:etched (incompatible), mod:chalk (incompatible), mod:logbegone (incompatible), mod:polytone (incompatible), mod:idas, mod:drippyloadingscreen (incompatible), mod:fabric_api_base, mod:mousetweaks, mod:bettercombat (incompatible), mod:combatroll (incompatible), mod:everycompat_just_enough_wood (incompatible), mod:cubes_without_borders (incompatible), mod:spectrelib (incompatible), mod:eclipticseasons, mod:connectorextras_jei_bridge, mod:e4mc_minecraft (incompatible), mod:kotlinforforge (incompatible), mod:statement (incompatible), mod:integrated_stronghold, mod:fabric_item_group_api_v1, mod:polymorph (incompatible), mod:zeta (incompatible), mod:entityculling, mod:continuity, mod:blue_endless_jankson, mod:faster_random, mod:fabric_recipe_api_v1, mod:async_pack_scan, mod:visuality (incompatible), mod:puzzleslib, mod:aquaculture, mod:sortilege, mod:smoothswapping, mod:fabric_sound_api_v1, mod:lazyyyyy, mod:explosiveenhancement, mod:transmog (incompatible), mod:geckolib, mod:omega_config, mod:souper_secret_settings, mod:eidolon (incompatible), mod:architects_palette, mod:immersive_aircraft (incompatible), mod:citadel (incompatible), mod:alexsmobs (incompatible), mod:cloudstorage (incompatible), mod:fabric_data_attachment_api_v1, mod:obscure_api_modification, mod:obscure_api (incompatible), mod:twigs (incompatible), mod:jeed (incompatible), mod:hauntedharvest (incompatible), mod:betterclouds, mod:beansbackpacks (incompatible), mod:languagereload, mod:fabric_content_registries_v0, mod:undergardendelight, mod:composite_material (incompatible), mod:out_of_sight, mod:farmersdelight, mod:largemeals, mod:dungeonsdelight (incompatible), mod:chefsdelight (incompatible), mod:citresewn_defaults, mod:endrem (incompatible), mod:modify_drops_api, mod:reach_entity_attributes, mod:modelfix (incompatible), mod:zigysmultiloaderutils, mod:patchouli (incompatible), mod:org_jetbrains_kotlinx_kotlinx_serialization_cbor_jvm, mod:collective, mod:seamless_loading_screen (incompatible), mod:resourcefullib (incompatible), mod:cosmos, mod:architectury (incompatible), mod:scriptor (incompatible), mod:chatplus (incompatible), mod:gardens_of_the_dead, mod:nerb, mod:yaf, mod:computercraft, mod:fabric_loot_api_v2, mod:connectorextras, mod:debugify, mod:mru (incompatible), mod:fabric_networking_api_v1, mod:sullysmod (incompatible), mod:extraalchemy, mod:fabric_lifecycle_events_v1, mod:mob_ai_tweaks, mod:item_descriptions, mod:galena_hats (incompatible), mod:rhino (incompatible), mod:owo, mod:octolib, mod:elysium_api, mod:trender, mod:portfolio, mod:terraform_wood_api_v1, mod:create, mod:waystones, mod:extra_compat, mod:yungscavebiomes, mod:fabric_mining_level_api_v1, mod:temporalapi, mod:spelunking_master, mod:betterdeserttemples, mod:blockswap (incompatible), mod:blueprint, mod:copperpot, mod:savage_and_ravage (incompatible), mod:endergetic (incompatible), mod:personality, mod:autumnity (incompatible), mod:foragersinsight, mod:pet_cemetery (incompatible), mod:abnormals_delight, mod:environmental (incompatible), mod:upgrade_aquatic (incompatible), mod:neapolitan (incompatible), mod:exquisito (incompatible), mod:cosmopolitan (incompatible), mod:respiteful (incompatible), mod:onion_onion (incompatible), mod:gallery, mod:frame_changer (incompatible), mod:allurement, mod:caverns_and_chasms (incompatible), mod:whiffowisp (incompatible), mod:incubation (incompatible), mod:buzzier_bees (incompatible), mod:berry_good, mod:seasonals (incompatible), mod:fabric_transitive_access_wideners_v1, mod:alexscaves, mod:libjf_base, mod:moonlight (incompatible), mod:moyai (incompatible), mod:molten_metals, mod:archeryexp, mod:mixinsquared (incompatible), mod:visual_keybinder, mod:natures_delight, mod:jade (incompatible), mod:io_gitlab_jfronny_muscript, mod:oreganized, mod:doom_and_gloom, mod:oreganized_carcinogenius, mod:platform (incompatible), mod:crowdin_translate, mod:sounds, mod:roughlyenoughitems (incompatible), mod:kubejs (incompatible), mod:atmospheric (incompatible), mod:peculiars (incompatible), mod:vsch, mod:defaultworldtype, mod:rottencreatures, mod:thigh_highs_etc (incompatible), mod:ribbits (incompatible), mod:quark (incompatible), mod:supplementaries, mod:raspberry (incompatible), mod:woodworks (incompatible), mod:archexpsquared, mod:amendments (incompatible), mod:diet, mod:ohmymeteors, mod:holdmyitems, mod:sherdsapi (incompatible), mod:eclipticseasons_multimodpatch, mod:yet_another_config_lib_v3 (incompatible), mod:etcetera (incompatible), mod:dolt_mod_how (incompatible), mod:heartstone (incompatible), mod:screenshot_viewer, mod:packetfixer (incompatible), mod:connectorextras_emi_bridge, mod:wan_ancient_beasts (incompatible), mod:deeper_oceans, mod:fabric_data_generation_api_v1, mod:fabric_events_interaction_v0, Everycomp Generated Pack, Immersive Weathering Generated Pack, InquisitivePrimaryDatapack, Spelunkery Generated Pack, Supplementaries Generated Pack, alexscaves_compat, alexsmobs_compat, bountifulfares:amendments_dat, bountifulfares:natures_spirit_dat, bountifulfares:spawn_dat, bountifulfares:twigs_dat, builtin/modified_badlands, builtin/modified_birch_forest, builtin/modified_dark_forest, builtin/modified_desert, builtin/modified_flower_forest, builtin/modified_jungle, builtin/modified_mountain_biomes, builtin/modified_savannas, builtin/modified_swamp, builtin/modified_windswept_hills, caverns_and_chasms_compat, fabric, farmersdelight_compat, galosphere_compat, gardens_of_the_dead_compat, larger_nether_biomes, lithostitched/breaks_seed_parity, netherexp_compat, nethers_delight_compat, oreganized_compat, rubinated_nether/better_netherite_template, rubinated_nether/compat_spelunkery, rubinated_nether_compat, soul_fire_d:campfire_tags, soul_fire_d:fire_source_tags, species_compat, sullysmod:mob_retextures, mod:surveystones, mod:patched
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: 1.20.1
+	Sinytra Connector: 1.0.0-beta.46+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| enchancement-1.20-26$step-height-entity-attribute- | Step Height Entity Attribute   | step_height_entity_attribute   | 1.2.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0_mapped_ | Fabric Language Kotlin         | fabric_language_kotlin         | 1.11.0kotlin.2.0.0   |
+		| respackopts-4.6.2_mapped_srg_1.20.1.jar            | Resource Pack Options          | respackopts                    | 4.6.2                |
+		| enchancement-1.20-26$cardinal-components-entity-5. | Cardinal Components API (entit | cardinal_components_entity     | 5.2.2                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-core-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| mostructures-1.4.5+1.20.1_mapped_srg_1.20.1.jar    | Mo' Structures                 | mostructures                   | 1.4.51.20.1          |
+		| perspective-1.2.0-alpha.2+1.20.0-1$releasetypeutil | releasetypeutils               | com_github_mclegoman_releasety | 2.0.0                |
+		| immersive-hotbar-1.0.4-1.20-1.20.4_mapped_srg_1.20 | Immersive Hotbar               | immersive_hotbar               | 1.0.4-1.20-1.20.4    |
+		| libjf-3.12.5$libjf-config-commands-v1-unspecified_ | LibJF Config Commands          | libjf_config_commands_v1       | 3.12.5               |
+		| paradise-lost-2.2.4-beta+1.20.0_mapped_srg_1.20.1. | Paradise Lost                  | paradise_lost                  | 2.2.4-beta1.20.0     |
+		| spellbound-1.20.3_mapped_srg_1.20.1.jar            | Spellbound                     | spellbound                     | 1.20.3               |
+		| perspective-1.2.0-alpha.2+1.20.0-1$fabric-simpleli | Simple Fabric Libs             | fabric_simplelibs              | 2.0.0                |
+		| libjf-3.12.5_mapped_srg_1.20.1.jar                 | LibJF                          | libjf                          | 3.12.5               |
+		| bountifulfares-1.2.1-1.20.1_mapped_srg_1.20.1.jar  | Bountiful Fares                | bountifulfares                 | 1.2.1-1.20.1         |
+		| smoothscroll-2.2.3.1+1.20.1_mapped_srg_1.20.1.jar  | Smooth Scroll                  | smoothscroll                   | 2.2.3.1              |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-reflect                 | org_jetbrains_kotlin_kotlin_re | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-coroutines-core-jvm    | org_jetbrains_kotlinx_kotlinx_ | 1.8.1                |
+		| language-reload-1.5.10+1.20.1$mixinextras-fabric-0 | MixinExtras                    | com_github_llamalad7_mixinextr | 0.2.0-rc.5           |
+		| ohmymeteors-1.0.0+1.20.1$structureplacerapi-1.1.6+ | StructurePlacerAPI             | structureplacerapi             | 1.1.61.20.1          |
+		| enchancement-1.20-26$cardinal-components-world-5.2 | Cardinal Components API (world | cardinal_components_world      | 5.2.2                |
+		| dense-flowers-0.2.1+mc1.20.1_mapped_srg_1.20.1.jar | Dense Flowers                  | dense_flowers                  | 0.2.1mc1.20.1        |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$atomicf | atomicfu-jvm                   | org_jetbrains_kotlinx_atomicfu | 0.24.0               |
+		| paradise-lost-2.2.4-beta+1.20.0$customportalapi-0. | Custom Portal Api              | customportalapi                | 0.0.1-beta65-1.20    |
+		| libjf-3.12.5$libjf-config-ui-tiny-v1-unspecified_m | LibJF Config UI: Tiny          | libjf_config_ui_tiny_v1        | 3.12.5               |
+		| fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar         | FastQuit                       | fastquit                       | 3.0.01.20            |
+		| enchancement-1.20-26$cardinal-components-base-5.2. | Cardinal Components API (base) | cardinal_components_base       | 5.2.2                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib                  | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib-jdk8             | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin- | kotlin-stdlib-jdk7             | org_jetbrains_kotlin_kotlin_st | 2.0.0                |
+		| libjf-3.12.5$libjf-data-v0-unspecified_mapped_srg_ | LibJF Data                     | libjf_data_v0                  | 3.12.5               |
+		| libjf-3.12.5$libjf-config-reflect-v1-unspecified_m | LibJF Config Reflect           | libjf_config_reflect_v1        | 3.12.5               |
+		| surveystones-1.3.1+1.20_mapped_srg_1.20.1.jar      | Surveystones                   | surveystones                   | 1.3.11.20            |
+		| libjf-3.12.5$libjf-data-manipulation-v0-unspecifie | LibJF Data Manipulation        | libjf_data_manipulation_v0     | 3.12.5               |
+		| paradise-lost-2.2.4-beta+1.20.0$Fabric-ASM-2.3_map | Manningham Mills               | mm                             | 2.3                  |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-datetime-jvm           | org_jetbrains_kotlinx_kotlinx_ | 0.6.0                |
+		| symbol-chat-1.20.1-1.1.2_mapped_srg_1.20.1.jar     | Symbol Chat                    | symbol_chat                    | 1.20.1-1.1.2         |
+		| libjf-3.12.5$libjf-translate-v1-unspecified_mapped | LibJF Translate                | libjf_translate_v1             | 3.12.5               |
+		| citresewn-1.2.2+1.20.1_mapped_srg_1.20.1.jar       | CIT Resewn                     | citresewn                      | 1.2.21.20.1          |
+		| libjf-3.12.5$libjf-web-v0-unspecified_mapped_srg_1 | LibJF Web                      | libjf_web_v0                   | 3.12.5               |
+		| material-beacons-1.0.1+1.20.1_mapped_srg_1.20.1.ja | Material Beacons               | material_beacons               | 1.0.11.20.1          |
+		| libjf-3.12.5$libjf-unsafe-v0-unspecified_mapped_sr | LibJF Unsafe                   | libjf_unsafe_v0                | 3.12.5               |
+		| potionparticlepack-1.0.1_mapped_srg_1.20.1.jar     | potionparticlepack             | potionparticlepack             | 1.0.1                |
+		| surveyor-0.6.26+1.20_mapped_srg_1.20.1.jar         | Surveyor Map Framework         | surveyor                       | 0.6.261.20           |
+		| smoothskies-1.1.0_mapped_srg_1.20.1.jar            | Smooth Skies                   | smoothskies                    | 1.1.0                |
+		| ohmymeteors-1.0.0+1.20.1$particleanimationlib-0.1. | Particle Animation Library (PA | particleanimationlib           | 0.1.2                |
+		| antique-atlas-2.11.2+1.20_mapped_srg_1.20.1.jar    | Antique Atlas                  | antique_atlas                  | 2.11.21.20           |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-coroutines-jdk8        | org_jetbrains_kotlinx_kotlinx_ | 1.8.1                |
+		| perspective-1.2.0-alpha.2+1.20.0-1_mapped_srg_1.20 | Perspective                    | perspective                    | 1.2.0-alpha.2        |
+		| enchancement-1.20-26_mapped_srg_1.20.1.jar         | Enchancement                   | enchancement                   | 1.20-26              |
+		| surveyor-0.6.26+1.20$kaleido-config-0.3.1+1.3.2_ma | kaleido-config                 | folk_sisby_kaleido_config      | 0.3.11.3.2           |
+		| youwereslain-1.0.0-1.20.x_mapped_srg_1.20.1.jar    | You Were Slain                 | youwereslain                   | 1.0.0-1.20.x         |
+		| libjf-3.12.5$libjf-config-core-v1-unspecified_mapp | LibJF Config                   | libjf_config_core_v1           | 3.12.5               |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-json-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| continuity-3.0.0+1.20.1.forge_mapped_srg_1.20.1.ja | Continuity                     | continuity                     | 3.0.01.20.1.forge    |
+		| owo-lib-0.11.2+1.20$jankson-1.2.2_mapped_srg_1.20. | jankson                        | blue_endless_jankson           | 1.2.2                |
+		| fasterrandom-5.1.0_mapped_srg_1.20.1.jar           | Faster Random                  | faster_random                  | 5.1.0                |
+		| async-pack-scan-0.2.0_mapped_srg_1.20.1.jar        | Async Pack Scan                | async_pack_scan                | 0.2.0                |
+		| Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar       | Sortilege                      | sortilege                      | 1.7.2                |
+		| smoothswapping-0.9.3.1-1.20.2-fabric_mapped_srg_1. | Smooth Swapping                | smoothswapping                 | 0.9.3.1              |
+		| explosive-enhancement-1.2.1-1.20.x_mapped_srg_1.20 | Explosive Enhancement          | explosiveenhancement           | 1.2.1-1.20.x         |
+		| mostructures-1.4.5+1.20.1$omega-config-1.4.1-1.20. | OmegaConfig                    | omega_config                   | 1.4.11.20.1          |
+		| souper_secret_settings-1.0.9-mc1.20+_mapped_srg_1. | Souper Secret Settings         | souper_secret_settings         | 1.0.9-mc1.20         |
+		| language-reload-1.5.10+1.20.1_mapped_srg_1.20.1.ja | Language Reload                | languagereload                 | 1.5.101.20.1         |
+		| citresewn-1.2.2+1.20.1$citresewn-defaults-1.2.2+1. | CIT Resewn: Defaults           | citresewn_defaults             | 1.2.21.20.1          |
+		| spellbound-1.20.3$modify-drops-api-0.5.1.1_mapped_ | Modify Drops API               | modify_drops_api               | 0.5.1.1              |
+		| fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx | kotlinx-serialization-cbor-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.6.3                |
+		| Debugify-1.20.1+2.0_mapped_srg_1.20.1.jar          | Debugify                       | debugify                       | 1.20.12.0            |
+		| extraalchemy-fabric-1.20.1-1.10.0_mapped_srg_1.20. | Extra Alchemy                  | extraalchemy                   | 1.10.0               |
+		| mob-ai-tweaks-1.8.4-1.20.1_mapped_srg_1.20.1.jar   | Mob AI Tweaks                  | mob_ai_tweaks                  | 1.8.4                |
+		| owo-lib-0.11.2+1.20_mapped_srg_1.20.1.jar          | oωo                            | owo                            | 0.11.21.20           |
+		| bountifulfares-1.2.1-1.20.1$terraform-wood-api-v1- | Terraform Wood API (v1)        | terraform_wood_api_v1          | 7.0.1                |
+		| libjf-3.12.5$libjf-base-unspecified_mapped_srg_1.2 | LibJF Base                     | libjf_base                     | 3.12.5               |
+		| respackopts-4.6.2$muscript-1.4-SNAPSHOT_mapped_srg | muscript                       | io_gitlab_jfronny_muscript     | 1.4-SNAPSHOT         |
+		| perspective-1.2.0-alpha.2+1.20.0-1$crowdin-transla | CrowdinTranslate               | crowdin_translate              | 1.41.19.3            |
+		| ohmymeteors-1.0.0+1.20.1_mapped_srg_1.20.1.jar     | Oh My, Meteors!                | ohmymeteors                    | 1.0.01.20.1          |
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar crash_assistant TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar lazyyyyy TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-transmogrifier TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		kotlinforforge@4.11.0
+		javafml@null
+		lowcodefml@null
+	Mod List: 
+		enchancement-1.20-26$step-height-entity-attribute-|Step Height Entity Attribute  |step_height_entity_attribute  |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDungeons-1.20-Forge-4.0.4.jar          |YUNG's Better Dungeons        |betterdungeons                |1.20-Forge-4.0.4    |DONE      |Manifest: NOSIGNATURE
+		habitat-1.3.1.jar                                 |Habitat                       |habitat                       |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0_mapped_|Fabric Language Kotlin        |fabric_language_kotlin        |1.11.0kotlin.2.0.0  |DONE      |Manifest: NOSIGNATURE
+		kubejs-bridge-1.11.2+1.20.1.jar                   |Connector Extras KubeJS Bridge|connectorextras_kubejs_bridge |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		dynamiccrosshair-9.8+1.20.1-forge.jar             |Dynamic Crosshair             |dynamiccrosshair              |9.8                 |DONE      |Manifest: NOSIGNATURE
+		respackopts-4.6.2_mapped_srg_1.20.1.jar           |Resource Pack Options         |respackopts                   |4.6.2               |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-fluids-v1-3.0.29+4ac5e37a77.jar  |Fabric Rendering Fluids (v1)  |fabric_rendering_fluids_v1    |3.0.29+4ac5e37a77   |DONE      |Manifest: NOSIGNATURE
+		enchancement-1.20-26$cardinal-components-entity-5.|Cardinal Components API (entit|cardinal_components_entity    |5.2.2               |DONE      |Manifest: NOSIGNATURE
+		fabric-models-v0-0.4.3+7c3892a477.jar             |Fabric Models (v0)            |fabric_models_v0              |0.4.3+7c3892a477    |DONE      |Manifest: NOSIGNATURE
+		critter-forge-0.1-beta.14.jar                     |Critter Library               |critter_lib                   |0.1-beta.14         |DONE      |Manifest: NOSIGNATURE
+		hourglass-1.20-1.2.1.1.jar                        |Hourglass                     |hourglass                     |1.2.1.1             |DONE      |Manifest: NOSIGNATURE
+		Stony Cliffs FML v1.1.2.jar                       |Stony Cliffs Are Cool         |stonycliffs                   |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		modernfix-forge-5.24.4+mc1.20.1.jar               |ModernFix                     |modernfix                     |5.24.4+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v1-1.2.35+f71b366f77.jar       |Fabric Command API (v1)       |fabric_command_api_v1         |1.2.35+f71b366f77   |DONE      |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.3+53347ba977.jar     |Fabric BlockView API (v2)     |fabric_block_view_api_v2      |1.0.3+53347ba977    |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v2-2.2.14+561530ec77.jar       |Fabric Command API (v2)       |fabric_command_api_v2         |2.2.14+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.6.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.6    |DONE      |Manifest: NOSIGNATURE
+		global-server-config-forge-1.18.2+-1.0.jar        |Global Server Config          |global_server_config          |1.0                 |DONE      |Manifest: NOSIGNATURE
+		OneEnoughItem-1.0.3_hotfix-all.jar                |OneEnoughItem                 |oneenoughitem                 |1.0.3_hotfix        |DONE      |Manifest: NOSIGNATURE
+		rei-bridge-1.11.2+1.20.1.jar                      |Connector Extras REI Bridge   |connectorextras_rei_bridge    |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		createdieselgenerators-1.20.1-1.2i.jar            |Create Diesel Generators      |createdieselgenerators        |1.20.1-1.2i         |DONE      |Manifest: NOSIGNATURE
+		Poscendo-1.20.1-1.1.0.jar                         |Poscendo                      |poscendo                      |1.20.1-1.1.0        |DONE      |Manifest: NOSIGNATURE
+		exposure-1.20.1-1.7.16-forge.jar                  |Exposure                      |exposure                      |1.7.16              |DONE      |Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar  |YUNG's Better Nether Fortresse|betterfortresses              |1.20-Forge-2.0.6    |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |DONE      |Manifest: NOSIGNATURE
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		structure_gel-1.20.1-2.16.2.jar                   |Structure Gel API             |structure_gel                 |2.16.2              |DONE      |Manifest: NOSIGNATURE
+		corpse-forge-1.20.1-1.0.21.jar                    |Corpse                        |corpse                        |1.20.1-1.0.21       |DONE      |Manifest: NOSIGNATURE
+		ImmersiveUI-FORGE-0.3.0.jar                       |ImmersiveUI                   |immersiveui                   |0.3.0               |DONE      |Manifest: NOSIGNATURE
+		blur-forge-3.1.1.jar                              |Blur (Forge)                  |blur                          |3.1.1               |DONE      |Manifest: NOSIGNATURE
+		sleep_tight-1.20-1.4.6.jar                        |Sleep Tight                   |sleep_tight                   |1.20-1.4.6          |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx|kotlinx-serialization-core-jvm|org_jetbrains_kotlinx_kotlinx_|1.6.3               |DONE      |Manifest: NOSIGNATURE
+		spark-1.10.53-forge.jar                           |spark                         |spark                         |1.10.53             |DONE      |Manifest: NOSIGNATURE
+		mostructures-1.4.5+1.20.1_mapped_srg_1.20.1.jar   |Mo' Structures                |mostructures                  |1.4.51.20.1         |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.8.0.jar                         |Oculus                        |oculus                        |1.8.0               |DONE      |Manifest: NOSIGNATURE
+		perspective-1.2.0-alpha.2+1.20.0-1$releasetypeutil|releasetypeutils              |com_github_mclegoman_releasety|2.0.0               |DONE      |Manifest: NOSIGNATURE
+		immersive-hotbar-1.0.4-1.20-1.20.4_mapped_srg_1.20|Immersive Hotbar              |immersive_hotbar              |1.0.4-1.20-1.20.4   |DONE      |Manifest: NOSIGNATURE
+		dungeons-and-taverns-3.0.3.f.jar                  |Dungeons and Taverns          |mr_dungeons_andtaverns        |3.0.3.f             |DONE      |Manifest: NOSIGNATURE
+		noisium-forge-2.3.0+mc1.20-1.20.1.jar             |Noisium                       |noisium                       |2.3.0+mc1.20-1.20.1 |DONE      |Manifest: NOSIGNATURE
+		salt-1.20.1-1.2.6.jar                             |Salt                          |salt                          |1.2.6               |DONE      |Manifest: NOSIGNATURE
+		shutter-2.2.0-1.20.1.jar                          |Shutter                       |shutter                       |2.2.0-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		ZapsCompatBeansBackpacks-1.0.jar                  |Zap's Compat (Bean's Backpacks|zapscompat_bb                 |1.0                 |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-config-commands-v1-unspecified_|LibJF Config Commands         |libjf_config_commands_v1      |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		TRansition-1.0.4-1.20.1-forge-SNAPSHOT.jar        |TRansition                    |transition                    |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterEndIsland-1.20-Forge-2.0.6.jar         |YUNG's Better End Island      |betterendisland               |1.20-Forge-2.0.6    |DONE      |Manifest: NOSIGNATURE
+		dynamic-fps-3.9.5+minecraft-1.20.0-forge.jar      |Dynamic FPS                   |dynamic_fps                   |3.9.5               |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.39+a6081af|Fabric Rendering Data Attachme|fabric_rendering_data_attachme|0.3.39+a6081afc77   |DONE      |Manifest: NOSIGNATURE
+		Trials-2.3.3.jar                                  |Minecraft                     |trials                        |2.3.3               |DONE      |Manifest: NOSIGNATURE
+		paradise-lost-2.2.4-beta+1.20.0_mapped_srg_1.20.1.|Paradise Lost                 |paradise_lost                 |2.2.4-beta1.20.0    |DONE      |Manifest: NOSIGNATURE
+		NekosEnchantedBooks-1.19.3-2.0.3.jar              |Neko's Enchanted Books        |nebs                          |2.0.3               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterJungleTemples-1.20-Forge-2.0.5.jar     |YUNG's Better Jungle Temples  |betterjungletemples           |1.20-Forge-2.0.5    |DONE      |Manifest: NOSIGNATURE
+		fabric-client-tags-api-v1-1.1.3+5d6761b877.jar    |Fabric Client Tags            |fabric_client_tags_api_v1     |1.1.3+5d6761b877    |DONE      |Manifest: NOSIGNATURE
+		radium-mc1.20.1-0.12.4+git.26c9d8e.jar            |Radium                        |radium                        |0.12.4+git.26c9d8e  |DONE      |Manifest: NOSIGNATURE
+		Kiwi-1.20.1-Forge-11.9.2.jar                      |Kiwi Library                  |kiwi                          |11.9.2+forge        |DONE      |Manifest: NOSIGNATURE
+		VisualWorkbench-v8.0.1-1.20.1-Forge.jar           |Visual Workbench              |visualworkbench               |8.0.1               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		AttributeFix-Forge-1.20.1-21.0.4.jar              |AttributeFix                  |attributefix                  |21.0.4              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		fabric-screen-handler-api-v1-1.3.33+561530ec77.jar|Fabric Screen Handler API (v1)|fabric_screen_handler_api_v1  |1.3.33+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		Paxi-1.20-Forge-4.0.jar                           |Paxi                          |paxi                          |1.20-Forge-4.0      |DONE      |Manifest: NOSIGNATURE
+		immersive_weathering-1.20.1-2.0.5-forge.jar       |Immersive Weathering          |immersive_weathering          |1.20.1-2.0.5        |DONE      |Manifest: NOSIGNATURE
+		libbamboo-2.16+1.20.1-forge.jar                   |LibBamboo                     |libbamboo                     |2.16                |DONE      |Manifest: NOSIGNATURE
+		spellbound-1.20.3_mapped_srg_1.20.1.jar           |Spellbound                    |spellbound                    |1.20.3              |DONE      |Manifest: NOSIGNATURE
+		Dungeon Now Loading-forge-1.20.1-2.0.jar          |Dungeon Now Loading           |dungeonnowloading             |2.0                 |DONE      |Manifest: NOSIGNATURE
+		integrated_api-1.5.1+1.20.1-forge.jar             |Integrated API                |integrated_api                |1.5.1+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		perspective-1.2.0-alpha.2+1.20.0-1$fabric-simpleli|Simple Fabric Libs            |fabric_simplelibs             |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		nirvana-forge-1.2.1.jar                           |Nirvana                       |nirvana                       |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5_mapped_srg_1.20.1.jar                |LibJF                         |libjf                         |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		fabric-particles-v1-1.1.3+78e1ecb877.jar          |Fabric Particles (v1)         |fabric_particles_v1           |1.1.3+78e1ecb877    |DONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.20.1-2.6.3.jar                  |Simple Voice Chat             |voicechat                     |1.20.1-2.6.3        |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20.1-3.0.1.10.jar            |TerraBlender                  |terrablender                  |3.0.1.10            |DONE      |Manifest: NOSIGNATURE
+		ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar        |Forge Config Screens          |forgeconfigscreens            |8.0.2               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Necronomicon-Forge-1.6.0+1.20.1.jar               |Necronomicon                  |necronomicon                  |1.6.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-block-api-v1-1.0.12+0e6cb7f777.jar         |Fabric Block API (v1)         |fabric_block_api_v1           |1.0.12+0e6cb7f777   |DONE      |Manifest: NOSIGNATURE
+		bountifulfares-1.2.1-1.20.1_mapped_srg_1.20.1.jar |Bountiful Fares               |bountifulfares                |1.2.1-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-conditions-api-v1-2.3.9+996d00b277|Fabric Resource Conditions API|fabric_resource_conditions_api|2.3.9+996d00b277    |DONE      |Manifest: NOSIGNATURE
+		randommobsizes-forge-1.20.1-2.2.3.jar             |Random Mob Sizes              |random_mob_sizes              |1.20.1-2.2.3        |DONE      |Manifest: NOSIGNATURE
+		forgeconfigapiport-1.11.2+1.20.1.jar              |Forge Config API Port (Connect|forgeconfigapiport            |8.0.0               |DONE      |Manifest: NOSIGNATURE
+		BrewinAndChewin-1.20.1-3.2.1.jar                  |Brewin' And Chewin'           |brewinandchewin               |1.20.1-3.2.1        |DONE      |Manifest: NOSIGNATURE
+		notenoughanimations-forge-1.10.2-mc1.20.1.jar     |NotEnoughAnimations           |notenoughanimations           |1.10.2              |DONE      |Manifest: NOSIGNATURE
+		foglooksmodernnow-1.2.1.jar                       |Fog Looks Modern Now          |foglooksmodernnow             |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		farmersrespite-1.20.1-2.1.2.jar                   |Farmer's Respite              |farmersrespite                |1.20.1-2.1          |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-0.6.11-13.jar               |Flywheel                      |flywheel                      |0.6.11-13           |DONE      |Manifest: NOSIGNATURE
+		lexiconfig-forge-1.4.18-1.jar                     |Lexiconfig                    |lexiconfig                    |1.4.18-1            |DONE      |Manifest: NOSIGNATURE
+		smoothscroll-2.2.3.1+1.20.1_mapped_srg_1.20.1.jar |Smooth Scroll                 |smoothscroll                  |2.2.3.1             |DONE      |Manifest: NOSIGNATURE
+		minecraft-cursor-forge-3.10.0+1.20.1.jar          |Minecraft Cursor              |minecraft_cursor              |3.10.0+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		hardcorerevival-forge-1.20.1-12.0.8.jar           |Hardcore Revival              |hardcorerevival               |12.0.8              |DONE      |Manifest: NOSIGNATURE
+		AmbientEnvironment-forge-1.20.1-11.0.0.1.jar      |Ambient Environment           |ambientenvironment            |11.0.0.1            |DONE      |Manifest: NOSIGNATURE
+		fabric-registry-sync-v0-2.3.6+1c0ea72177.jar      |Fabric Registry Sync (v0)     |fabric_registry_sync_v0       |2.3.6+1c0ea72177    |DONE      |Manifest: NOSIGNATURE
+		lootr-forge-1.20-0.7.35.93.jar                    |Lootr                         |lootr                         |0.7.35.92           |DONE      |Manifest: NOSIGNATURE
+		fabric-object-builder-api-v1-11.1.5+f8c414ce77.jar|Fabric Object Builder API (v1)|fabric_object_builder_api_v1  |11.1.5+f8c414ce77   |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-|kotlin-reflect                |org_jetbrains_kotlin_kotlin_re|2.0.0               |DONE      |Manifest: NOSIGNATURE
+		RyoamicLights-forge-0.2.3+mc1.20.1.jar            |RyoamicLights                 |ryoamiclights                 |0.2.3+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		valkyrienskies-120-2.3.0-beta.10.jar              |Valkyrien Skies 2             |valkyrienskies                |2.3.0-beta.10       |DONE      |Manifest: NOSIGNATURE
+		immersive_melodies-0.6.0+1.20.1-forge.jar         |Immersive Melodies            |immersive_melodies            |0.6.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		fabric-message-api-v1-5.1.10+52cc178c77.jar       |Fabric Message API (v1)       |fabric_message_api_v1         |5.1.10+52cc178c77   |DONE      |Manifest: NOSIGNATURE
+		kuma-api-forge-20.1.11+1.20.1.jar                 |KumaAPI                       |kuma_api                      |20.1.11             |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.2.2+cf68abbe77.jar       |Fabric Renderer API (v1)      |fabric_renderer_api_v1        |3.2.2+cf68abbe77    |DONE      |Manifest: NOSIGNATURE
+		multikulti-datagen-forge-fix-1.20.1-1.1.2.jar     |Multi-Kulti                   |multikulti_datagen_fixes      |1.20.1-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		lunarnether-0.5.4-all.jar                         |Lunar Nether                  |lunarnether                   |0.5.4               |DONE      |Manifest: NOSIGNATURE
+		satin-forge-1.20.1+1.15.0-SNAPSHOT.jar            |Satin Forge                   |satin                         |1.20.1+1.15.0-SNAPSH|DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx|kotlinx-coroutines-core-jvm   |org_jetbrains_kotlinx_kotlinx_|1.8.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-item-api-v1-2.1.29+4d0bbcfa77.jar          |Fabric Item API (v1)          |fabric_item_api_v1            |2.1.29+4d0bbcfa77   |DONE      |Manifest: NOSIGNATURE
+		language-reload-1.5.10+1.20.1$mixinextras-fabric-0|MixinExtras                   |com_github_llamalad7_mixinextr|0.2.0-rc.5          |DONE      |Manifest: NOSIGNATURE
+		Galosphere-1.20.1-1.4.1-Forge.jar                 |Galosphere                    |galosphere                    |1.20.1-1.4.1        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar    |YUNG's Better Ocean Monuments |betteroceanmonuments          |1.20-Forge-3.0.4    |DONE      |Manifest: NOSIGNATURE
+		worldplaytime-1.2.3-1.20.x-FORGE.jar              |World Play Time               |worldplaytime                 |1.2.3               |DONE      |Manifest: NOSIGNATURE
+		Tips-Forge-1.20.1-12.1.8.jar                      |Tips                          |tipsmod                       |12.1.8              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		ObsidianUI-forge-0.2.3+mc1.20.1.jar               |ObsidianUI                    |obsidianui                    |0.2.3+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		eureka-1201-1.5.1-beta.3.jar                      |VS Eureka Mod                 |vs_eureka                     |1.5.1-beta.3        |DONE      |Manifest: NOSIGNATURE
+		cavedelight-1.0.2.jar                             |Cave Delight                  |cavedelight                   |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		darkness-1.20.1-1.0.1.jar                         |True Darkness                 |darkness                      |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		Prism-1.20.1-forge-1.0.5.jar                      |Prism                         |prism                         |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.20.1-8.6.3.jar                          |Placebo                       |placebo                       |8.6.3               |DONE      |Manifest: NOSIGNATURE
+		REIPluginCompatibilities-forge-12.0.93.jar        |REI Plugin Compatibilities    |rei_plugin_compatibilities    |12.0.93             |DONE      |Manifest: NOSIGNATURE
+		ohmymeteors-1.0.0+1.20.1$structureplacerapi-1.1.6+|StructurePlacerAPI            |structureplacerapi            |1.1.61.20.1         |DONE      |Manifest: NOSIGNATURE
+		cobweb-forge-1.20.1-1.0.1.jar                     |Cobweb                        |cobweb                        |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.20.1-20.2.13.jar                |Bookshelf                     |bookshelf                     |20.2.13             |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		enchancement-1.20-26$cardinal-components-world-5.2|Cardinal Components API (world|cardinal_components_world     |5.2.2               |DONE      |Manifest: NOSIGNATURE
+		dense-flowers-0.2.1+mc1.20.1_mapped_srg_1.20.1.jar|Dense Flowers                 |dense_flowers                 |0.2.1mc1.20.1       |DONE      |Manifest: NOSIGNATURE
+		blueprintfix-forge-1.0.0-1.20.1.jar               |Blueprint Texture Fix         |blueprintfix                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		zetter-1.20.1-0.21.5.jar                          |Zetter                        |zetter                        |0.21.5              |DONE      |Manifest: NOSIGNATURE
+		melody_forge_1.0.3_MC_1.20.1-1.20.4.jar           |Melody                        |melody                        |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$atomicf|atomicfu-jvm                  |org_jetbrains_kotlinx_atomicfu|0.24.0              |DONE      |Manifest: NOSIGNATURE
+		fzzy_config-0.7.2+1.20.1+forge.jar                |Fzzy Config                   |fzzy_config                   |0.7.2+1.20.1+forge  |DONE      |Manifest: NOSIGNATURE
+		particle_core-0.2.6+1.20.1+forge.jar              |Particle Core                 |particle_core                 |0.2.6+1.20.1+forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-api-0.92.6+1.11.14+1.20.1.jar              |Forgified Fabric API          |fabric_api                    |0.92.6+1.11.14+1.20.|DONE      |Manifest: NOSIGNATURE
+		modmenu-bridge-1.11.2+1.20.1.jar                  |Connector Extras ModMenu Bridg|connectorextras_modmenu_bridge|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		konkrete_forge_1.8.0_MC_1.20-1.20.1.jar           |Konkrete                      |konkrete                      |1.8.0               |DONE      |Manifest: NOSIGNATURE
+		natures_spirit-2.2.5-1.20.1.jar                   |Nature's Spirit               |natures_spirit                |2.2.5-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		entity_model_features_forge_1.20.1-2.4.1.jar      |Entity Model Features         |entity_model_features         |2.4.1               |DONE      |Manifest: NOSIGNATURE
+		entity_texture_features_forge_1.20.1-6.2.9.jar    |Entity Texture Features       |entity_texture_features       |6.2.9               |DONE      |Manifest: NOSIGNATURE
+		netherportalspread-1.20.1-8.4.jar                 |Nether Portal Spread          |netherportalspread            |8.4                 |DONE      |Manifest: NOSIGNATURE
+		fabric-api-lookup-api-v1-1.6.37+67f9824077.jar    |Fabric API Lookup API (v1)    |fabric_api_lookup_api_v1      |1.6.37+67f9824077   |DONE      |Manifest: NOSIGNATURE
+		paradise-lost-2.2.4-beta+1.20.0$customportalapi-0.|Custom Portal Api             |customportalapi               |0.0.1-beta65-1.20   |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-config-ui-tiny-v1-unspecified_m|LibJF Config UI: Tiny         |libjf_config_ui_tiny_v1       |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		dynamiccrosshair-api-9.8+1.20.1-forge.jar         |Dynamic Crosshair API         |dynamiccrosshairapi           |1.2                 |DONE      |Manifest: NOSIGNATURE
+		architectury-bridge-1.11.2+1.20.1.jar             |Connector Extras Architectury |connectorextras_architectury_b|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		cullleaves-forge-3.2.0.jar                        |CullLeaves                    |cullleaves                    |3.2.0               |DONE      |Manifest: NOSIGNATURE
+		midnightlib-forge-1.4.2.jar                       |MidnightLib                   |midnightlib                   |1.4.2               |DONE      |Manifest: NOSIGNATURE
+		fastquit-3.0.0+1.20+_mapped_srg_1.20.1.jar        |FastQuit                      |fastquit                      |3.0.01.20           |DONE      |Manifest: NOSIGNATURE
+		Connector-1.0.0-beta.46+1.20.1-mod.jar            |Connector                     |connectormod                  |1.0.0-beta.46+1.20.1|DONE      |Manifest: NOSIGNATURE
+		enchancement-1.20-26$cardinal-components-base-5.2.|Cardinal Components API (base)|cardinal_components_base      |5.2.2               |DONE      |Manifest: NOSIGNATURE
+		AI-Improvements-1.20-0.5.2.jar                    |AI-Improvements               |aiimprovements                |0.5.2               |DONE      |Manifest: NOSIGNATURE
+		MosaicCosmetics-1.20.1-1.0.0-forge.jar            |MosaicCosmetics               |mosaic_cosmetics              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		The_Undergarden-1.20.1-0.8.14.jar                 |The Undergarden               |undergarden                   |0.8.14              |DONE      |Manifest: NOSIGNATURE
+		framework-forge-1.20.1-0.7.6.jar                  |Framework                     |framework                     |0.7.6               |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		species-3.5.jar                                   |Species                       |species                       |3.5                 |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-|kotlin-stdlib                 |org_jetbrains_kotlin_kotlin_st|2.0.0               |DONE      |Manifest: NOSIGNATURE
+		zettergallery-1.20.1-0.6.0.jar                    |Zetter Gallery                |zettergallery                 |0.6.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-key-binding-api-v1-1.0.38+561530ec77.jar   |Fabric Key Binding API (v1)   |fabric_key_binding_api_v1     |1.0.38+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		BetterAdvancements-NeoForge-1.20.1-0.4.2.25.jar   |Better Advancements           |betteradvancements            |0.4.2.25            |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-|kotlin-stdlib-jdk8            |org_jetbrains_kotlin_kotlin_st|2.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-transfer-api-v1-3.3.6+631c9cd677.jar       |Fabric Transfer API (v1)      |fabric_transfer_api_v1        |3.3.6+631c9cd677    |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlin-|kotlin-stdlib-jdk7            |org_jetbrains_kotlin_kotlin_st|2.0.0               |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-data-v0-unspecified_mapped_srg_|LibJF Data                    |libjf_data_v0                 |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-config-reflect-v1-unspecified_m|LibJF Config Reflect          |libjf_config_reflect_v1       |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		surveystones-1.3.1+1.20_mapped_srg_1.20.1.jar     |Surveystones                  |surveystones                  |1.3.11.20           |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-data-manipulation-v0-unspecifie|LibJF Data Manipulation       |libjf_data_manipulation_v0    |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		enhanced_mushrooms-5.0.0.jar                      |Enhanced Mushrooms            |enhanced_mushrooms            |5.0.0               |DONE      |Manifest: NOSIGNATURE
+		particlerain-4.0.0-alpha.3+1.20.1-forge.jar       |Particle Rain                 |particlerain                  |4.0.0-alpha.3+1.20.1|DONE      |Manifest: NOSIGNATURE
+		pehkui-bridge-1.11.2+1.20.1.jar                   |Connector Extras Pehkui Bridge|connectorextras_pehkui_bridge |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-loader-v0-0.11.12+4b4151c077.jar  |Fabric Resource Loader (v0)   |fabric_resource_loader_v0     |0.11.12+4b4151c077  |DONE      |Manifest: NOSIGNATURE
+		obscure_tooltips_fix-1.20.1-1.3.0-all.jar         |Obscure Tooltips Fix          |obscure_tooltips_fix          |1.3.0               |DONE      |Manifest: NOSIGNATURE
+		enlightend-5.0.14-1.20.1.jar                      |Enlightend                    |enlightened_end               |5.0.14              |DONE      |Manifest: NOSIGNATURE
+		paradise-lost-2.2.4-beta+1.20.0$Fabric-ASM-2.3_map|Manningham Mills              |mm                            |2.3                 |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx|kotlinx-datetime-jvm          |org_jetbrains_kotlinx_kotlinx_|0.6.0               |DONE      |Manifest: NOSIGNATURE
+		everycomp-1.20-2.7.19.jar                         |Every Compat                  |everycomp                     |1.20-2.7.19         |DONE      |Manifest: NOSIGNATURE
+		cyanide-forge-1.20.1-4.1.1.jar                    |Cyanide                       |cyanide                       |4.1.1               |DONE      |Manifest: NOSIGNATURE
+		soulfulnether-1.0.0.jar                           |Soulful Nether                |soulfulnether                 |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		energy-bridge-1.11.2+1.20.1.jar                   |Connector Extras Energy Bridge|connectorextras_energy_bridge |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		miningmaster-1.20.1-4.1.3.jar                     |Mining Master                 |miningmaster                  |4.1.3               |DONE      |Manifest: NOSIGNATURE
+		rainbowoaks-forge-1.20-1.0.0.jar                  |Rainbow Oaks                  |rainbowoaks                   |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		shortstacks-1.2.1.jar                             |Short Stacks                  |shortstacks                   |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		healpgood-1.4.1F.jar                              |Healing Pretty Good           |healpgood                     |1.4.1F              |DONE      |Manifest: NOSIGNATURE
+		RubinatedNether-forge-1.3.0.E-1.20.1.jar          |Rubinated Nether              |rubinated_nether              |1.3.0.E-1.20.1      |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		fabric-blockrenderlayer-v1-1.1.42+1d0da21e77.jar  |Fabric BlockRenderLayer Regist|fabric_blockrenderlayer_v1    |1.1.42+1d0da21e77   |DONE      |Manifest: NOSIGNATURE
+		Obscure-Tooltips-2.2.jar                          |Obscure Tooltips              |obscure_tooltips              |2.2                 |DONE      |Manifest: NOSIGNATURE
+		amecsapi-1.5.3+mc1.20-pre1.jar                    |Amecs API                     |amecsapi                      |1.5.3+mc1.20-pre1   |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.12.32_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.12.32             |DONE      |Manifest: NOSIGNATURE
+		symbol-chat-1.20.1-1.1.2_mapped_srg_1.20.1.jar    |Symbol Chat                   |symbol_chat                   |1.20.1-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-translate-v1-unspecified_mapped|LibJF Translate               |libjf_translate_v1            |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		citresewn-1.2.2+1.20.1_mapped_srg_1.20.1.jar      |CIT Resewn                    |citresewn                     |1.2.21.20.1         |DONE      |Manifest: NOSIGNATURE
+		miners_delight-1.20.1-1.2.3.jar                   |Miner's Delight               |miners_delight                |1.20.1-1.2.3        |DONE      |Manifest: NOSIGNATURE
+		MyNethersDelight-1.20.1-0.1.8.jar                 |My Nether's Delight           |mynethersdelight              |1.20.1-1.7.5        |DONE      |Manifest: NOSIGNATURE
+		fabric-biome-api-v1-13.0.14+dc36698e77.jar        |Fabric Biome API (v1)         |fabric_biome_api_v1           |13.0.14+dc36698e77  |DONE      |Manifest: NOSIGNATURE
+		fancymenu_forge_3.7.0_MC_1.20.1.jar               |FancyMenu                     |fancymenu                     |3.7.0               |DONE      |Manifest: NOSIGNATURE
+		raised-forge-1.20.1-5.0.1.jar                     |Raised                        |raised                        |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		mindful_eating-1.20.1-3.0.1.jar                   |Mindful Eating                |mindful_eating                |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		MEED-1.20.1-5.7.jar                               |Moderately Enough Effect Descr|moderately_enough_effect_desc |3.3.0               |DONE      |Manifest: NOSIGNATURE
+		heart_crystals-1.20.1-2.1.1.jar                   |Heart Crystals                |heart_crystals                |2.1.1               |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-web-v0-unspecified_mapped_srg_1|LibJF Web                     |libjf_web_v0                  |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		BetterF3-7.0.2-Forge-1.20.1.jar                   |BetterF3                      |betterf3                      |7.0.2               |DONE      |Manifest: NOSIGNATURE
+		spawn-2.2.jar                                     |Spawn                         |spawn                         |2.2                 |DONE      |Manifest: NOSIGNATURE
+		wakes-1.20.1-Forge-1.0.5.jar                      |Wakes                         |wakes                         |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		BadOptimizations-2.3.0-1.20.1.jar                 |BadOptimizations              |badoptimizations              |2.3.0               |DONE      |Manifest: NOSIGNATURE
+		simpleradio-forge-1.20.1-3.4.6.jar                |Simple Radio                  |simpleradio                   |3.4.6               |DONE      |Manifest: NOSIGNATURE
+		DeepNetherPortal-v1.0.4_Forge-1.20.1.jar          |Deep Dark Nether Portal       |deepnether                    |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		smsn-forge-1.2.10-1.20.1.jar                      |Save My Shit Network          |smsn                          |1.2.10-1.20.1       |DONE      |Manifest: NOSIGNATURE
+		man_of_many_planes-0.2.0+1.20.1-forge.jar         |Man of Many Planes            |man_of_many_planes            |0.2.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		secondchanceforge-1.20-1.5.1.jar                  |Second Chance Forge           |secondchanceforge             |1.5.1               |DONE      |Manifest: NOSIGNATURE
+		EasyAnvils-v8.0.2-1.20.1-Forge.jar                |Easy Anvils                   |easyanvils                    |8.0.2               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Jadens-Nether-Expansion-2.3.5.jar                 |Jaden's Nether Expansion      |netherexp                     |2.3.5               |DONE      |Manifest: NOSIGNATURE
+		material-beacons-1.0.1+1.20.1_mapped_srg_1.20.1.ja|Material Beacons              |material_beacons              |1.0.11.20.1         |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |DONE      |Manifest: NOSIGNATURE
+		playeranimatorapi-forge-1.20.1-2.1.7.jar          |Zigy's Player Animator API    |playeranimatorapi             |2.1.7               |DONE      |Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.4.jar                   |Botarium                      |botarium                      |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		spritearrows-forge-1.20-1.0.3.jar                 |Sprite Arrows                 |spritearrows                  |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		SubtleEffects-forge-1.20.1-1.12.1.jar             |Subtle Effects                |subtle_effects                |1.12.1              |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-unsafe-v0-unspecified_mapped_sr|LibJF Unsafe                  |libjf_unsafe_v0               |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		aquaculturedelight-1.1.1-forge-1.20.1.jar         |Aquaculture Delight           |aquaculturedelight            |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.20.1-1.4.15.jar  |Sound Physics Remastered      |sound_physics_remastered      |1.20.1-1.4.15       |DONE      |Manifest: NOSIGNATURE
+		fabric-convention-tags-v1-1.5.6+fa3d1c0177.jar    |Fabric Convention Tags        |fabric_convention_tags_v1     |1.5.6+fa3d1c0177    |DONE      |Manifest: NOSIGNATURE
+		potionparticlepack-1.0.1_mapped_srg_1.20.1.jar    |potionparticlepack            |potionparticlepack            |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		armorcurve-3.0.jar                                |Armor Curve                   |armorcurve                    |3.0                 |DONE      |Manifest: NOSIGNATURE
+		ResourcePackOverrides-v8.0.3-1.20.1-Forge.jar     |Resource Pack Overrides       |resourcepackoverrides         |8.0.3               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		surveyor-0.6.26+1.20_mapped_srg_1.20.1.jar        |Surveyor Map Framework        |surveyor                      |0.6.261.20          |DONE      |Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.3.35-all.jar                  |Balm                          |balm                          |7.3.35              |DONE      |Manifest: NOSIGNATURE
+		fabric-screen-api-v1-2.0.9+45a670a577.jar         |Fabric Screen API (v1)        |fabric_screen_api_v1          |2.0.9+45a670a577    |DONE      |Manifest: NOSIGNATURE
+		smoothskies-1.1.0_mapped_srg_1.20.1.jar           |Smooth Skies                  |smoothskies                   |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		soul-fire-d-forge-1.20.1-4.0.11.jar               |Soul Fire'd                   |soul_fire_d                   |4.0.11              |DONE      |Manifest: NOSIGNATURE
+		ohmymeteors-1.0.0+1.20.1$particleanimationlib-0.1.|Particle Animation Library (PA|particleanimationlib          |0.1.2               |DONE      |Manifest: NOSIGNATURE
+		spelunkery-1.20.1-0.3.16-forge.jar                |Spelunkery                    |spelunkery                    |1.20.1-0.3.16       |DONE      |Manifest: NOSIGNATURE
+		antique-atlas-2.11.2+1.20_mapped_srg_1.20.1.jar   |Antique Atlas                 |antique_atlas                 |2.11.21.20          |DONE      |Manifest: NOSIGNATURE
+		crash_assistant-forge.jar                         |Crash Assistant               |crash_assistant               |1.9.15              |DONE      |Manifest: NOSIGNATURE
+		Patched-3.4.1+1.20.1-forge.jar                    |Patched                       |patched                       |3.4.1+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		terrablender-bridge-1.11.2+1.20.1.jar             |Connector Extras Terrablender |connectorextras_terrablender_b|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		galospheric_delight-1.20.1-6.42.jar               |Galospheric Delight           |galospheric_delight           |5.42                |DONE      |Manifest: NOSIGNATURE
+		fabric-game-rule-api-v1-1.0.41+683d4da877.jar     |Fabric Game Rule API (v1)     |fabric_game_rule_api_v1       |1.0.41+683d4da877   |DONE      |Manifest: NOSIGNATURE
+		do_a_barrel_roll-forge-3.5.6+1.20.1.jar           |Do a Barrel Roll              |do_a_barrel_roll              |3.5.6+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		hearthandharvest-1.20.1-1.0.12.jar                |Hearth and Harvest            |hearthandharvest              |1.0.12              |DONE      |Manifest: NOSIGNATURE
+		vanillabackport-forge-1.20.1-1.1.4.3.jar          |Minecraft                     |vanillabackport               |1.1.4.3             |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx|kotlinx-coroutines-jdk8       |org_jetbrains_kotlinx_kotlinx_|1.8.1               |DONE      |Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.3.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.3               |DONE      |Manifest: NOSIGNATURE
+		Darker Depths-1.20.1-2.0.4.jar                    |Darker Depths                 |darkerdepths                  |2.0.4               |DONE      |Manifest: NOSIGNATURE
+		mysticaloaktree-1.20-1.11.jar                     |Mystical Oak Tree             |mysticaloaktree               |1.20-1.11           |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1.jar                    |Curios API                    |curios                        |5.14.1+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		perspective-1.2.0-alpha.2+1.20.0-1_mapped_srg_1.20|Perspective                   |perspective                   |1.2.0-alpha.2       |DONE      |Manifest: NOSIGNATURE
+		fabric-entity-events-v1-1.6.1+4ca7515277.jar      |Fabric Entity Events (v1)     |fabric_entity_events_v1       |1.6.1+4ca7515277    |DONE      |Manifest: NOSIGNATURE
+		sapience-1.20.1-1.0.0.jar                         |Sapience                      |sapience                      |1.20.1-1.0.0        |DONE      |Manifest: NOSIGNATURE
+		hardernaturalhealing-1.20-46.1.14.jar             |Harder Natural Healing Mod    |hardernaturalhealing          |46.1.14             |DONE      |Manifest: NOSIGNATURE
+		conditional-mixin-forge-0.6.4.jar                 |conditional mixin             |conditional_mixin             |0.6.4               |DONE      |Manifest: NOSIGNATURE
+		windswept-1.20.1-3.0.2.jar                        |Windswept                     |windswept                     |3.0.2               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterMineshafts-1.20-Forge-4.0.4.jar        |YUNG's Better Mineshafts      |bettermineshafts              |1.20-Forge-4.0.4    |DONE      |Manifest: NOSIGNATURE
+		enchancement-1.20-26_mapped_srg_1.20.1.jar        |Enchancement                  |enchancement                  |1.20-26             |DONE      |Manifest: NOSIGNATURE
+		fabric-dimensions-v1-2.1.55+8005d10d77.jar        |Fabric Dimensions API (v1)    |fabric_dimensions_v1          |2.1.55+8005d10d77   |DONE      |Manifest: NOSIGNATURE
+		StylishEffects-v8.0.2-1.20.1-Forge.jar            |Stylish Effects               |stylisheffects                |8.0.2               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		mowziesmobs-1.7.3.jar                             |Mowzie's Mobs                 |mowziesmobs                   |1.7.3               |DONE      |Manifest: NOSIGNATURE
+		AlwaysEat-5.2.jar                                 |AlwaysEat                     |salwayseat                    |5.2                 |DONE      |Manifest: NOSIGNATURE
+		integrated_villages-1.1.4+1.20.1-forge.jar        |Integrated Villages           |integrated_villages           |1.1.4+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		surveyor-0.6.26+1.20$kaleido-config-0.3.1+1.3.2_ma|kaleido-config                |folk_sisby_kaleido_config     |0.3.11.3.2          |DONE      |Manifest: NOSIGNATURE
+		fabric-model-loading-api-v1-1.0.4+6274ab9d77.jar  |Fabric Model Loading API (v1) |fabric_model_loading_api_v1   |1.0.4+6274ab9d77    |DONE      |Manifest: NOSIGNATURE
+		lithostitched-forge-1.20.1-1.4.11.jar             |Lithostitched                 |lithostitched                 |1.4.11              |DONE      |Manifest: NOSIGNATURE
+		youwereslain-1.0.0-1.20.x_mapped_srg_1.20.1.jar   |You Were Slain                |youwereslain                  |1.0.0-1.20.x        |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-config-core-v1-unspecified_mapp|LibJF Config                  |libjf_config_core_v1          |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-v1-3.0.9+66e9a48f77.jar          |Fabric Rendering (v1)         |fabric_rendering_v1           |3.0.9+66e9a48f77    |DONE      |Manifest: NOSIGNATURE
+		realmrpg_skeletons-1.1.0-forge-1.20.1.jar         |Realm RPG: Fallen Adventurers |realmrpg_skeletons            |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		PassableFoliage-1.20.1-forge-8.2.1.jar            |Passable Foliage              |passablefoliage               |8.2.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-indigo-1.5.3+b5b2da4177.jar       |Fabric Renderer - Indigo      |fabric_renderer_indigo        |1.5.3+b5b2da4177    |DONE      |Manifest: NOSIGNATURE
+		multikulti-core-forge-1.20.1-1.1.2.jar            |Multi-Kulti                   |multikulti_core               |1.20.1-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		NaturesCompass-1.20.1-1.11.2-forge.jar            |Nature's Compass              |naturescompass                |1.20.1-1.11.2-forge |DONE      |Manifest: NOSIGNATURE
+		oelib-1319210-6841973.jar                         |OELib                         |oelib                         |0.0.2               |DONE      |Manifest: NOSIGNATURE
+		geckolib-fabric-compat-1.11.2+1.20.1.jar          |Connector Extras Geckolib-Fabr|connectorextras_geckolib_fabri|1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		forge-runiclib-1.20.1-4.3.7.jar                   |RunicLib                      |runiclib                      |4.3.7               |DONE      |Manifest: NOSIGNATURE
+		multikulti-registrate-forge-1.20.1-1.1.2.jar      |Multi-Kulti                   |multikulti_registrate         |1.20.1-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		catalogue-forge-1.20.1-1.8.0.jar                  |Catalogue                     |catalogue                     |1.8.0               |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		memoryleakfix-forge-1.17+-1.1.5.jar               |Memory Leak Fix               |memoryleakfix                 |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		puzzlesaccessapi-forge-20.1.1.jar                 |Puzzles Access Api            |puzzlesaccessapi              |20.1.1              |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx|kotlinx-serialization-json-jvm|org_jetbrains_kotlinx_kotlinx_|1.6.3               |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.0-universal.jar                 |Forge                         |forge                         |47.4.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		etched-3.0.4.jar                                  |Etched                        |etched                        |3.0.4               |DONE      |Manifest: NOSIGNATURE
+		chalk-1.20.1-1.6.6.jar                            |Chalk                         |chalk                         |1.6.6               |DONE      |Manifest: NOSIGNATURE
+		Log-Begone-Forge-1.20.1-1.0.8.jar                 |Log Begone                    |logbegone                     |1.0.8               |DONE      |Manifest: NOSIGNATURE
+		polytone-1.20-3.5.7.jar                           |Polytone                      |polytone                      |1.20-3.5.7          |DONE      |Manifest: NOSIGNATURE
+		idas_forge-1.10.3+1.20.1.jar                      |Integrated Dungeons and Struct|idas                          |1.10.3+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		drippyloadingscreen_forge_3.0.12_MC_1.20.1.jar    |Drippy Loading Screen         |drippyloadingscreen           |3.0.12              |DONE      |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.32+ef105b4977.jar             |Fabric API Base               |fabric_api_base               |0.4.32+ef105b4977   |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		bettercombat-forge-1.8.6+1.20.1.jar               |Better Combat                 |bettercombat                  |1.8.6+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		combatroll-forge-1.3.3+1.20.1.jar                 |Combat Roll                   |combatroll                    |1.3.3+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		everycompat_just_enough_wood-1.20.1-forge-1.0.1-al|EveryCompat: Just Enough Wood |everycompat_just_enough_wood  |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		cwb-forge-3.0.0+mc1.20.jar                        |Cubes Without Borders         |cubes_without_borders         |3.0.0+mc1.20        |DONE      |Manifest: NOSIGNATURE
+		spectrelib-forge-0.13.17+1.20.1.jar               |SpectreLib                    |spectrelib                    |0.13.17+1.20.1      |DONE      |Manifest: NOSIGNATURE
+		EclipticSeasons-1.20.1-forge-0.12.0-pre19-all.jar |Ecliptic Seasons              |eclipticseasons               |0.12.0-pre19        |DONE      |Manifest: NOSIGNATURE
+		jei-bridge-1.11.2+1.20.1.jar                      |Connector Extras JEI Bridge   |connectorextras_jei_bridge    |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		e4mc_minecraft-forge-5.4.1.jar                    |e4mc                          |e4mc_minecraft                |5.4.1               |DONE      |Manifest: NOSIGNATURE
+		kffmod-4.11.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.11.0              |DONE      |Manifest: NOSIGNATURE
+		Statement-4.2.7+1.20.1-forge.jar                  |Statement                     |statement                     |4.2.7+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		integrated_stronghold-1.1.1+1.20.1-forge.jar      |Integrated Stronghold         |integrated_stronghold         |1.1.1+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-item-group-api-v1-4.0.14+c9161c2d77.jar    |Fabric Item Group API (v1)    |fabric_item_group_api_v1      |4.0.14+c9161c2d77   |DONE      |Manifest: NOSIGNATURE
+		polymorph-forge-0.49.10+1.20.1.jar                |Polymorph                     |polymorph                     |0.49.10+1.20.1      |DONE      |Manifest: NOSIGNATURE
+		Zeta-1.0-30.jar                                   |Zeta                          |zeta                          |1.0-30              |DONE      |Manifest: NOSIGNATURE
+		entityculling-forge-1.8.2-mc1.20.1.jar            |EntityCulling                 |entityculling                 |1.8.2               |DONE      |Manifest: NOSIGNATURE
+		continuity-3.0.0+1.20.1.forge_mapped_srg_1.20.1.ja|Continuity                    |continuity                    |3.0.01.20.1.forge   |DONE      |Manifest: NOSIGNATURE
+		owo-lib-0.11.2+1.20$jankson-1.2.2_mapped_srg_1.20.|jankson                       |blue_endless_jankson          |1.2.2               |DONE      |Manifest: NOSIGNATURE
+		fasterrandom-5.1.0_mapped_srg_1.20.1.jar          |Faster Random                 |faster_random                 |5.1.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-recipe-api-v1-1.0.24+514a076577.jar        |Fabric Recipe API (v1)        |fabric_recipe_api_v1          |1.0.24+514a076577   |DONE      |Manifest: NOSIGNATURE
+		async-pack-scan-0.2.0_mapped_srg_1.20.1.jar       |Async Pack Scan               |async_pack_scan               |0.2.0               |DONE      |Manifest: NOSIGNATURE
+		visuality-forge-2.0.2.jar                         |Visuality: Reforged           |visuality                     |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		PuzzlesLib-v8.1.33-1.20.1-Forge.jar               |Puzzles Lib                   |puzzleslib                    |8.1.33              |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Aquaculture-1.20.1-2.5.5.jar                      |Aquaculture 2                 |aquaculture                   |2.5.5               |DONE      |Manifest: NOSIGNATURE
+		Sortilege-1.20.1-1.7.2_mapped_srg_1.20.1.jar      |Sortilege                     |sortilege                     |1.7.2               |DONE      |Manifest: NOSIGNATURE
+		smoothswapping-0.9.3.1-1.20.2-fabric_mapped_srg_1.|Smooth Swapping               |smoothswapping                |0.9.3.1             |DONE      |Manifest: NOSIGNATURE
+		fabric-sound-api-v1-1.0.14+4f23bd8477.jar         |Fabric Sound API (v1)         |fabric_sound_api_v1           |1.0.14+4f23bd8477   |DONE      |Manifest: NOSIGNATURE
+		lazyyyyy-lexforge-mod-0.14.18.jar                 |Lazyyyyy                      |lazyyyyy                      |0.14.18             |DONE      |Manifest: NOSIGNATURE
+		explosive-enhancement-1.2.1-1.20.x_mapped_srg_1.20|Explosive Enhancement         |explosiveenhancement          |1.2.1-1.20.x        |DONE      |Manifest: NOSIGNATURE
+		transmog-forge-1.3.0+1.20.jar                     |Transmog                      |transmog                      |1.3.0+1.20          |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.4.jar                   |GeckoLib 4                    |geckolib                      |4.7.4               |DONE      |Manifest: NOSIGNATURE
+		mostructures-1.4.5+1.20.1$omega-config-1.4.1-1.20.|OmegaConfig                   |omega_config                  |1.4.11.20.1         |DONE      |Manifest: NOSIGNATURE
+		souper_secret_settings-1.0.9-mc1.20+_mapped_srg_1.|Souper Secret Settings        |souper_secret_settings        |1.0.9-mc1.20        |DONE      |Manifest: NOSIGNATURE
+		eidolon_repraised-1.20.1-0.3.9.0.jar              |Eidolon:Repraised             |eidolon                       |0.3.9.0             |DONE      |Manifest: NOSIGNATURE
+		Architects-Palette-1.20.1-1.3.6.1.jar             |Architect's Palette           |architects_palette            |1.3.6.1             |DONE      |Manifest: NOSIGNATURE
+		immersive_aircraft-1.4.0+1.20.1-forge.jar         |Immersive Aircraft            |immersive_aircraft            |1.4.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		citadel-2.6.2-1.20.1.jar                          |Citadel                       |citadel                       |2.6.2               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.22.9.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.9              |DONE      |Manifest: NOSIGNATURE
+		cloudstorage-1.4.0-1.20.jar                       |Cloud Storage                 |cloudstorage                  |1.4.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-data-attachment-api-v1-1.0.2+30ef839e77.jar|Fabric Data Attachment API (v1|fabric_data_attachment_api_v1 |1.0.2+30ef839e77    |DONE      |Manifest: NOSIGNATURE
+		obscure_api_modification-1.20.1-1.0.3-all.jar     |Obscure API Modifications     |obscure_api_modification      |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		obscure_api-15.jar                                |Obscure API                   |obscure_api                   |15                  |DONE      |Manifest: NOSIGNATURE
+		Twigs-1.20.1-3.1.1.jar                            |Twigs                         |twigs                         |1.20.1-3.1.1        |DONE      |Manifest: NOSIGNATURE
+		jeed-1.20-2.2.5.jar                               |Just Enough Effects Descriptio|jeed                          |1.20-2.2.5          |DONE      |Manifest: NOSIGNATURE
+		hauntedharvest-1.20-3.2.0.jar                     |Haunted Harvest               |hauntedharvest                |1.20-3.2.0          |DONE      |Manifest: NOSIGNATURE
+		better-clouds-1.3.35-beta+1.20.1-forge.rev.edd63c1|Better Clouds                 |betterclouds                  |1.3.35-beta+1.20.1-f|DONE      |Manifest: NOSIGNATURE
+		BeansBackpacks-forge-1.20.1-2.0.2.jar             |BeansBackpacks                |beansbackpacks                |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		language-reload-1.5.10+1.20.1_mapped_srg_1.20.1.ja|Language Reload               |languagereload                |1.5.101.20.1        |DONE      |Manifest: NOSIGNATURE
+		fabric-content-registries-v0-4.0.13+a670df1e77.jar|Fabric Content Registries (v0)|fabric_content_registries_v0  |4.0.13+a670df1e77   |DONE      |Manifest: NOSIGNATURE
+		undergardendelight-1.1.2-forge-1.20.1.jar         |Undergarden Delight           |undergardendelight            |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		CompositeMaterial-Forge-1.20.1-1.2.8.jar          |Composite Material            |composite_material            |1.2.8               |DONE      |Manifest: NOSIGNATURE
+		out_of_sight-1.20.1-1.0.3.jar                     |Out of Sight                  |out_of_sight                  |1.20.1-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		FarmersDelight-1.20.1-1.2.9.jar                   |Farmer's Delight              |farmersdelight                |1.20.1-1.2.9        |DONE      |Manifest: NOSIGNATURE
+		largemeals-1.20.1-1.3.0.jar                       |Large Meals                   |largemeals                    |1.20.1-1.3.0        |DONE      |Manifest: NOSIGNATURE
+		forge-dungeonsdelight-1.20.1-1.2.10.jar           |Dungeon's Delight             |dungeonsdelight               |1.2.10              |DONE      |Manifest: NOSIGNATURE
+		chefs-delight-1.0.3-forge-1.20.1.jar              |Chefs Delight                 |chefsdelight                  |1.0.3-forge-1.20.1  |DONE      |Manifest: NOSIGNATURE
+		citresewn-1.2.2+1.20.1$citresewn-defaults-1.2.2+1.|CIT Resewn: Defaults          |citresewn_defaults            |1.2.21.20.1         |DONE      |Manifest: NOSIGNATURE
+		endrem_forge-5.3.3-R-1.20.1.jar                   |End Remastered                |endrem                        |5.3.3-R-1.20.1      |DONE      |Manifest: NOSIGNATURE
+		spellbound-1.20.3$modify-drops-api-0.5.1.1_mapped_|Modify Drops API              |modify_drops_api              |0.5.1.1             |DONE      |Manifest: NOSIGNATURE
+		reach-entity-attributes-2.4.0.jar                 |Reach Entity Attributes       |reach_entity_attributes       |2.4.0               |DONE      |Manifest: NOSIGNATURE
+		modelfix-1.15.jar                                 |Model Gap Fix                 |modelfix                      |1.15                |DONE      |Manifest: NOSIGNATURE
+		zigysmultiloaderutils-forge-1.20.1-1.3.1.jar      |Zigy's Multiloader Utils      |zigysmultiloaderutils         |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		Patchouli-1.20.1-84.1-FORGE.jar                   |Patchouli                     |patchouli                     |1.20.1-84.1-FORGE   |DONE      |Manifest: NOSIGNATURE
+		fabric-language-kotlin-1.11.0+kotlin.2.0.0$kotlinx|kotlinx-serialization-cbor-jvm|org_jetbrains_kotlinx_kotlinx_|1.6.3               |DONE      |Manifest: NOSIGNATURE
+		collective-1.20.1-8.3.jar                         |Collective                    |collective                    |8.3                 |DONE      |Manifest: NOSIGNATURE
+		seamless-loading-screen-2.0.3+1.20.1-forge.jar    |Seamless Loading Screen       |seamless_loading_screen       |2.0.3+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.29.jar            |Resourceful Lib               |resourcefullib                |2.1.29              |DONE      |Manifest: NOSIGNATURE
+		Cosmic_Horizons_0.0.7.3-forge-1.20.1.jar          |Cosmic Horizons               |cosmos                        |0.0.7.3             |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		scriptor-1.2.6-1.20.1-forge-sgd.jar               |Scriptor                      |scriptor                      |1.2.6-1.20.1        |DONE      |Manifest: 39:49:de:71:aa:93:11:75:fb:fa:30:e9:21:25:1c:45:a4:3c:1d:d8:d3:0c:26:bb:e0:ec:51:db:73:82:7e:d0
+		chatplus-forge-2.7.0.jar                          |ChatPlus                      |chatplus                      |2.7.0               |DONE      |Manifest: NOSIGNATURE
+		gardens-of-the-dead-forge-4.0.1.jar               |Gardens of the Dead           |gardens_of_the_dead           |4.0.1               |DONE      |Manifest: NOSIGNATURE
+		Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar     |Not Enough Recipe Book        |nerb                          |0.4.1               |DONE      |Manifest: NOSIGNATURE
+		yet-another-furniture-1.0pre3+forge-1.20.1.jar    |Yet Another Furniture         |yaf                           |1.0pre3             |DONE      |Manifest: NOSIGNATURE
+		cc-tweaked-1.20.1-forge-1.115.0.jar               |CC: Tweaked                   |computercraft                 |1.115.0             |DONE      |Manifest: NOSIGNATURE
+		fabric-loot-api-v2-1.2.3+eb28f93e77.jar           |Fabric Loot API (v2)          |fabric_loot_api_v2            |1.2.3+eb28f93e77    |DONE      |Manifest: NOSIGNATURE
+		ConnectorExtras-1.11.2+1.20.1.jar                 |Connector Extras              |connectorextras               |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		Debugify-1.20.1+2.0_mapped_srg_1.20.1.jar         |Debugify                      |debugify                      |1.20.12.0           |DONE      |Manifest: NOSIGNATURE
+		MRU-1.0.4+1.20.1+forge.jar                        |Mineblock's Repeated Utilities|mru                           |1.0.4+1.20.1+forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-networking-api-v1-1.3.14+fb7c822677.jar    |Fabric Networking API (v1)    |fabric_networking_api_v1      |1.3.14+fb7c822677   |DONE      |Manifest: NOSIGNATURE
+		sullysmod-3.2.1-beta-all.jar                      |Sully's Mod                   |sullysmod                     |3.2.1-beta          |DONE      |Manifest: NOSIGNATURE
+		extraalchemy-fabric-1.20.1-1.10.0_mapped_srg_1.20.|Extra Alchemy                 |extraalchemy                  |1.10.0              |DONE      |Manifest: NOSIGNATURE
+		fabric-lifecycle-events-v1-2.2.23+afab492177.jar  |Fabric Lifecycle Events (v1)  |fabric_lifecycle_events_v1    |2.2.23+afab492177   |DONE      |Manifest: NOSIGNATURE
+		mob-ai-tweaks-1.8.4-1.20.1_mapped_srg_1.20.1.jar  |Mob AI Tweaks                 |mob_ai_tweaks                 |1.8.4               |DONE      |Manifest: NOSIGNATURE
+		item-descriptions-forge-2.5.1+1.20.1.jar          |Item Descriptions             |item_descriptions             |2.5.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		hats-forge-1.20.1-1.2.1.jar                       |Galena Hats                   |galena_hats                   |1.20.1-1.2.1        |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.3-build.10.jar                 |Rhino                         |rhino                         |2001.2.3-build.10   |DONE      |Manifest: NOSIGNATURE
+		owo-lib-0.11.2+1.20_mapped_srg_1.20.1.jar         |oωo                           |owo                           |0.11.21.20          |DONE      |Manifest: NOSIGNATURE
+		OctoLib-FORGE-0.5.0.1+1.20.1.jar                  |OctoLib                       |octolib                       |0.5.0.1             |DONE      |Manifest: NOSIGNATURE
+		ElysiumAPI-1.20.1-1.1.3.jar                       |Elysium                       |elysium_api                   |1.1.3               |DONE      |Manifest: NOSIGNATURE
+		TRender-1.0.6-1.20.1-forge-SNAPSHOT.jar           |TRender                       |trender                       |1.0.6               |DONE      |Manifest: NOSIGNATURE
+		portfolio-1.20.1-1.4.0-forge.jar                  |Portfolio                     |portfolio                     |1.20.1-1.4.0-forge  |DONE      |Manifest: NOSIGNATURE
+		bountifulfares-1.2.1-1.20.1$terraform-wood-api-v1-|Terraform Wood API (v1)       |terraform_wood_api_v1         |7.0.1               |DONE      |Manifest: NOSIGNATURE
+		create-1.20.1-0.5.1.j.jar                         |Create                        |create                        |0.5.1.j             |DONE      |Manifest: NOSIGNATURE
+		waystones-forge-1.20.1-14.1.17.jar                |Waystones                     |waystones                     |14.1.17             |DONE      |Manifest: NOSIGNATURE
+		extra_compat-1.5.25.jar                           |Extra Compat                  |extra_compat                  |1.5.25              |DONE      |Manifest: NOSIGNATURE
+		YungsCaveBiomes-1.20.1-Forge-2.0.5.jar            |YUNG's Cave Biomes            |yungscavebiomes               |1.20.1-Forge-2.0.5  |DONE      |Manifest: NOSIGNATURE
+		fabric-mining-level-api-v1-2.1.52+561530ec77.jar  |Fabric Mining Level API (v1)  |fabric_mining_level_api_v1    |2.1.52+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		temporalapi-1.6.6.jar                             |Temporal API                  |temporalapi                   |1.6.6               |DONE      |Manifest: NOSIGNATURE
+		spelunking_master-1.20.1-0.3.0.jar                |Spelunking Master             |spelunking_master             |1.20.1-0.3.0        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.20-Forge-3.0.3.jar     |YUNG's Better Desert Temples  |betterdeserttemples           |1.20-Forge-3.0.3    |DONE      |Manifest: NOSIGNATURE
+		Block+Swap-forge-1.20.1-5.0.0.0.jar               |Block Swap                    |blockswap                     |5.0.0.0             |DONE      |Manifest: NOSIGNATURE
+		blueprint-1.20.1-7.1.3.jar                        |Blueprint                     |blueprint                     |7.1.3               |DONE      |Manifest: NOSIGNATURE
+		CopperPot-1.20.1-2.0.3.jar                        |Copper Pot                    |copperpot                     |1.20.1-2.0.3        |DONE      |Manifest: NOSIGNATURE
+		savage_and_ravage-1.20.1-6.0.0.jar                |Savage & Ravage               |savage_and_ravage             |6.0.0               |DONE      |Manifest: NOSIGNATURE
+		endergetic-1.20.1-5.0.1.jar                       |The Endergetic Expansion      |endergetic                    |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		personality-1.20.1-4.1.0.jar                      |Personality                   |personality                   |4.1.0               |DONE      |Manifest: NOSIGNATURE
+		autumnity-1.20.1-5.0.2.jar                        |Autumnity                     |autumnity                     |5.0.2               |DONE      |Manifest: NOSIGNATURE
+		foragersinsight-1.20.1-1.0(TnT).jar               |Forager's Insight             |foragersinsight               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		pet_cemetery-1.20.1-2.0.0.jar                     |Pet Cemetery                  |pet_cemetery                  |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		abnormals_delight-1.20.1-5.0.1.jar                |Abnormals Delight             |abnormals_delight             |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		environmental-1.20.1-4.1.0.jar                    |Environmental                 |environmental                 |4.1.0               |DONE      |Manifest: NOSIGNATURE
+		upgrade_aquatic-1.20.1-6.0.3.jar                  |Upgrade Aquatic               |upgrade_aquatic               |6.0.3               |DONE      |Manifest: NOSIGNATURE
+		neapolitan-1.20.1-5.1.0.jar                       |Neapolitan                    |neapolitan                    |5.1.0               |DONE      |Manifest: NOSIGNATURE
+		Exquisito-1.20.1-2.5.3.jar                        |Exquisito                     |exquisito                     |2.5.3               |DONE      |Manifest: NOSIGNATURE
+		cosmopolitan-1.20.1-1.0.5.jar                     |Cosmopolitan                  |cosmopolitan                  |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		respiteful-1.2.1.jar                              |Respiteful                    |respiteful                    |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		onion_onion-1.20.1-2.0.4.jar                      |Onion Onion                   |onion_onion                   |2.0.4               |DONE      |Manifest: NOSIGNATURE
+		gallery-1.20.1-1.0.3.jar                          |Gallery                       |gallery                       |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		frame_changer-1.20.1-2.0.2-all.jar                |Frame Changer                 |frame_changer                 |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		allurement-1.20.1-4.0.0.jar                       |Allurement                    |allurement                    |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		caverns_and_chasms-1.20.1-2.0.0.jar               |Caverns & Chasms              |caverns_and_chasms            |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		whiffowisp-1.20.1-1.0.5-all.jar                   |Whiff O' Wisp                 |whiffowisp                    |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		incubation-1.20.1-4.0.4.jar                       |Incubation                    |incubation                    |4.0.4               |DONE      |Manifest: NOSIGNATURE
+		buzzier_bees-1.20.1-6.0.1.jar                     |Buzzier Bees                  |buzzier_bees                  |6.0.1               |DONE      |Manifest: NOSIGNATURE
+		berry_good-1.20.1-7.0.0.jar                       |Berry Good                    |berry_good                    |7.0.0               |DONE      |Manifest: NOSIGNATURE
+		seasonals-1.20.1-5.0.2.jar                        |Seasonals                     |seasonals                     |1.20.1-5.0.2        |DONE      |Manifest: NOSIGNATURE
+		fabric-transitive-access-wideners-v1-4.3.2+1880499|Fabric Transitive Access Widen|fabric_transitive_access_widen|4.3.2+1880499877    |DONE      |Manifest: NOSIGNATURE
+		alexscaves-2.0.2.jar                              |Alex's Caves                  |alexscaves                    |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		libjf-3.12.5$libjf-base-unspecified_mapped_srg_1.2|LibJF Base                    |libjf_base                    |3.12.5              |DONE      |Manifest: NOSIGNATURE
+		moonlight-1.20-2.16.10-forge.jar                  |Moonlight Library             |moonlight                     |1.20-2.16.10        |DONE      |Manifest: NOSIGNATURE
+		moyai-1.20-2.0.2.jar                              |Moyai                         |moyai                         |1.20-2.0.2          |DONE      |Manifest: NOSIGNATURE
+		molten_metals-1.20.1-0.1.4-forge.jar              |Molten Metals                 |molten_metals                 |1.20.1-0.1.4        |DONE      |Manifest: NOSIGNATURE
+		ArcheryExpansion-forge-1.20.1-1.0.6-all.jar       |Archery Expansion             |archeryexp                    |1.0.6               |DONE      |Manifest: NOSIGNATURE
+		mixinsquared-forge-0.3.2-beta.4.jar               |MixinSquared                  |mixinsquared                  |0.3.2-beta.4        |DONE      |Manifest: NOSIGNATURE
+		visual_keybinder-1.20.1 - 0.1.5.jar               |Raw's Visual Keybinder        |visual_keybinder              |1.20.1 - 0.1.5      |DONE      |Manifest: NOSIGNATURE
+		natures_delight-1.11-1.20.1.jar                   |Nature's Delight              |natures_delight               |1.11-1.20.1         |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-Forge-11.13.2.jar                     |Jade                          |jade                          |11.13.2+forge       |DONE      |Manifest: NOSIGNATURE
+		respackopts-4.6.2$muscript-1.4-SNAPSHOT_mapped_srg|muscript                      |io_gitlab_jfronny_muscript    |1.4-SNAPSHOT        |DONE      |Manifest: NOSIGNATURE
+		Oreganized 1.20.1-4.2.4.jar                       |Oreganized                    |oreganized                    |4.2.4               |DONE      |Manifest: NOSIGNATURE
+		Doom & Gloom 1.20.1.jar                           |Doom & Gloom                  |doom_and_gloom                |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		Oreganized Carcinogenius 1.20.1-4.1.0.jar         |Oreganized Carcinogenius      |oreganized_carcinogenius      |4.1.0               |DONE      |Manifest: NOSIGNATURE
+		Platform-forge-1.20.1-1.2.10.1.jar                |Platform                      |platform                      |1.2.10.1            |DONE      |Manifest: NOSIGNATURE
+		perspective-1.2.0-alpha.2+1.20.0-1$crowdin-transla|CrowdinTranslate              |crowdin_translate             |1.41.19.3           |DONE      |Manifest: NOSIGNATURE
+		Sounds-2.2.1+1.20.1+forge.jar                     |Sounds                        |sounds                        |2.2.1+1.20.1+forge  |DONE      |Manifest: NOSIGNATURE
+		RoughlyEnoughItems-12.1.785-forge.jar             |Roughly Enough Items (REI)    |roughlyenoughitems            |12.1.785            |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |Inquisitive                   |kubejs                        |2001.6.5-build.16   |DONE      |Manifest: NOSIGNATURE
+		atmospheric-1.20.1-6.1.1.jar                      |Atmospheric                   |atmospheric                   |6.1.1               |DONE      |Manifest: NOSIGNATURE
+		peculiars-1.20.1-5.0.0.jar                        |Peculiars                     |peculiars                     |1.20.1-5.0.0        |DONE      |Manifest: NOSIGNATURE
+		starlance-1.3.3.jar                               |Starlance: Valkyrien Skies X C|vsch                          |1.3.3               |DONE      |Manifest: NOSIGNATURE
+		DefaultWorldType-1.20.1-4.0.4.jar                 |Default World Type            |defaultworldtype              |1.20.1-4.0.4        |DONE      |Manifest: NOSIGNATURE
+		rottencreatures-forge-1.20.1-1.1.0.jar            |Rotten Creatures              |rottencreatures               |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		thigh_highs_etc-forge-1.0.4.jar                   |Thigh highs etc               |thigh_highs_etc               |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		Ribbits-1.20.1-Forge-3.0.4.jar                    |Ribbits                       |ribbits                       |1.20.1-Forge-3.0.4  |DONE      |Manifest: NOSIGNATURE
+		Quark-4.0-462.jar                                 |Quark                         |quark                         |4.0-462             |DONE      |Manifest: NOSIGNATURE
+		supplementaries-1.20-3.1.18.jar                   |Supplementaries               |supplementaries               |1.20-3.1.18         |DONE      |Manifest: NOSIGNATURE
+		raspberry_core-1.7+1.20.1.jar                     |Raspberry Core                |raspberry                     |1.7+1.20.1          |DONE      |Manifest: NOSIGNATURE
+		woodworks-1.20.1-3.0.2.jar                        |Woodworks                     |woodworks                     |3.0.2               |DONE      |Manifest: NOSIGNATURE
+		archexpsquared-0.3.0.jar                          |Archery Expansion Squared     |archexpsquared                |0.3.0               |DONE      |Manifest: NOSIGNATURE
+		amendments-1.20-2.0.7.jar                         |Amendments                    |amendments                    |1.20-2.0.7          |DONE      |Manifest: NOSIGNATURE
+		diet-forge-2.1.1+1.20.1.jar                       |Diet                          |diet                          |2.1.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		ohmymeteors-1.0.0+1.20.1_mapped_srg_1.20.1.jar    |Oh My, Meteors!               |ohmymeteors                   |1.0.01.20.1         |DONE      |Manifest: NOSIGNATURE
+		holdmyitems-1.20.1-4v2.0.jar                      |HoldMyItems - Reforged        |holdmyitems                   |2.0                 |DONE      |Manifest: NOSIGNATURE
+		sherdsapi-neoforge-1.20.1-4.0.4.jar               |Sherds API                    |sherdsapi                     |4.0.4               |DONE      |Manifest: NOSIGNATURE
+		Ecliptic-Seasons-MultiMod-Patch-1.20.1-forge-0.19.|Ecliptic Seasons: MultiMod Pat|eclipticseasons_multimodpatch |0.19.1              |DONE      |Manifest: NOSIGNATURE
+		yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar  |YetAnotherConfigLib           |yet_another_config_lib_v3     |3.6.6+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		Etcetera-1.20.1-1.1.3-Forge.jar                   |Etcetera                      |etcetera                      |1.20.1-1.1.3        |DONE      |Manifest: NOSIGNATURE
+		dolt_mod_how-1.20.1-2.4.2-all.jar                 |Dolt Mod How                  |dolt_mod_how                  |2.4.2               |DONE      |Manifest: NOSIGNATURE
+		heartstone-1.20-1.3.0.jar                         |Heartstone                    |heartstone                    |1.20-1.3.0          |DONE      |Manifest: NOSIGNATURE
+		screenshot_viewer-1.3.2-forge-mc1.20.1.jar        |Screenshot Viewer             |screenshot_viewer             |1.3.2-forge-mc1.20.1|DONE      |Manifest: NOSIGNATURE
+		packetfixer-3.3.0-1.18-1.20.4-merged.jar          |PacketFixer                   |packetfixer                   |3.3.0               |DONE      |Manifest: NOSIGNATURE
+		emi-bridge-1.11.2+1.20.1.jar                      |Connector Extras EMI Bridge   |connectorextras_emi_bridge    |1.11.2+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		wab-1.20.1-1.3.1.jar                              |Wan Ancient Beasts            |wan_ancient_beasts            |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		deeper-oceans-2.0.0-forge-1.20.1.jar              |Deeper Oceans                 |deeper_oceans                 |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-data-generation-api-v1-12.3.7+369cb3a477.ja|Fabric Data Generation API (v1|fabric_data_generation_api_v1 |12.3.7+369cb3a477   |DONE      |Manifest: NOSIGNATURE
+		fabric-events-interaction-v0-0.6.5+0f26153f77.jar |Fabric Events Interaction (v0)|fabric_events_interaction_v0  |0.6.5+0f26153f77    |DONE      |Manifest: NOSIGNATURE
+	Flywheel Backend: GL33 Instanced Arrays
+	Crash Report UUID: 67ed781b-5688-42d4-817d-ba5b8f3a597e
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.0
+	Kiwi Modules: 
+		kiwi:contributors
+		kiwi:data
+		passablefoliage:core
+		passablefoliage:enchantment

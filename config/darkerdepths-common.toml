@@ -105,3 +105,11 @@
 	#Supercharge tool unbreakablity:
 	supercharge_unbreakable = true
 
+["Paranoia Altar"]
+	#Allows players in creative mode to be effected by the Paranoia Altar
+	paranoia_altar_effects_creative = false
+	#Range: 0 ~ 128
+	paranoia_altar_horizontal_range = 72
+	#Range: 0 ~ 128
+	paranoia_altar_vertical_range = 8
+

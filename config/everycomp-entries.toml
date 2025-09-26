@@ -18,11 +18,6 @@
 			hoary = true
 			walnut = true
 
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
-
 		[types.wood_type.enhanced_mushrooms]
 			mushroom = true
 
@@ -99,9 +94,6 @@
 		[types.wood_type.vanillabackport]
 			pale_oak = true
 
-		[types.wood_type.soulfulnether]
-			fright = true
-
 		[types.wood_type.eidolon]
 			illwood = true
 
@@ -125,6 +117,9 @@
 		[types.wood_type.darkerdepths]
 			petrified = true
 
+		[types.wood_type.soulfulnether]
+			fright = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.bountifulfares]
@@ -138,9 +133,6 @@
 			flowering_plum = true
 			hoary = true
 			walnut = true
-
-		[types.leaves_type.ad_astra]
-			glacian = true
 
 		[types.leaves_type.architects_palette]
 			twisted = true

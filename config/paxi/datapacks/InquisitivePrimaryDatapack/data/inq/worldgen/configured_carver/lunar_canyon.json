@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:canyon",
+  "config": {
+    "lava_level": {
+      "above_bottom": -1000
+    },
+    "probability": 0.2,
+    "replaceable": "#inq:lunar_blocks",
+    "shape": {
+      "distance_factor": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_exclusive": 0.6,
+          "min_inclusive": 0.5
+        }
+      },
+      "horizontal_radius_factor": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_exclusive": 4.0,
+          "min_inclusive": 2
+        }
+      },
+      "thickness": {
+        "type": "minecraft:trapezoid",
+        "value": {
+          "max": 6.0,
+          "min": 2.0,
+          "plateau": 4.0
+        }
+      },
+      "vertical_radius_center_factor": 1.0,
+      "vertical_radius_default_factor": 1.0,
+      "width_smoothness": 5
+    },
+    "vertical_rotation": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_exclusive": 0.1,
+        "min_inclusive": 0
+      }
+    },
+    "y": {
+      "type": "minecraft:uniform",
+      "max_inclusive": {
+        "absolute": 200
+      },
+      "min_inclusive": {
+        "absolute": 140
+      }
+    },
+    "yScale": 1.0
+  }
+}

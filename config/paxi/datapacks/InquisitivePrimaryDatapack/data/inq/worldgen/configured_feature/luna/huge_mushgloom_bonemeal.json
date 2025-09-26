@@ -1,0 +1,50 @@
+{
+  "type": "spelunkery:huge_forking_mushroom",
+  "config": {
+    "block_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "spelunkery:mushgloom_block",
+        "Properties": {
+          "down": "false",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
+      }
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "enlightened_end:glow_gourd"
+          }
+        },
+        "directions": [
+          "down"
+        ],
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "probability": 0.1,
+        "required_empty_blocks": 1
+      }
+    ],
+    "stem_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:bedrock"
+      }
+    },
+    "light_provider": {
+  "type": "minecraft:simple_state_provider",
+  "state": {
+    "Name": "minecraft:bedrock"
+  }
+},
+    "height": 3
+  }
+}

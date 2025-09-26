@@ -1,13 +1,13 @@
-[19:35:13] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[19:35:13] [INIT] Loaded plugins:
-[19:35:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[19:35:13] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[19:35:13] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[19:35:14] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
-[19:35:14] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
-[19:35:14] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
-[19:35:14] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
-[19:35:14] [INFO] Loaded script startup_scripts:rarity.js in 0.233 s
-[19:35:14] [INFO] Loaded script startup_scripts:start.js in 0.019 s
-[19:35:14] [INFO] Loaded 2/2 KubeJS startup scripts in 1.095 s with 0 errors and 0 warnings
-[19:37:58] [INFO] start.js#18: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
+[23:52:18] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[23:52:18] [INIT] Loaded plugins:
+[23:52:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:52:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:52:18] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[23:52:20] [INFO] rarity.js#1: Loaded Java class 'net.minecraft.world.item.Rarity'
+[23:52:20] [INFO] rarity.js#2: Loaded Java class 'java.util.function.UnaryOperator'
+[23:52:20] [INFO] rarity.js#3: Loaded Java class 'dev.latvian.mods.kubejs.util.UtilsJS'
+[23:52:20] [INFO] rarity.js#4: Loaded Java class 'net.minecraft.network.chat.Style'
+[23:52:20] [INFO] Loaded script startup_scripts:rarity.js in 0.204 s
+[23:52:20] [INFO] Loaded script startup_scripts:start.js in 0.016 s
+[23:52:20] [INFO] Loaded 2/2 KubeJS startup scripts in 1.428 s with 0 errors and 0 warnings
+[23:52:55] [INFO] start.js#18: Loaded Java class 'dev.latvian.mods.kubejs.item.custom.BasicItemJS$Builder'
