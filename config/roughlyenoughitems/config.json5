@@ -118,7 +118,7 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 1.1000000000000003,
+			"entrySize": 1.0000000000000002,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares how the scrollbar in composite screen should act.
@@ -1155,7 +1155,6 @@
 				"{Count:1b,id:\"minecraft:vindicator_spawn_egg\",type:\"minecraft:item\"}",
 				"{Count:1b,id:\"quark:stone_vertical_slab\",type:\"minecraft:item\"}",
 				"{Count:1b,id:\"cosmos:steel_battery\",type:\"minecraft:item\"}",
-				"{Count:1b,id:\"nirvana:reefer_spawn_egg\",type:\"minecraft:item\"}",
 				"{Count:1b,id:\"minecraft:coarse_dirt\",tag:{},type:\"minecraft:item\"}",
 				"{Count:1b,id:\"waystones:portstone\",type:\"minecraft:item\"}",
 				"{Count:1b,id:\"atmospheric:large_grimwood_boat\",type:\"minecraft:item\"}",

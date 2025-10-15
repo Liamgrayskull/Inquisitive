@@ -120,6 +120,9 @@
 		[types.wood_type.soulfulnether]
 			fright = true
 
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.bountifulfares]

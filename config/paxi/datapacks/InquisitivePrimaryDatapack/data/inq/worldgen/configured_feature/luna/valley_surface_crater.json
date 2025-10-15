@@ -38,13 +38,13 @@
           "fluid": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:packed_ice"
+              "Name": "spelunkery:dust_block"
             }
           },
           "barrier": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "lunarnether:lunar_stone"
+              "Name": "minecraft:basalt"
             }
           }
         }

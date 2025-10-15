@@ -374,6 +374,17 @@
       },
       "sync": "minecraft:subtitles"
     },
+    "minecraft:titles": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "minecraft:titles"
+    },
     "minecraft:toasts": {
       "displacement": {
         "x": 0,
@@ -428,6 +439,17 @@
         "y": "NONE"
       },
       "sync": "patchouli:multiblock_progress"
+    },
+    "postproduction_backported:blueprint": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "postproduction_backported:blueprint"
     },
     "rubinated_nether:ruby_lens_overlay": {
       "displacement": {

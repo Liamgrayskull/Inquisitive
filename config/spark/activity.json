@@ -109,58 +109,6 @@
       "name": "Grayskulll",
       "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
     },
-    "time": 1754888982207,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/A5hZwJpqwL"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Grayskulll",
-      "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
-    },
-    "time": 1754880647283,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/509XoTfDAZ"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Grayskulll",
-      "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
-    },
-    "time": 1754441647735,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/1hIGZeLjLo"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Grayskulll",
-      "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
-    },
-    "time": 1754247801366,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/DBUoE5e2lW"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Grayskulll",
-      "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
-    },
     "time": 1747581016834,
     "type": "Heap dump",
     "data": {

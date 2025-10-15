@@ -1,0 +1,59 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "darkerdepths:duskrock",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "windswept:icicle_block"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "undergarden:shiverstone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 93,
+          "primary_min": -0.1,
+          "primary_max": 0.1,
+          "secondary_min": -0.3,
+          "secondary_max": 0.3,
+          "vertical_scale": 0.5
+        }
+      }
+    ],
+    "use_second_target": true,
+    "second_target": "#inq:aris_noise",
+    "second_target_placer": [
+      {
+  "primary_stone_type": {
+    "type": "minecraft:simple_state_provider",
+    "state": {
+      "Name": "minecraft:packed_ice"
+    }
+  },
+  "secondary_stone_type": {
+    "type": "minecraft:simple_state_provider",
+    "state": {
+      "Name": "immersive_weathering:permafrost"
+    }
+  },
+  "stone_pattern": {
+    "noise_seed": 93,
+    "primary_min": -0.1,
+    "primary_max": 0.1,
+    "secondary_min": -0.3,
+    "secondary_max": 0.3,
+    "vertical_scale": 0.5
+  }
+}
+    ],
+    "use_biome_filter": false,
+    "biomes": "#inq:dry_mars"
+    
+  }
+}

@@ -214,7 +214,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "windswept:lunalite"
+                  "Name": "undergarden:tremblecrust"
                 }
               }
             }

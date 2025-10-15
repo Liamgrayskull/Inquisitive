@@ -1,5 +1,5 @@
 {
-  "attached_dimention_id": "cosmos:jupiterlands",
+  "attached_dimention_id": "inq:aris",
   "skybox_data": {
     "texture_id": "skybox_solar",
     "alpha": 225,
@@ -13,8 +13,8 @@
     "weather": false,
     "clouds": false,
     "sky_objects": false,
-    "gravity": 238,
-    "air_resistance": 0.98,
+    "gravity": 138,
+    "air_resistance": 0.68,
     "atmospheric_data": {
       "atmosphere_y": 560,
       "travel_to": "cosmos:solar_system",

@@ -1,7 +1,7 @@
 {
   "type": "spelunkery:block_stripe",
   "config": {
-    "first_target": "#inq:lunar_blocks",
+    "first_target": "#inq:lunar_surface",
     "first_target_placer": [
       {
         "primary_stone_type": {

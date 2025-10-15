@@ -114,3 +114,6 @@ net.minecraft.client.gui.screens.worldselection.EditWorldScreen {
 net.minecraft.client.gui.screens.ConfirmLinkScreen {
 }
 
+net.minecraft.client.gui.screens.DatapackLoadFailureScreen {
+}
+

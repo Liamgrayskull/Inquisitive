@@ -15,11 +15,11 @@
   "max_delay": 24000,
   "min_delay": 12000,
   "replace_current_music": true,
-  "sound": "undergarden:music.undergarden"
+  "sound": "galosphere:music.biome.lichen_caves"
 },
     "particle": {
       "options": {
-        "type": "galosphere:aura_ringer_indicator"
+        "type": "galosphere:spectate_orb"
       },
       "probability": 0.001
     },
@@ -30,7 +30,6 @@
   "features": [
     [
       "inq:luna/air_disk",
-      "inq:luna/border_disks",
       "inq:luna/valley_surface_crater",
       "inq:luna/delta_surface_crater"
     ],

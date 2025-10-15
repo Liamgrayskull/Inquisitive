@@ -22,7 +22,13 @@
               },
               {
                 "data": {
-                  "Name": "galosphere:lichen_cordyceps"
+                  "Name": "environmental:cup_lichen"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "quark:glow_lichen_growth"
                 },
                 "weight": 20
               }

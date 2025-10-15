@@ -19,16 +19,76 @@ Config Description
 - mirrored : Set mirror effect for that tree. For random value, use [ random ]. For specific value, use [ true ] or [ false ]. Only supported one value per tree.
 
 ----------------------------------------------------------------------------------------------------
+[] #Inq-Customs > #aris > drip_rock_large
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = inq:aris_wastes
+ground_block = atmospheric:red_arid_sand
+rarity = 1
+min_distance = 10
+group_size = 1 <> 5
+waterside_chance = 0.0
+dead_tree_chance = 0.0
+dead_tree_level = 0
+start_height_offset = -3 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #Inq-Customs > #aris > spike_arid
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = inq:aris_wastes / inq:aris_canyon_creek
+ground_block = atmospheric:red_arid_sand / atmospheric:red_arid_sandstone
+rarity = 25
+min_distance = 0
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.0
+dead_tree_level = 0
+start_height_offset = 0 <> 0
+rotation = north
+mirrored = false
+----------------------------------------------------------------------------------------------------
+[] #Inq-Customs > #aris > spike_ice
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = inq:aris_polar_caps
+ground_block = minecraft:snow_block
+rarity = 25
+min_distance = 0
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.0
+dead_tree_level = 0
+start_height_offset = 0 <> 0
+rotation = north
+mirrored = false
+----------------------------------------------------------------------------------------------------
+[INCOMPATIBLE] [] #Inq-Customs > #aris > god_of_wastes
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = inq:aris_wastes / inq:aris_canyon_creek
+ground_block = minecraft:packed_mud / alexscaves:guanostone
+rarity = 0.9
+min_distance = 200
+group_chance = 0.0
+waterside_chance = 0.0
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
 [] #TannyJung-Main-Pack > #global > bush
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = #minecraft:is_forest / #minecraft:is_jungle
+biome = #minecraft:is_forest / #minecraft:is_jungle / #forge:is_swamp
 ground_block = #minecraft:dirt
 rarity = 25
-min_distance = 10
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -43,7 +103,7 @@ rarity = 1
 min_distance = 10
 group_size = 1 <> 5
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -52,13 +112,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #global > bush_waterside
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = #forge:is_plains / #minecraft:is_savanna / #minecraft:is_forest / #forge:is_coniferous / #minecraft:is_jungle
+biome = #forge:is_plains / #minecraft:is_savanna / #minecraft:is_forest / #forge:is_coniferous / #minecraft:is_jungle / #forge:is_swamp
 ground_block = #minecraft:dirt / #minecraft:sand
-rarity = 50
+rarity = 25
 min_distance = 10
 group_size = 50 <> 100
 waterside_chance = 1.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -69,11 +129,11 @@ mirrored = random
 world_gen = true
 biome = #forge:is_desert / #minecraft:is_badlands
 ground_block = #minecraft:sand
-rarity = 10
+rarity = 50
 min_distance = 10
 group_size = 10 <> 20
 waterside_chance = 1.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -82,13 +142,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #global > catalyst
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = #forge:is_plains, !#forge:is_dry
+biome = #forge:is_plains, !#forge:is_dry, !#forge:is_mountain
 ground_block = #minecraft:dirt
-rarity = 5
+rarity = 1
 min_distance = 40
-group_size = 1 <> 1
+group_size = 1 <> 3
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -103,7 +163,7 @@ rarity = 25
 min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 6 / 7
 start_height_offset = 0 <> 0
 rotation = random
@@ -114,26 +174,11 @@ mirrored = random
 world_gen = true
 biome = #forge:is_plains, !#forge:is_dry, !#forge:is_mountain
 ground_block = #minecraft:dirt
-rarity = 5
+rarity = 1
 min_distance = 40
-group_size = 1 <> 1
+group_size = 1 <> 3
 waterside_chance = 0.0
-dead_tree_chance = 0.01
-dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
-start_height_offset = 0 <> 0
-rotation = random
-mirrored = random
-----------------------------------------------------------------------------------------------------
-[] #TannyJung-Main-Pack > #global > halcyon_dense
-----------------------------------------------------------------------------------------------------
-world_gen = true
-biome = #forge:is_plains, #forge:is_mountain
-ground_block = #minecraft:dirt
-rarity = 100
-min_distance = 30
-group_size = 1 <> 1
-waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -148,7 +193,7 @@ rarity = 50
 min_distance = 10
 group_size = 10 <> 20
 waterside_chance = 1.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 6 / 7
 start_height_offset = 0 <> 0
 rotation = random
@@ -202,13 +247,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #global > shrub
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = #minecraft:is_forest / #minecraft:is_jungle
+biome = #minecraft:is_forest / #minecraft:is_jungle / #forge:is_swamp
 ground_block = #minecraft:dirt
 rarity = 25
-min_distance = 10
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -223,7 +268,7 @@ rarity = 1
 min_distance = 10
 group_size = 1 <> 5
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -232,13 +277,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #global > shrub_waterside
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = #forge:is_plains / #minecraft:is_savanna / #minecraft:is_forest / #forge:is_coniferous / #minecraft:is_jungle
+biome = #forge:is_plains / #minecraft:is_savanna / #minecraft:is_forest / #forge:is_coniferous / #minecraft:is_jungle / #forge:is_swamp
 ground_block = #minecraft:dirt / #minecraft:sand
-rarity = 50
+rarity = 25
 min_distance = 10
 group_size = 50 <> 100
 waterside_chance = 1.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -249,11 +294,11 @@ mirrored = random
 world_gen = true
 biome = #forge:is_desert / #minecraft:is_badlands
 ground_block = #minecraft:sand
-rarity = 10
+rarity = 50
 min_distance = 10
 group_size = 10 <> 20
 waterside_chance = 1.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -266,9 +311,9 @@ biome = minecraft:birch_forest / minecraft:old_growth_birch_forest
 ground_block = #minecraft:dirt
 rarity = 100
 min_distance = 20
-group_size = 1 <> 1
+group_size = 3 <> 5
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -283,7 +328,7 @@ rarity = 35
 min_distance = 25
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 10 / 20 / 30 / 40 / 50 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -292,13 +337,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #vanilla > catalyst
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = minecraft:forest
+biome = minecraft:forest / minecraft:jungle / minecraft:dark_forest
 ground_block = #minecraft:dirt
 rarity = 100
 min_distance = 30
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -313,7 +358,7 @@ rarity = 25
 min_distance = 40
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -328,7 +373,7 @@ rarity = 25
 min_distance = 40
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -343,8 +388,23 @@ rarity = 1
 min_distance = 40
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > #vanilla > glamor
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = minecraft:snowy_taiga
+ground_block = #minecraft:dirt
+rarity = 100
+min_distance = 15
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.1
+dead_tree_level = 10 / 20 / 30 / 40 / 50 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
 mirrored = random
@@ -358,22 +418,7 @@ rarity = 0.1
 min_distance = 200
 group_chance = 0.0
 waterside_chance = 0.0
-dead_tree_chance = 0.01
-dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
-start_height_offset = 0 <> 0
-rotation = random
-mirrored = random
-----------------------------------------------------------------------------------------------------
-[] #TannyJung-Main-Pack > #vanilla > great_redwood
-----------------------------------------------------------------------------------------------------
-world_gen = true
-biome = minecraft:old_growth_pine_taiga
-ground_block = #minecraft:dirt
-rarity = 5
-min_distance = 50
-group_size = 1 <> 1
-waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -382,13 +427,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #vanilla > halcyon
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = minecraft:forest
+biome = minecraft:forest / minecraft:dark_forest
 ground_block = #minecraft:dirt
 rarity = 100
 min_distance = 30
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -412,13 +457,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #vanilla > mangrove
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = minecraft:mangrove_swamp / minecraft:swamp
+biome = minecraft:mangrove_swamp
 ground_block = #minecraft:dirt
-rarity = 35
-min_distance = 40
+rarity = 100
+min_distance = 30
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = -10 <> 10
 rotation = random
@@ -427,13 +472,13 @@ mirrored = random
 [] #TannyJung-Main-Pack > #vanilla > palm
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = minecraft:sparse_jungle
+biome = minecraft:jungle / minecraft:sparse_jungle
 ground_block = #minecraft:dirt
 rarity = 25
-min_distance = 10
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 6 / 7
 start_height_offset = 0 <> 0
 rotation = random
@@ -448,8 +493,23 @@ rarity = 100
 min_distance = 15
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 10 / 20 / 30 / 40 / 50 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > #vanilla > raiden
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = minecraft:jungle
+ground_block = #minecraft:dirt
+rarity = 50
+min_distance = 40
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
 mirrored = random
@@ -463,7 +523,22 @@ rarity = 25
 min_distance = 40
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > #vanilla > redwood_great
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = minecraft:old_growth_pine_taiga
+ground_block = #minecraft:dirt
+rarity = 5
+min_distance = 50
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -472,7 +547,7 @@ mirrored = random
 [] #TannyJung-Main-Pack > #vanilla > sky_island_chain
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = minecraft:jungle
+biome = minecraft:sparse_jungle
 ground_block = !minecraft:air
 rarity = 25
 min_distance = 0
@@ -505,7 +580,7 @@ world_gen = true
 biome = minecraft:deep_ocean
 ground_block = minecraft:gravel
 rarity = 10
-min_distance = 10
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
 dead_tree_chance = 0.0
@@ -520,7 +595,7 @@ world_gen = true
 biome = minecraft:ice_spikes
 ground_block = minecraft:snow_block
 rarity = 25
-min_distance = 10
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
 dead_tree_chance = 0.0
@@ -535,7 +610,7 @@ world_gen = true
 biome = minecraft:deep_ocean
 ground_block = minecraft:gravel
 rarity = 25
-min_distance = 20
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
 dead_tree_chance = 0.0
@@ -550,7 +625,7 @@ world_gen = true
 biome = minecraft:badlands
 ground_block = #minecraft:sand / minecraft:terracotta
 rarity = 25
-min_distance = 10
+min_distance = 0
 group_size = 1 <> 1
 waterside_chance = 0.0
 dead_tree_chance = 0.0
@@ -568,7 +643,7 @@ rarity = 0.01
 min_distance = 200
 group_chance = 0.0
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -577,14 +652,44 @@ mirrored = random
 [] #TannyJung-Main-Pack > #vanilla > wendy
 ----------------------------------------------------------------------------------------------------
 world_gen = true
-biome = minecraft:taiga / minecraft:snowy_taiga
+biome = minecraft:taiga
 ground_block = #minecraft:dirt
 rarity = 100
-min_distance = 15
+min_distance = 10
+group_size = 3 <> 5
+waterside_chance = 0.0
+dead_tree_chance = 0.1
+dead_tree_level = 10 / 20 / 30 / 40 / 50 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > #vanilla > whisper
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = minecraft:swamp
+ground_block = #minecraft:dirt
+rarity = 100
+min_distance = 30
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
-dead_tree_level = 10 / 20 / 30 / 40 / 50 / 6 / 7 / 8 / 9
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > #vanilla > willow
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = minecraft:swamp
+ground_block = #minecraft:dirt
+rarity = 25
+min_distance = 20
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
 mirrored = random
@@ -598,7 +703,7 @@ rarity = 1
 min_distance = 25
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -613,7 +718,22 @@ rarity = 10
 min_distance = 100
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > biomesoplenty > bush_dense
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = biomesoplenty:lush_desert
+ground_block = #minecraft:dirt / #minecraft:sand / #forge:sandstone
+rarity = 100
+min_distance = 0
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -628,7 +748,22 @@ rarity = 0.5
 min_distance = 30
 group_size = 50 <> 100
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > biomesoplenty > shrub_dense
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = biomesoplenty:lush_desert
+ground_block = #minecraft:dirt / #minecraft:sand / #forge:sandstone
+rarity = 100
+min_distance = 0
+group_size = 1 <> 1
+waterside_chance = 0.0
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -643,7 +778,7 @@ rarity = 100
 min_distance = 30
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random
@@ -658,7 +793,22 @@ rarity = 100
 min_distance = 30
 group_size = 1 <> 1
 waterside_chance = 0.0
-dead_tree_chance = 0.01
+dead_tree_chance = 0.05
+dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
+start_height_offset = 0 <> 0
+rotation = random
+mirrored = random
+----------------------------------------------------------------------------------------------------
+[] #TannyJung-Main-Pack > region_unexplored > malus_domestica
+----------------------------------------------------------------------------------------------------
+world_gen = true
+biome = regions_unexplored:barley_fields
+ground_block = #minecraft:dirt
+rarity = 0.5
+min_distance = 30
+group_size = 50 <> 100
+waterside_chance = 0.0
+dead_tree_chance = 0.05
 dead_tree_level = 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9
 start_height_offset = 0 <> 0
 rotation = random

@@ -276,7 +276,7 @@
 	"issueReportEnabled": true,
 	"enabledDimensions": [
 		"minecraft:overworld",
-		"ad_astra:venus",
+		"inq:aris",
 		"paradise_lost:paradise_lost"
 	],
 	"sereneSeasonsConfig": {

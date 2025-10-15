@@ -718,9 +718,9 @@ give @p tanshugetrees:random_tree{display:{Name:"{\"text\":\"Custom Tree\",\"col
 ,function_way1_range_max:100
 ,   function_way1_style:"up"
 
-,   function_way2:"#TannyJung-Main-Pack/cave_vine.txt"
+,   function_way2:"#TannyJung-Main-Pack/vine_cave.txt"
 ,   function_way2_type:"trunk"
-,   function_way2_chance:0.05
+,   function_way2_chance:0.1
 ,function_way2_max:0
 ,function_way2_range_min:0
 ,function_way2_range_max:100

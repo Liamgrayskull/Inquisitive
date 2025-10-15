@@ -145,7 +145,7 @@
         "b": 255,
         "alpha": 11
       },
-      "travel_to": "ad_astra:moon",
+      "travel_to": "undergarden:undergarden",
       "glowing": false,
       "ringed": false
     },
@@ -167,7 +167,7 @@
         "b": 153,
         "alpha": 28.5
       },
-      "travel_to": "ad_astra:mars",
+      "travel_to": "inq:aris",
       "glowing": false,
       "ringed": false
     }

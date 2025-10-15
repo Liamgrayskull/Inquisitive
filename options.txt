@@ -149,7 +149,6 @@ key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_key.extend:key.keyboard.up
 key_key.retract:key.keyboard.down
-key_key.antique_atlas.open:key.keyboard.m
 key_gui.perspective.keybindings.keybinding.cycle_shaders:key.keyboard.unknown
 key_gui.perspective.keybindings.keybinding.hold_perspective_third_person_back:key.keyboard.unknown
 key_gui.perspective.keybindings.keybinding.hold_perspective_third_person_front:key.keyboard.unknown
@@ -263,7 +262,7 @@ key_key.diet.open.desc:key.keyboard.unknown
 key_Inspect Key:key.keyboard.i
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.wan_ancient_beasts.special_ability:key.keyboard.unknown
-soundCategory_master:0.203125
+soundCategory_master:0.06696428571428571
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

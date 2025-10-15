@@ -1,0 +1,146 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon",
+      "inq:aris_cave",
+      "inq:aris_canyon"
+    ]
+  },
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 15117444,
+    "ambient_sound": "alexscaves:forlorn_hollows_ambience",
+    "additions_sound": {
+      "sound": "alexscaves:forlorn_hollows_ambience_additions",
+      "tick_chance": 0.0111
+    },
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "alexscaves:forlorn_hollows_ambience_mood",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "alexscaves:forlorn_hollows_music"
+    },
+    "particle": {
+      "options": {
+        "type": "alexscaves:falling_guano"
+      },
+      "probability": 0.014
+    },
+    "sky_color": 15117444,
+    "water_color": 10387789,
+    "foliage_color": 10387789,
+    "water_fog_color": 10387789
+  },
+  "features": [
+    [],
+    [],
+    [
+      "inq:aris/noise_stripes_coprolith_aris"
+    ],
+    [
+      "spelunkery:tangle_roots_ceiling",
+      "alexscaves:guano_pile",
+      "alexscaves:forlorn_hollows_brown_mushroom",
+      "alexscaves:underweed"
+    ],
+    [
+      "inq:aris/aris_utherium_ore",
+      "inq:aris/aris_redstone_ore",
+      "inq:aris/aris_redstone",
+      "inq:aris/aris_asbestos",
+      "alexscaves:coprolith_coal_ore",
+      "alexscaves:guanostone_redstone_ore",
+      "alexscaves:peering_coprolith"
+    ],
+    [],
+    [
+      "minecraft:large_dripstone",
+      "minecraft:dripstone_cluster",
+      "minecraft:pointed_dripstone"
+    ],
+    [
+      "inq:aris/thornwood_roots",
+      "inq:aris/thornwood_tree",
+      "inq:aris/thornwood_tree_with_branches"
+    ],
+    [],
+    [],
+    [
+      "inq:aris/forlorn_posts",
+      "inq:aris/forlorn_ruins",
+      "waystones:waystone",
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "alexsmobs:cockroach",
+        "maxCount": 2,
+        "minCount": 0,
+        "weight": 5
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "undergarden:forgotten",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 30
+      },
+      {
+        "type": "undergarden:nargoyle",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 30
+      },
+      {
+        "type": "alexscaves:gloomoth",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 30
+      },
+      {
+        "type": "species:ghoul",
+        "maxCount": 1,
+        "minCount": 0,
+        "weight": 20
+      },
+      {
+        "type": "alexscaves:underzealot",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 20
+      },
+      {
+        "type": "darkerdepths:void_soul_knight",
+        "maxCount": 1,
+        "minCount": 0,
+        "weight": 10
+      },
+      {
+        "type": "alexscaves:watcher",
+        "maxCount": 1,
+        "minCount": 0,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.8
+}

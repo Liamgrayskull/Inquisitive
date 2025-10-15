@@ -1,0 +1,240 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = datapack_load_failure_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1758902257449
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:f1ebfe21-456e-4f21-9463-04981cde34d2-1758902191626] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/yeahh.gif
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 19ef910f-17f7-4819-994c-6de16a5105af-1758902077863
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1444
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = -173
+  y = -208
+  width = 446
+  height = 446
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 72becb86-f1f3-43ba-bd98-5d6cb2c89956-1751662402412
+  [loading_requirement_container_meta:72becb86-f1f3-43ba-bd98-5d6cb2c89956-1751662402412] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = true
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/black_fade.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = a1694edb-a2c3-4a31-97b3-d6c2f019cfbb-1758902077864
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 0.7
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1444
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = -4
+  y = -182
+  width = 248
+  height = 371
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = bdbfa438-76da-44df-aa6a-556e90dfcb22-1754108525474
+  [loading_requirement_container_meta:bdbfa438-76da-44df-aa6a-556e90dfcb22-1754108525474] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 743e29ff-8277-4be0-854b-33f49e42bc2b-1758902077120
+  [executable_block:743e29ff-8277-4be0-854b-33f49e42bc2b-1758902077120][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/filler.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/circle1.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/button_hover.ogg
+  hoverlabel = &6< &d&lBack to Title &r&6>
+  clicksound = [source:local]/config/fancymenu/assets/click.ogg
+  label = Back to Title
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 6c994bc7-4116-4362-8dae-01966e8a3132-1758902077120
+  [loading_requirement_container_meta:6c994bc7-4116-4362-8dae-01966e8a3132-1758902077120] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = 505262
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1444
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 5
+  y = 70
+  width = 110
+  height = 25
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1dfe2e74-2d0c-496e-a0bb-bfe300c41770-1758902077120
+  [loading_requirement_container_meta:1dfe2e74-2d0c-496e-a0bb-bfe300c41770-1758902077120] = [groups:][instances:]
+  enable_parallax = true
+  parallax_intensity_v2 = 0.2
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 807a2e74-f007-47aa-9d29-26790e89eb20-1758902077120
+  [executable_block:807a2e74-f007-47aa-9d29-26790e89eb20-1758902077120][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/filler.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/circle1.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/button_hover.ogg
+  hoverlabel = &6< &d&lSafe Mode &r&6>
+  clicksound = [source:local]/config/fancymenu/assets/click.ogg
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 30ddacee-4cda-4470-ad4d-940e5878eb24-1758902077120
+  [loading_requirement_container_meta:30ddacee-4cda-4470-ad4d-940e5878eb24-1758902077120] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = vanilla_button
+  instance_identifier = 345262
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1444
+  sticky_anchor = false
+  anchor_point = mid-left
+  x = 5
+  y = -50
+  width = 110
+  height = 25
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1dccb3ad-41cb-4709-b584-47ea0f324fc4-1758902077120
+  [loading_requirement_container_meta:1dccb3ad-41cb-4709-b584-47ea0f324fc4-1758902077120] = [groups:][instances:]
+  enable_parallax = true
+  parallax_intensity_v2 = 0.2
+  invert_parallax = true
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  is_hidden = false
+  automated_button_clicks = 0
+}
+

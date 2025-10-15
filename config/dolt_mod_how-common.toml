@@ -127,7 +127,7 @@
 		"Crankbow stack size " = 64
 
 	["John Species"."Combustion Effect"]
-		#If explosions caused by mobs that die with the Species Combustion effect should not any blcks
+		#If explosions caused by mobs that die with the Species Combustion effect should not any blocks
 		"Less combusty combustion" = false
 
 ["jaden nether expansion"]

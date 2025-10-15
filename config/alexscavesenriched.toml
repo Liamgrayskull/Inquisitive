@@ -1,0 +1,85 @@
+enrichedRodFuelMultiplier = 12.0
+raygunCooldownTicks = 15
+irradiationMutatesMobs = false
+miniNukeRadius = 2
+nuclearFurnaceLeakRadius = 5.0
+
+[client]
+overrideSkyColor = true
+nukeParticleEffects = true
+
+[client.demonCoreSprite]
+resolution = 720
+animationFrames = 5
+
+[railgun]
+damage = 60
+chargeRate = 7
+range = 256
+blockBreakRange = 64
+infinity = true
+multishot = true
+quickCharge = true
+
+[demonCore]
+diameter = 7
+damage = 10
+maxSize = 128
+boundingBoxFillProportion = 0.7
+
+[rocket]
+reliableWithPortals = true
+
+[rocket.nonNuclear]
+dispenserPower = 4.0
+dispenserUncertainty = 6.0
+
+[rocket.nonNuclear.normal]
+explosionPower = 4.0
+
+[rocket.nonNuclear.uranium]
+irradiationTime = 100
+irradiationRadius = 5.0
+explosionPower = 5.0
+irradiationPotionTime = 300.0
+
+[rocket.nuclear]
+dispenserPower = 7.0
+
+[rocketLauncher]
+baseSpeed = 4.0
+cooldown = 80
+powerSpeed = 1.0
+backblastRange = 15.0
+backblastAngle = 30.0
+backblastDirectDamage = 20.0
+infinity = false
+
+[nuclear]
+letNukeKillWither = true
+useNewNuke = true
+smeltBlock = true
+irradiateAir = false
+irradiationTime = 36000
+irradiationPotionTime = 3000
+
+[neutron]
+irradiationPotionTime = 48000
+irradiationPotionPower = 9
+radius = 8
+burstDamage = 200
+
+[blackHole]
+radius = 8
+
+[uraniumArrow]
+irradiationTime = 40
+baseDamage = 4.0
+
+[gammaFlashlightConfig]
+range = 20.0
+spread = 0.6
+
+[centrifuge]
+cantInteractWithActive = true
+maxSpeed = 100

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "darkerdepths:aridrock",
+    "atmospheric:red_arid_sand",
+    "immersive_weathering:vitrified_sand",
+    "darkerdepths:duskrock",
+    "darkerdepths:darkslate",
+    "atmospheric:red_arid_sandstone",
+    "create:scoria",
+    "alexscaves:coprolith",
+    "natures_spirit:chert",
+    "minecraft:dripstone_block",
+    "minecraft:pointed_dripstone",
+    "minecraft:packed_mud",
+    "immersive_weathering:earthen_clay",
+    "alexscaves:guanostone"
+  ]
+}

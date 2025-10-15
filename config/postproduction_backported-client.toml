@@ -1,0 +1,8 @@
+
+#.
+#Mod Integration and JEI
+[jeiIntegration]
+	#.
+	#Whether to auto-update the JEI search when searching in the stock keeper UI
+	syncJeiSearch = true
+
