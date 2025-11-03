@@ -1,0 +1,7 @@
+
+[Optimize]
+	#Disable the beam rendering from the detonator item. Can significantly improve FPS
+	disable_detonator_render = true
+	#Disables the rendering of the projector block. Enable this for more FPS if you don't need the projector
+	disable_projector_render = false
+

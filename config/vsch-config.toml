@@ -12,16 +12,21 @@
 	#Powerful thruster max force. (Newtons)
 	powerful_thruster_strength = 450000
 	#Thruster energy consume rate. (FE/t)
+	#Range: > 0
 	thruster_energy_consume_rate = 0
 	#Thruster fuel consume rates. (mB/t)
 	thruster_fuel_consume_rates = "{}"
 	#Air thruster energy consume rate. (FE/t)
+	#Range: > 0
 	air_thruster_energy_consume_rate = 0
 	#Air thruster water consume rate when in a dimension that has less air density. (mB/t)
+	#Range: > 0
 	air_thruster_max_water_consume_rate = 0
 	#Powerful thruster energy consume rate. (FE/t)
+	#Range: > 0
 	powerful_thruster_energy_consume_rate = 0
 	#Powerful thruster oxygen consume rate. (mB/t) which hydrogen will consume twice as much.
+	#Range: > 0
 	powerful_thruster_fuel_consume_rate = 0
 	#This setting will allow thruster flame to push and to burn entities in its area, and set the first block it hits on fire.
 	thruster_flame_impact = true
@@ -50,6 +55,7 @@
 	#Max force gyro will apply to the ship on any axis. (N)
 	gyro_strength = 350000
 	#Gyro energy consume rate. (FE/t)
+	#Range: > 0
 	gyro_energy_consume_rate = 0
 	#Should the gyro have its rotational speed limited
 	gyro_limit_speed = true
@@ -60,10 +66,10 @@
 	#Assemble Energy Consumption
 	#Range: > 0
 	energy_consumption = 0
-	#Max assemble blocks for rocket assembler
+	#Max blocks the rocket assembler can assemble
 	#Range: > 0
 	max_assemble_blocks = 589824
-	#Prevent assemble if contatins any of these blocks
+	#Assembly is cancelled if it includes any of these blocks
 	assemble_blacklist = ["minecraft:barrier", "minecraft:bedrock", "minecraft:command_block"]
 
 [Optimize]
@@ -73,8 +79,19 @@
 	#However then you can only build blocks on ships.
 	#It is highly recommended to turn on Misc.enable_place_ship_platform at same time.
 	enable_empty_space_chunk = false
-	#Disable the beam rendering from the detonator item. Can significantly improve FPS
-	disable_detonator_render = true
-	#Disables the rendering of the projector block. Enable this for more FPS if you don't need the projector
-	disable_projector_render = false
+
+[Landing]
+	#Defines how the ship will land at planets.
+	#PLAYER_MENU: Always use the player menu for landing location. Ships cannot land without a player nearby.
+	#HISTORY: The saved launch position will be used. If no launch has been saved, the origin will be used.
+	#AUTO_HISTORY: Use PLAYER_MENU mode if a player is nearby, and use HISTORY mode otherwise.
+	#Allowed Values: PLAYER_MENU, HISTORY, AUTO_HISTORY
+	ship_landing_mode = "PLAYER_MENU"
+	#Define how accurate the ships landing position is, distance in chunks.
+	#Range: 0 ~ 128
+	ship_landing_accuracy = 0
+	#Define how far from the origin the ship will be teleported, in chunks.
+	#Only have effect when a ship never been to the planet and is trying to use HISTORY mode.
+	#Range: 0 ~ 32768
+	ship_first_landing_spawn_range = 128
 

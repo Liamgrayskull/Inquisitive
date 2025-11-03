@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","rubinated_nether/compat_spelunkery","Inquisitive-3.0.0-RP.zip"]
+resourcePacks:["eclipticseasons.extra_snow","vanilla","mod_resources","fabric","Moonlight Mods Dynamic Assets","bountifulfares:amendments_res","bountifulfares:natures_spirit_res","bountifulfares:spawn_res","bountifulfares:twigs_res","netherexp:jne_emissive","netherexp:jne_retextures","Inquisitive-3.0.0-RP.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -147,6 +147,7 @@ key_key.valkyrienskies.ship_down:key.keyboard.v
 key_key.valkyrienskies.ship_cruise:key.keyboard.c
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
+key_key.weapon_class.stablizing_cloak_double_jump:key.keyboard.space
 key_key.extend:key.keyboard.up
 key_key.retract:key.keyboard.down
 key_gui.perspective.keybindings.keybinding.cycle_shaders:key.keyboard.unknown
@@ -226,6 +227,7 @@ key_key.jade.show_recipes:key.keyboard.keypad.3
 key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details:key.keyboard.left.control
+key_key.vsch.toggle_magnet_boot:key.keyboard.x
 key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.back:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
@@ -262,7 +264,8 @@ key_key.diet.open.desc:key.keyboard.unknown
 key_Inspect Key:key.keyboard.i
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
 key_key.wan_ancient_beasts.special_ability:key.keyboard.unknown
-soundCategory_master:0.06696428571428571
+key_key.roadweaver.debug_map:key.keyboard.h
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

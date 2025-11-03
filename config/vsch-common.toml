@@ -1,0 +1,5 @@
+#Disables the warning about lodDetail being below 4096. Its highly recommend you increase lod instead of using this option
+disable_lod_warning = false
+#Supresses the "Press Y To Open GUI" hint.
+supressess_press_y_hint = false
+

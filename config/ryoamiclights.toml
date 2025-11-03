@@ -297,6 +297,9 @@
 				underzealot = true
 				forsaken = true
 
+			[light_sources.settings.entities.healpgood]
+				health = true
+
 			[light_sources.settings.entities.archeryexp]
 				diamond_arrow = true
 				gold_arrow = true
@@ -356,6 +359,9 @@
 				monolith = true
 				mask = true
 
+			[light_sources.settings.entities.whaleborne]
+				anchor_head = true
+
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
 
@@ -407,6 +413,10 @@
 				forgotten_guardian = true
 				dweller = true
 				scintling = true
+
+			[light_sources.settings.entities.weapon_class]
+				blast_arrow_projectile = true
+				curving_arrow = true
 
 			[light_sources.settings.entities.spawn]
 				tuna = true
@@ -463,6 +473,21 @@
 
 			[light_sources.settings.entities.dungeonsdelight]
 				cleaver = true
+
+			[light_sources.settings.entities.hybrid-aquatic]
+				tetra = true
+				oscar = true
+				piranha = true
+				vampire_crab = true
+				crayfish = true
+				gourami = true
+				golden_dorado = true
+				otter = true
+				discus = true
+				carp = true
+				tiger_barb = true
+				african_butterflyfish = true
+				danio = true
 
 			[light_sources.settings.entities.fintastic]
 				moony = true

@@ -49,6 +49,14 @@
 		#If having monsters next to you or being too far from bed should no longer prevent you from sleeping
 		"Good ahh sleep" = true
 
+	[Vanilla.bookshelves]
+		#If bookshelves and chiseled bookshelves should drop themselves without silk touch
+		"Bookshelves Drop Themselves" = true
+
+	[Vanilla.end_poem]
+		#If the end poem should never show up.
+		"Opping End Poem" = true
+
 [atmospheric]
 
 	[atmospheric.Oranges]
@@ -60,6 +68,10 @@
 	[farmersdelight."Knife Enchantments"]
 		#If knives should no longer receive the silk touch and efficiency from the enchanting table
 		"Unbloated Knife Enchantments" = true
+
+	[farmersdelight.Ballistic]
+		#If knives can receive the Ballistic enchantment, which gives them the effect of Dungeon's Delight cleavers to be thrown. REQUIRES DUNGEON's DELIGHT.
+		"Cleaverfication Enchantment" = false
 
 [nethersdelight]
 

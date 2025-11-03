@@ -1,0 +1,1 @@
+{"jarName":"orbital_railgun-1.1.jar","modId":"orbital_railgun","version":"1.1","mixinConfigs":["orbital_railgun.client.mixins.json","orbital_railgun.mixins.json"],"jarJarMods":[{"jarName":"satin-1.14.0.jar","modId":"satin","version":"1.14.0","mixinConfigs":["mixins.satin.client.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

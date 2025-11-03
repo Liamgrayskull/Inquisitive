@@ -1,0 +1,1 @@
+{"jarName":"roadweaver-forge-1.0.4.jar","modId":"roadweaver","version":"1.0.4","mixinConfigs":["roadweaver.mixins.json"],"jarJarMods":[{"jarName":"architectury-forge-9.2.14.jar","modId":"architectury","version":"9.2.14","mixinConfigs":["architectury.mixins.json","architectury-common.mixins.json"],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}]}

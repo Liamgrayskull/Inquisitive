@@ -1,147 +1,150 @@
-[22:27:12] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[22:27:12] [INIT] Loaded plugins:
-[22:27:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[22:27:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[22:27:12] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
-[22:27:12] [INFO] Loaded script server_scripts:gamerules.js in 0.023 s
-[22:27:12] [INFO] Loaded script server_scripts:itemsnagger.js in 0.002 s
-[22:27:12] [INFO] Loaded script server_scripts:recipes.js in 0.014 s
-[22:27:12] [INFO] Loaded script server_scripts:structure.js in 0.002 s
-[22:27:12] [INFO] Loaded script server_scripts:tags.js in 0.018 s
-[22:27:12] [INFO] Loaded 5/5 KubeJS server scripts in 0.126 s with 0 errors and 0 warnings
-[22:27:12] [INFO] Scripts loaded
-[22:27:12] [INFO] Initializing recipe event...
-[22:27:29] [INFO] [minecraft:item] Found 2432 tags, added 18303 objects, removed 1 objects
-[22:27:40] [INFO] Processing recipes...
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:rose_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:amber_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:tan_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:aqua_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:slate_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:navy_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_clownfish_cupcake[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:amber_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:tan_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/lime_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:ginger_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/light_gray_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:verdant_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop[minecraft:smelting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:beige_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'galospheric_delight:salted_caramel_brick_wall_stonecutting_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/cyan_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:maroon_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/purple_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:coral_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:mint_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_dagger_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:verdant_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_goby_gummy[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_hammer_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/orange_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_quarterstaff_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/white_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:teal_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:beige_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'vs_eureka:balloon_crafting_from_black/yellow_balloon[minecraft:crafting_shapeless]'! Falling back to vanilla: Recipe component key 'ingredients' not found! Valid keys: [result:output_item, ingredients:input_item[]]
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop_from_smoking[minecraft:smoking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:forest_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:aqua_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:maroon_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/yellow_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'cavedelight:dino_nugget_platter[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_great_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'vs_eureka:balloon_crafting/yellow_balloon[minecraft:crafting_shapeless]'! Falling back to vanilla: Recipe component key 'ingredients' not found! Valid keys: [result:output_item, ingredients:input_item[]]
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:rose_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:mint_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:indigo_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/pink_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:olive_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/light_blue_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'worldofwonder:stem_boat_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/brown_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:slate_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_buttered_butterflyfish[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'hearthandharvest:water_bottle_from_crate[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_spear_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/green_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop_from_campfire_cooking[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/gray_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/magenta_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:olive_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/red_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'cosmopolitan:neapolitan/xundergarden/blisterberry_double_popsicle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:froststeel_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:forest_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_club_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:teal_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/black_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:utherium_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'eidolon:blasting_silver[minecraft:blasting]'! Falling back to vanilla: Unknown item 'ecaverns_and_chasms:silver_hoe'
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:forgotten_great_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'galospheric_delight:pink_salt_lamp_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'netherexp:stonecutting/from_pale_soul_slate/indented[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'extra_compat:cloggrum_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:coral_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:navy_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'bountifulfares:feldspar_lamp[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:indigo_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'doom_and_gloom:ginger_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [WARN] Failed to parse recipe 'autumnity:wallpapers/blue_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:27:40] [INFO] Found 18171 recipes in 360.8 ms
-[22:27:40] [INFO] recipes.js#17: Hello! The recipe event has fired!
-[22:27:41] [INFO] Posted recipe events in 977.6 ms
-[22:27:41] [WARN] Error parsing recipe eidolon:tough_incense[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"eidolon:merammer_resin"},{"item":"eidolon:avennian_sprig"},{"item":"eidolon:sildran_seed"},{"item":"minecraft:iron_nugget"},{"item":"minecraft:amethyst_cluster"}],"result":{"item":"eidolon:tough_incense","count":1}}: Unknown item 'eidolon:sildran_seed'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:amber_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:amber_stained_glass"}],"result":{"item":"dolt_mod_how:amber_encased_pipe"}}: Unknown item 'dye_depot:amber_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:rose_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:rose_stained_glass"}],"result":{"item":"dolt_mod_how:rose_encased_pipe"}}: Unknown item 'dye_depot:rose_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:aqua_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:aqua_stained_glass"}],"result":{"item":"dolt_mod_how:aqua_encased_pipe"}}: Unknown item 'dye_depot:aqua_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:beige_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:beige_stained_glass"}],"result":{"item":"dolt_mod_how:beige_encased_pipe"}}: Unknown item 'dye_depot:beige_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:tan_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:tan_stained_glass"}],"result":{"item":"dolt_mod_how:tan_encased_pipe"}}: Unknown item 'dye_depot:tan_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:ginger_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:ginger_stained_glass"}],"result":{"item":"dolt_mod_how:ginger_encased_pipe"}}: Unknown item 'dye_depot:ginger_stained_glass'
-[22:27:41] [WARN] Error parsing recipe shutter:muddy_oak_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:muddy_oak_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe shutter:gingerbread_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["  ","  "],"result":{"count":4,"item":"shutter:gingerbread_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe shutter:flowering_azalea_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:flowering_azalea_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe composite_material:perkin_2[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"smc:perkin_ingot"},{"item":"minecraft:dragon_breath"}],"result":{"item":"composite_material:perkin"}}: Unknown item 'smc:perkin_ingot'
-[22:27:41] [WARN] Error parsing recipe eidolon:candlestick[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","group":"eidolon","pattern":["  ","yxy"," y "],"key":{"x":{"item":"minecraft:candle"},"y":{"item":"minecraft:iron_ingot"}},"result":{"item":"supplementaries:candle_holder","count":1}}: Invalid pattern: each row must be the same width
-[22:27:41] [WARN] Error parsing recipe shutter:azalea_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:azalea_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:verdant_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:verdant_stained_glass"}],"result":{"item":"dolt_mod_how:verdant_encased_pipe"}}: Unknown item 'dye_depot:verdant_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:teal_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:teal_stained_glass"}],"result":{"item":"dolt_mod_how:teal_encased_pipe"}}: Unknown item 'dye_depot:teal_stained_glass'
-[22:27:41] [WARN] Error parsing recipe shutter:palm_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:palm_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:forest_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:forest_stained_glass"}],"result":{"item":"dolt_mod_how:forest_encased_pipe"}}: Unknown item 'dye_depot:forest_stained_glass'
-[22:27:41] [WARN] Error parsing recipe galospheric_delight:membranburger_vintage_recipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:bread"},{"item":"vintagedelight:salt_dust"},{"item":"galosphere:cured_membrane"},{"item":"galosphere:lichen_cordyceps"}],"result":{"item":"galospheric_delight:membranburger"}}: Unknown item 'vintagedelight:salt_dust'
-[22:27:41] [WARN] Error parsing recipe shutter:cypress_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:cypress_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:mint_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:mint_stained_glass"}],"result":{"item":"dolt_mod_how:mint_encased_pipe"}}: Unknown item 'dye_depot:mint_stained_glass'
-[22:27:41] [WARN] Error parsing recipe galospheric_delight:salted_caramel_ac__vintage_recipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"alexscaves:caramel"},{"item":"vintagedelight:salt_dust"}],"result":{"count":1,"item":"galospheric_delight:salted_caramel"}}: Unknown item 'vintagedelight:salt_dust'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:olive_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:olive_stained_glass"}],"result":{"item":"dolt_mod_how:olive_encased_pipe"}}: Unknown item 'dye_depot:olive_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:indigo_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:indigo_stained_glass"}],"result":{"item":"dolt_mod_how:indigo_encased_pipe"}}: Unknown item 'dye_depot:indigo_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:slate_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:slate_stained_glass"}],"result":{"item":"dolt_mod_how:slate_encased_pipe"}}: Unknown item 'dye_depot:slate_stained_glass'
-[22:27:41] [WARN] Error parsing recipe copperpot:tropical_meringue[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"copperpot:meringue"},{"item":"copperpot:meringue"},{"item":"copperpot:meringue"},{"tag":"forge:fruits/banana"},{"item":"atmospheric:passionfruit"}],"result":{"item":"copperpot:tropical_meringue","count":3},"conditions":[{"type":"forge:mod_loaded","modid":"neapolitan"},{"type":"forge:mod_loaded","modid":"atmospheric"}]}: Unknown item 'atmospheric:passionfruit'
-[22:27:41] [WARN] Error parsing recipe shutter:azure_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:azure_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe shutter:walnut_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:walnut_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:navy_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:navy_stained_glass"}],"result":{"item":"dolt_mod_how:navy_encased_pipe"}}: Unknown item 'dye_depot:navy_stained_glass'
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:maroon_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:maroon_stained_glass"}],"result":{"item":"dolt_mod_how:maroon_encased_pipe"}}: Unknown item 'dye_depot:maroon_stained_glass'
-[22:27:41] [WARN] Error parsing recipe shutter:coconut_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:coconut_shutter"},"show_notification":true}: null
-[22:27:41] [WARN] Error parsing recipe dolt_mod_how:coral_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:coral_stained_glass"}],"result":{"item":"dolt_mod_how:coral_encased_pipe"}}: Unknown item 'dye_depot:coral_stained_glass'
-[22:27:41] [INFO] Added 62 recipes, removed 9 recipes, modified 228 recipes, with 31 failed recipes in 93.18 ms
-[22:28:00] [INFO] Server resource reload complete!
+[22:44:48] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[22:44:48] [INIT] Loaded plugins:
+[22:44:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:44:48] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[22:44:48] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[22:44:48] [INFO] Loaded script server_scripts:gamerules.js in 0.005 s
+[22:44:48] [INFO] Loaded script server_scripts:itemsnagger.js in 0.0 s
+[22:44:48] [INFO] Loaded script server_scripts:recipes.js in 0.006 s
+[22:44:48] [INFO] Loaded script server_scripts:structure.js in 0.001 s
+[22:44:48] [INFO] Loaded script server_scripts:tags.js in 0.01 s
+[22:44:48] [INFO] Loaded 5/5 KubeJS server scripts in 0.035 s with 0 errors and 0 warnings
+[22:44:48] [INFO] Scripts loaded
+[22:44:48] [INFO] Initializing recipe event...
+[22:45:07] [INFO] [minecraft:item] Found 2422 tags, added 18780 objects, removed 1 objects
+[22:45:17] [INFO] Processing recipes...
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:rose_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:amber_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:tan_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:aqua_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:slate_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:navy_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_clownfish_cupcake[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:amber_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:tan_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/lime_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:ginger_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/light_gray_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:verdant_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop[minecraft:smelting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:beige_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'galospheric_delight:salted_caramel_brick_wall_stonecutting_recipe[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/cyan_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:maroon_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/purple_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:coral_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:mint_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_dagger_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:verdant_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_goby_gummy[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_hammer_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/orange_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_quarterstaff_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/white_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:teal_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:beige_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'vs_eureka:balloon_crafting_from_black/yellow_balloon[minecraft:crafting_shapeless]'! Falling back to vanilla: Recipe component key 'ingredients' not found! Valid keys: [ingredients:input_item[], result:output_item]
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop_from_smoking[minecraft:smoking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:forest_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:aqua_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:maroon_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/yellow_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'cavedelight:dino_nugget_platter[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_great_sword_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'vs_eureka:balloon_crafting/yellow_balloon[minecraft:crafting_shapeless]'! Falling back to vanilla: Recipe component key 'ingredients' not found! Valid keys: [ingredients:input_item[], result:output_item]
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:rose_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_club[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:mint_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:indigo_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/pink_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:olive_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/light_blue_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'worldofwonder:stem_boat_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/brown_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:slate_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_gloves[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'rainbowreef:milk_bottle_buttered_butterflyfish[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'hearthandharvest:water_bottle_from_crate[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_spear_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/green_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cooked_chevon_chop_from_campfire_cooking[minecraft:campfire_cooking]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/gray_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/magenta_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:olive_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_hammer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_dagger[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/red_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'cosmopolitan:neapolitan/xundergarden/blisterberry_double_popsicle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:froststeel_great_axe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:forest_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_quarterstaff[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_club_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:teal_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/black_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:utherium_spear[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'eidolon:blasting_silver[minecraft:blasting]'! Falling back to vanilla: Unknown item 'ecaverns_and_chasms:silver_hoe'
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:forgotten_great_axe_smithing[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'galospheric_delight:pink_salt_lamp_recipe[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'netherexp:stonecutting/from_pale_soul_slate/indented[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'extra_compat:cloggrum_great_sword[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:coral_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:navy_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'bountifulfares:feldspar_lamp[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:indigo_vigil_candle[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'doom_and_gloom:ginger_vigil_candle_dyeing[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [WARN] Failed to parse recipe 'autumnity:wallpapers/blue_wallpaper_roll[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[22:45:17] [INFO] Found 18440 recipes in 355.3 ms
+[22:45:17] [INFO] recipes.js#17: Hello! The recipe event has fired!
+[22:45:18] [ERROR] ! recipes.js#30: Failed to create recipe for type 'minecraft:smelting': ItemStack 'result' can't be empty!
+[22:45:18] [WARN] recipes.js#30: Tried to call a function on an errored recipe! (Failed to create recipe for type 'minecraft:smelting')
+[22:45:18] [ERROR] ! recipes.js#30: Error in 'ServerEvents.recipes': TypeError: Cannot find default value for object.
+[22:45:18] [INFO] Posted recipe events in 707.2 ms
+[22:45:18] [WARN] Error parsing recipe eidolon:tough_incense[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"eidolon:merammer_resin"},{"item":"eidolon:avennian_sprig"},{"item":"eidolon:sildran_seed"},{"item":"minecraft:iron_nugget"},{"item":"minecraft:amethyst_cluster"}],"result":{"item":"eidolon:tough_incense","count":1}}: Unknown item 'eidolon:sildran_seed'
+[22:45:18] [WARN] Error parsing recipe shutter:muddy_oak_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:muddy_oak_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:maroon_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:maroon_stained_glass"}],"result":{"item":"dolt_mod_how:maroon_encased_pipe"}}: Unknown item 'dye_depot:maroon_stained_glass'
+[22:45:18] [WARN] Error parsing recipe shutter:gingerbread_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["  ","  "],"result":{"count":4,"item":"shutter:gingerbread_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe shutter:flowering_azalea_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:flowering_azalea_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:mint_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:mint_stained_glass"}],"result":{"item":"dolt_mod_how:mint_encased_pipe"}}: Unknown item 'dye_depot:mint_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:beige_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:beige_stained_glass"}],"result":{"item":"dolt_mod_how:beige_encased_pipe"}}: Unknown item 'dye_depot:beige_stained_glass'
+[22:45:18] [WARN] Error parsing recipe composite_material:perkin_2[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"smc:perkin_ingot"},{"item":"minecraft:dragon_breath"}],"result":{"item":"composite_material:perkin"}}: Unknown item 'smc:perkin_ingot'
+[22:45:18] [WARN] Error parsing recipe shutter:azalea_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:azalea_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:verdant_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:verdant_stained_glass"}],"result":{"item":"dolt_mod_how:verdant_encased_pipe"}}: Unknown item 'dye_depot:verdant_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:olive_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:olive_stained_glass"}],"result":{"item":"dolt_mod_how:olive_encased_pipe"}}: Unknown item 'dye_depot:olive_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:teal_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:teal_stained_glass"}],"result":{"item":"dolt_mod_how:teal_encased_pipe"}}: Unknown item 'dye_depot:teal_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:coral_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:coral_stained_glass"}],"result":{"item":"dolt_mod_how:coral_encased_pipe"}}: Unknown item 'dye_depot:coral_stained_glass'
+[22:45:18] [WARN] Error parsing recipe eidolon:candlestick[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","group":"eidolon","pattern":["  ","yxy"," y "],"key":{"x":{"item":"minecraft:candle"},"y":{"item":"minecraft:iron_ingot"}},"result":{"item":"supplementaries:candle_holder","count":1}}: Invalid pattern: each row must be the same width
+[22:45:18] [WARN] Error parsing recipe galospheric_delight:membranburger_vintage_recipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:bread"},{"item":"vintagedelight:salt_dust"},{"item":"galosphere:cured_membrane"},{"item":"galosphere:lichen_cordyceps"}],"result":{"item":"galospheric_delight:membranburger"}}: Unknown item 'vintagedelight:salt_dust'
+[22:45:18] [WARN] Error parsing recipe shutter:azure_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:azure_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:ginger_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:ginger_stained_glass"}],"result":{"item":"dolt_mod_how:ginger_encased_pipe"}}: Unknown item 'dye_depot:ginger_stained_glass'
+[22:45:18] [WARN] Error parsing recipe shutter:cypress_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:cypress_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe copperpot:tropical_meringue[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"copperpot:meringue"},{"item":"copperpot:meringue"},{"item":"copperpot:meringue"},{"tag":"forge:fruits/banana"},{"item":"atmospheric:passionfruit"}],"result":{"item":"copperpot:tropical_meringue","count":3},"conditions":[{"type":"forge:mod_loaded","modid":"neapolitan"},{"type":"forge:mod_loaded","modid":"atmospheric"}]}: Unknown item 'atmospheric:passionfruit'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:rose_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:rose_stained_glass"}],"result":{"item":"dolt_mod_how:rose_encased_pipe"}}: Unknown item 'dye_depot:rose_stained_glass'
+[22:45:18] [WARN] Error parsing recipe shutter:coconut_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:coconut_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe shutter:walnut_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:walnut_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:aqua_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:aqua_stained_glass"}],"result":{"item":"dolt_mod_how:aqua_encased_pipe"}}: Unknown item 'dye_depot:aqua_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:navy_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:navy_stained_glass"}],"result":{"item":"dolt_mod_how:navy_encased_pipe"}}: Unknown item 'dye_depot:navy_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:slate_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:slate_stained_glass"}],"result":{"item":"dolt_mod_how:slate_encased_pipe"}}: Unknown item 'dye_depot:slate_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:indigo_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:indigo_stained_glass"}],"result":{"item":"dolt_mod_how:indigo_encased_pipe"}}: Unknown item 'dye_depot:indigo_stained_glass'
+[22:45:18] [WARN] Error parsing recipe shutter:palm_shutter[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","category":"misc","key":{},"pattern":["   ","   "],"result":{"count":2,"item":"shutter:palm_shutter"},"show_notification":true}: Index 0 out of bounds for length 0
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:amber_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:amber_stained_glass"}],"result":{"item":"dolt_mod_how:amber_encased_pipe"}}: Unknown item 'dye_depot:amber_stained_glass'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:tan_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:tan_stained_glass"}],"result":{"item":"dolt_mod_how:tan_encased_pipe"}}: Unknown item 'dye_depot:tan_stained_glass'
+[22:45:18] [WARN] Error parsing recipe galospheric_delight:salted_caramel_ac__vintage_recipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"alexscaves:caramel"},{"item":"vintagedelight:salt_dust"}],"result":{"count":1,"item":"galospheric_delight:salted_caramel"}}: Unknown item 'vintagedelight:salt_dust'
+[22:45:18] [WARN] Error parsing recipe dolt_mod_how:forest_encased_pipe[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"redstone","ingredients":[{"item":"quark:pipe"},{"item":"dye_depot:forest_stained_glass"}],"result":{"item":"dolt_mod_how:forest_encased_pipe"}}: Unknown item 'dye_depot:forest_stained_glass'
+[22:45:18] [INFO] Added 3 recipes, removed 1 recipes, modified 11 recipes, with 32 failed recipes in 102.5 ms
+[22:45:57] [INFO] Server resource reload complete!

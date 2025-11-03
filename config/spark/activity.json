@@ -83,32 +83,6 @@
       "name": "Grayskulll",
       "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
     },
-    "time": 1755991664405,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/VNiuM8LveyQk"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Grayskulll",
-      "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
-    },
-    "time": 1755486891271,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/np3GgKUjGQ"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Grayskulll",
-      "uniqueId": "00d5f600-d470-41fb-bc1e-7861382e204d"
-    },
     "time": 1747581016834,
     "type": "Heap dump",
     "data": {

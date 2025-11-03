@@ -253,6 +253,17 @@
       },
       "sync": "eidolon:raven_charge"
     },
+    "ftgu:warped_scream": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "ftgu:warped_scream"
+    },
     "immersive_aircraft:ia_overlay": {
       "displacement": {
         "x": 0,
@@ -593,6 +604,17 @@
         "y": "NONE"
       },
       "sync": "vs_clockwork:gravitron"
+    },
+    "whaleborne:whaleborne_anchor_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "whaleborne:whaleborne_anchor_overlay"
     },
     "windswept:carved_pinecone": {
       "displacement": {

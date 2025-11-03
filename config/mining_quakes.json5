@@ -1,0 +1,13 @@
+{
+	"lifetime": 6,
+	"horizontalMaxAngle": 15.0,
+	"verticalMaxAngle": 15.0,
+	"horizontalOscillations": 3,
+	"verticalOscillations": 2,
+	"easingFunction": "EASE_IN_OUT",
+	"renderOutline": true,
+	"randomQuakes": true,
+	"blacklist": [
+		"minecraft:tall_grass"
+	]
+}
